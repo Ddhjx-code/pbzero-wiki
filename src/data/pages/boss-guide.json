@@ -1,0 +1,33 @@
+{
+  "title": "Phantom Blade Zero Boss Guide - All Known Bosses & Strategies",
+  "description": "Complete Phantom Blade Zero boss guide. All confirmed bosses from demos and trailers, with combat tips and strategies for each encounter.",
+  "keyword": "phantom blade zero boss guide",
+  "lastUpdated": "2026-08-18",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Boss Overview",
+      "content": "<p>Phantom Blade Zero features numerous boss encounters throughout its 20-30 hour campaign. Bosses are known for aggressive AI, multi-phase fights, and rewarding unique weapons upon defeat.</p><p>Below is every boss confirmed through official demos, trailers, and the August 2026 State of Play showcase.</p>"
+    },
+    {
+      "id": "confirmed-bosses",
+      "title": "All Confirmed Bosses",
+      "content": "<table><thead><tr><th>Boss</th><th>Source</th><th>Type</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Puppet Boss (String Puppet)</strong></td><td>Demo (verified)</td><td>Humanoid</td><td>Puppeteer-style boss. Controls strings for ranged attacks.</td></tr><tr><td><strong>Huangxing</strong></td><td>Demo (verified)</td><td>Warrior</td><td>Featured in 4K Demo footage. Aggressive melee fighter.</td></tr><tr><td><strong>Seven Stars</strong></td><td>Trailer</td><td>Multi-phase</td><td>Named boss from promotional material.</td></tr><tr><td><strong>Lion Dance</strong></td><td>Trailer</td><td>Beast-type</td><td>Chinese lion dance-inspired boss design.</td></tr><tr><td><strong>Drunken Sword</strong></td><td>Trailer</td><td>Swordsman</td><td>Uses unpredictable drunken-style sword techniques.</td></tr><tr><td><strong>Double Boss Fight</strong></td><td>State of Play 2026</td><td>Dual encounter</td><td>New — two bosses simultaneously. Revealed August 2026.</td></tr></tbody></table>"
+    },
+    {
+      "id": "puppet-boss",
+      "title": "Puppet Boss (String Puppet) — Demo Verified",
+      "content": "<p>The <strong>Puppet Boss</strong> was the first boss publicly demonstrated. This puppeteer-like opponent uses strings to control attacks from range while delivering swift melee strikes up close.</p><h3>Key Mechanics</h3><ul><li><strong>String attacks</strong> — Ranged strings that sweep the arena. Jump or dodge to avoid.</li><li><strong>Puppet summons</strong> — Spawns smaller puppet minions. Clear them quickly or they'll overwhelm you.</li><li><strong>Close-range combos</strong> — Fast melee sequences when you get close. Parry timing is tight.</li></ul><h3>Strategy Tips</h3><ul><li>Stay at medium range to bait string attacks, then close in during recovery</li><li>Parry the melee combos for massive counter-damage</li><li>Use Shachi weapons for ranged damage during puppet summon phases</li><li>Watch for the glowing string telegraph — it always precedes the sweep attack</li></ul>"
+    },
+    {
+      "id": "huangxing",
+      "title": "Huangxing — Demo Verified",
+      "content": "<p><strong>Huangxing</strong> is an aggressive warrior boss featured in the 4K Demo. Known for relentless pressure and powerful sword techniques.</p><h3>Key Mechanics</h3><ul><li>Fast multi-hit sword combos</li><li>Unblockable grab attack (dodge sideways)</li><li>Rage phase at low health with increased speed</li></ul><h3>Strategy Tips</h3><ul><li>Parry is essential — his combos have consistent rhythm</li><li>Dual Swords work well for matching his speed</li><li>Save your Phantom Edge for the rage phase</li></ul>"
+    },
+    {
+      "id": "general-tips",
+      "title": "General Boss Fight Tips",
+      "content": "<ul><li><strong>Learn the parry timing</strong> — Every boss has parryable attacks. The counter-damage is always worth the risk.</li><li><strong>Boss-specific weapons</strong> — Some bosses drop unique weapons. These are often among the best in the game.</li><li><strong>NPC vendors sell consumables</strong> — Stock up on healing items from NPC merchants before boss encounters.</li><li><strong>Watch for red flash</strong> — Unblockable/unparryable attacks are telegraphed with a red indicator. Dodge these.</li><li><strong>Multi-phase fights</strong> — Most bosses have at least 2 phases. Save your strongest Phantom Edge abilities for phase 2.</li><li><strong>Death costs days</strong> — Remember, dying pushes your 66-day timer forward. If you're stuck, consider leveling up elsewhere first.</li></ul><p><em>Full detailed strategies with frame data and optimal loadouts will be added at launch.</em></p>"
+    }
+  ]
+}
