@@ -1,0 +1,33 @@
+{
+  "title": "Phantom Blade Zero Beginner Guide - Combat, Weapons & Tips",
+  "description": "Complete beginner guide for Phantom Blade Zero. Learn combat mechanics, the 66-day death system, weapon types, Phantom Edges, and essential tips for new players.",
+  "keyword": "phantom blade zero guide",
+  "lastUpdated": "2026-08-18",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Game Overview",
+      "content": "<p><strong>Phantom Blade Zero</strong> is a third-person action RPG set in the Shadow Realm — a wuxia-punk world blending Chinese martial arts, steampunk technology, and supernatural elements. Developed by S-Game using Unreal Engine 5, with combat choreography by Donnie Yen.</p><table><thead><tr><th>Detail</th><th>Info</th></tr></thead><tbody><tr><td>Developer</td><td>S-Game (Beijing)</td></tr><tr><td>Release Date</td><td>October 29, 2026</td></tr><tr><td>Platforms</td><td>PS5, PC (Steam)</td></tr><tr><td>Genre</td><td>Action RPG</td></tr><tr><td>Main Story Length</td><td>20-30 hours</td></tr></tbody></table>"
+    },
+    {
+      "id": "combat-system",
+      "title": "Combat System",
+      "content": "<p>Phantom Blade Zero features fast-paced third-person combat that emphasizes martial arts techniques, quick weapon combinations, and fluid action sequences.</p><h3>Core Mechanics</h3><ul><li><strong>Parry System</strong> — Similar to Sekiro, perfectly-timed parries open enemies to devastating counterattacks. Master this for higher difficulties.</li><li><strong>Weapon Combos</strong> — Chain attacks from your main weapon and Shachi weapon for fluid multi-hit sequences.</li><li><strong>Phantom Edges</strong> — Special abilities tied to your equipped Phantom Edge. Over 20 types available, from ranged cannons to close-range techniques.</li><li><strong>Weapon Switching</strong> — Seamlessly switch between your equipped weapons mid-combo for style and damage variety.</li></ul><h3>Difficulty Modes</h3><p>The game offers multiple difficulty settings including <strong>Hellwalker</strong> — the hardest mode where enemies are extremely aggressive and deal massive damage. Start on Normal for your first playthrough.</p>"
+    },
+    {
+      "id": "66-day-system",
+      "title": "The 66-Day Death System",
+      "content": "<p>Phantom Blade Zero's most unique mechanic is the <strong>66-day countdown</strong>. Soul has only 66 days to live after receiving a fatal heart wound. This creates urgency throughout the entire game.</p><h3>How It Works</h3><ul><li>The story unfolds across 66 in-game days</li><li>Dying in combat advances the day counter</li><li>Your remaining days affect which story paths and endings are available</li><li>Time management becomes a strategic element — do you rush the main quest or explore?</li></ul><h3>Impact on Endings</h3><p>The game has <strong>at least 8 different endings</strong>. Which ending you get depends on how many days remain, which choices you've made, and which characters you've allied with. See our <a href=\"/endings\">Endings Guide</a> for details.</p>"
+    },
+    {
+      "id": "weapons-overview",
+      "title": "Weapons Overview",
+      "content": "<p>Phantom Blade Zero features over <strong>30 main weapons</strong> divided into 3 categories, plus <strong>20+ Shachi weapons</strong> (secondary weapons).</p><h3>Main Weapon Categories</h3><table><thead><tr><th>Category</th><th>Style</th><th>Speed</th><th>Range</th></tr></thead><tbody><tr><td><strong>Regular Sword</strong></td><td>Balanced</td><td>Medium</td><td>Medium</td></tr><tr><td><strong>Long Sword</strong></td><td>Heavy hits</td><td>Slow</td><td>Long</td></tr><tr><td><strong>Dual Swords</strong></td><td>Fast combos</td><td>Fast</td><td>Short</td></tr></tbody></table><h3>Shachi Weapons</h3><p>Secondary weapons equipped in the Shachi slot. These range from cannons and ranged weapons to close-range specialty tools. Each Shachi weapon has unique techniques that complement your main weapon choice.</p><p>See our full <a href=\"/weapons\">Weapons Guide</a> for the complete list.</p>"
+    },
+    {
+      "id": "tips",
+      "title": "Essential Tips for New Players",
+      "content": "<ul><li><strong>Learn to parry early</strong> — The damage and counter opportunities from parrying far outweigh dodging. Practice on easier enemies first.</li><li><strong>Experiment with weapon combos</strong> — Mix main weapon + Shachi weapon for devastating chains. There's no single best combo — find your style.</li><li><strong>Don't panic about the 66 days</strong> — It's more generous than it sounds. Focus on enjoying the combat rather than rushing.</li><li><strong>Explore thoroughly</strong> — NPCs, hidden areas, and side encounters offer powerful weapon rewards and story context.</li><li><strong>Boss weapons are special</strong> — Some bosses drop unique weapons. If a boss is giving you trouble, come back with better gear.</li><li><strong>Save before key decisions</strong> — Story choices affect which endings are available. Multiple saves let you explore different paths.</li></ul>"
+    }
+  ]
+}

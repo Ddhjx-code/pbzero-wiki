@@ -1,0 +1,38 @@
+{
+  "title": "Phantom Blade Zero Characters - All Playable & NPCs",
+  "description": "Complete list of all Phantom Blade Zero characters. Detailed info on playable characters Soul, Mu Xiaokui, Zuo Shang, and The Chord, plus key NPCs.",
+  "keyword": "phantom blade zero characters",
+  "lastUpdated": "2026-08-18",
+  "sections": [
+    {
+      "id": "playable-characters",
+      "title": "Playable Characters",
+      "content": "<p>Phantom Blade Zero features <strong>4 confirmed playable characters</strong>, each with unique combat styles and story arcs.</p><table><thead><tr><th>Character</th><th>Role</th><th>Weapon Style</th><th>Relationship to Soul</th></tr></thead><tbody><tr><td><strong>Soul</strong></td><td>Main Protagonist</td><td>All weapon types</td><td>—</td></tr><tr><td><strong>Mu Xiaokui</strong></td><td>Playable</td><td>Unique style</td><td>Childhood friend</td></tr><tr><td><strong>Zuo Shang</strong></td><td>Playable</td><td>Unique style</td><td>Close friend</td></tr><tr><td><strong>The Chord</strong></td><td>Playable</td><td>Mystical Wuxia</td><td>Ally</td></tr></tbody></table>"
+    },
+    {
+      "id": "soul",
+      "title": "Soul (魂) — The Dark Raider",
+      "content": "<p><strong>Soul</strong> is the main protagonist of Phantom Blade Zero. An elite assassin in the service of The Order, he is framed for the murder of the organization's leader — his own adoptive father, Mu Tianmiao.</p><h3>Background</h3><ul><li><strong>Aliases:</strong> \"Dark Raider\", \"Black Blade Soul\"</li><li><strong>Organization:</strong> The Order (former)</li><li><strong>Adoptive Father:</strong> Mu Tianmiao (The Order's leader, murdered)</li><li><strong>Childhood Friend:</strong> Mu Xiaokui</li><li><strong>Close Friend:</strong> Zuo Shang</li></ul><h3>The 66-Day Curse</h3><p>After being fatally wounded in the heart, Soul is saved by a mysterious Mystic Healer. However, the cure is temporary — he has only <strong>66 days</strong> to live. In that time, he must clear his name and uncover the true conspiracy behind the murder.</p><h3>Combat Style</h3><p>As the main character, Soul has access to all weapon categories (Regular Sword, Long Sword, Dual Swords) and can equip any Shachi weapon. Players can fully customize his combat approach.</p>"
+    },
+    {
+      "id": "mu-xiaokui",
+      "title": "Mu Xiaokui (牧小葵)",
+      "content": "<p><strong>Mu Xiaokui</strong> is Soul's childhood friend and one of the four playable characters. She is connected to the Mu family — the ruling family of The Order.</p><h3>Key Facts</h3><ul><li>Daughter of the Mu family</li><li>Grew up alongside Soul</li><li>Fully playable with unique combat abilities</li><li>Has her own thematic melody (A minor variation shared with Soul and Zuo Shang)</li></ul><p>More details on her combat style and story role will be revealed at launch.</p>"
+    },
+    {
+      "id": "zuo-shang",
+      "title": "Zuo Shang (左商)",
+      "content": "<p><strong>Zuo Shang</strong> is Soul's close friend and a fellow warrior. He serves as the third playable character in Phantom Blade Zero.</p><h3>Key Facts</h3><ul><li>Soul's trusted friend and companion</li><li>Fully playable with unique combat abilities</li><li>Has his own thematic melody (A minor variation)</li><li>His relationship with Soul is central to the story</li></ul><p>Full combat details and story arc will be available at launch.</p>"
+    },
+    {
+      "id": "the-chord",
+      "title": "The Chord",
+      "content": "<p><strong>The Chord</strong> is the fourth playable character, specializing in mystical Wuxia skills with unique abilities distinct from the other three fighters.</p><h3>Key Facts</h3><ul><li>Specializes in mystical/supernatural combat techniques</li><li>Fully playable character</li><li>Unique skill set different from sword-based characters</li></ul><p>More information will be revealed closer to launch.</p>"
+    },
+    {
+      "id": "key-npcs",
+      "title": "Key NPCs",
+      "content": "<p>Based on the Phantom Blade Wiki, there are <strong>29+ named characters</strong> in the game. Key NPCs include:</p><table><thead><tr><th>Character</th><th>Role</th></tr></thead><tbody><tr><td><strong>Mu Tianmiao</strong></td><td>Leader of The Order, Soul's adoptive father (murdered)</td></tr><tr><td><strong>Mystic Healer</strong></td><td>Saves Soul's life, gives him the 66-day cure</td></tr><tr><td><strong>Dinghai</strong></td><td>NPC ally</td></tr><tr><td><strong>Old Beggar</strong></td><td>NPC (potential quest giver)</td></tr><tr><td><strong>Tang Li</strong></td><td>NPC character</td></tr><tr><td><strong>Guizhi</strong></td><td>NPC character</td></tr><tr><td><strong>Dugu Linghe</strong></td><td>NPC character</td></tr></tbody></table><p>This list will be expanded with full details after launch.</p>"
+    }
+  ]
+}

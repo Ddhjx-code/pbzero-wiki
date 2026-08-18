@@ -1,0 +1,33 @@
+{
+  "title": "Phantom Blade Zero Weapons Guide - All Weapons & Shachi System",
+  "description": "Complete Phantom Blade Zero weapons guide. All 30+ main weapons, 20+ Shachi secondary weapons, weapon categories, and the dual-weapon combat system explained.",
+  "keyword": "phantom blade zero weapons",
+  "lastUpdated": "2026-08-18",
+  "sections": [
+    {
+      "id": "weapon-system",
+      "title": "Weapon System Overview",
+      "content": "<p>Phantom Blade Zero features a deep dual-weapon system with over <strong>30 main weapons</strong> and <strong>20+ Shachi (secondary) weapons</strong>. Players equip one main weapon and one Shachi weapon simultaneously, allowing for diverse combat combinations.</p><h3>Key Features</h3><ul><li>Seamless weapon switching mid-combo</li><li>Boss-specific weapon drops</li><li>NPC vendors sell weapons throughout the world</li><li>Each weapon has unique attack patterns and techniques</li></ul>"
+    },
+    {
+      "id": "main-weapons",
+      "title": "Main Weapon Categories",
+      "content": "<p>Main weapons are divided into 3 categories, each with a distinct combat feel:</p><table><thead><tr><th>Category</th><th>Weapons Count</th><th>Attack Style</th><th>Speed</th><th>Range</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Regular Sword</strong></td><td>10+</td><td>Balanced slashes</td><td>Medium</td><td>Medium</td><td>All-around combat, beginners</td></tr><tr><td><strong>Long Sword</strong></td><td>10+</td><td>Heavy overhead strikes</td><td>Slow</td><td>Long</td><td>High damage per hit, breaking guards</td></tr><tr><td><strong>Dual Swords</strong></td><td>10+</td><td>Rapid multi-hit chains</td><td>Fast</td><td>Short</td><td>Combo damage, speed-focused builds</td></tr></tbody></table><h3>Regular Sword</h3><p>The balanced option. Regular Swords offer consistent damage, reasonable speed, and good range. Ideal for players who want versatility without committing to extremes. Parry windows are forgiving with this category.</p><h3>Long Sword</h3><p>Heavy and powerful. Long Swords deal massive damage per strike but have slower recovery. Best used when you can read enemy patterns and find windows for big hits. Excellent for breaking through enemy defenses.</p><h3>Dual Swords</h3><p>Fast and aggressive. Dual Swords enable rapid combo chains with many hits. While individual strikes deal less damage, the accumulated DPS rivals other categories. Requires getting close to enemies.</p>"
+    },
+    {
+      "id": "shachi-weapons",
+      "title": "Shachi Weapons (Secondary)",
+      "content": "<p><strong>Shachi weapons</strong> occupy the secondary weapon slot and provide entirely different combat options from your main weapon. There are over 20 types ranging from ranged firearms to close-range specialty tools.</p><h3>Known Shachi Types</h3><ul><li><strong>Cannons</strong> — Ranged heavy damage, slow fire rate. Good for initiating fights.</li><li><strong>Throwing Weapons</strong> — Mid-range options for keeping pressure at distance.</li><li><strong>Close-range Techniques</strong> — Specialized martial arts tools for combo extensions.</li><li><strong>Phantom Edges</strong> — Special ability weapons with unique techniques tied to each type.</li></ul><h3>How Shachi Works</h3><p>Your Shachi weapon can be activated during combos, after parries, or as standalone actions. Each Shachi weapon has:</p><ul><li>A basic attack (always available)</li><li>A special technique (on cooldown)</li><li>Synergy bonuses with certain main weapon categories</li></ul>"
+    },
+    {
+      "id": "weapon-acquisition",
+      "title": "How to Get Weapons",
+      "content": "<h3>Weapon Sources</h3><ul><li><strong>Boss Drops</strong> — Defeating bosses often rewards unique weapons not available elsewhere. These are typically among the strongest.</li><li><strong>NPC Vendors</strong> — Merchants throughout the world sell weapons for currency. New stock may appear as you progress.</li><li><strong>Exploration</strong> — Hidden weapons in secret areas, behind puzzles, or in hard-to-reach locations.</li><li><strong>Story Rewards</strong> — Certain weapons are given during key story moments.</li></ul><p><em>Complete weapon list with locations and stats will be added at launch.</em></p>"
+    },
+    {
+      "id": "build-synergy",
+      "title": "Weapon Build Synergy",
+      "content": "<p>The combination of main weapon + Shachi weapon + Phantom Edge creates your \"build\" in Phantom Blade Zero. Here are some expected synergy archetypes:</p><table><thead><tr><th>Build Type</th><th>Main Weapon</th><th>Shachi</th><th>Playstyle</th></tr></thead><tbody><tr><td>Speed DPS</td><td>Dual Swords</td><td>Close-range technique</td><td>Aggressive, in-your-face combos</td></tr><tr><td>Heavy Hitter</td><td>Long Sword</td><td>Cannon</td><td>Ranged opener → big melee finisher</td></tr><tr><td>Balanced</td><td>Regular Sword</td><td>Throwing weapons</td><td>Versatile at all ranges</td></tr><tr><td>Parry Master</td><td>Regular Sword</td><td>Counter technique</td><td>Defensive, punish-focused</td></tr></tbody></table><p>See our <a href=\"/best-build\">Best Build Guide</a> for optimized combinations (available at launch).</p>"
+    }
+  ]
+}
