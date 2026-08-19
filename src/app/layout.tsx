@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import "./globals.css";
 
-const GA_MEASUREMENT_ID = "G-MZ867GJT24";
+const GA_MEASUREMENT_ID = "G-W9Y62B3DBM";
 
 export const metadata: Metadata = {
   title: {
