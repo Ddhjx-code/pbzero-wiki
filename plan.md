@@ -8,29 +8,58 @@
 | 游戏 | Phantom Blade Zero（影之刃零） |
 | 发售日 | 2026年10月29日 |
 | 技术栈 | Next.js 14 + Tailwind CSS + 静态导出 |
-| 部署 | Vercel |
-| 特效 | canvas-fx（武侠风粒子/流体/glitch） |
-| GA | G-MZ867GJT24（待更换为新 Property） |
-| GSC | 接入 pbzero.wiki |
+| 部署 | Vercel (https://pbzero-wiki.vercel.app) |
+| 特效 | canvas-fx（武侠风粒子/流体/glitch）— 待实现 |
+| GA | G-W9Y62B3DBM ✅ 已接入验证通过 |
+| GSC | 已提交 sitemap.xml |
+| GitHub | https://github.com/Ddhjx-code/pbzero-wiki |
+
+---
+
+## 当前进度（2026-08-19）
+
+### 已完成
+- [x] 项目初始化 + 技术搭建
+- [x] 暗色武侠主题（黑底 + 深红 + 金色）
+- [x] GA4 代码接入（G-W9Y62B3DBM）
+- [x] sitemap.xml + robots.txt
+- [x] SEO 基础（metadata, canonical, OG, JSON-LD）
+- [x] 首页（Hero + Key Art背景 + 快捷入口 + 游戏概览）
+- [x] P0 内页：Beginner Guide, Characters, Boss Guide, Weapons
+- [x] 占位页：best-build, skill-tree, endings, lore, character-creation, map
+- [x] RelatedPages 内链组件（所有页面底部）
+- [x] 官网图片素材下载（hero-bg, poster, logo, favicon, swordman, preorder）
+- [x] 域名注册 + Cloudflare DNS 配置
+- [x] Vercel 部署 + SSL 证书签发
+- [x] 域名 alias 绑定（pbzero.wiki → Vercel）
+
+### 待完成
+- [ ] canvas-fx 武侠风粒子特效（首页 Hero）
+- [ ] P1 页面内容：endings, lore, skill-tree
+- [ ] 更多图片素材（角色截图、Boss 截图）
+- [ ] GSC 验证所有权
+- [ ] Service Account 授权给新 GA4 Property
+- [ ] 多语言（法/葡/德）
+- [ ] Adsterra 广告接入（流量起来后）
 
 ---
 
 ## Phase 1: 项目初始化
 
-### Task 0: 技术搭建
-- [ ] `npx create-next-app` 初始化项目
-- [ ] 配置 Tailwind CSS
-- [ ] 配置 `next.config.mjs`（output: export, images: unoptimized）
-- [ ] 设置暗色主题（武侠风：黑底 + 深红/金色点缀）
-- [ ] 配置 GA4 代码（原生 script 注入，非 next/script）
-- [ ] 配置 sitemap.xml + robots.txt
-- [ ] SEO 基础（metadata、canonical、OG tags）
+### Task 0: 技术搭建 ✅
+- [x] `npx create-next-app` 初始化项目
+- [x] 配置 Tailwind CSS
+- [x] 配置 `next.config.mjs`（output: export, images: unoptimized）
+- [x] 设置暗色主题（武侠风：黑底 + 深红/金色点缀）
+- [x] 配置 GA4 代码（原生 script 注入，G-W9Y62B3DBM）
+- [x] 配置 sitemap.xml + robots.txt
+- [x] SEO 基础（metadata、canonical、OG tags、JSON-LD）
 
-### Task 1: 首页
-- [ ] Hero 区域：游戏 Key Art 背景 + canvas-fx 粒子/流体特效
-- [ ] 游戏概览：发售日、平台、开发商、类型
-- [ ] 快速入口卡片（Guide / Characters / Boss / Weapons）
-- [ ] About 区域：战斗系统亮点 + 数据统计（30+ 武器、4 角色、66 天等）
+### Task 1: 首页 ✅
+- [x] Hero 区域：游戏 Key Art 背景（canvas-fx 特效待加）
+- [x] 游戏概览：发售日、平台、开发商、类型
+- [x] 快速入口卡片（Guide / Characters / Boss / Weapons）
+- [x] About 区域：战斗系统亮点 + 数据统计（30+ 武器、4 角色、66 天等）
 - [ ] Footer：社区链接（Steam/Reddit/Discord/X）
 
 ### Task 2: Favicon / 品牌
