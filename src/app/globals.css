@@ -25,3 +25,76 @@ body {
     text-wrap: balance;
   }
 }
+
+.info-box {
+  background: #1a1a2e;
+  border-left: 4px solid #4a9eff;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.warning-box {
+  background: #2e1a1a;
+  border-left: 4px solid #ff6b4a;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.highlight-box {
+  background: #1a2e1a;
+  border-left: 4px solid #4aff6b;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.tip-box {
+  background: #2e2a1a;
+  border-left: 4px solid #d4a843;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0;
+}
+
+.prose table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+.prose th, .prose td {
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.prose th {
+  background: var(--card);
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.prose td {
+  color: var(--muted-foreground);
+}
+
+.prose details {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 0.75rem 0;
+}
+
+.prose details summary {
+  cursor: pointer;
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.prose details p {
+  margin-top: 0.75rem;
+  color: var(--muted-foreground);
+}
