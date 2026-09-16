@@ -1,0 +1,23 @@
+{
+  "title": "Contact Us - PBZero Wiki",
+  "description": "Contact PBZero Wiki. Report content errors, send feedback, or request new guides for Phantom Blade Zero.",
+  "keyword": "contact pbzero wiki",
+  "lastUpdated": "2026-09-14",
+  "sections": [
+    {
+      "id": "get-in-touch",
+      "title": "Get in Touch",
+      "content": "<p>We welcome corrections, feedback, and guide requests. Email us at:</p><p><strong>contact@pbzero.wiki</strong></p>"
+    },
+    {
+      "id": "what-to-send",
+      "title": "What to Send Us",
+      "content": "<ul><li><strong>Content corrections</strong> — spotted an error in a boss guide, weapon list, or character page? Tell us the page and what is wrong.</li><li><strong>Guide requests</strong> — is there a topic we have not covered yet? Let us know.</li><li><strong>Feedback</strong> — anything that would make the Site more useful.</li><li><strong>Takedown requests</strong> — if you are a rights holder and have a concern about content on this Site, contact us directly and we will respond promptly.</li></ul>"
+    },
+    {
+      "id": "response-time",
+      "title": "Response Time",
+      "content": "<p>This Site is run by a small team. We read every message and aim to reply within a few business days. Corrections are prioritized.</p>"
+    }
+  ]
+}

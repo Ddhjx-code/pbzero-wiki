@@ -1,0 +1,33 @@
+{
+  "title": "About PBZero Wiki",
+  "description": "About PBZero Wiki - an independent, fan-run guide covering bosses, weapons, characters, and story for Phantom Blade Zero.",
+  "keyword": "about pbzero wiki",
+  "lastUpdated": "2026-09-14",
+  "sections": [
+    {
+      "id": "what-we-are",
+      "title": "What Is PBZero Wiki?",
+      "content": "<p><strong>PBZero Wiki</strong> is an independent, fan-run guide site dedicated to <em>Phantom Blade Zero</em>, the martial arts action RPG from S-Game. We collect and organize everything revealed about the game — bosses, weapons, characters, and story — into clear, readable guides.</p><p>Our goal is simple: give players and newcomers accurate information without fluff or clickbait.</p>"
+    },
+    {
+      "id": "what-we-cover",
+      "title": "What We Cover",
+      "content": "<ul><li><strong>Boss Guides</strong> — every confirmed boss with strategies and how to prepare</li><li><strong>Weapons</strong> — the Shachi system explained, weapon categories, and build synergy</li><li><strong>Characters</strong> — all playable characters and key NPCs</li><li><strong>Protagonist</strong> — Soul's backstory, the 66-day curse, and combat style</li><li><strong>Game Info</strong> — developer, platforms, release date, and series history</li></ul>"
+    },
+    {
+      "id": "our-approach",
+      "title": "Our Editorial Approach",
+      "content": "<p>Because Phantom Blade Zero has not yet launched, our guides are built from <strong>official demos, trailers, developer interviews, and press coverage</strong>. We clearly mark which information is demo-verified and which is still unconfirmed.</p><p>Once the game releases, we update our guides with hands-on testing. We do not copy content from other sites.</p>"
+    },
+    {
+      "id": "disclaimer",
+      "title": "Disclaimer",
+      "content": "<p><strong>PBZero Wiki is an unofficial fan site.</strong> We are not affiliated with, endorsed by, or sponsored by <strong>S-Game</strong> (北京灵游坊科技).</p><p><em>Phantom Blade Zero</em> and all related names, marks, and imagery are the property of their respective owners.</p>"
+    },
+    {
+      "id": "contact",
+      "title": "Contact",
+      "content": "<p>Found an error, or have a suggestion? Reach us at <strong>contact@pbzero.wiki</strong>.</p>"
+    }
+  ]
+}
