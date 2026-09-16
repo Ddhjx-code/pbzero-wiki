@@ -18,21 +18,14 @@ export interface PageContent {
 
 const PAGES_DIR = path.join(process.cwd(), "src/data/pages");
 
-const ALL_SLUGS = [
-  "guide",
-  "characters",
-  "boss-guide",
-  "weapons",
-  "best-build",
-  "skill-tree",
-  "endings",
-  "lore",
-  "character-creation",
-  "map",
-];
-
 export function getAllSlugs(): string[] {
-  return ALL_SLUGS;
+  if (!fs.existsSync(PAGES_DIR)) {
+    return [];
+  }
+  return fs
+    .readdirSync(PAGES_DIR)
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => file.replace(/\.json$/, ""));
 }
 
 export function getPageContent(slug: string): PageContent | null {
