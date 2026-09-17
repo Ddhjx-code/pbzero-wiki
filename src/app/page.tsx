@@ -1,4 +1,5 @@
 import Link from "next/link";
+import AdBanner from "@/components/AdBanner";
 
 const QUICK_LINKS = [
   { href: "/guide", emoji: "📖", title: "Beginner Guide", desc: "Combat mechanics & 66-day system" },
@@ -94,6 +95,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <AdBanner />
+      </div>
 
       {/* Quick Links */}
       <section className="py-16">
