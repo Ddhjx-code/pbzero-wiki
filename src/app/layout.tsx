@@ -37,11 +37,20 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "PBZero Wiki",
     url: BASE_URL,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Phantom Blade Zero Wiki",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Phantom Blade Zero Wiki - Guides, Builds & Boss Strategies",
     description: "Complete Phantom Blade Zero wiki. Boss guides, weapon list, character builds, skill tree, endings walkthrough, and combat tips.",
+    images: ["/og-image.png"],
   },
   robots: {
     index: true,
