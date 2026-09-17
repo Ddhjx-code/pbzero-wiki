@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getAllSlugs, getPageContent } from "@/lib/content";
 import RelatedPages from "@/components/RelatedPages";
+import AdBanner from "@/components/AdBanner";
 
 const BASE_URL = "https://pbzero.wiki";
 
@@ -91,6 +92,8 @@ export default function SlugPage({ params }: PageProps) {
             </section>
           ))}
         </div>
+
+        <AdBanner />
 
         <RelatedPages currentSlug={params.slug} />
       </div>
