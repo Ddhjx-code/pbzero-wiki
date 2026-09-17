@@ -1,18 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
-
-declare global {
-  interface Window {
-    atOptions?: {
-      key: string;
-      format: string;
-      height: number;
-      width: number;
-      params: Record<string, string>;
-    };
-  }
-}
+import { useEffect, useState } from 'react';
 
 interface AdBannerProps {
   adKey?: string;
@@ -27,33 +15,40 @@ export default function AdBanner({
   height = 90,
   className = '',
 }: AdBannerProps) {
-  const containerRef = useRef<HTMLDivElement>(null);
   const key = adKey || process.env.NEXT_PUBLIC_ADSTERRA_KEY;
+  const [srcDoc, setSrcDoc] = useState('');
 
   useEffect(() => {
     if (!key) return;
-    const container = containerRef.current;
-    if (!container || container.childElementCount > 0) return;
-
-    window.atOptions = {
+    const options = JSON.stringify({
       key,
       format: 'iframe',
       height,
       width,
       params: {},
-    };
-
-    const invokeScript = document.createElement('script');
-    invokeScript.src = `https://www.highperformanceformat.com/${key}/invoke.js`;
-    invokeScript.async = true;
-    container.appendChild(invokeScript);
+    });
+    setSrcDoc(
+      `<!DOCTYPE html><html><head><meta charset="utf-8">` +
+        `<style>html,body{margin:0;padding:0;overflow:hidden;background:transparent;}` +
+        `body{display:flex;align-items:center;justify-content:center;}</style></head>` +
+        `<body><script type="text/javascript">atOptions=${options};</script>` +
+        `<script type="text/javascript" src="https://www.highperformanceformat.com/${key}/invoke.js"></script>` +
+        `</body></html>`
+    );
   }, [key, width, height]);
 
   if (!key) return null;
 
   return (
-    <div className={`flex justify-center my-8 ${className}`} aria-hidden="true">
-      <div ref={containerRef} style={{ width, height }} />
+    <div className={`flex justify-center my-8 ${className}`}>
+      <iframe
+        title="Advertisement"
+        width={width}
+        height={height}
+        srcDoc={srcDoc}
+        scrolling="no"
+        style={{ border: 0, overflow: 'hidden', maxWidth: '100%' }}
+      />
     </div>
   );
 }
