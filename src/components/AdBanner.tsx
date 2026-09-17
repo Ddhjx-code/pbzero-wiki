@@ -1,54 +1,44 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef } from 'react';
+
+const injectedScripts = new Set<string>();
 
 interface AdBannerProps {
-  adKey?: string;
-  width?: number;
-  height?: number;
+  scriptUrl?: string;
+  slot?: 1 | 2;
   className?: string;
 }
 
-export default function AdBanner({
-  adKey,
-  width = 728,
-  height = 90,
-  className = '',
-}: AdBannerProps) {
-  const key = adKey || process.env.NEXT_PUBLIC_ADSTERRA_KEY;
-  const [srcDoc, setSrcDoc] = useState('');
+export default function AdBanner({ scriptUrl, slot = 1, className = '' }: AdBannerProps) {
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const src =
+    scriptUrl ||
+    (slot === 2
+      ? process.env.NEXT_PUBLIC_ADSTERRA_SCRIPT_URL_2
+      : process.env.NEXT_PUBLIC_ADSTERRA_SCRIPT_URL);
 
   useEffect(() => {
-    if (!key) return;
-    const options = JSON.stringify({
-      key,
-      format: 'iframe',
-      height,
-      width,
-      params: {},
-    });
-    setSrcDoc(
-      `<!DOCTYPE html><html><head><meta charset="utf-8">` +
-        `<style>html,body{margin:0;padding:0;overflow:hidden;background:transparent;}` +
-        `body{display:flex;align-items:center;justify-content:center;}</style></head>` +
-        `<body><script type="text/javascript">atOptions=${options};</script>` +
-        `<script type="text/javascript" src="https://www.highperformanceformat.com/${key}/invoke.js"></script>` +
-        `</body></html>`
-    );
-  }, [key, width, height]);
+    if (!src || injectedScripts.has(src)) return;
+    const container = containerRef.current;
+    if (!container || container.querySelector('script')) return;
 
-  if (!key) return null;
+    injectedScripts.add(src);
+    const script = document.createElement('script');
+    script.src = src;
+    script.async = true;
+    script.setAttribute('data-cfasync', 'false');
+    container.appendChild(script);
+  }, [src]);
+
+  if (!src) return null;
 
   return (
-    <div className={`flex justify-center my-8 ${className}`}>
-      <iframe
-        title="Advertisement"
-        width={width}
-        height={height}
-        srcDoc={srcDoc}
-        scrolling="no"
-        style={{ border: 0, overflow: 'hidden', maxWidth: '100%' }}
-      />
-    </div>
+    <div
+      ref={containerRef}
+      className={`ad-slot my-8 flex w-full justify-center ${className}`}
+      data-ad-slot={slot}
+    />
   );
 }
