@@ -1,0 +1,33 @@
+{
+  "title": "S-GAME - Phantom Blade Zero Developer, Studio & Team",
+  "description": "Who makes Phantom Blade Zero? S-GAME is a Chinese studio founded by Soulframe Liang, with 140 staff across Beijing, Shanghai, Hong Kong and Los Angeles. Full developer profile.",
+  "keyword": "s-game phantom blade zero developer",
+  "lastUpdated": "2026-09-18",
+  "sections": [
+    {
+      "id": "quick-facts",
+      "title": "S-GAME at a Glance",
+      "content": "<table><thead><tr><th>Field</th><th>Detail</th></tr></thead><tbody><tr><td>Developer</td><td>S-GAME</td></tr><tr><td>Publisher</td><td>S-GAME (self-published)</td></tr><tr><td>Founder &amp; CEO</td><td>Soulframe Liang (also written Qiwei Liang / 梁其伟)</td></tr><tr><td>Country</td><td>China</td></tr><tr><td>Headquarters</td><td>Beijing</td></tr><tr><td>Team size</td><td>Approximately 140 people</td></tr><tr><td>Studios</td><td>Beijing (HQ), Shanghai, Hong Kong, Los Angeles</td></tr><tr><td>Engine</td><td>Unreal Engine 5</td></tr><tr><td>Chinese title</td><td>影之刃零</td></tr></tbody></table><p>The studio name is a reference to its founder: Soulframe Liang uses \"S\" as his nickname, and has described himself as \"the S of S-GAME\".</p>"
+    },
+    {
+      "id": "where-in-china",
+      "title": "Where Is S-GAME Based?",
+      "content": "<p>S-GAME is a <strong>Chinese</strong> studio headquartered in <strong>Beijing</strong>. It is not a Japanese or Western studio, which is worth stating plainly because Phantom Blade Zero is frequently miscategorised in English-language coverage.</p><p>The team is spread across four cities, each handling a different part of production:</p><table><thead><tr><th>Location</th><th>Headcount</th><th>Function</th></tr></thead><tbody><tr><td>Beijing</td><td>~100</td><td>Headquarters, core development</td></tr><tr><td>Shanghai</td><td>~20</td><td>Motion capture studio and animators</td></tr><tr><td>Hong Kong</td><td>~16</td><td>Creative art team</td></tr><tr><td>Los Angeles</td><td>—</td><td>Global publishing</td></tr></tbody></table>"
+    },
+    {
+      "id": "origin-history",
+      "title": "Where the Studio Came From",
+      "content": "<p>S-GAME did not start as a console developer. The studio's origin story explains a lot about how Phantom Blade Zero is being made.</p><p>Before founding the studio, Soulframe Liang made an indie game by himself using RPG Maker in <strong>2010</strong>, called <strong>Rainblood: Town of Death</strong>. He made it while studying architecture, first in Beijing and then in New Haven.</p><p>He returned to China and founded S-GAME. Rainblood grew into a franchise and was renamed <strong>Phantom Blade</strong>. Those titles were overwhelmingly <strong>mobile games for the Chinese market</strong> and were never released outside China, but they built a player base of <strong>over 20 million</strong>.</p><p><strong>Phantom Blade Zero is the spiritual rebirth of the original Rainblood</strong> — the same core idea, rebuilt at console scale. It is the studio's first major console game and its first attempt at the global market. Full-scale development began around 2022.</p>"
+    },
+    {
+      "id": "key-people",
+      "title": "Key People",
+      "content": "<table><thead><tr><th>Role</th><th>Person</th><th>Notes</th></tr></thead><tbody><tr><td>Founder, CEO &amp; Director</td><td>Soulframe Liang</td><td>Also credited as Qiwei Liang; created Rainblood in 2010</td></tr><tr><td>Action Director</td><td>Kenji Tanigaki</td><td>Veteran martial arts fight choreographer; physically demonstrated each move for camera-matrix scanning to be hand-animated</td></tr><tr><td>Combat Director</td><td>Qianli Ma</td><td>Has described prioritising the feel of Chinese martial arts over strict input accuracy</td></tr></tbody></table><p>The involvement of Kenji Tanigaki is one of the more unusual production details: rather than relying on standard motion capture, the team scanned his demonstrations and then had animators rebuild the movements by hand, because motion capture alone could not reproduce the choreography accurately enough.</p>"
+    },
+    {
+      "id": "design-philosophy",
+      "title": "Design Philosophy: Kung Fu Punk",
+      "content": "<p>S-GAME describes the game's style as <strong>\"Kung Fu Punk\"</strong> — Chinese kung fu and traditional culture blended with modern and punk elements such as steampunk machines and fashion. The setting is a universe called the <strong>Phantom World</strong>.</p><p>The studio's stated goal is to create a new subgenre rather than add to existing ones. Liang has drawn an explicit parallel to Bruce Lee and Jackie Chan, who combined Hollywood technique, Chinese kung fu and traditional opera into something that became its own genre: not \"action movies\" but \"kung fu movies\". S-GAME wants to do the equivalent for action games.</p><p>The combat design draws from two directions at once: the interconnected level design and atmosphere associated with Souls games, and the fast, expressive character action of titles like Devil May Cry, Ninja Gaiden and Metal Gear Rising. The studio is candid that it considers \"soulslike\" an incomplete description.</p>"
+    }
+  ]
+}

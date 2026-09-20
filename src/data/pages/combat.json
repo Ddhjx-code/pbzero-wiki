@@ -1,0 +1,38 @@
+{
+  "title": "Phantom Blade Zero Combat System - Sha-chi, Blades & Phantom Edges",
+  "description": "How Phantom Blade Zero combat works: the Sha-chi resource, two blade slots plus two Phantom Edges, power surge abilities, and a progression system with no XP. Based on confirmed information only.",
+  "keyword": "phantom blade zero combat system sha-chi",
+  "lastUpdated": "2026-09-18",
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Combat Overview",
+      "content": "<p>Phantom Blade Zero is an action RPG that sits between two traditions. It borrows the interconnected level design and oppressive atmosphere associated with Souls games, while taking its combat feel from fast character-action titles like Devil May Cry, Ninja Gaiden and Metal Gear Rising. S-GAME has been explicit that calling it a \"soulslike\" undersells what it is doing.</p><div class=\"info-box\"><p>The studio's own framing is <strong>\"Kung Fu Punk\"</strong>: Chinese martial arts choreography combined with modern and punk visual elements, set in a universe called the <strong>Phantom World</strong>.</p></div>"
+    },
+    {
+      "id": "sha-chi",
+      "title": "Sha-chi: The Central Resource",
+      "content": "<p><strong>Sha-chi</strong> is the combat resource that drives the game's offence and defence. It is spent on <strong>Sha-chi attacks</strong> — heavy attacks — and on <strong>blocking</strong>.</p><p>This is the single most important thing to understand about the combat before you play: there is no separate stamina bar to manage. Sha-chi is the pool that gates your heavier options, so how you generate and spend it shapes every encounter.</p><table><thead><tr><th>System</th><th>Detail</th></tr></thead><tbody><tr><td>Combat resource</td><td>Sha-chi</td></tr><tr><td>Spent on</td><td>Heavy (Sha-chi) attacks, blocking</td></tr><tr><td>Stamina bar</td><td>No separate stamina bar in the traditional sense — Sha-chi fills that role</td></tr><tr><td>Level-ups</td><td>No XP-based levelling</td></tr></tbody></table>"
+    },
+    {
+      "id": "weapons",
+      "title": "Blades and Phantom Edges",
+      "content": "<p>The player character Soul fights with a <strong>two-slot weapon structure</strong>: primary weapons and secondary weapons.</p><h3>Primary: Blades</h3><p>Blades are the primary weapons. Each blade has a <strong>Power Surge</strong>, which functions as that weapon's ultimate ability. Rather than being flat stat sticks, blades carry distinct movesets and their own progression.</p><h3>Secondary: Phantom Edges</h3><p><strong>Phantom Edges</strong> are the secondary weapons, and this is where the game's range broadens considerably. They include cannons, lances, axes, hammers and similar armaments. The player can carry <strong>two primary weapons and two secondary weapons</strong>, and can <strong>switch weapons mid-combo</strong> to extend attack chains.</p><div class=\"warning-box\"><p><strong>On weapon counts:</strong> some sites state precise figures such as \"30+ blades and 20+ Phantom Edges\". S-GAME has not confirmed exact counts, and they can only be verified once the game ships. Treat specific numbers as unconfirmed.</p></div>"
+    },
+    {
+      "id": "progression",
+      "title": "Progression Without XP",
+      "content": "<p>Phantom Blade Zero does not use a traditional experience-point levelling system. Instead, the character grows through <strong>equipment and found items</strong>:</p><ul><li>Acquiring weapons and <strong>upgrading</strong> them</li><li>Finding items that raise your <strong>health and stamina gauges</strong></li><li>Gear, artifacts and skills discovered through the game's optional challenges</li></ul><p>The practical consequence is that exploration is progression. Seeking out the harder optional encounters is how you become stronger, rather than farming encounters for XP.</p>"
+    },
+    {
+      "id": "animation",
+      "title": "The Motion Capture Approach",
+      "content": "<p>One production detail has a direct effect on how combat feels. S-GAME brought in <strong>Kenji Tanigaki</strong> as action director — a veteran martial arts fight choreographer with a long filmography.</p><p>Rather than using motion capture alone, Tanigaki physically demonstrated each move so it could be scanned with a camera matrix, after which animators <strong>rebuilt the movements by hand</strong>. The studio's position is that motion capture by itself could not do the choreography justice.</p><p>S-GAME has also motion captured real martial artists and performers for specific content — including visiting a Chinese dragon dance studio and turning that choreography into a boss fight.</p>"
+    },
+    {
+      "id": "world",
+      "title": "Where the Fighting Happens",
+      "content": "<p>The game unfolds in a <strong>semi-open world</strong> made up of multiple large, handcrafted maps rather than a single continuous open world. S-GAME has described the world as bleak and punishing by design — a setting that constantly discourages letting your guard down.</p><p>Exploration rewards weapons, armour, artifacts and skills. That loop is deliberate: because there is no XP system, the loot you find <em>is</em> your character progression.</p><p>See the <a href=\"/protagonist\">protagonist and story premise</a> for why the world is framed this way, or the <a href=\"/guide\">beginner guide</a> for how the pieces fit together.</p>"
+    }
+  ]
+}
