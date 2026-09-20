@@ -1,0 +1,33 @@
+{
+  "title": "Phantom Blade Zero Endings - What Is Known Before Launch",
+  "description": "Phantom Blade Zero endings explained as far as they can be before release: the confirmed story premise, why a branching conclusion is expected, and what remains unverified until October 29, 2026.",
+  "keyword": "phantom blade zero endings",
+  "lastUpdated": "2026-09-18",
+  "sections": [
+    {
+      "id": "status",
+      "title": "Short Answer: The Endings Are Not Officially Detailed Yet",
+      "content": "<div class=\"warning-box\"><p>Phantom Blade Zero has <strong>not been released</strong>. S-GAME has not published an official ending count, ending names, or the conditions that trigger them. Anything you read elsewhere with a specific number of endings is either a guess or taken from an unofficial source.</p></div><p>This page covers what <em>is</em> confirmed about how the story concludes, and marks clearly where verified information stops. It will be expanded once the game is out and the endings can actually be played.</p>"
+    },
+    {
+      "id": "premise",
+      "title": "The Premise That Frames the Ending",
+      "content": "<p>What is confirmed is the setup, and it is unusually tight — which is why an ending that resolves it matters so much.</p><p>You play as <strong>Soul</strong>, an elite assassin serving a powerful and elusive organisation known simply as <strong>The Order</strong>. Soul is framed for the murder of The Order's patriarch and gravely injured during the manhunt that follows. A mystic healer saves his life, but the makeshift cure <strong>lasts only 66 days</strong>.</p><p>The game's driving objective is therefore explicit: find the mastermind behind the framing before the 66 days run out. That is a premise built to end a specific way — with the countdown reaching zero.</p>"
+    },
+    {
+      "id": "why-branching",
+      "title": "Why Multiple Endings Are Expected",
+      "content": "<p>There is no official confirmation of branching endings. However, several confirmed design facts make a choice-driven conclusion likely:</p><ul><li>The 66-day countdown creates a natural deadline that a story can resolve in more than one way</li><li>The game is structured as an action RPG with a semi-open world and optional content, which is the structure that usually supports divergent outcomes</li><li>S-GAME has described the story in terms of themes — revenge, hatred and love — rather than a single fixed arc</li></ul><p>That is reasoning, not confirmation. Treat it as expectation, not fact, until the game ships.</p>"
+    },
+    {
+      "id": "unverified-claims",
+      "title": "Claims You Should Not Trust Yet",
+      "content": "<p>Because the game has not released, a number of sites publish content that cannot be true. The most common patterns to watch for:</p><table><thead><tr><th>Claim type</th><th>Why it is unverifiable</th></tr></thead><tbody><tr><td>\"All 8 endings\" or any specific count</td><td>No official figure exists; endings cannot be enumerated before release</td></tr><tr><td>\"Unlock requirements\" per ending</td><td>Requires a shipped build that players can complete</td></tr><tr><td>Hands-on impressions and hours played</td><td>The finished game is not available to play</td></tr><tr><td>Full boss lists and stat tables</td><td>Final content is only knowable post-launch</td></tr></tbody></table><p>Some of these pages are written confidently and rank well. Confidence is not evidence — the game's own store pages and S-GAME's announcements are the only sources that count before launch.</p>"
+    },
+    {
+      "id": "what-next",
+      "title": "What Happens After October 29",
+      "content": "<p>Once the game launches, this page will be rebuilt with actual information: the real ending count, the decisions that produce each outcome, and how they relate to the 66-day structure.</p><p>In the meantime, the confirmed background is worth reading:</p><ul><li><a href=\"/release-date\">Release date and platform details</a></li><li><a href=\"/protagonist\">Soul and the story premise</a></li><li><a href=\"/s-game\">The studio behind the game</a></li><li><a href=\"/combat\">The Sha-chi combat system</a></li></ul>"
+    }
+  ]
+}
