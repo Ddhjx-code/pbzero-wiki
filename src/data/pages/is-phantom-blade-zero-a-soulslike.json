@@ -1,0 +1,39 @@
+{
+  "slug": "is-phantom-blade-zero-a-soulslike",
+  "title": "Is Phantom Blade Zero a Soulslike? The Definitive Answer",
+  "description": "No - Phantom Blade Zero is not a Soulslike, and the developers have said so directly. Here is what it actually is: a fast, parry-driven action game closer to Ninja Gaiden and Devil May Cry.",
+  "keyword": "is phantom blade zero a soulslike",
+  "lastUpdated": "2026-09-23",
+  "sections": [
+    {
+      "id": "short-answer",
+      "title": "Short Answer: No",
+      "content": "<p><strong>Phantom Blade Zero is not a Soulslike.</strong> This is not our interpretation - the developer has said it directly.</p><p>In an interview with GamesBeat, S-Game founder Soulframe Liang put it plainly:</p><blockquote><p>\"Our game is not what we'd precisely label as a Souls or 'Soulslike' game. It's dark. It has some vibes that might make people refer back to that style, but we're not a Souls game.\"</p></blockquote><p>The reason the question keeps coming up is that the game <em>looks</em> Soulslike in trailers - dark fantasy setting, deliberate combat, punishing bosses, checkpoint-based progression. The resemblance is real, but it is surface level. The mechanics underneath are much closer to character-action games.</p>"
+    },
+    {
+      "id": "no-stamina-bar",
+      "title": "There Is No Stamina Bar",
+      "content": "<p>The single clearest difference: Phantom Blade Zero has <strong>no stamina bar</strong> in the Souls sense.</p><p>Instead it uses the <strong>Sha-Chi meter</strong>, which behaves quite differently:</p><table><thead><tr><th>Action</th><th>Effect on Sha-Chi</th></tr></thead><tbody><tr><td>Light attacks</td><td>Build it</td></tr><tr><td>Heavy / special attacks</td><td>Consume it</td></tr><tr><td>Blocking</td><td>Consumes it</td></tr><tr><td>Parrying</td><td>Does not consume it</td></tr><tr><td><strong>Dodging</strong></td><td><strong>Does not consume it at all</strong></td></tr></tbody></table><p>That last row matters enormously. In a Souls game, running out of stamina means you cannot dodge and you die. In Phantom Blade Zero you can <em>always</em> dodge, because dodging is free. You can always escape - you just cannot always fight back.</p><p>Sha-Chi doubles as a posture-style meter for enemies. Drain an enemy's Sha-Chi completely and they are <strong>breached</strong> - stance broken and wide open for a finisher.</p>"
+    },
+    {
+      "id": "what-it-actually-plays-like",
+      "title": "What It Actually Plays Like",
+      "content": "<p>The most common comparison from people who have played it is a <strong>middle ground between Ninja Gaiden and Sekiro</strong> - not one or the other.</p><h3>Closer to character-action than Souls</h3><ul><li>Combat is fast and combo-heavy rather than patient and deliberate</li><li>You have <strong>two main weapons</strong> equipped at once and can switch mid-combo</li><li><strong>Switching weapons fully restores your Sha-Chi</strong> - the core combat loop is build, spend, swap, repeat</li><li>Flashy, expressive offence is rewarded; turtling behind a shield is not</li></ul><h3>Closer to Sekiro in one respect</h3><ul><li>Parrying is central, not optional. A perfect parry negates damage <em>and</em> drains the attacker's Sha-Chi</li><li>There are two attack colours: <strong>blue</strong> attacks can be blocked or parried, <strong>red</strong> attacks can only be dodged</li><li>Both a perfect parry and a perfect dodge trigger <strong>Ghoststep</strong> - a cinematic reposition that puts Soul behind the enemy for a counter window. Ghoststep changes depending on the weapon you are holding</li></ul>"
+    },
+    {
+      "id": "what-is-different-from-souls",
+      "title": "The Main Differences From Souls Games",
+      "content": "<table><thead><tr><th></th><th>Phantom Blade Zero</th><th>Typical Soulslike</th></tr></thead><tbody><tr><td>Stamina</td><td>No stamina bar; Sha-Chi instead</td><td>Stamina gates attack and dodge</td></tr><tr><td>Dodging</td><td>Free - never costs resource</td><td>Costs stamina</td></tr><tr><td>Difficulty</td><td><strong>Selectable modes</strong></td><td>Usually fixed</td></tr><tr><td>Builds</td><td>Weapons are the build; no armour sets</td><td>Armour + stats + gear</td></tr><tr><td>Progression</td><td>Explore for upgrade fragments; no stat allocation</td><td>Level up and allocate stats</td></tr><tr><td>Weapon loadout</td><td>Two mains + two Phantom Edges, swappable mid-combo</td><td>Usually one weapon at a time</td></tr></tbody></table><p>The difficulty point is worth emphasising because it is the least Soulslike thing about the game. Phantom Blade Zero ships with three modes:</p><ul><li><strong>Wayfarer</strong> - for players who want the story</li><li><strong>Hellwalker</strong> - tougher enemies with adaptive intelligence</li><li><strong>Sixty-Six Days</strong> - the hardest option</li></ul><p>Souls games deliberately refuse to offer this. Phantom Blade Zero does the opposite.</p>"
+    },
+    {
+      "id": "what-it-shares-with-souls",
+      "title": "Where the Souls Comparison Is Fair",
+      "content": "<p>It is not a baseless comparison. The game does share real DNA with the genre:</p><ul><li><strong>Checkpoint-based progression</strong> with respawning enemies</li><li><strong>Bosses as the centrepiece</strong> - the developer describes boss battles as \"the game's highlights\" and \"the reason you develop your skill and character\"</li><li><strong>Learning attack patterns matters.</strong> Per the developer, the main difference between bosses is the rhythm of their blue-eye and red-eye attacks - you learn the pace, parry the blue, dodge the red</li><li><strong>Deliberately punishing.</strong> Previewers have described it as \"delightfully punishing\"</li><li><strong>Dark, bleak world.</strong> An intentional art direction choice</li></ul><p>So if you like Souls games for the boss-focused, pattern-learning, checkpoint-driven structure, you will find a lot to like. If you like them for the stamina management, the build-crafting, or the fixed difficulty, this is a different game.</p>"
+    },
+    {
+      "id": "verdict",
+      "title": "So What Genre Is It?",
+      "content": "<p>Phantom Blade Zero is best described as a <strong>fast-paced character-action RPG</strong> - the umbrella that covers Devil May Cry, Ninja Gaiden and Bayonetta - built around a parry-and-counter core, with light RPG progression layered on.</p><p>S-Game's own label for the setting is \"<strong>KungfuPunk</strong>\" - traditional wuxia blended with fantasy and folk horror. It is not a Soulslike wearing a wuxia skin.</p><p>The practical advice: if you have been avoiding the game because you bounced off Elden Ring, the difficulty modes and the free dodge mean it is far more approachable than it looks. If you have been excited because you want another Souls game, adjust that expectation - but know that the boss design is built to be the main event.</p><p>Phantom Blade Zero launches <strong>October 29, 2026</strong> on PS5 and PC.</p>"
+    }
+  ]
+}

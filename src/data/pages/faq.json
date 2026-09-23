@@ -1,0 +1,79 @@
+{
+  "slug": "faq",
+  "title": "Phantom Blade Zero FAQ - Developer, Country, Weapons & Bosses",
+  "description": "Straight answers to the questions people actually ask about Phantom Blade Zero: who makes it, which country it comes from, how many weapons and bosses there are, and whether it is a Soulslike.",
+  "keyword": "phantom blade zero faq",
+  "lastUpdated": "2026-09-23",
+  "sections": [
+    {
+      "id": "who-makes-it",
+      "title": "Who develops Phantom Blade Zero?",
+      "content": "<p><strong>S-GAME</strong>, a studio based in <strong>Beijing, China</strong>, with a team of roughly <strong>50 developers</strong>.</p><p>S-GAME is not a new studio - they spent more than a decade making mobile games in the Chinese market before Phantom Blade Zero. The studio has publicly said it does not want to grow beyond about 100 people, preferring to stay small.</p><p>Phantom Blade Zero is the studio's <strong>first console and PC title</strong>. Before this, their audience was almost entirely in China, where the wider Phantom Blade franchise built a fan base of over 20 million.</p>"
+    },
+    {
+      "id": "who-is-the-director",
+      "title": "Who is the director behind it?",
+      "content": "<p><strong>Soulframe Liang</strong> (also credited as Qiwei Liang), founder and CEO of S-GAME.</p><p>He created the original game in the series by himself in <strong>RPG Maker in 2010</strong>, while studying architecture - first in Beijing, then in New Haven. That game was <em>Rainblood: Town of Death</em>. He returned to China and founded S-GAME to continue it.</p><p>Phantom Blade Zero is the <strong>spiritual rebirth of Rainblood</strong> - same core idea, rebuilt in Unreal Engine 5 instead of RPG Maker.</p>"
+    },
+    {
+      "id": "country-of-origin",
+      "title": "What country is Phantom Blade Zero from?",
+      "content": "<p><strong>China.</strong> The developer S-GAME is headquartered in <strong>Beijing</strong>, and the game draws directly on Chinese wuxia tradition - martial arts fiction with a long literary history in Chinese culture.</p><p>S-Game defines its own aesthetic as \"<strong>KungfuPunk</strong>\" - traditional Chinese wuxia blended with fantasy, steampunk and folk horror elements. The studio has said the world is a <strong>100% original fictional setting</strong>, not an adaptation of any classical Chinese novel.</p>"
+    },
+    {
+      "id": "publisher",
+      "title": "Who publishes it?",
+      "content": "<p><strong>S-GAME Publishing</strong> - the studio publishes its own game rather than signing with a large third-party publisher such as Sony or Bandai Namco.</p><p>It is nevertheless a major PlayStation partner title, having appeared in multiple State of Play broadcasts.</p>"
+    },
+    {
+      "id": "release-platforms",
+      "title": "When does it release, and on what?",
+      "content": "<p><strong>October 29, 2026</strong> on <strong>PlayStation 5</strong> and <strong>PC</strong>. Note that the official PlayStation Blog lists <strong>October 28</strong> for the US and select regions.</p><p>The date was originally set for September 9, 2026 before moving to the October slot.</p>"
+    },
+    {
+      "id": "how-many-weapons",
+      "title": "How many weapons are there?",
+      "content": "<p>Per S-Game's own gameplay deep dive: <strong>more than 30 main weapons</strong>, plus <strong>25 secondary weapons</strong> known as <strong>Phantom Edges</strong>.</p><p>That is around <strong>55 weapons total</strong> at launch.</p><p>The two categories work differently:</p><ul><li><strong>Main weapons</strong> - Soul equips <strong>two at a time</strong> and can swap mid-combo. Each has its own moveset, a signature ultimate, and a skill tree</li><li><strong>Phantom Edges</strong> - also <strong>two slots</strong>, but these are limited-use tools: bows, axes, hammers, lances and more exotic implements</li></ul><p>Swapping main weapons <strong>fully restores your Sha-Chi meter</strong>, which is the backbone of the combat loop. Defeating powerful enemies can also yield their signature weapons and techniques.</p>"
+    },
+    {
+      "id": "how-many-bosses",
+      "title": "How many bosses are there?",
+      "content": "<p><strong>S-Game has not disclosed a boss count</strong>, and this is deliberate rather than an oversight. In a developer Q&amp;A, Soulframe Liang said:</p><blockquote><p>\"There are a considerable number of unique and distinctive bosses in the game, but the specific quantity cannot be disclosed yet. Additionally, there are also plenty of secret bosses concealed in the deepest corners of dungeons.\"</p></blockquote><p>So while any specific number you see quoted before launch is speculation, two things <em>are</em> confirmed:</p><ul><li>Bosses are the centrepiece of the game by design - the studio calls them \"the game's highlights\"</li><li>There are <strong>secret bosses</strong> hidden in dungeons, beyond the critical path</li></ul><p>We will update this answer once a figure is officially published.</p>"
+    },
+    {
+      "id": "soulslike",
+      "title": "Is Phantom Blade Zero a Soulslike?",
+      "content": "<p><strong>No.</strong> The developer has said so directly: <em>\"our game is not what we'd precisely label as a Souls or 'Soulslike' game.\"</em></p><p>The headline difference is that there is <strong>no stamina bar</strong>, and <strong>dodging is free</strong> - it never costs you resource. The game uses the Sha-Chi meter instead, and ships with <strong>selectable difficulty modes</strong>, which Souls games deliberately avoid.</p><p>Those who have played it describe it as a middle ground between <strong>Ninja Gaiden and Sekiro</strong> - a fast, parry-driven character-action game rather than a slow, stamina-managed one.</p><p>We go through this in detail, mechanic by mechanic, on our page <a href=\"/is-phantom-blade-zero-a-soulslike\">Is Phantom Blade Zero a Soulslike?</a></p>"
+    },
+    {
+      "id": "sha-chi",
+      "title": "What is Sha-Chi?",
+      "content": "<p><strong>Sha-Chi is the game's core resource meter</strong> - a hybrid of stamina, posture and skill gauge for both Soul and his enemies.</p><table><thead><tr><th>Action</th><th>Effect</th></tr></thead><tbody><tr><td>Light attacks</td><td>Build Sha-Chi</td></tr><tr><td>Heavy / special attacks</td><td>Spend Sha-Chi</td></tr><tr><td>Blocking</td><td>Spends Sha-Chi</td></tr><tr><td>Parrying</td><td>Costs nothing</td></tr><tr><td>Dodging</td><td>Costs nothing</td></tr><tr><td>Switching main weapons</td><td><strong>Fully restores it</strong></td></tr></tbody></table><p>Drain an enemy's Sha-Chi to zero and they become <strong>breached</strong> - stance broken and open to a finisher.</p>"
+    },
+    {
+      "id": "difficulty",
+      "title": "Does it have difficulty settings?",
+      "content": "<p>Yes - three of them, which is unusual for a game with this reputation for difficulty:</p><table><thead><tr><th>Mode</th><th>Who it is for</th></tr></thead><tbody><tr><td><strong>Wayfarer</strong></td><td>Players who mainly want the story</td></tr><tr><td><strong>Hellwalker</strong></td><td>Higher challenge, with adaptive enemy intelligence</td></tr><tr><td><strong>Sixty-Six Days</strong></td><td>The hardest option - explicitly \"not for the faint of heart\"</td></tr></tbody></table>"
+    },
+    {
+      "id": "character-creation",
+      "title": "Is there character creation or customisation?",
+      "content": "<p>What is confirmed: <strong>the weapon loadout is the primary form of customisation.</strong> S-GAME has confirmed there are <strong>no armour sets</strong>, and no traditional stat-allocation levelling system.</p><p>Instead, progression comes from exploration - you find collectible fragments in the world that permanently raise stats such as Health or the Sha-Chi gauge. One documented example is the <strong>Amber Chip</strong>, which increases the Sha-Chi gauge by 30% once four fragments are gathered.</p><p><strong>Not yet confirmed:</strong> whether there is a cosmetic character creator where you design Soul's appearance. S-Game has not detailed one publicly. We are not going to guess - we will update this entry when it is confirmed.</p><p>For what <em>is</em> known about the cast, see our <a href=\"/characters\">characters page</a>.</p>"
+    },
+    {
+      "id": "donnie-yen",
+      "title": "Is Donnie Yen involved?",
+      "content": "<p>Yes. The martial arts actor and filmmaker serves as <strong>creative consultant</strong> on the game, and also plays the character <strong>Mó Yuan</strong> through facial and motion capture.</p><p>Within the story, Mó Yuan is the father of the protagonist, Soul - and S-Game has noted he is also a \"powerful hidden boss\" rather than only a story figure.</p>"
+    },
+    {
+      "id": "game-length",
+      "title": "How long is the game?",
+      "content": "<p><strong>Not officially announced.</strong> S-Game has not published a completion time, and any figure you see quoted before launch is an estimate rather than a confirmed number.</p><p>We will add a verified figure here after release.</p>"
+    },
+    {
+      "id": "engine",
+      "title": "What engine does it run on?",
+      "content": "<p><strong>Unreal Engine 5.</strong> S-Game has cited the engine as what allows a studio of roughly 50 people to build a game of this scale, and has confirmed hardware ray tracing support.</p><p>Unusually, combat animations are <strong>hand-animated rather than motion captured</strong> - action director Kenji Tanigaki demonstrates each designed move, which is then captured with a camera matrix as reference for the animation team.</p>"
+    }
+  ]
+}
