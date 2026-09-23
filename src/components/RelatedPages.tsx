@@ -5,10 +5,11 @@ const ALL_PAGES = [
   { slug: "characters", title: "Characters", description: "All playable characters" },
   { slug: "boss-guide", title: "Boss Guide", description: "Every boss strategy" },
   { slug: "weapons", title: "Weapons", description: "Weapons & Sha-chi upgrade paths" },
-  { slug: "best-build", title: "Best Build", description: "Skill & weapon combos" },
-  { slug: "skill-tree", title: "Skill Tree", description: "Ability progression" },
+  { slug: "combat", title: "Combat", description: "Parry, dodge & Sha-chi stances" },
+  { slug: "release-date", title: "Release Date", description: "Launch info & platforms" },
+  { slug: "s-game", title: "S-Game", description: "Studio behind the game" },
+  { slug: "protagonist", title: "Protagonist", description: "Soul, the 66-day assassin" },
   { slug: "endings", title: "Endings", description: "All endings guide" },
-  { slug: "lore", title: "Lore & World", description: "Shadow Realm explained" },
 ];
 
 function rotateFrom(slug: string) {
