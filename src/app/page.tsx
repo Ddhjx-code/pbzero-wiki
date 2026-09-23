@@ -5,7 +5,7 @@ const QUICK_LINKS = [
   { href: "/guide", emoji: "📖", title: "Beginner Guide", desc: "Combat mechanics & 66-day system" },
   { href: "/characters", emoji: "⚔️", title: "Characters", desc: "Soul, Mu Xiaokui, Zuo Shang & more" },
   { href: "/boss-guide", emoji: "💀", title: "Boss Guide", desc: "All known boss strategies" },
-  { href: "/weapons", emoji: "🗡️", title: "Weapons", desc: "30+ weapons & Shachi system" },
+  { href: "/weapons", emoji: "🗡️", title: "Weapons", desc: "Weapons & Sha-chi upgrade paths" },
 ];
 
 const STATS = [
@@ -170,7 +170,7 @@ export default function HomePage() {
                   Phantom Blade Zero is a third-person action RPG set in a wuxia-punk world called the Shadow Realm. Developed by S-Game with Unreal Engine 5 and martial arts choreography by Donnie Yen.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  You play as Soul, an elite assassin framed for murder and left with only 66 days to live. Master fast-paced combat combining 30+ weapons, 20+ Phantom Edges, and fluid martial arts combos to uncover the truth before time runs out.
+                  You play as Soul, an elite assassin framed for murder and left with only 66 days to live. Master fast-paced combat combining multiple weapons, Phantom Edges, and fluid martial arts combos to uncover the truth before time runs out.
                 </p>
               </div>
             </div>
