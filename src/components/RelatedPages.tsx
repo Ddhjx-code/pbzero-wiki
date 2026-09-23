@@ -4,15 +4,22 @@ const ALL_PAGES = [
   { slug: "guide", title: "Beginner Guide", description: "Combat & 66-day system" },
   { slug: "characters", title: "Characters", description: "All playable characters" },
   { slug: "boss-guide", title: "Boss Guide", description: "Every boss strategy" },
-  { slug: "weapons", title: "Weapons", description: "30+ weapons & Shachi" },
+  { slug: "weapons", title: "Weapons", description: "Weapons & Sha-chi upgrade paths" },
   { slug: "best-build", title: "Best Build", description: "Skill & weapon combos" },
   { slug: "skill-tree", title: "Skill Tree", description: "Ability progression" },
-  { slug: "endings", title: "Endings", description: "All 8+ endings guide" },
+  { slug: "endings", title: "Endings", description: "All endings guide" },
   { slug: "lore", title: "Lore & World", description: "Shadow Realm explained" },
 ];
 
+function rotateFrom(slug: string) {
+  const start = ALL_PAGES.findIndex((p) => p.slug === slug) + 1;
+  return [...ALL_PAGES.slice(start), ...ALL_PAGES.slice(0, start)];
+}
+
 export default function RelatedPages({ currentSlug }: { currentSlug: string }) {
-  const related = ALL_PAGES.filter((p) => p.slug !== currentSlug).slice(0, 4);
+  const related = rotateFrom(currentSlug)
+    .filter((p) => p.slug !== currentSlug)
+    .slice(0, 4);
   return (
     <nav className="mt-12 border-t border-border pt-8" aria-label="Related guides">
       <h2 className="text-lg font-semibold text-foreground mb-4">Related Guides</h2>

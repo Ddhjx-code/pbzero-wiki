@@ -91,7 +91,7 @@ const structuredData = {
           name: "What are the best weapons in Phantom Blade Zero?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Shachi system allows you to equip multiple weapons. Best picks depend on your playstyle - check our Weapons Guide for detailed rankings and upgrade paths.",
+            text: "The Sha-chi system allows you to equip multiple weapons. Best picks depend on your playstyle - check our Weapons Guide for detailed rankings and upgrade paths.",
           },
         },
         {
