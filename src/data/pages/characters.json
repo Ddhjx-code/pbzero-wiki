@@ -34,5 +34,31 @@
       "title": "Key NPCs",
       "content": "<p>Based on the Phantom Blade Wiki, there are <strong>29+ named characters</strong> in the game. Key NPCs include:</p><table><thead><tr><th>Character</th><th>Role</th></tr></thead><tbody><tr><td><strong>Mu Tianmiao</strong></td><td>Leader of The Order, Soul's adoptive father (murdered)</td></tr><tr><td><strong>Mystic Healer</strong></td><td>Saves Soul's life, gives him the 66-day cure</td></tr><tr><td><strong>Dinghai</strong></td><td>NPC ally</td></tr><tr><td><strong>Old Beggar</strong></td><td>NPC (potential quest giver)</td></tr><tr><td><strong>Tang Li</strong></td><td>NPC character</td></tr><tr><td><strong>Guizhi</strong></td><td>NPC character</td></tr><tr><td><strong>Dugu Linghe</strong></td><td>NPC character</td></tr></tbody></table><p>This list will be expanded with full details after launch.</p>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Playable characters",
+      "value": "4 confirmed"
+    },
+    {
+      "label": "Protagonist",
+      "value": "Soul"
+    },
+    {
+      "label": "Mu Xiaokui",
+      "value": "Childhood friend, daughter of the Mu family, playable"
+    },
+    {
+      "label": "Zuo Shang",
+      "value": "Soul's close friend and fellow warrior, playable"
+    },
+    {
+      "label": "The Chord",
+      "value": "Fourth playable character, mystical Wuxia skills"
+    },
+    {
+      "label": "Antagonist faction",
+      "value": "The Order"
+    }
   ]
 }

@@ -29,5 +29,39 @@
       "title": "Design Philosophy: Kung Fu Punk",
       "content": "<p>S-GAME describes the game's style as <strong>\"Kung Fu Punk\"</strong> — Chinese kung fu and traditional culture blended with modern and punk elements such as steampunk machines and fashion. The setting is a universe called the <strong>Phantom World</strong>.</p><p>The studio's stated goal is to create a new subgenre rather than add to existing ones. Liang has drawn an explicit parallel to Bruce Lee and Jackie Chan, who combined Hollywood technique, Chinese kung fu and traditional opera into something that became its own genre: not \"action movies\" but \"kung fu movies\". S-GAME wants to do the equivalent for action games.</p><p>The combat design draws from two directions at once: the interconnected level design and atmosphere associated with Souls games, and the fast, expressive character action of titles like Devil May Cry, Ninja Gaiden and Metal Gear Rising. The studio is candid that it considers \"soulslike\" an incomplete description.</p>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Developer",
+      "value": "S-GAME"
+    },
+    {
+      "label": "Publisher",
+      "value": "S-GAME (self-published)"
+    },
+    {
+      "label": "Founder & CEO",
+      "value": "Soulframe Liang (Qiwei Liang / 梁其伟)"
+    },
+    {
+      "label": "Founded",
+      "value": "2011"
+    },
+    {
+      "label": "Country",
+      "value": "China"
+    },
+    {
+      "label": "Headquarters",
+      "value": "Beijing"
+    },
+    {
+      "label": "Team size",
+      "value": "Approximately 140 people"
+    },
+    {
+      "label": "Previous titles",
+      "value": "Phantom Blade (影之刃) series, Rainblood (2010)"
+    }
   ]
 }

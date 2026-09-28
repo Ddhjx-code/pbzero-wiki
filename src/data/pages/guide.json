@@ -29,5 +29,35 @@
       "title": "Essential Tips for New Players",
       "content": "<ul><li><strong>Learn to parry early</strong> — The damage and counter opportunities from parrying far outweigh dodging. Practice on easier enemies first.</li><li><strong>Experiment with weapon combos</strong> — Mix main weapon + Sha-chi weapon for devastating chains. There's no single best combo — find your style.</li><li><strong>Don't panic about the 66 days</strong> — It's more generous than it sounds. Focus on enjoying the combat rather than rushing.</li><li><strong>Explore thoroughly</strong> — NPCs, hidden areas, and side encounters offer powerful weapon rewards and story context.</li><li><strong>Boss weapons are special</strong> — Some bosses drop unique weapons. If a boss is giving you trouble, come back with better gear.</li><li><strong>Save before key decisions</strong> — Story choices affect which endings are available. Multiple saves let you explore different paths.</li></ul>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Developer",
+      "value": "S-GAME (Beijing)"
+    },
+    {
+      "label": "Release date",
+      "value": "October 29, 2026"
+    },
+    {
+      "label": "Platforms",
+      "value": "PS5, PC (Steam, Epic)"
+    },
+    {
+      "label": "Genre",
+      "value": "Action RPG"
+    },
+    {
+      "label": "Main story length",
+      "value": "Not confirmed pre-release"
+    },
+    {
+      "label": "Combat resource",
+      "value": "Sha-chi"
+    },
+    {
+      "label": "Signature mechanic",
+      "value": "66-day countdown"
+    }
   ]
 }

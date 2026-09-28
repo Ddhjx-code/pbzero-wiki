@@ -34,5 +34,39 @@
       "title": "Frequently Asked Questions",
       "content": "<details><summary><strong>What country is Phantom Blade Zero from?</strong></summary><p>Phantom Blade Zero is developed by <strong>S-Game</strong>, a Chinese studio based in <strong>Beijing, China</strong>. The game draws heavily from Chinese wuxia (martial arts) culture and mythology.</p></details><details><summary><strong>What is the Chinese name of Phantom Blade Zero?</strong></summary><p>The Chinese name is <strong>影之刃零</strong> (Yǐng zhī Rèn Líng), meaning \"Shadow Blade Zero.\"</p></details><details><summary><strong>Who created Phantom Blade Zero?</strong></summary><p>The game is created by <strong>S-Game</strong> (北京灵游坊科技), founded in 2011. They previously developed the Phantom Blade mobile series before making this AAA console/PC title.</p></details><details><summary><strong>Is Phantom Blade Zero multiplayer?</strong></summary><p>No. Phantom Blade Zero is a <strong>single-player</strong> action RPG. There are no confirmed multiplayer or online features.</p></details><details><summary><strong>Do I need to play previous Phantom Blade games?</strong></summary><p>No. Phantom Blade Zero is a <strong>standalone game</strong> with its own story and characters. Previous mobile games are set in a different timeline.</p></details>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Game name",
+      "value": "Phantom Blade Zero (影之刃零)"
+    },
+    {
+      "label": "Developer",
+      "value": "S-GAME (北京灵游坊科技)"
+    },
+    {
+      "label": "Country of origin",
+      "value": "China (Beijing)"
+    },
+    {
+      "label": "Genre",
+      "value": "Action RPG / Martial Arts"
+    },
+    {
+      "label": "Platforms",
+      "value": "PlayStation 5, PC (Steam, Epic)"
+    },
+    {
+      "label": "Engine",
+      "value": "Unreal Engine 5"
+    },
+    {
+      "label": "Release date",
+      "value": "October 29, 2026"
+    },
+    {
+      "label": "Series",
+      "value": "Standalone entry in the Phantom Blade franchise"
+    }
   ]
 }
