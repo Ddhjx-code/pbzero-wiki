@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import SearchDialog from "./SearchDialog";
 
 const NAV_LINKS = [
   { href: "/guide", label: "Guide" },
@@ -36,7 +37,10 @@ export default function Navbar() {
           ))}
         </div>
 
-        <button
+        
+
+        <SearchDialog />
+<button
           type="button"
           className="md:hidden flex flex-col items-center justify-center w-8 h-8 gap-1.5"
           aria-label="Toggle navigation menu"
