@@ -34,5 +34,39 @@
       "title": "FAQ About Soul",
       "content": "<details><summary><strong>Is Soul the only playable character?</strong></summary><p>No. Phantom Blade Zero has <strong>4 playable characters</strong>: Soul, Mu Xiaokui, Zuo Shang, and The Chord. However, Soul is the main protagonist and has the most versatile weapon access.</p></details><details><summary><strong>Can you customize Soul's appearance?</strong></summary><p>Character customization details have not been fully revealed by S-Game. Based on demo footage, Soul has a fixed core appearance, but weapon loadouts are fully customizable.</p></details><details><summary><strong>What happens after the 66 days?</strong></summary><p>This is a central story mystery. The 66-day countdown drives the narrative tension, but whether Soul finds a permanent cure is part of the game's plot that hasn't been revealed pre-launch.</p></details><details><summary><strong>Is Soul related to characters from previous Phantom Blade games?</strong></summary><p>Phantom Blade Zero is designed as a <strong>standalone entry</strong> — you don't need to play previous games (Phantom Blade 1/2/Mobile) to understand Soul's story. However, there are thematic connections to the broader universe.</p></details>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Name",
+      "value": "Soul (魂)"
+    },
+    {
+      "label": "Alias",
+      "value": "The Dark Raider"
+    },
+    {
+      "label": "Role",
+      "value": "Main protagonist"
+    },
+    {
+      "label": "Affiliation",
+      "value": "The Order (elite assassin)"
+    },
+    {
+      "label": "Adoptive father",
+      "value": "Mu Tianmiao, leader of The Order"
+    },
+    {
+      "label": "Central mechanic",
+      "value": "66 days to live after a fatal heart wound"
+    },
+    {
+      "label": "Weapon access",
+      "value": "All main weapon categories plus any Sha-chi weapon"
+    },
+    {
+      "label": "Saved by",
+      "value": "A mysterious Mystic Healer"
+    }
   ]
 }

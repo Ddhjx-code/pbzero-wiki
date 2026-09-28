@@ -29,5 +29,35 @@
       "title": "What to Do Before October 29",
       "content": "<p>If you are waiting for the game, there is a reasonable amount of official material to work through in the meantime:</p><ul><li>Read the <a href=\"/protagonist\">protagonist and story premise</a> — the 66-day setup is the core of the game and shapes everything</li><li>Understand the <a href=\"/combat\">Sha-chi combat system</a> before launch so the mechanics are not new to you on day one</li><li>Look at the <a href=\"/s-game\">studio background</a> — S-GAME's history explains why the game looks the way it does</li><li>Wishlist on Steam or the PlayStation Store so you get notified at launch</li></ul>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Release date",
+      "value": "October 29, 2026"
+    },
+    {
+      "label": "PlayStation 5",
+      "value": "Confirmed - PlayStation Store"
+    },
+    {
+      "label": "Windows PC",
+      "value": "Confirmed - Steam, Epic Games Store"
+    },
+    {
+      "label": "Xbox / Switch",
+      "value": "Not announced"
+    },
+    {
+      "label": "Previous date",
+      "value": "September 9, 2026 (delayed 50 days)"
+    },
+    {
+      "label": "Delay reason",
+      "value": "Polishing the areas that matter most"
+    },
+    {
+      "label": "Console exclusivity",
+      "value": "PS5 timed exclusive, 12 months"
+    }
   ]
 }

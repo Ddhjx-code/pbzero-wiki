@@ -29,5 +29,35 @@
       "title": "Weapon Build Synergy",
       "content": "<div class=\"tip-box\"><p>💡 <strong>Pro Tip:</strong> Experiment with different Sha-chi + Main weapon combinations. The best builds depend on your playstyle — aggressive players favor Dual Swords + offensive Sha-chi, while defensive players prefer Regular Sword + defensive Sha-chi.</p></div><p>The combination of main weapon + Sha-chi weapon + Phantom Edge creates your \"build\" in Phantom Blade Zero. Here are some expected synergy archetypes:</p><table><thead><tr><th>Build Type</th><th>Main Weapon</th><th>Sha-chi</th><th>Playstyle</th></tr></thead><tbody><tr><td>Speed DPS</td><td>Dual Swords</td><td>Close-range technique</td><td>Aggressive, in-your-face combos</td></tr><tr><td>Heavy Hitter</td><td>Long Sword</td><td>Cannon</td><td>Ranged opener → big melee finisher</td></tr><tr><td>Balanced</td><td>Regular Sword</td><td>Throwing weapons</td><td>Versatile at all ranges</td></tr><tr><td>Parry Master</td><td>Regular Sword</td><td>Counter technique</td><td>Defensive, punish-focused</td></tr></tbody></table><p>See our <a href=\"/combat\">Sha-chi system</a> for optimized combinations (available at launch).</p>"
     }
+  ],
+  "facts": [
+    {
+      "label": "Main weapon categories",
+      "value": "3 - Regular Sword, Long Sword, Dual Swords"
+    },
+    {
+      "label": "Regular Sword",
+      "value": "10+ weapons, balanced, medium speed and range"
+    },
+    {
+      "label": "Long Sword",
+      "value": "10+ weapons, heavy overhead strikes, slow, long range"
+    },
+    {
+      "label": "Dual Swords",
+      "value": "10+ weapons, rapid multi-hit combos, short range"
+    },
+    {
+      "label": "Sha-chi weapons",
+      "value": "20+ types, secondary slot"
+    },
+    {
+      "label": "Weapon slots",
+      "value": "2 - primary plus Sha-chi"
+    },
+    {
+      "label": "Best source",
+      "value": "Boss drops yield the strongest unique weapons"
+    }
   ]
 }
