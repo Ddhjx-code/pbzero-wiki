@@ -53,7 +53,11 @@ function Chip({ text }: { text: string }) {
   );
 }
 
-function FactValue({ label, value }: PageFact) {
+function FactValue({
+  label,
+  value,
+  currentSlug,
+}: PageFact & { currentSlug?: string }) {
   const isAffinity = AFFINITY_LABELS.has(label.trim().toLowerCase());
 
   if (isAffinity) {
@@ -76,7 +80,7 @@ function FactValue({ label, value }: PageFact) {
   }
 
   const href = linkFactValue(label, value);
-  if (href) {
+  if (href && href.slice(1) !== currentSlug) {
     return (
       <Link
         href={href}
@@ -93,9 +97,10 @@ function FactValue({ label, value }: PageFact) {
 interface FactsCardProps {
   facts?: PageFact[];
   title?: string;
+  currentSlug?: string;
 }
 
-export default function FactsCard({ facts, title = "Quick Facts" }: FactsCardProps) {
+export default function FactsCard({ facts, title = "Quick Facts", currentSlug }: FactsCardProps) {
   if (!facts || facts.length === 0) return null;
 
   return (
@@ -118,7 +123,11 @@ export default function FactsCard({ facts, title = "Quick Facts" }: FactsCardPro
               {fact.label}
             </dt>
             <dd className="text-sm leading-relaxed">
-              <FactValue label={fact.label} value={fact.value} />
+              <FactValue
+                label={fact.label}
+                value={fact.value}
+                currentSlug={currentSlug}
+              />
             </dd>
           </div>
         ))}

@@ -95,7 +95,7 @@ export default function SlugPage({ params }: PageProps) {
 
         <MobileToc sections={content.sections} />
 
-        <FactsCard facts={content.facts} />
+        <FactsCard facts={content.facts} currentSlug={params.slug} />
 
         <div className="space-y-8">
           {content.sections.map((section) => (
