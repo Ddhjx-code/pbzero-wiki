@@ -1,7 +1,15 @@
 import { Metadata } from "next";
 import { getAllSlugs, getPageContent } from "@/lib/content";
+import { autoLink } from "@/lib/autolink";
 import RelatedPages from "@/components/RelatedPages";
 import AdBanner from "@/components/AdBanner";
+import Breadcrumb from "@/components/Breadcrumb";
+import SubNav from "@/components/SubNav";
+import MobileToc from "@/components/MobileToc";
+import FactsCard from "@/components/FactsCard";
+import TopicNav from "@/components/TopicNav";
+import PageSources from "@/components/PageSources";
+import CategoryTags from "@/components/CategoryTags";
 
 const BASE_URL = "https://pbzero.wiki";
 
@@ -69,6 +77,11 @@ export default function SlugPage({ params }: PageProps) {
         }}
       />
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
+        <article className="min-w-0">
+        <Breadcrumb slug={params.slug} title={content.title} />
+
+        <SubNav slug={params.slug} />
+
         {/* Page header with visual */}
         <header className="mb-8 relative overflow-hidden rounded-xl border border-border bg-gradient-to-r from-card via-[#1a0a10] to-card p-6 sm:p-8">
           <div className="absolute top-0 right-0 w-32 h-32 opacity-10 bg-[radial-gradient(circle,_var(--accent)_0%,_transparent_70%)]" />
@@ -80,6 +93,10 @@ export default function SlugPage({ params }: PageProps) {
           </p>
         </header>
 
+        <MobileToc sections={content.sections} />
+
+        <FactsCard facts={content.facts} />
+
         <div className="space-y-8">
           {content.sections.map((section) => (
             <section key={section.id} id={section.id}>
@@ -88,7 +105,9 @@ export default function SlugPage({ params }: PageProps) {
               </h2>
               <div
                 className="prose prose-sm prose-invert max-w-none text-muted-foreground leading-relaxed [&_table]:w-full [&_table]:border-collapse [&_th]:border [&_th]:border-border [&_th]:bg-card [&_th]:px-3 [&_th]:py-2 [&_th]:text-left [&_th]:text-foreground [&_td]:border [&_td]:border-border [&_td]:px-3 [&_td]:py-2 [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_li]:mb-1 [&_h3]:text-foreground [&_h3]:font-semibold [&_h3]:mt-4 [&_h3]:mb-2 [&_strong]:text-foreground [&_a]:text-accent [&_a]:underline [&_p]:mb-3"
-                dangerouslySetInnerHTML={{ __html: section.content }}
+                dangerouslySetInnerHTML={{
+                  __html: autoLink(section.content, params.slug),
+                }}
               />
             </section>
           ))}
@@ -96,7 +115,14 @@ export default function SlugPage({ params }: PageProps) {
 
         <AdBanner />
 
+        <TopicNav currentSlug={params.slug} />
+
         <RelatedPages currentSlug={params.slug} />
+
+        <PageSources lastUpdated={content.lastUpdated} />
+
+        <CategoryTags slug={params.slug} title={content.title} />
+        </article>
       </div>
     </>
   );
