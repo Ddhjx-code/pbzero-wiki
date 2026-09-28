@@ -36,7 +36,7 @@ export default function MobileToc({ sections }: MobileTocProps) {
           href="/boss-guide"
           className="text-sm text-muted-foreground transition-colors hover:text-accent"
         >
-          All bosses in order &rarr;
+          Boss guide &rarr;
         </Link>
       </div>
     </details>
