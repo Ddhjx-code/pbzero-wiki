@@ -25,6 +25,7 @@ export const TOPICS: NavTopic[] = [
       { slug: "combat", title: "Combat System" },
       { slug: "weapons", title: "Weapons & Phantom Edges" },
       { slug: "boss-guide", title: "Boss Guide" },
+      { slug: "boss-video-guides", title: "Boss Video Guides" },
     ],
   },
   {

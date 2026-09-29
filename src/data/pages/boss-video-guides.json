@@ -1,0 +1,57 @@
+{
+  "slug": "boss-video-guides",
+  "title": "Phantom Blade Zero Boss Video Guides - Link Index",
+  "description": "Every boss video guide for Phantom Blade Zero, as plain links with notes on what each one covers, who it suits and which timestamp to jump to. Nothing is embedded or hosted here.",
+  "keyword": "phantom blade zero boss video guide",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Status",
+      "value": "Pre-launch - the game releases October 29, 2026"
+    },
+    {
+      "label": "Format",
+      "value": "Text links only - no embeds, no hosted video"
+    },
+    {
+      "label": "Covers",
+      "value": "One row per boss, with timestamp deep links"
+    },
+    {
+      "label": "Updated",
+      "value": "At launch, then whenever a patch changes a fight"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What This Page Is",
+      "content": "<p>Phantom Blade Zero is an action RPG, and for action RPGs a boss fight is often easier to <em>watch</em> than to read about. This page collects the best video guides for each boss &mdash; as <strong>links, not embedded players</strong>.</p><p>Every entry tells you three things the YouTube title does not: which phases of the fight the video actually covers, whether the build shown matches the weapon you play, and the exact timestamp to skip to if you only need the one part that is killing you.</p>"
+    },
+    {
+      "id": "why-links",
+      "title": "Why Links Instead of Embedded Players",
+      "content": "<p>Two reasons, one legal and one practical.</p><h3>The legal one</h3><p>A hyperlink is not a copy and not a display. The video stays on the uploader's platform and you leave this site to watch it, so nothing here reproduces or shows anyone else's work. Embedding a player is a different question: US courts split on it, and the split is worse for video than for images, because a performance right does not require a fixed copy the way a display right does in the server-test cases. Linking sidesteps the whole argument.</p><h3>The practical one</h3><p>Embedded players pull in a lot of third-party JavaScript. A page whose visible content is mostly someone else's player, with a scraped description under it, is also the exact shape search engines have been demoting since the 2024 scaled-content-abuse policies. Text links with our own notes keep the page's value ours.</p>"
+    },
+    {
+      "id": "how-we-list",
+      "title": "How Entries Are Chosen",
+      "content": "<ul><li><strong>One clear winner per boss where we can find it.</strong> Ten links to the same fight is not a guide.</li><li><strong>We say what it covers.</strong> A 12-minute video that stops at phase one is labelled as stopping at phase one.</li><li><strong>We say which weapon it assumes.</strong> A Dual Swords route is often useless if you are playing Long Sword.</li><li><strong>Timestamps only from watching.</strong> We do not copy chapter markers we have not verified.</li><li><strong>Anything a patch has overtaken gets flagged, not deleted.</strong> Fight data goes stale fast after launch.</li></ul>"
+    },
+    {
+      "id": "index",
+      "title": "Boss Index",
+      "content": "<p>The index below is currently empty because <strong>Phantom Blade Zero has not released</strong>. There are no boss guides to list &mdash; any page claiming a complete one before October 29, 2026 is describing a demo or inventing it.</p><p>Known boss encounters so far, from official demos and the August 2026 State of Play:</p><table><thead><tr><th>Boss</th><th>Where it was shown</th><th>Video guides</th></tr></thead><tbody><tr><td>Puppet Boss (String Puppet)</td><td>4K Demo, verified</td><td>Not available pre-launch</td></tr><tr><td>Huangxing</td><td>4K Demo, verified</td><td>Not available pre-launch</td></tr><tr><td>Seven Stars</td><td>Trailer footage</td><td>Not available pre-launch</td></tr></tbody></table><p>See the <a href=\"/boss-guide\">boss guide</a> for everything currently known about each fight, and the <a href=\"/release-date\">release date page</a> for when the launch-week guides go up.</p>"
+    },
+    {
+      "id": "official",
+      "title": "Official Videos Worth Watching First",
+      "content": "<p>Before launch, the useful moving footage is all official, and publishers make this material specifically for distribution:</p><ul><li><strong>The State of Play deep dive from August 2026</strong> &mdash; close to 20 minutes of new gameplay, the single best pre-release look at combat.</li><li><strong>The 11-minute trailer released with pre-orders on August 11, 2026</strong>, which S-GAME described as marking completion of development.</li><li><strong>The 4K demo footage</strong> showing the Puppet Boss and Huangxing encounters.</li></ul><p>These are linked from the <a href=\"/guide\">beginner guide</a> and the <a href=\"/combat\">combat page</a>. We do not list them in the boss index above, because a trailer is not a boss guide.</p>"
+    },
+    {
+      "id": "takedown",
+      "title": "Rights and Removal",
+      "content": "<p>Every entry on this page is a link to content hosted elsewhere. Nothing is downloaded, re-hosted, embedded or copied. Channel names are used to credit the uploader and video titles are used because they are the only way to find the thing you are linking to.</p><p>If you made a video and would rather not be listed, or you think a link here points at something infringing, <a href=\"/contact\">contact us</a> and it comes down within one working day &mdash; no legal notice needed.</p>"
+    }
+  ]
+}
