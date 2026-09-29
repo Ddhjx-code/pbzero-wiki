@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { getAllSlugs, getPageContent } from "@/lib/content";
 import { autoLink } from "@/lib/autolink";
+import { videosFor } from "@/lib/videos";
 import RelatedPages from "@/components/RelatedPages";
 import AdBanner from "@/components/AdBanner";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -10,6 +11,7 @@ import FactsCard from "@/components/FactsCard";
 import TopicNav from "@/components/TopicNav";
 import PageSources from "@/components/PageSources";
 import CategoryTags from "@/components/CategoryTags";
+import VideoGuideLinks from "@/components/VideoGuideLinks";
 
 const BASE_URL = "https://pbzero.wiki";
 
@@ -112,6 +114,8 @@ export default function SlugPage({ params }: PageProps) {
             </section>
           ))}
         </div>
+
+        <VideoGuideLinks entries={videosFor(params.slug)} />
 
         <AdBanner />
 
