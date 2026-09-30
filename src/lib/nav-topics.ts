@@ -10,6 +10,17 @@ export interface NavTopic {
 
 export const TOPICS: NavTopic[] = [
   {
+    label: "Bosses",
+    pages: [
+      { slug: "puppet-boss", title: "Puppet Boss" },
+      { slug: "huangxing-boss", title: "Huangxing" },
+      { slug: "seven-stars-boss", title: "Seven Stars" },
+      { slug: "lion-dance-boss", title: "Lion Dance" },
+      { slug: "drunken-sword-boss", title: "Drunken Sword" },
+      { slug: "double-boss-fight", title: "Double Boss Fight" },
+    ],
+  },
+  {
     label: "Getting Started",
     pages: [
       { slug: "guide", title: "Beginner Guide" },

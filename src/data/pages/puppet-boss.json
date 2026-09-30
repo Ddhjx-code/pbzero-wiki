@@ -1,0 +1,49 @@
+{
+  "slug": "puppet-boss",
+  "title": "Puppet Boss - Everything Confirmed So Far (Phantom Blade Zero)",
+  "description": "Puppet Boss in Phantom Blade Zero - what has been confirmed about the encounter, its elemental weakness, rewards and how to approach it.",
+  "keyword": "Puppet Boss phantom blade zero",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Weak to",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "First shown",
+      "value": "Official 4K demo (verified)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>The Puppet Boss is a puppeteer-type encounter shown in the official 4K demo, and the first boss S-GAME put in front of the public. It fights with strings - controlling attacks from range while still delivering fast melee strikes up close - which makes it the clearest early demonstration of the game's mixed range design.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Puppet Boss",
+      "content": "<p><strong>First shown:</strong> Official 4K demo (verified).</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weakness & Resistances",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed pre-launch</td></tr><tr><td>Resists</td><td>Not confirmed pre-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed pre-launch</td></tr><tr><td>Immune</td><td>Not confirmed pre-launch</td></tr></tbody></table><p>Not confirmed pre-launch. S-GAME has not published elemental affinities for this encounter, and no demo footage shows one being exploited. Nothing here is estimated from the boss's appearance - that is exactly how wrong weakness tables get written before release.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Not confirmed pre-launch. Bosses in Phantom Blade Zero are described by S-GAME as rewarding unique weapons on defeat, but no drop table has been published for this encounter, so none is listed here.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Puppet Boss",
+      "content": "<h3>What has actually been shown</h3><ul><li>Humanoid puppeteer silhouette</li><li>String-based ranged attacks</li><li>Swift close-range strikes between the ranged sets</li><li>Shown in the 4K demo, so the mechanics shown are from a build S-GAME chose to present publicly</li></ul><p>Everything above comes from footage S-GAME released. Anything not listed has not been shown, however confident a write-up elsewhere looks.</p><h3>How to approach it</h3><p>There is no honest strategy section for an encounter nobody outside the studio has finished. What can be said comes from the systems rather than from the fight: blocking and heavy attacks both spend <a href=\"/combat\">Sha-chi</a>, so a defensive player who blocks everything runs out of the resource at the worst moment. Unblockable attacks have to be dodged, which means reading the animation rather than relying on the guard.</p><p>Real phase data, parry windows and timings land here once the game ships.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Pre-launch Status",
+      "content": "<p>This page tracks the Puppet Boss in Phantom Blade Zero, which releases on <a href=\"/release-date\">October 29, 2026</a>. It is written from official demo and trailer material only. After release it gets updated with verified fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p>"
+    }
+  ]
+}
