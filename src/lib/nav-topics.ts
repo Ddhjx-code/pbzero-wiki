@@ -16,6 +16,10 @@ export const TOPICS: NavTopic[] = [
       { slug: "release-date", title: "Release Date" },
       { slug: "faq", title: "FAQ" },
       { slug: "is-phantom-blade-zero-a-soulslike", title: "Is It a Soulslike?" },
+      { slug: "is-phantom-blade-zero-single-player", title: "Is It Single-Player?" },
+      { slug: "pre-order-guide", title: "Pre-Order Guide" },
+      { slug: "pc-requirements", title: "PC Requirements" },
+      { slug: "how-long-to-beat", title: "How Long Is It?" },
       { slug: "about", title: "About the Game" },
     ],
   },
@@ -24,6 +28,7 @@ export const TOPICS: NavTopic[] = [
     pages: [
       { slug: "combat", title: "Combat System" },
       { slug: "weapons", title: "Weapons & Phantom Edges" },
+      { slug: "difficulty-modes", title: "Difficulty Modes" },
       { slug: "boss-guide", title: "Boss Guide" },
       { slug: "boss-video-guides", title: "Boss Video Guides" },
     ],

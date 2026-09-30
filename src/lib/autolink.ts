@@ -20,6 +20,15 @@ const ENTITY_LINKS: ReadonlyArray<readonly [RegExp, string]> = [
   [/\bKungfu\s?Punk\b/i, "/guide"],
   [/\bSixty-Six Days\b/, "/release-date"],
   [/\bsoulslike\b/i, "/is-phantom-blade-zero-a-soulslike"],
+  // Pre-launch info pages
+  [/\bWayfarer\b/, "/difficulty-modes"],
+  [/\bHellwalker\b/, "/difficulty-modes"],
+  [/\bsingle-player\b/i, "/is-phantom-blade-zero-single-player"],
+  [/\bpre-order(?:ing)?\b/i, "/pre-order-guide"],
+  [/\bDLSS\b/, "/pc-requirements"],
+  [/\bUnreal Engine 5\b/, "/pc-requirements"],
+  [/\bEpic Games Store\b/, "/pre-order-guide"],
+  [/\bsystem requirements\b/i, "/pc-requirements"],
   // Studio
   [/\bS-GAME\b/, "/s-game"],
 ];

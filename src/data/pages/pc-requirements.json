@@ -1,0 +1,64 @@
+{
+  "slug": "pc-requirements",
+  "title": "Phantom Blade Zero PC Requirements - What Is Confirmed",
+  "description": "System requirements for Phantom Blade Zero on PC have not been published. Here is what is confirmed - Unreal Engine 5, native DLSS 4.5, ray-traced reflections - and how to judge your hardware before the October 29 release.",
+  "keyword": "phantom blade zero pc requirements",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "System requirements",
+      "value": "Not yet published"
+    },
+    {
+      "label": "Engine",
+      "value": "Unreal Engine 5"
+    },
+    {
+      "label": "Upscaling",
+      "value": "Native DLSS 4.5 support"
+    },
+    {
+      "label": "Ray tracing",
+      "value": "Ray-traced reflections and shadows"
+    },
+    {
+      "label": "Storefronts",
+      "value": "Steam, Epic Games Store"
+    },
+    {
+      "label": "Console",
+      "value": "PlayStation 5 (timed exclusive, 12 months)"
+    },
+    {
+      "label": "Release date",
+      "value": "October 29, 2026"
+    }
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "title": "The Requirements Are Not Out Yet",
+      "content": "<p><strong>S-GAME has not published minimum or recommended PC specifications.</strong> Any table you see listing a specific GPU, CPU or RAM requirement before launch is either copied from another Unreal Engine 5 game or guessed.</p><p>That includes this page - so instead of inventing numbers, this page records what is actually confirmed and what those facts imply about your hardware.</p>"
+    },
+    {
+      "id": "confirmed-tech",
+      "title": "What Is Confirmed",
+      "content": "<table><thead><tr><th>Feature</th><th>Status</th><th>What it means for hardware</th></tr></thead><tbody><tr><td>Unreal Engine 5</td><td>Confirmed</td><td>Baseline VRAM and CPU demand of a current-gen UE5 title</td></tr><tr><td>Native DLSS 4.5</td><td>Confirmed</td><td>NVIDIA cards get frame generation and upscaling from day one</td></tr><tr><td>Ray-traced reflections</td><td>Confirmed</td><td>The most expensive feature; expect a large performance gap on/off</td></tr><tr><td>Ray-traced shadows</td><td>Confirmed</td><td>Second-largest cost; likely a separate toggle</td></tr><tr><td>Steam Deck / handheld</td><td>Not addressed</td><td>No statement yet</td></tr><tr><td>FSR / XeSS support</td><td>Not announced</td><td>DLSS being native does not confirm AMD or Intel upscaling</td></tr></tbody></table>"
+    },
+    {
+      "id": "what-to-expect",
+      "title": "What You Can Reasonably Expect",
+      "content": "<p>Reasoned inference, clearly labelled as such - <strong>not a spec sheet</strong>:</p><ul><li><strong>VRAM will be the limiting factor.</strong> A UE5 game with ray-traced reflections and shadows on a large, dense world is not going to be comfortable at 8GB. Modern AAA titles with similar features commonly ask for more.</li><li><strong>DLSS 4.5 being native is good news for NVIDIA owners.</strong> Frame generation should carry a mid-range card much further than raw rasterisation would.</li><li><strong>AMD and Intel owners should wait for the requirements post.</strong> DLSS being announced natively says nothing about FSR or XeSS, and there is no confirmation either way.</li><li><strong>Ray tracing will be the settings switch, not the CPU.</strong> If you need headroom, turn reflections down before you consider the hardware inadequate.</li></ul>"
+    },
+    {
+      "id": "when",
+      "title": "When the Real Numbers Arrive",
+      "content": "<p>Requirements are normally published by the publisher in the weeks before release, on the Steam store page and the official site. With an October 29, 2026 launch, expect them during October.</p><p>Two reliable signals that they are out: the Steam store page gaining a System Requirements section, and an official post from <a href=\"/s-game\">S-GAME</a> or the game's channels. Until then, treat every number as unconfirmed.</p>"
+    },
+    {
+      "id": "related",
+      "title": "Related",
+      "content": "<p>The <a href=\"/release-date\">release date page</a> tracks the schedule. If you are deciding whether to pre-order while waiting for the specs, the <a href=\"/pre-order-guide\">pre-order guide</a> explains what you do and do not gain by committing early - the short version is that the announced bonuses are both obtainable in-game.</p>"
+    }
+  ]
+}
