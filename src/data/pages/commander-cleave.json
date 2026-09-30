@@ -1,0 +1,53 @@
+{
+  "slug": "commander-cleave",
+  "title": "Commander Cleave - Location, Weakness & How to Beat (Phantom Blade Zero)",
+  "description": "Commander Cleave in Phantom Blade Zero - what has been confirmed about the encounter, its elemental weakness, rewards and how to approach it.",
+  "keyword": "Commander Cleave phantom blade zero",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Tie Sha (demo level)"
+    },
+    {
+      "label": "Weak to",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "First shown",
+      "value": "Playable 2024 demo, covered by IGN hands-on"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Commander Cleave is the second boss available in Phantom Blade Zero's playable demo and the one that functions as the demo's real skill check. He is a larger opponent built around a cleaver sword that breaks through defensive play, and the hands-on coverage describes timing as the answer to him rather than aggression or blocking.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Commander Cleave",
+      "content": "<p><strong>Location:</strong> Tie Sha (demo level).</p><p><strong>First shown:</strong> Playable 2024 demo, covered by IGN hands-on.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weakness & Resistances",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed pre-launch</td></tr><tr><td>Resists</td><td>Not confirmed pre-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed pre-launch</td></tr><tr><td>Immune</td><td>Not confirmed pre-launch</td></tr></tbody></table><p>Not confirmed pre-launch. S-GAME has not published elemental affinities for this encounter, and no demo footage shows one being exploited. Nothing here is estimated from the boss's appearance - that is exactly how wrong weakness tables get written before release.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Not confirmed pre-launch. Bosses in Phantom Blade Zero are described by S-GAME as rewarding unique weapons on defeat, but no drop table has been published for this encounter, so none is listed here.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Commander Cleave",
+      "content": "<h3>What has actually been shown</h3><ul><li>Fought after the Tie Sha section of the demo</li><li>Wields a cleaver sword whose attacks tear through Soul's guard</li><li>Substantial health pool and its own defensive options</li><li>Described in coverage as the first genuine skill test the demo presents</li></ul><p>Everything above comes from footage S-GAME released. Anything not listed has not been shown, however confident a write-up elsewhere looks.</p><h3>How to approach it</h3><ul><li>The cleaver attacks are the ones to read rather than block, which matters because blocking also spends the Sha-chi resource you need for your own heavy attacks</li><li>Weapon swapping is the practical tool here: switching restores stamina immediately, so a combo can be continued instead of abandoned when the health bar does not move</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Pre-launch Status",
+      "content": "<p>This page tracks the Commander Cleave in Phantom Blade Zero, which releases on <a href=\"/release-date\">October 29, 2026</a>. It is written from official demo and trailer material only. After release it gets updated with verified fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p>"
+    }
+  ]
+}

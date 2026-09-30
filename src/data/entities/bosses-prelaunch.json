@@ -91,5 +91,24 @@
    "Revealed August 2026 at the State of Play deep dive",
    "No individual boss names released for the pairing"
   ]
+ },
+ {
+  "slug": "commander-cleave",
+  "name": "Commander Cleave",
+  "kind": "Demo boss",
+  "weak": "__not_confirmed__",
+  "source": "Playable 2024 demo, covered by IGN hands-on",
+  "location": "Tie Sha (demo level)",
+  "summary": "Commander Cleave is the second boss available in Phantom Blade Zero's playable demo and the one that functions as the demo's real skill check. He is a larger opponent built around a cleaver sword that breaks through defensive play, and the hands-on coverage describes timing as the answer to him rather than aggression or blocking.",
+  "observed": [
+   "Fought after the Tie Sha section of the demo",
+   "Wields a cleaver sword whose attacks tear through Soul's guard",
+   "Substantial health pool and its own defensive options",
+   "Described in coverage as the first genuine skill test the demo presents"
+  ],
+  "tips": [
+   "The cleaver attacks are the ones to read rather than block, which matters because blocking also spends the Sha-chi resource you need for your own heavy attacks",
+   "Weapon swapping is the practical tool here: switching restores stamina immediately, so a combo can be continued instead of abandoned when the health bar does not move"
+  ]
  }
 ]

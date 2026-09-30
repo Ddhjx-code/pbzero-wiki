@@ -7,17 +7,17 @@
     {
       "id": "weapon-system",
       "title": "Weapon System Overview",
-      "content": "<div class=\"warning-box\"><p><strong>Pre-release note:</strong> Phantom Blade Zero has not launched (release date: October 29, 2026). Weapon counts, category breakdowns and similar specifics below are based on pre-release material and are subject to change. Confirmed details are limited to what S-GAME has officially shown.</p></div><div class=\"info-box\"><p>Phantom Blade Zero features a deep dual-weapon system built on <strong>main weapons</strong> and <strong>Sha-chi (secondary) weapons</strong>. Players equip one main weapon and one Sha-chi weapon simultaneously, allowing for diverse combat combinations.</p></div><h3>Key Features</h3><ul><li>Seamless weapon switching mid-combo</li><li>Boss-specific weapon drops</li><li>NPC vendors sell weapons throughout the world</li><li>Each weapon has unique attack patterns and techniques</li></ul>"
+      "content": "<p>The one weapon rule stated consistently across official material and hands-on coverage is the <strong>slot count</strong>: Soul carries <strong>two primary weapons and two secondary weapons</strong> and switches between them freely mid-fight.</p><p><strong>Blades are the primaries.</strong> <strong>Phantom Edges are the secondaries</strong>, and the set is deliberately ungovernable - the named examples include cannons, lances, axes and hammers, which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the label is doing conceptual work rather than literal work: several of them are not blades at all.</p><p>Switching is a mechanic, not a menu action. During the 2024 demo, IGN observed that changing weapons restored Soul's stamina immediately and let an ongoing combo keep running. That single detail is why the game plays like <em>Ninja Gaiden</em> instead of like a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is the separate resource that pays for heavy attacks and blocks. Because both of them spend it, a player who blocks everything runs dry at the worst possible moment.</p>"
     },
     {
       "id": "main-weapons",
-      "title": "Main Weapon Categories",
-      "content": "<p>Main weapons are divided into 3 categories, each with a distinct combat feel:</p><table><thead><tr><th>Category</th><th>Weapons Count</th><th>Attack Style</th><th>Speed</th><th>Range</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Regular Sword</strong></td><td>10+</td><td>Balanced slashes</td><td>Medium</td><td>Medium</td><td>All-around combat, beginners</td></tr><tr><td><strong>Long Sword</strong></td><td>10+</td><td>Heavy overhead strikes</td><td>Slow</td><td>Long</td><td>High damage per hit, breaking guards</td></tr><tr><td><strong>Dual Swords</strong></td><td>10+</td><td>Rapid multi-hit chains</td><td>Fast</td><td>Short</td><td>Combo damage, speed-focused builds</td></tr></tbody></table><h3>Regular Sword</h3><p>The balanced option. Regular Swords offer consistent damage, reasonable speed, and good range. Ideal for players who want versatility without committing to extremes. Parry windows are forgiving with this category.</p><h3>Long Sword</h3><p>Heavy and powerful. Long Swords deal massive damage per strike but have slower recovery. Best used when you can read enemy patterns and find windows for big hits. Excellent for breaking through enemy defenses.</p><h3>Dual Swords</h3><p>Fast and aggressive. Dual Swords enable rapid combo chains with many hits. While individual strikes deal less damage, the accumulated DPS rivals other categories. Requires getting close to enemies.</p>"
+      "title": "Primary Weapons: Blades",
+      "content": "<p>Pre-release caveat, stated up front rather than buried: <strong>no weapon roster has been published</strong>. The category counts and per-category item totals that used to sit on this page could not be traced to any official source, so they have been removed instead of hedged.</p><p>What can be said is that primaries are blades, and that the demo build gave Soul a pair of short swords alongside a longer katana-class weapon, per the same IGN hands-on. Length and speed trade-offs between those shapes are visible in the demo and are the reason the swap matters: reach changes with the weapon, not with a stat line.</p><p>S-GAME has described boss kills as rewarding unique weapons, which is the strongest available hint about roster size, and a hint is all it is.</p>"
     },
     {
       "id": "shachi-weapons",
-      "title": "Sha-chi Weapons (Secondary)",
-      "content": "<p><strong>Sha-chi weapons</strong> occupy the secondary weapon slot and provide entirely different combat options from your main weapon. There are over 20 types ranging from ranged firearms to close-range specialty tools.</p><h3>Known Sha-chi Types</h3><ul><li><strong>Cannons</strong> — Ranged heavy damage, slow fire rate. Good for initiating fights.</li><li><strong>Throwing Weapons</strong> — Mid-range options for keeping pressure at distance.</li><li><strong>Close-range Techniques</strong> — Specialized martial arts tools for combo extensions.</li><li><strong>Phantom Edges</strong> — Special ability weapons with unique techniques tied to each type.</li></ul><h3>How Sha-chi Works</h3><p>Your Sha-chi weapon can be activated during combos, after parries, or as standalone actions. Each Sha-chi weapon has:</p><ul><li>A basic attack (always available)</li><li>A special technique (on cooldown)</li><li>Synergy bonuses with certain main weapon categories</li></ul>"
+      "title": "Phantom Edges (Secondary Slots)",
+      "content": "<p>Phantom Edges occupy the two secondary slots and change what a fight is about. The confirmed example set - cannons, lances, axes, hammers - spans ranged and reach-extreme weapons that no blade build covers, so a loadout is a choice about which problems you can solve rather than a damage comparison.</p><p>Individual Edge names, values and totals are unpublished. The count of &ldquo;20+ types&rdquo; that previously appeared here had no source and has been dropped.</p>"
     },
     {
       "id": "weapon-acquisition",
@@ -32,32 +32,32 @@
   ],
   "facts": [
     {
-      "label": "Main weapon categories",
-      "value": "3 - Regular Sword, Long Sword, Dual Swords"
+      "label": "Loadout",
+      "value": "2 primary + 2 secondary weapons"
     },
     {
-      "label": "Regular Sword",
-      "value": "10+ weapons, balanced, medium speed and range"
+      "label": "Primary type",
+      "value": "Blades"
     },
     {
-      "label": "Long Sword",
-      "value": "10+ weapons, heavy overhead strikes, slow, long range"
+      "label": "Secondary type",
+      "value": "Phantom Edges"
     },
     {
-      "label": "Dual Swords",
-      "value": "10+ weapons, rapid multi-hit combos, short range"
+      "label": "Phantom Edge examples",
+      "value": "Cannons, lances, axes, hammers"
     },
     {
-      "label": "Sha-chi weapons",
-      "value": "20+ types, secondary slot"
+      "label": "Swap effect",
+      "value": "Refills stamina, continues the combo"
     },
     {
-      "label": "Weapon slots",
-      "value": "2 - primary plus Sha-chi"
+      "label": "Block / heavy resource",
+      "value": "Sha-chi"
     },
     {
-      "label": "Best source",
-      "value": "Boss drops yield the strongest unique weapons"
+      "label": "Full roster",
+      "value": "Not published pre-launch"
     }
   ]
 }

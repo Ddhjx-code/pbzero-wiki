@@ -18,6 +18,7 @@ export const TOPICS: NavTopic[] = [
       { slug: "lion-dance-boss", title: "Lion Dance" },
       { slug: "drunken-sword-boss", title: "Drunken Sword" },
       { slug: "double-boss-fight", title: "Double Boss Fight" },
+      { slug: "commander-cleave", title: "Commander Cleave" },
     ],
   },
   {
