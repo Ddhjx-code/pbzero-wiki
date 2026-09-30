@@ -123,7 +123,7 @@ export default function SlugPage({ params }: PageProps) {
 
         <RelatedPages currentSlug={params.slug} />
 
-        <PageSources lastUpdated={content.lastUpdated} />
+        <PageSources lastUpdated={content.lastUpdated} game="Phantom Blade Zero" />
 
         <CategoryTags slug={params.slug} title={content.title} />
         </article>
