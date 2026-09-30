@@ -1,64 +1,73 @@
 {
-  "title": "Phantom Blade Zero Characters - All Playable & NPCs",
-  "description": "Complete list of all Phantom Blade Zero characters. Detailed info on playable characters Soul, Mu Xiaokui, Zuo Shang, and The Chord, plus key NPCs.",
+  "title": "Phantom Blade Zero Characters - Soul, Zuoshang, Mu Xiaokui & More",
+  "description": "Every Phantom Blade Zero character confirmed by S-GAME: Soul is the only playable protagonist, with Zuoshang, Mu Xiaokui, The Flesh Sculptor and Mo Yuan around him.",
   "keyword": "phantom blade zero characters",
   "lastUpdated": "2026-08-18",
   "sections": [
     {
       "id": "playable-characters",
-      "title": "Playable Characters",
-      "content": "<p>Phantom Blade Zero features <strong>4 confirmed playable characters</strong>, each with unique combat styles and story arcs.</p><table><thead><tr><th>Character</th><th>Role</th><th>Weapon Style</th><th>Relationship to Soul</th></tr></thead><tbody><tr><td><strong>Soul</strong></td><td>Main Protagonist</td><td>All weapon types</td><td>—</td></tr><tr><td><strong>Mu Xiaokui</strong></td><td>Playable</td><td>Unique style</td><td>Childhood friend</td></tr><tr><td><strong>Zuo Shang</strong></td><td>Playable</td><td>Unique style</td><td>Close friend</td></tr><tr><td><strong>The Chord</strong></td><td>Playable</td><td>Mystical Wuxia</td><td>Ally</td></tr></tbody></table>"
+      "title": "Who You Can Actually Play",
+      "content": "<p><strong>One character. Soul.</strong> The Wikipedia entry for the game lists its mode as single-player and states plainly that &ldquo;the player controls the elite assassin Soul&rdquo;, and the official PlayStation.Blog breakdown from the August 2026 State of Play describes the same thing from the design side: you are Soul walking the Wulin, meeting citizens, taking side quests that can open new story paths. No second playable character has been announced.</p><p>An earlier version of this page claimed four playable characters and named <em>The Chord</em> among them. That was wrong, and the mistake is instructive rather than just embarrassing: <strong>The Chord is a real Phantom Blade character</strong>, but from the series' mobile entries - <a href=\"/is-phantom-blade-zero-single-player\">Phantom Blade: Executioners</a> and Phantom Blade 3 - where Soul, Mu Xiaokui, Zuo Shang, The Chord and Lackey are all playable together. Those rosters do not carry into Phantom Blade Zero, and reading a mobile-game character list onto this one is how a lot of pre-launch &ldquo;information&rdquo; about this game has been manufactured.</p><p>The likeliest source of the confusion is the music. Composer Caisheng Bo confirmed that Soul, Mu Xiaokui and Zuoshang each have their own thematic melody, and that all three descend from the same A minor theme so they blend. Three characters with three leitmotifs reads like three playable characters. It is not.</p>"
     },
     {
       "id": "soul",
-      "title": "Soul (魂) — The Dark Raider",
-      "content": "<p><strong>Soul</strong> is the main protagonist of Phantom Blade Zero. An elite assassin in the service of The Order, he is framed for the murder of the organization's leader — his own adoptive father, Mu Tianmiao.</p><h3>Background</h3><ul><li><strong>Aliases:</strong> \"Dark Raider\", \"Black Blade Soul\"</li><li><strong>Organization:</strong> The Order (former)</li><li><strong>Adoptive Father:</strong> Mu Tianmiao (The Order's leader, murdered)</li><li><strong>Childhood Friend:</strong> Mu Xiaokui</li><li><strong>Close Friend:</strong> Zuo Shang</li></ul><h3>The 66-Day Curse</h3><p>After being fatally wounded in the heart, Soul is saved by a mysterious Mystic Healer. However, the cure is temporary — he has only <strong>66 days</strong> to live. In that time, he must clear his name and uncover the true conspiracy behind the murder.</p><h3>Combat Style</h3><p>As the main character, Soul has access to all weapon categories (Regular Sword, Long Sword, Dual Swords) and can equip any Sha-chi weapon. Players can fully customize his combat approach.</p>"
+      "title": "Soul (魂) - The Protagonist",
+      "content": "<p>Soul is an elite assassin of <strong>The Order</strong>, a secretive and powerful organisation whose true motives appear to be hidden even from its own members. He is framed for the murder of its patriarch - the man who raised him - and hunted by his former comrades.</p><h3>The wound and the clock</h3><p>The story's engine is a sword duel. Soul fights <strong>Zuoshang</strong>, and the two were once blood brothers; during that duel Soul takes a fatal wound to the heart. <strong>The Flesh Sculptor</strong>, a mysterious healer, revives him with a <em>tainted heart</em> - and the cure is temporary. Soul has <strong>66 days</strong> to restore his heart and expose whoever framed him.</p><h3>How he fights</h3><p>Soul carries <strong>two primary weapons and two secondary ones</strong>. Primaries are blades; the secondaries are <a href=\"/weapons\">Phantom Edges</a>, a deliberately unruly set including cannons, lances, axes and hammers. Switching between them is not just cosmetic: in the 2024 demo, IGN reported that swapping weapons refilled Soul's stamina immediately and let a combo continue, which is why the game reads closer to Ninja Gaiden than to a FromSoftware fight. <a href=\"/combat\">Sha-chi</a> is the resource that pays for both heavy attacks and blocks.</p><h3>Who plays him</h3><p>Soul is portrayed by <strong>Yucheng</strong>, a model and stage actor. Character models across the cast were built from 3D scans, and facial capture came from the actors themselves.</p><h3>What he is meant to represent</h3><p>Director Soulframe Liang describes Soul as a <em>xiake</em> (侠客) - the Chinese, kung-fu formulation of the hero: reserved, not talkative, swift, cold outward and warm inward, disposed to help the weak while counting down his own remaining days.</p>"
+    },
+    {
+      "id": "zuoshang",
+      "title": "Zuoshang (左商) - The Blood Brother Who Became the Rival",
+      "content": "<p>Nothing about Zuoshang is a footnote, and the honest version is a correction. Earlier text on this page filed him as Soul's &ldquo;trusted friend and companion&rdquo;. He is neither.</p><p>Zuoshang and Soul <strong>grew up together and trained kung fu together</strong>, fighting side by side until a tragedy split them into lifetime enemies. In the director's own framing the relationship is a Guts-and-Griffith or Dante-and-Vergil rivalry transposed into a wuxia setting. <strong>The duel that leaves Soul with a hole in his heart is Zuoshang's duel</strong> - so he is simultaneously the deepest personal loss in the story and the proximate cause of its central condition.</p><p>He is portrayed by film-academy student <strong>Zhang Xince</strong>, and has his own thematic melody, derived from the same A minor material as Soul's and Mu Xiaokui's.</p><p>Zuoshang is a non-playable character in Phantom Blade Zero. Whether the duel is a boss encounter, a scripted sequence, or something the player survives rather than wins has not been stated.</p>"
     },
     {
       "id": "mu-xiaokui",
-      "title": "Mu Xiaokui (牧小葵)",
-      "content": "<p><strong>Mu Xiaokui</strong> is Soul's childhood friend and one of the four playable characters. She is connected to the Mu family — the ruling family of The Order.</p><h3>Key Facts</h3><ul><li>Daughter of the Mu family</li><li>Grew up alongside Soul</li><li>Fully playable with unique combat abilities</li><li>Has her own thematic melody (A minor variation shared with Soul and Zuo Shang)</li></ul><p>More details on her combat style and story role will be revealed at launch.</p>"
+      "title": "Mu Xiaokui (牧小葵) - The Founder's Daughter",
+      "content": "<p>Mu Xiaokui is the <strong>daughter of The Order's founder</strong> and a gifted young fighter positioned as a future leader, caught between her own place in the Jianghu and the expectations attached to the family name. She grew up alongside Soul.</p><p>She has her own thematic melody, and she has been given solo marketing weight: before pre-orders opened in August 2026, S-GAME released a 35-second teaser built entirely around her, showing her standing in front of a fire before leaving in what looked like a hot-air balloon. She is portrayed by actress <strong>Zhang Jinzhi</strong>.</p><p>Mu Xiaokui is not playable in Phantom Blade Zero, whatever her status in the mobile entries.</p>"
     },
     {
-      "id": "zuo-shang",
-      "title": "Zuo Shang (左商)",
-      "content": "<p><strong>Zuo Shang</strong> is Soul's close friend and a fellow warrior. He serves as the third playable character in Phantom Blade Zero.</p><h3>Key Facts</h3><ul><li>Soul's trusted friend and companion</li><li>Fully playable with unique combat abilities</li><li>Has his own thematic melody (A minor variation)</li><li>His relationship with Soul is central to the story</li></ul><p>Full combat details and story arc will be available at launch.</p>"
+      "id": "mo-yuan",
+      "title": "Mo Yuan (魔源) - Donnie Yen's Character",
+      "content": "<p>The most star-attached role in the game. <strong>Donnie Yen</strong> is credited as the game's <em>Creative Consultant</em> on kung fu - a role he has held since 2023 - and he also provides the facial and motion capture for <strong>Mo Yuan</strong>. The official State of Play write-up calls the work with Yen one of the most exciting parts of the whole development, and says his encounter with the character leads into some of the game's most intense moments.</p><p>Two things are deliberately not claimed here:</p><ul><li><strong>Whether Mo Yuan is Soul's father.</strong> At least one secondary site states this flatly. No official material says it. It would be a huge plot fact to reproduce from a blog, so it is left unconfirmed rather than treated as lore.</li><li><strong>Whether Mo Yuan is a villain.</strong> &ldquo;Major antagonist&rdquo; is a reasonable reading of the trailer placement, not a published description.</li></ul><p>The romanisation is unsettled: <em>Mo Yuan</em>, <em>Mó Yuan</em> and <em>Mowan</em> all appear across coverage of the same character.</p>"
     },
     {
-      "id": "the-chord",
-      "title": "The Chord",
-      "content": "<p><strong>The Chord</strong> is the fourth playable character, specializing in mystical Wuxia skills with unique abilities distinct from the other three fighters.</p><h3>Key Facts</h3><ul><li>Specializes in mystical/supernatural combat techniques</li><li>Fully playable character</li><li>Unique skill set different from sword-based characters</li></ul><p>More information will be revealed closer to launch.</p>"
+      "id": "flesh-sculptor",
+      "title": "The Flesh Sculptor - The Healer",
+      "content": "<p>The figure who keeps the story possible. Soul is brought back by a mysterious healer credited in the sources as <strong>The Flesh Sculptor</strong>, who revives him with a tainted heart and thereby sets the 66-day limit. The name is doing a lot of work in a game whose official vocabulary includes folk horror: the person who saves the protagonist is described in terms of craft applied to flesh, and the rescue is explicitly temporary.</p><p>Nothing further has been published about the character's motives or identity.</p>"
     },
     {
       "id": "key-npcs",
-      "title": "Key NPCs",
-      "content": "<p>Based on the Phantom Blade Wiki, there are <strong>29+ named characters</strong> in the game. Key NPCs include:</p><table><thead><tr><th>Character</th><th>Role</th></tr></thead><tbody><tr><td><strong>Mu Tianmiao</strong></td><td>Leader of The Order, Soul's adoptive father (murdered)</td></tr><tr><td><strong>Mystic Healer</strong></td><td>Saves Soul's life, gives him the 66-day cure</td></tr><tr><td><strong>Dinghai</strong></td><td>NPC ally</td></tr><tr><td><strong>Old Beggar</strong></td><td>NPC (potential quest giver)</td></tr><tr><td><strong>Tang Li</strong></td><td>NPC character</td></tr><tr><td><strong>Guizhi</strong></td><td>NPC character</td></tr><tr><td><strong>Dugu Linghe</strong></td><td>NPC character</td></tr></tbody></table><p>This list will be expanded with full details after launch.</p>"
+      "title": "Confirmed Named Characters",
+      "content": "<p>These names appear in official material or in reporting that cites it. Role descriptions are limited to what has actually been stated.</p><table><thead><tr><th>Character</th><th>What is confirmed</th></tr></thead><tbody><tr><td><a href=\"/characters\">Soul</a></td><td>Protagonist, playable; ex-Order assassin; 66 days to live</td></tr><tr><td>Zuoshang</td><td>Former blood brother, now enemy; inflicted Soul's heart wound; played by Zhang Xince</td></tr><tr><td>Mu Xiaokui</td><td>Order founder's daughter; played by Zhang Jinzhi; subject of the pre-order teaser</td></tr><tr><td>Mo Yuan</td><td>Played by Donnie Yen, who is also the kung fu creative consultant</td></tr><tr><td>The Flesh Sculptor</td><td>Mysterious healer; revived Soul with a tainted heart</td></tr><tr><td>The Order's patriarch</td><td>Murdered; the crime Soul is framed for; identified in some coverage as his adoptive father</td></tr><tr><td>Seven Stars</td><td>A name attached to a formation and to a boss; see the <a href=\"/boss-guide\">boss guide</a></td></tr></tbody></table><p>Longer NPC lists circulating elsewhere - Dinghai, Old Beggar, Tang Li, Guizhi, Dugu Linghe - could not be traced to an official source during this pass, so they are omitted rather than repeated. If they are real, they will reappear with citations after release.</p>"
     }
   ],
   "facts": [
     {
-      "label": "Playable characters",
-      "value": "4 confirmed"
+      "label": "Playable",
+      "value": "Soul only"
+    },
+    {
+      "label": "Mode",
+      "value": "Single-player"
     },
     {
       "label": "Protagonist",
       "value": "Soul"
     },
     {
-      "label": "Mu Xiaokui",
-      "value": "Childhood friend, daughter of the Mu family, playable"
+      "label": "Rival",
+      "value": "Zuoshang"
     },
     {
-      "label": "Zuo Shang",
-      "value": "Soul's close friend and fellow warrior, playable"
+      "label": "Order founder's daughter",
+      "value": "Mu Xiaokui"
     },
     {
-      "label": "The Chord",
-      "value": "Fourth playable character, mystical Wuxia skills"
+      "label": "Healer",
+      "value": "The Flesh Sculptor"
     },
     {
-      "label": "Antagonist faction",
-      "value": "The Order"
+      "label": "Celebrity cast",
+      "value": "Donnie Yen as Mo Yuan"
     }
   ]
 }

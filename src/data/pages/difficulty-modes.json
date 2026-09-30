@@ -1,40 +1,40 @@
 {
   "slug": "difficulty-modes",
   "title": "Phantom Blade Zero Difficulty Modes Explained",
-  "description": "Phantom Blade Zero ships with three difficulty modes - Wayfarer, Hellwalker and Sixty-Six Days. What each one is for, and which to pick if you are new to the genre.",
+  "description": "Every Phantom Blade Zero difficulty mode with its source and date: Wayfarer, Hellwalker, Sixty-Six Days and the earlier Gamechanger tier, plus what S-GAME has not confirmed.",
   "keyword": "phantom blade zero difficulty",
   "lastUpdated": "2026-09-28",
   "facts": [
     {
-      "label": "Modes",
+      "label": "Current official list",
       "value": "3 - Wayfarer, Hellwalker, Sixty-Six Days"
     },
     {
       "label": "Wayfarer",
-      "value": "For players who mainly want the story"
+      "value": "Story-first, easiest"
+    },
+    {
+      "label": "Gamechanger",
+      "value": "Default balanced tier in the June 2025 letter"
     },
     {
       "label": "Hellwalker",
-      "value": "Higher challenge, adaptive enemy intelligence"
+      "value": "Adaptive AI; hardest in the 2025 letter"
     },
     {
       "label": "Sixty-Six Days",
-      "value": "The hardest option"
+      "value": "Hardest option in the 2026 list"
     },
     {
       "label": "Mode switching",
       "value": "Not confirmed pre-launch"
-    },
-    {
-      "label": "Status",
-      "value": "Pre-launch, releases October 29, 2026"
     }
   ],
   "sections": [
     {
       "id": "overview",
-      "title": "Three Modes, Which Is Unusual",
-      "content": "<p>Phantom Blade Zero ships with <strong>three difficulty modes</strong>. For a game with a reputation built on demanding combat, offering an explicit story mode is a deliberate design statement: S-GAME is not treating difficulty as a gate on who gets to play.</p><p>The three named modes are Wayfarer, Hellwalker and Sixty-Six Days.</p>"
+      "title": "How Many Modes, And Why The Answer Moved",
+      "content": "<p><strong>Three, per the most recent official word</strong> - and the number was different a year ago, which is worth knowing before trusting any single list you find.</p><p>The June 24, 2025 developer's letter, relayed by Game8, described <strong>three</strong> tiers: <em>Gamechanger</em> as the default balanced playthrough and a good beginner setting, <em>Wayfarer</em> as the easiest for people new to action games, and <em>Hellwalker</em> as the hardest, unlocked only in New Game+, with smarter AI, reshuffled enemy movesets and entirely new moves.</p><p>The August 2026 State of Play write-up on the official PlayStation Blog lists <strong>a different three</strong>: <em>Wayfarer</em> if you want the story, <em>Hellwalker</em> for advanced and adaptive enemy intelligence, and <em>Sixty-Six Days</em> for the faint of heart. Gamechanger is gone from that list, and Sixty-Six Days is new.</p><p>Both sources are official-adjacent and neither is wrong; they are seven months apart. The defensible reading is that a fourth mode arrived with the deep dive and the default tier either got renamed or got folded into the baseline. Until S-GAME publishes a mode screen, treat the 2026 list as current and the 2025 letter as history. Anything stating a final mode count with confidence is filling a gap.</p>"
     },
     {
       "id": "wayfarer",
@@ -44,12 +44,17 @@
     {
       "id": "hellwalker",
       "title": "Hellwalker",
-      "content": "<p><strong>Higher challenge, with adaptive enemy intelligence.</strong></p><p>The adaptive AI is the interesting part of this tier, and the part to be sceptical about until it is tested. \"Adaptive\" in practice can mean enemies learn your habits and punish them, or it can mean they simply get more hitpoints. Which one it is cannot be verified before release.</p><p>If you are competent with parry timing but want the fight to stay a threat, this is the expected default recommendation - though S-GAME has not stated a default mode.</p>"
+      "content": "<p>Hardest tier in the 2025 letter, where it was gated behind New Game+ and described as carrying smarter AI, reshuffled movesets and brand-new enemy moves. In the 2026 list it is described as &ldquo;advanced and adaptive enemy intelligence&rdquo; and is no longer presented as locked behind a clear.</p><p>Two live questions the marketing cannot answer: whether the New Game+ gate survived, and what &ldquo;adaptive&rdquo; does under the hood. That word has covered both genuine behaviour changes and simply larger health pools. It will only be knowable by testing, so it is marked unverified here rather than described as a feature.</p>"
     },
     {
       "id": "sixty-six-days",
       "title": "Sixty-Six Days",
-      "content": "<p><strong>The hardest option.</strong></p><p>The name is the giveaway: this mode is named after the countdown that drives the narrative, and it is the mode the combat choreography was designed for. <a href=\"/s-game\">S-GAME</a> hired veteran fight choreographer Kenji Tanigaki and the game's action is built around physical performance rather than animation blending, which is the kind of thing that shows up most clearly at high difficulty where you have to actually read the animation.</p><p>The comparison players keep making is a middle ground between <em>Ninja Gaiden</em> and <em>Sekiro</em>. If you have finished either of those, start here.</p><p>Playtime has not been announced; see <a href=\"/how-long-to-beat\">how long Phantom Blade Zero is</a> and why pre-launch estimates are unreliable here.</p>"
+      "content": "<p>The mode added by the August 2026 deep dive, and the one the combat choreography was built for. The name is the giveaway: it comes from the 66-day countdown that drives the narrative, which suggests a run with no slack rather than merely a run with bigger numbers.</p><p>Nothing has been published about whether it shortens the countdown, removes healing, changes death consequences, or is a pure stat scale. Anyone describing those mechanics before release is guessing.</p>"
+    },
+    {
+      "id": "gamechanger",
+      "title": "Gamechanger - The Tier That May Have Gone",
+      "content": "<p>Named in the June 2025 developer's letter as the <strong>default</strong> difficulty: a balanced playthrough, explicitly recommended for beginners. It does not appear in the August 2026 mode list.</p><p>That absence is not proof of removal. Official mode lists get abbreviated for a showcase, and a default tier often goes unmentioned precisely because it is what you get by doing nothing. But it is not proof of survival either. This page keeps Gamechanger listed with its source date instead of silently dropping it, because a reader who watched the 2025 letter and then finds a three-mode page with no explanation is being told the wrong story by omission.</p>"
     },
     {
       "id": "what-is-unknown",
