@@ -1,238 +1,181 @@
 #!/usr/bin/env python3
 """Generate entity page JSON from a data file.
 
-Usage: python3 scripts/gen-entity-pages.py <data-file> [--type boss|enemy|weapon|picto|location|cosmetic]
+Usage: python3 scripts/gen-entity-pages.py <data-file> --type boss
 
 Keeps the data layer separate from the rendered page, so adding an entity is
 one record rather than one hand-written page.
+
+Anything a record does not declare renders as "Not confirmed pre-launch" or is
+left out entirely. The generator has no default item names, no default
+weaknesses and no default rewards, because a template that fills gaps
+invents content.
 """
 import json
 import os
 import sys
 
 PAGES = "src/data/pages"
-TODAY = "2026-09-24"
-NONE = "(not documented in verifiable sources)"
+UNKNOWN = "Not confirmed pre-launch"
+NOT_CONFIRMED = "__not_confirmed__"
 
 
-def affinity_table(rec):
+def display(value):
+    return UNKNOWN if value in (None, "", NOT_CONFIRMED) else value
+
+
+def affinity_block(rec):
     rows = [
-        ("Weak to", rec.get("weak") or "None"),
-        ("Resists", rec.get("resists") or "None"),
-        ("Absorbs", rec.get("absorbs") or "None"),
-        ("Immune", rec.get("immune") or "None"),
+        ("Weak to", display(rec["weak"]) if "weak" in rec else UNKNOWN),
+        ("Resists", display(rec.get("resists"))),
+        ("Absorbs", display(rec.get("absorbs"))),
+        ("Immune", display(rec.get("immune"))),
     ]
     body = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows)
-    return (
+    table = (
         "<table><thead><tr><th>Property</th><th>Value</th></tr></thead>"
         f"<tbody>{body}</tbody></table>"
     )
 
+    if rec.get("weak") == NOT_CONFIRMED or "weak" not in rec:
+        return table + (
+            f"<p>{UNKNOWN}. S-GAME has not published elemental affinities for this "
+            "encounter, and no demo footage shows one being exploited. Nothing here "
+            "is estimated from the boss's appearance - that is exactly how wrong "
+            "weakness tables get written before release.</p>"
+        )
 
-def affinity_note(rec):
-    if rec.get("weak"):
-        line = f'<p>Bring {rec["weak"]} damage.'
-        if rec.get("resists"):
-            line += f' {rec["resists"]} is resisted, so those turns are wasted.'
-        if rec.get("absorbs"):
-            line += f' {rec["absorbs"]} is absorbed - using it heals the target.'
-        if rec.get("immune"):
-            line += f' {rec["immune"]} does nothing at all.'
-        return line + "</p>"
-    parts = ["<p>No elemental weakness to exploit."]
+    note = f"<p>Bring {rec['weak']} damage.</p>"
+    extras = []
     if rec.get("resists"):
-        parts.append(f'{rec["resists"]} is resisted, so avoid leaning on it.')
+        extras.append(f"{rec['resists']} is resisted, so those turns are halved.")
     if rec.get("absorbs"):
-        parts.append(f'{rec["absorbs"]} is absorbed and heals the target.')
+        extras.append(f"{rec['absorbs']} is absorbed and heals the boss.")
     if rec.get("immune"):
-        parts.append(f'{rec["immune"]} has no effect.')
-    parts.append("Build for raw output and survivability instead.</p>")
-    return " ".join(parts)
+        extras.append(f"{rec['immune']} has no effect at all.")
+    if extras:
+        note += f"<p>{' '.join(extras)}</p>"
+    return table + note
+
+
+def observed_block(rec):
+    observed = rec.get("observed") or []
+    if not observed:
+        return ""
+    items = "".join(f"<li>{o}</li>" for o in observed)
+    return (
+        "<h3>What has actually been shown</h3>"
+        f"<ul>{items}</ul>"
+        "<p>Everything above comes from footage S-GAME released. Anything not listed "
+        "has not been shown, however confident a write-up elsewhere looks.</p>"
+    )
 
 
 def boss_sections(rec):
     name = rec["name"]
-    loc = rec.get("locations") or NONE
-    find = f"<p><strong>Location:</strong> {loc}.</p>"
-    if rec.get("acts"):
-        find += f'<p>Availability: {rec["acts"]}.</p>'
-    if rec.get("kind", "").startswith("Chromatic"):
-        find += (
-            "<p>Chromatic enemies are optional, supercharged versions of an enemy you have "
-            "already met. They are not required for the story, but they drop the better tier "
-            "of materials and the weapon tied to their base enemy.</p>"
-        )
-    strategy = []
-    if rec.get("base"):
-        base = rec["base"].replace("-", " ").title()
-        strategy.append(
-            f"<h3>Same answer as the base enemy</h3><p>The Chromatic {base} keeps the weaknesses "
-            f"and resistances of the ordinary {base}. If you have fought the base version your "
-            "party does not need to change - only the margin for error does.</p>"
-        )
-    strategy.append(
-        "<h3>What actually kills you</h3><p>Variants hit harder and hold more health than the "
-        "enemy they are based on. The failure mode is running out of resources mid-fight rather "
-        "than a mechanic you did not understand, so bring healing headroom over a greedier build.</p>"
-    )
-    if not rec.get("weak"):
-        strategy.append(
-            "<h3>No elemental shortcut</h3><p>With no weakness to exploit the fight is decided by "
-            "upgrade levels and parry timing. Check your weapons are current before attempting it.</p>"
-        )
-    return [
+    out = [
         {"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'},
-        {"id": "how-to-find", "title": f"Where to Find the {name}", "content": find},
-        {"id": "weakness", "title": "Weakness & Resistances", "content": affinity_table(rec) + affinity_note(rec)},
-        {"id": "rewards", "title": "Rewards", "content": boss_rewards(rec)},
-        {"id": "strategy", "title": f"How to Beat the {name}", "content": "".join(strategy)},
     ]
 
+    find = ""
+    if rec.get("location"):
+        find += f'<p><strong>Location:</strong> {rec["location"]}.</p>'
+    if rec.get("act"):
+        find += f'<p><strong>Appears in:</strong> {rec["act"]}.</p>'
+    if rec.get("level"):
+        find += f'<p><strong>Recommended level:</strong> {rec["level"]}.</p>'
+    if rec.get("source"):
+        find += f'<p><strong>First shown:</strong> {rec["source"]}.</p>'
+    if not find:
+        find = f"<p>{UNKNOWN} where this encounter sits in the campaign.</p>"
+    out.append({"id": "how-to-find", "title": f"Where to Find the {name}", "content": find})
 
-def boss_rewards(rec):
-    if rec.get("base"):
-        base = rec["base"].replace("-", " ").title()
-        items = [
-            f"Higher-tier Chroma materials than the base {base}",
-            f"The weapon or Pictos gated behind the Chromatic {base}",
-        ]
-    else:
-        items = ["Colour of Lumina", "Chroma Catalyst", "The Pictos or weapon tied to the encounter"]
-    lis = "".join(f"<li>{i}</li>" for i in items)
-    return (
-        f"<ul>{lis}</ul><p>Exact drop quantities are not documented in the sources we could "
-        "verify, so they are left out rather than estimated.</p>"
+    out.append(
+        {"id": "weakness", "title": "Weakness & Resistances", "content": affinity_block(rec)}
     )
 
-
-def enemy_sections(rec):
-    name = rec["name"]
-    area = rec.get("areas") or NONE
-    if rec.get("weak"):
-        exploit = (
-            f'<h3>Exploit the weakness</h3><p>{rec["weak"]} is the element that lands. '
-            "Elemental weaknesses in Expedition 33 are a 50% damage swing in both directions, "
-            "so matching correctly is usually worth more than a tier of weapon upgrade.</p>"
-        )
+    drops = rec.get("drops") or []
+    if drops:
+        rewards = "<ul>" + "".join(f"<li>{d}</li>" for d in drops) + "</ul>"
     else:
-        exploit = (
-            "<h3>Nothing to exploit</h3><p>This enemy has no elemental profile at all, which is "
-            "why it is absent from the weakness charts. Damage type does not matter - hit count, "
-            "Break application and parry timing do.</p>"
+        rewards = (
+            f"<p>{UNKNOWN}. Bosses in Phantom Blade Zero are described by S-GAME as "
+            "rewarding unique weapons on defeat, but no drop table has been published "
+            "for this encounter, so none is listed here.</p>"
         )
-    caution = []
-    if rec.get("absorbs"):
-        caution.append(f'It absorbs {rec["absorbs"]}, so that element heals it rather than hurting it.')
-    if rec.get("immune"):
-        caution.append(f'It is immune to {rec["immune"]}, which will do nothing at all.')
+    out.append({"id": "rewards", "title": "Rewards", "content": rewards})
+
+    strategy = observed_block(rec)
+    tips = rec.get("tips") or []
+    if tips:
+        strategy += "<h3>How to approach it</h3><ul>" + "".join(f"<li>{t}</li>" for t in tips) + "</ul>"
+    else:
+        strategy += (
+            "<h3>How to approach it</h3>"
+            "<p>There is no honest strategy section for an encounter nobody outside the "
+            "studio has finished. What can be said comes from the systems rather than from "
+            "the fight: blocking and heavy attacks both spend "
+            "<a href=\"/combat\">Sha-chi</a>, so a defensive player who blocks everything "
+            "runs out of the resource at the worst moment. Unblockable attacks have to be "
+            "dodged, which means reading the animation rather than relying on the guard.</p>"
+            "<p>Real phase data, parry windows and timings land here once the game ships.</p>"
+        )
+    out.append({"id": "strategy", "title": f"How to Beat the {name}", "content": strategy})
+
+    out.append(
+        {
+            "id": "status",
+            "title": "Pre-launch Status",
+            "content": (
+                f"<p>This page tracks the {name} in Phantom Blade Zero, which releases on "
+                "<a href=\"/release-date\">October 29, 2026</a>. It is written from official "
+                "demo and trailer material only. After release it gets updated with verified "
+                "fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster "
+                "and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p>"
+            ),
+        }
+    )
+    return out
+
+
+def facts_for(rec):
+    facts = []
+    if rec.get("location"):
+        facts.append(("Location", rec["location"]))
+    if rec.get("act"):
+        facts.append(("Appears in", rec["act"]))
+    if rec.get("level"):
+        facts.append(("Recommended level", rec["level"]))
+    facts.append(("Weak to", display(rec["weak"]) if "weak" in rec else UNKNOWN))
     if rec.get("resists"):
-        caution.append(f'It resists {rec["resists"]}, so that damage is halved.')
-    caution_html = ""
-    if caution:
-        caution_html = "<h3>What not to bring</h3><ul>" + "".join(f"<li>{c}</li>" for c in caution) + "</ul>"
-    return [
-        {"id": "overview", "title": "Overview", "content": f'<p>{rec.get("note", "")}</p>'},
-        {"id": "weakness", "title": "Weakness & Resistances", "content": affinity_table(rec) + affinity_note(rec)},
-        {"id": "where", "title": f"Where to Find the {name}", "content": f"<p><strong>Areas:</strong> {area}.</p>"},
-        {"id": "strategy", "title": f"How to Beat the {name}", "content": exploit + caution_html},
-    ]
+        facts.append(("Resists", rec["resists"]))
+    if rec.get("absorbs"):
+        facts.append(("Absorbs", rec["absorbs"]))
+    if rec.get("source"):
+        facts.append(("First shown", rec["source"]))
+    if rec.get("drops"):
+        facts.append(("Drops", " · ".join(rec["drops"])))
+    return [{"label": k, "value": v} for k, v in facts]
 
 
-def weapon_sections(rec):
-    name = rec["name"]
-    owner = rec.get("owner") or NONE
-    element = rec.get("element") or NONE
-    location = rec.get("location") or NONE
-    scaling = rec.get("scaling") or NONE
-    stats = (
-        "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>"
-        f"<tr><td>Element</td><td>{element}</td></tr>"
-        f"<tr><td>Scaling</td><td>{scaling}</td></tr>"
-        f"<tr><td>Character</td><td>{owner}</td></tr>"
-        "</tbody></table>"
-    )
-    how = f"<p><strong>Location:</strong> {location}.</p>"
-    if rec.get("how"):
-        how += f'<p>{rec["how"]}</p>'
-    return [
-        {"id": "overview", "title": "Overview", "content": f'<p>{rec.get("summary","")}</p>'},
-        {"id": "stats", "title": "Stats", "content": stats},
-        {"id": "how-to-get", "title": f"How to Get the {name}", "content": how},
-        {"id": "strategy", "title": f"Is the {name} Worth Using?", "content": f'<p>{rec.get("verdict","")}</p>'},
-    ]
-
-
-def picto_sections(rec):
-    name = rec["name"]
-    effect = rec.get("effect") or NONE
-    location = rec.get("location") or NONE
-    return [
-        {"id": "overview", "title": "Overview", "content": f'<p>{rec.get("summary","")}</p>'},
-        {"id": "effect", "title": "Effect", "content": f"<p><strong>{effect}</strong></p>"},
-        {"id": "how-to-get", "title": f"How to Get {name}", "content": f"<p><strong>Location:</strong> {location}.</p>"},
-        {"id": "strategy", "title": "Is It Worth Equipping?", "content": f'<p>{rec.get("verdict","")}</p>'},
-    ]
-
-
-def location_sections(rec):
-    name = rec["name"]
-    return [
-        {"id": "overview", "title": "Overview", "content": f'<p>{rec.get("summary","")}</p>'},
-        {"id": "getting-there", "title": f"How to Reach {name}", "content": f'<p>{rec.get("access","")}</p>'},
-        {"id": "bosses", "title": "Bosses Here", "content": f'<p>{rec.get("bosses", NONE)}</p>'},
-        {"id": "collectibles", "title": "Collectibles & Notable Loot", "content": f'<p>{rec.get("loot", NONE)}</p>'},
-    ]
-
-
-BUILDERS = {
-    "boss": (boss_sections, lambda r: [
-        *([("Location", r["locations"])] if r.get("locations") else []),
-        *([("Act", r["acts"])] if r.get("acts") else []),
-        ("Weak to", r.get("weak") or "None (no elemental weakness)"),
-        *([("Resists", r["resists"])] if r.get("resists") else []),
-        *([("Absorbs", r["absorbs"])] if r.get("absorbs") else []),
-        *([("Immune", r["immune"])] if r.get("immune") else []),
-        *([("Type", r["kind"])] if r.get("kind") else []),
-    ]),
-    "enemy": (enemy_sections, lambda r: [
-        *([("Areas", r["areas"])] if r.get("areas") else []),
-        ("Weak to", r.get("weak") or "None (no elemental weakness)"),
-        *([("Resists", r["resists"])] if r.get("resists") else []),
-        *([("Absorbs", r["absorbs"])] if r.get("absorbs") else []),
-        *([("Immune", r["immune"])] if r.get("immune") else []),
-        ("Type", "Enemy / Nevron"),
-    ]),
-    "weapon": (weapon_sections, lambda r: [
-        *([("Character", r["owner"])] if r.get("owner") else []),
-        *([("Element", r["element"])] if r.get("element") else []),
-        *([("Scaling", r["scaling"])] if r.get("scaling") else []),
-        *([("Location", r["location"])] if r.get("location") else []),
-        ("Type", "Weapon"),
-    ]),
-    "picto": (picto_sections, lambda r: [
-        *([("Location", r["location"])] if r.get("location") else []),
-        ("Type", "Pictos"),
-        ("Unlocks", "Lumina after 4 battles"),
-    ]),
-    "location": (location_sections, lambda r: [
-        *([("Act", r["acts"])] if r.get("acts") else []),
-        *([("Bosses", r["boss_count"])] if r.get("boss_count") else []),
-        ("Type", r.get("kind", "Area")),
-    ]),
-}
+BUILDERS = {"boss": (boss_sections, facts_for)}
 
 
 def build(rec, kind):
-    name = rec["name"]
     sections_fn, facts_fn = BUILDERS[kind]
-    facts = [{"label": k, "value": v} for k, v in facts_fn(rec)]
+    name = rec["name"]
+    has_data = rec.get("weak") not in (None, NOT_CONFIRMED) or bool(rec.get("location"))
+    subtitle = "Location, Weakness & How to Beat" if has_data else "Everything Confirmed So Far"
     return {
         "slug": rec["slug"],
-        "title": rec.get("title") or f"{name} - Location, Weakness & How to Beat",
-        "description": rec.get("description") or f'{name} in Clair Obscur: Expedition 33 - location, elemental weakness and how to beat it.',
-        "keyword": rec.get("keyword") or f"{name} Expedition 33",
-        "lastUpdated": TODAY,
-        "facts": facts,
+        "title": f"{name} - {subtitle} (Phantom Blade Zero)",
+        "description": (
+            f"{name} in Phantom Blade Zero - what has been confirmed about the encounter, "
+            f"its elemental weakness, rewards and how to approach it."
+        ),
+        "keyword": f"{name} phantom blade zero",
+        "lastUpdated": "2026-09-28",
+        "facts": facts_fn(rec),
         "sections": sections_fn(rec),
     }
 
@@ -245,6 +188,7 @@ def main():
     if not args:
         print(__doc__)
         sys.exit(1)
+
     records = json.load(open(args[0]))
     written = skipped = 0
     for rec in records:

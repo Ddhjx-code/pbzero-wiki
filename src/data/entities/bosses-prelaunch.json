@@ -1,0 +1,95 @@
+[
+ {
+  "slug": "puppet-boss",
+  "name": "Puppet Boss",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "Official 4K demo (verified)",
+  "summary": "The Puppet Boss is a puppeteer-type encounter shown in the official 4K demo, and the first boss S-GAME put in front of the public. It fights with strings - controlling attacks from range while still delivering fast melee strikes up close - which makes it the clearest early demonstration of the game's mixed range design.",
+  "observed": [
+   "Humanoid puppeteer silhouette",
+   "String-based ranged attacks",
+   "Swift close-range strikes between the ranged sets",
+   "Shown in the 4K demo, so the mechanics shown are from a build S-GAME chose to present publicly"
+  ]
+ },
+ {
+  "slug": "huangxing-boss",
+  "name": "Huangxing",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "Official 4K demo (verified)",
+  "summary": "Huangxing is an aggressive warrior boss featured in the 4K demo footage, built around relentless melee pressure rather than ranged tools. The demo shows fast multi-hit sword combos and an unblockable grab, which is the combination that forces a player to dodge rather than turtle behind the Sha-chi block.",
+  "observed": [
+   "Warrior-type, melee-focused",
+   "Fast multi-hit sword combos",
+   "An unblockable grab that has to be dodged, not blocked",
+   "Aggressive forward pressure with little downtime"
+  ]
+ },
+ {
+  "slug": "seven-stars-boss",
+  "name": "Seven Stars",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "Trailer footage",
+  "summary": "Seven Stars is a named boss from promotional material, described as a multi-phase encounter. Beyond the name and the phase structure, nothing has been shown in enough detail to describe the fight honestly.",
+  "observed": [
+   "Named in official promotional material",
+   "Multi-phase design indicated",
+   "No extended gameplay footage released"
+  ]
+ },
+ {
+  "slug": "lion-dance-boss",
+  "name": "Lion Dance",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "Trailer footage",
+  "summary": "Lion Dance is a beast-type boss whose design is built on the Chinese lion dance tradition. It has appeared in trailer footage only, so its attack set is not yet describable.",
+  "observed": [
+   "Beast-type boss",
+   "Design drawn from Chinese lion dance performance",
+   "Trailer appearance only"
+  ]
+ },
+ {
+  "slug": "drunken-sword-boss",
+  "name": "Drunken Sword",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "Trailer footage",
+  "summary": "Drunken Sword is a swordsman boss using unpredictable drunken-style sword techniques - a recognised martial arts form, and one whose whole point is that the rhythm does not read like a standard attack cadence.",
+  "observed": [
+   "Swordsman-type boss",
+   "Drunken-style technique set",
+   "Unpredictable timing is the design intent",
+   "Trailer appearance only"
+  ]
+ },
+ {
+  "slug": "double-boss-fight",
+  "name": "Double Boss Fight",
+  "kind": "Pre-launch boss",
+  "acts": null,
+  "locations": null,
+  "weak": "__not_confirmed__",
+  "source": "State of Play, August 2026",
+  "summary": "A simultaneous two-boss encounter revealed in the August 2026 State of Play showcase. It is the only major new mechanic revealed at that broadcast, and the one that most changes how the fight system reads - everything about positioning, parry priority and target selection becomes a different problem with two health bars at once.",
+  "observed": [
+   "Two bosses fought simultaneously",
+   "Revealed August 2026 at the State of Play deep dive",
+   "No individual boss names released for the pairing"
+  ]
+ }
+]
