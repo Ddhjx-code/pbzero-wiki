@@ -1,0 +1,65 @@
+{
+  "slug": "difficulty-modes",
+  "title": "Phantom Blade Zero Difficulty Modes Explained",
+  "description": "Phantom Blade Zero ships with three difficulty modes - Wayfarer, Hellwalker and Sixty-Six Days. What each one is for, and which to pick if you are new to the genre.",
+  "keyword": "phantom blade zero difficulty",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Modes",
+      "value": "3 - Wayfarer, Hellwalker, Sixty-Six Days"
+    },
+    {
+      "label": "Wayfarer",
+      "value": "For players who mainly want the story"
+    },
+    {
+      "label": "Hellwalker",
+      "value": "Higher challenge, adaptive enemy intelligence"
+    },
+    {
+      "label": "Sixty-Six Days",
+      "value": "The hardest option"
+    },
+    {
+      "label": "Mode switching",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "Status",
+      "value": "Pre-launch, releases October 29, 2026"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Three Modes, Which Is Unusual",
+      "content": "<p>Phantom Blade Zero ships with <strong>three difficulty modes</strong>. For a game with a reputation built on demanding combat, offering an explicit story mode is a deliberate design statement: S-GAME is not treating difficulty as a gate on who gets to play.</p><p>The three named modes are Wayfarer, Hellwalker and Sixty-Six Days.</p>"
+    },
+    {
+      "id": "wayfarer",
+      "title": "Wayfarer",
+      "content": "<p><strong>For players who mainly want the story.</strong></p><p>This is the entry point if you are coming to action RPGs from narrative games rather than from <em>Devil May Cry</em> or <em>Sekiro</em>. The <a href=\"/combat\">parry and Sha-chi systems</a> still exist, but the tolerance for missing them is much wider.</p><p>Worth knowing: the 66-day countdown still applies. Wayfarer lowers combat pressure, it does not remove the structural time limit that shapes the story.</p>"
+    },
+    {
+      "id": "hellwalker",
+      "title": "Hellwalker",
+      "content": "<p><strong>Higher challenge, with adaptive enemy intelligence.</strong></p><p>The adaptive AI is the interesting part of this tier, and the part to be sceptical about until it is tested. \"Adaptive\" in practice can mean enemies learn your habits and punish them, or it can mean they simply get more hitpoints. Which one it is cannot be verified before release.</p><p>If you are competent with parry timing but want the fight to stay a threat, this is the expected default recommendation - though S-GAME has not stated a default mode.</p>"
+    },
+    {
+      "id": "sixty-six-days",
+      "title": "Sixty-Six Days",
+      "content": "<p><strong>The hardest option.</strong></p><p>The name is the giveaway: this mode is named after the countdown that drives the narrative, and it is the mode the combat choreography was designed for. <a href=\"/s-game\">S-GAME</a> hired veteran fight choreographer Kenji Tanigaki and the game's action is built around physical performance rather than animation blending, which is the kind of thing that shows up most clearly at high difficulty where you have to actually read the animation.</p><p>The comparison players keep making is a middle ground between <em>Ninja Gaiden</em> and <em>Sekiro</em>. If you have finished either of those, start here.</p><p>Playtime has not been announced; see <a href=\"/how-long-to-beat\">how long Phantom Blade Zero is</a> and why pre-launch estimates are unreliable here.</p>"
+    },
+    {
+      "id": "what-is-unknown",
+      "title": "What Is Not Confirmed",
+      "content": "<p>Being precise about the gaps:</p><ul><li><strong>Whether you can switch modes mid-run.</strong> Not announced. This matters more than the mode names do - a game that locks your choice is a different proposition from one that lets you drop down after a wall.</li><li><strong>Whether difficulty affects achievements.</strong> Not announced. See the trophy situation on the <a href=\"/release-date\">release date page</a>.</li><li><strong>Whether there is a fourth mode or a post-unlock option.</strong> Nothing announced.</li><li><strong>Exact enemy behaviour changes between tiers.</strong> Not shown.</li></ul>"
+    },
+    {
+      "id": "recommendation",
+      "title": "Which Should You Pick?",
+      "content": "<ul><li><strong>New to character-action games:</strong> Wayfarer. There is no shame in it and the story is the reason the game exists.</li><li><strong>Comfortable with Sekiro-style parrying:</strong> Hellwalker.</li><li><strong>Finished Ninja Gaiden or Bayonetta on high difficulty:</strong> Sixty-Six Days.</li></ul><p>Whatever you choose, learn the <a href=\"/combat\">Sha-chi resource system</a> first - it governs both your heavy attacks and your blocking, so misreading it will make any mode feel harder than it is. Weapon choice interacts with this too; see <a href=\"/weapons\">weapons</a>.</p>"
+    }
+  ]
+}

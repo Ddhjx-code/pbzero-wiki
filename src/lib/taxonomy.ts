@@ -19,13 +19,15 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Getting Started",
     href: "/guide",
-    slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike", "about"]),
+    slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
+      "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
+      "how-long-to-beat"]),
     category: "Beginner guides",
   },
   {
     label: "Combat & Bosses",
     href: "/combat",
-    slugs: new Set(["combat", "weapons", "boss-guide", "boss-video-guides"]),
+    slugs: new Set(["combat", "weapons", "boss-guide", "boss-video-guides", "difficulty-modes"]),
     category: "Combat & Bosses",
   },
   {
@@ -48,12 +50,17 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Release Date", href: "/release-date" },
     { label: "FAQ", href: "/faq" },
     { label: "Is It a Soulslike?", href: "/is-phantom-blade-zero-a-soulslike" },
+    { label: "Is It Single-Player?", href: "/is-phantom-blade-zero-single-player" },
+    { label: "Pre-Order Guide", href: "/pre-order-guide" },
+    { label: "PC Requirements", href: "/pc-requirements" },
+    { label: "How Long?", href: "/how-long-to-beat" },
   ],
   "Combat & Bosses": [
     { label: "Combat System", href: "/combat" },
     { label: "Weapons", href: "/weapons" },
     { label: "Boss Guide", href: "/boss-guide" },
     { label: "Boss Video Guides", href: "/boss-video-guides" },
+    { label: "Difficulty Modes", href: "/difficulty-modes" },
   ],
   "Story & Characters": [
     { label: "All Characters", href: "/characters" },

@@ -1,0 +1,64 @@
+{
+  "slug": "how-long-to-beat",
+  "title": "How Long Is Phantom Blade Zero? (Unconfirmed)",
+  "description": "Playtime for Phantom Blade Zero has not been confirmed before release. Here is what is known about the game's structure - the 66-day countdown, four characters, semi-open world - and how to read any hour estimate you see.",
+  "keyword": "how long is phantom blade zero",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Main story length",
+      "value": "Not confirmed pre-release"
+    },
+    {
+      "label": "Completionist length",
+      "value": "Not confirmed pre-release"
+    },
+    {
+      "label": "Structure",
+      "value": "Semi-open world with optional content"
+    },
+    {
+      "label": "Narrative clock",
+      "value": "66 in-game days"
+    },
+    {
+      "label": "Playable characters",
+      "value": "4"
+    },
+    {
+      "label": "Difficulty modes",
+      "value": "3"
+    },
+    {
+      "label": "Release date",
+      "value": "October 29, 2026"
+    }
+  ],
+  "sections": [
+    {
+      "id": "honest-answer",
+      "title": "The Honest Answer: Nobody Knows Yet",
+      "content": "<p><strong>Phantom Blade Zero's playtime has not been announced, and it cannot be measured before the game ships.</strong> There is no public demo, so nobody outside the developer has completed it.</p><p>That means every hour figure currently circulating is one of two things: an estimate extrapolated from the 20 minutes of State of Play footage, or a number copied from another action RPG. Neither is data.</p>"
+    },
+    {
+      "id": "why-estimates-fail",
+      "title": "Why Pre-Launch Estimates Go Wrong",
+      "content": "<p>Action RPGs are the worst category to estimate, because playtime is driven by player skill rather than content volume:</p><ul><li><strong>Boss gates.</strong> One fight that takes one player 20 minutes and another player two hours changes the total by more than most of the map.</li><li><strong>Difficulty mode.</strong> With three modes announced, the same content has a very different wall-clock time on Wayfarer than on Sixty-Six Days.</li><li><strong>Death loops.</strong> Checkpoint-based design with respawning enemies means a stuck player re-runs the same corridor repeatedly.</li><li><strong>Optional content depth.</strong> A semi-open world can be rushed or emptied, and nobody outside the studio knows how much is there.</li></ul>"
+    },
+    {
+      "id": "what-is-known",
+      "title": "What the Known Structure Tells You",
+      "content": "<p>What is confirmed shapes the range, even if it does not give a number:</p><ul><li><strong>A 66-day narrative clock.</strong> The countdown is the story's spine, which implies a designed amount of content that fits inside it - but in-game days are not hours, and the mapping is unknown.</li><li><strong>Four playable characters</strong> with distinct arcs, so a single playthrough is not the whole story.</li><li><strong>Semi-open world with optional content,</strong> which is the structure that supports divergent outcomes and multiple endings.</li><li><strong>A large number of boss encounters,</strong> including multi-phase fights - the main driver of variance.</li><li><strong>A relationship system</strong> that rewards spending time on party members.</li></ul><p>Together these point to a game designed for more than one run rather than a single short campaign, but that is a structural observation, not an estimate.</p>"
+    },
+    {
+      "id": "when-youll-know",
+      "title": "When You Will Know",
+      "content": "<p>Real numbers appear within roughly 48 hours of release, from players who finished it. The reliable sources at that point are aggregated community data and hands-on reviews; the developer may also publish an official figure.</p><p>Until then, the useful planning information is which mode you intend to play - see <a href=\"/difficulty-modes\">difficulty modes</a> - because that choice moves the total further than anything currently known about the game's size.</p>"
+    },
+    {
+      "id": "related",
+      "title": "Related",
+      "content": "<p>Start with the <a href=\"/guide\">beginner guide</a> for how the systems fit together, and the <a href=\"/endings\">endings page</a> for why the structure suggests multiple playthroughs. Release timing is on the <a href=\"/release-date\">release date page</a>.</p>"
+    }
+  ]
+}
