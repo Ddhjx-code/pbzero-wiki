@@ -82,7 +82,7 @@ export default function AdGate({ src, slot }: { src: string; slot: number }) {
           width={728}
           height={90}
           className="max-w-full border-0"
-          sandbox="allow-scripts allow-same-origin allow-popups"
+          sandbox="allow-scripts allow-same-origin"
         />
       ) : null}
     </div>
