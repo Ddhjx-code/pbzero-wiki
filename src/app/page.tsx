@@ -3,16 +3,16 @@ import AdBanner from "@/components/AdBanner";
 
 const QUICK_LINKS = [
   { href: "/guide", emoji: "📖", title: "Beginner Guide", desc: "Combat mechanics & 66-day system" },
-  { href: "/characters", emoji: "⚔️", title: "Characters", desc: "Soul, Mu Xiaokui, Zuo Shang & more" },
+  { href: "/characters", emoji: "⚔️", title: "Characters", desc: "Soul, Zuoshang, Mu Xiaokui, Mo Yuan" },
   { href: "/boss-guide", emoji: "💀", title: "Boss Guide", desc: "All known boss strategies" },
   { href: "/weapons", emoji: "🗡️", title: "Weapons", desc: "Weapons & Sha-chi upgrade paths" },
 ];
 
 const STATS = [
-  { value: "30+", label: "Weapons" },
-  { value: "4", label: "Playable Characters" },
-  { value: "66", label: "Days to Live" },
-  { value: "8+", label: "Endings" },
+  { value: "1", label: "Playable character - Soul" },
+  { value: "2 + 2", label: "Blades and Phantom Edges" },
+  { value: "66", label: "Days to live" },
+  { value: "UE5", label: "Unreal Engine 5" },
 ];
 
 export default function HomePage() {
@@ -63,7 +63,7 @@ export default function HomePage() {
             Phantom Blade Zero Wiki
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Your complete guide to combat, bosses, weapons, characters, and endings in S-Game&apos;s wuxia-punk action RPG.
+            Your complete guide to combat, bosses, weapons, characters, and endings in S-Game&apos;s wuxia action RPG - what the studio itself calls kungfupunk.
           </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-muted-foreground">
             {STATS.map((stat) => (
@@ -144,7 +144,7 @@ export default function HomePage() {
               <div>
                 <p className="text-accent-gold text-sm font-semibold uppercase tracking-wider">Wuxia-Punk Action RPG</p>
                 <h2 className="mt-2 text-2xl font-bold text-foreground">影之刃零</h2>
-                <p className="mt-2 text-muted-foreground">By S-Game • Unreal Engine 5 • Donnie Yen Motion Capture</p>
+                <p className="mt-2 text-muted-foreground">By S-Game • Unreal Engine 5 • Donnie Yen as Mo Yuan</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="px-3 py-1 text-xs rounded-full border border-accent/30 text-accent bg-accent/5">Action RPG</span>
                   <span className="px-3 py-1 text-xs rounded-full border border-accent-gold/30 text-accent-gold bg-accent-gold/5">Wuxia</span>
@@ -167,10 +167,10 @@ export default function HomePage() {
               </h2>
               <div className="mt-4 space-y-4">
                 <p className="text-muted-foreground leading-relaxed">
-                  Phantom Blade Zero is a third-person action RPG set in a wuxia-punk world called the Shadow Realm. Developed by S-Game with Unreal Engine 5 and martial arts choreography by Donnie Yen.
+                  Phantom Blade Zero is a third-person, single-player action RPG set in a dark wuxia world the studio calls the Wulin. Developed by S-Game on Unreal Engine 5, with Donnie Yen as kung fu creative consultant - he also plays Mo Yuan through facial and motion capture.
                 </p>
                 <p className="text-muted-foreground leading-relaxed">
-                  You play as Soul, an elite assassin framed for murder and left with only 66 days to live. Master fast-paced combat combining multiple weapons, Phantom Edges, and fluid martial arts combos to uncover the truth before time runs out.
+                  You play as Soul, an elite assassin framed for murder and left with only 66 days to live. He is the only playable character. Combat runs on two blades plus two Phantom Edges, switched mid-combo to keep the chain going, with Sha-chi paying for heavy attacks and blocks.
                 </p>
               </div>
             </div>
