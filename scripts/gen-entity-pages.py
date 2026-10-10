@@ -287,41 +287,67 @@ def character_sections(rec):
     name = rec["name"]
     out = [{"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'}]
 
+    bg = rec.get("background")
+    out.append(
+        {
+            "id": "background",
+            "title": "Background",
+            "content": (
+                f"<p>{bg}</p>"
+                if bg
+                else f"<p>{UNKNOWN} backstory. Anything here comes from S-GAME's published "
+                "material; nothing is inferred from how a character looks or from the mobile "
+                "series' continuity.</p>"
+            ),
+        }
+    )
+
     playable = rec.get("playable")
     if playable is True:
         play_text = f"<p><strong>{name} is playable.</strong></p>"
     elif playable is False:
         play_text = (
             f"<p><strong>{name} is not playable.</strong> Phantom Blade Zero is single-player and "
-            "the player controls Soul throughout - a claim that any other character is playable needs "
-            "an official source, because several pre-launch write-ups have carried a roster from "
+            "the player controls Soul throughout - a claim that any other character is playable "
+            "needs an official source, because several pre-launch write-ups carried a roster from "
             "S-Game's mobile entries by mistake.</p>"
         )
     else:
         play_text = f"<p>{UNKNOWN} whether this character can be played.</p>"
     out.append({"id": "playable", "title": "Playable or NPC", "content": play_text})
 
-    if rec.get("observed"):
-        items = "".join(f"<li>{o}</li>" for o in rec["observed"])
-        shown = f"<ul>{items}</ul>"
+    rel = rec.get("relationships") or []
+    if rel:
+        rows = "".join(
+            f"<tr><td>{r['to']}</td><td>{r['with']}</td></tr>" for r in rel if isinstance(r, dict)
+        )
+        rel_body = (
+            "<table><thead><tr><th>Character</th><th>Relationship</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table>"
+            if rows
+            else f"<p>{UNKNOWN} published relationships.</p>"
+        )
     else:
-        shown = f"<p>{UNKNOWN} further on-screen detail.</p>"
-    out.append({"id": "shown", "title": "What Has Been Shown", "content": shown})
+        rel_body = f"<p>{UNKNOWN} published relationships.</p>"
+    out.append({"id": "relationships", "title": "Relationships", "content": rel_body})
 
+    shown = rec.get("appearances") or rec.get("observed") or []
+    if shown:
+        items = "".join(f"<li>{o}</li>" for o in shown)
+        appear = (
+            f"<ul>{items}</ul>"
+            "<p>Everything above comes from footage S-GAME released. Anything not listed has not "
+            "been shown, however confident a write-up elsewhere looks.</p>"
+        )
+    else:
+        appear = f"<p>{UNKNOWN} on-screen appearances catalogued for this character.</p>"
     cast = rec.get("portrayed_by")
-    out.append(
-        {
-            "id": "portrayal",
-            "title": "Portrayal",
-            "content": (
-                f"<p>{cast}</p>"
-                "<p>Character models were built from 3D scans of the cast and facial capture came from "
-                "the actors themselves.</p>"
-            )
-            if cast
-            else f"<p>{UNKNOWN} which actor portrays this character.</p>"
-        }
-    )
+    if cast:
+        appear += (
+            f"<p>Portrayed by <strong>{cast}</strong>. Character models were built from 3D scans of "
+            "the cast and facial capture came from the actors themselves.</p>"
+        )
+    out.append({"id": "appearances", "title": "Appearances and Portrayal", "content": appear})
 
     out.append(
         {
@@ -382,6 +408,17 @@ def quest_sections(rec):
                 "statement about quest branching, so whether <em>this</em> quest gates anything is "
                 f"{UNKNOWN.lower()}.</p>"
                 "<p>See <a href=\"/endings\">endings</a> for what is known about how the story diverges.</p>"
+            ),
+        }
+    )
+    out.append(
+        {
+            "id": "status",
+            "title": "Source Status",
+            "content": (
+                f"<p>This page tracks the quest &ldquo;{name}&rdquo; in Phantom Blade Zero. Steps and "
+                f"rewards are filled from the shipped game; anything still marked "
+                f"&ldquo;{UNKNOWN.lower()}&rdquo; has not been verified.</p>"
             ),
         }
     )
