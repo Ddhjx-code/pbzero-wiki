@@ -138,7 +138,7 @@ def boss_sections(rec):
     return out
 
 
-def facts_for(rec):
+def boss_facts(rec):
     facts = []
     if rec.get("location"):
         facts.append(("Location", rec["location"]))
@@ -158,25 +158,347 @@ def facts_for(rec):
     return [{"label": k, "value": v} for k, v in facts]
 
 
-BUILDERS = {"boss": (boss_sections, facts_for)}
+def weapon_facts(rec):
+    facts = []
+    if rec.get("slot"):
+        facts.append(("Slot", rec["slot"]))
+    if rec.get("category"):
+        facts.append(("Class", rec["category"]))
+    facts.append(("Damage", display(rec.get("damage"))))
+    facts.append(("Scaling", display(rec.get("scaling"))))
+    facts.append(("Special property", display(rec.get("property"))))
+    if rec.get("obtained"):
+        facts.append(("How to obtain", rec["obtained"]))
+    if rec.get("source"):
+        facts.append(("First shown", rec["source"]))
+    return [{"label": k, "value": v} for k, v in facts]
+
+
+def character_facts(rec):
+    facts = []
+    facts.append(("Playable", "Yes" if rec.get("playable") else "No - NPC" if rec.get("playable") is False else UNKNOWN))
+    if rec.get("role"):
+        facts.append(("Role", rec["role"]))
+    if rec.get("affiliation"):
+        facts.append(("Affiliation", rec["affiliation"]))
+    if rec.get("portrayed_by"):
+        facts.append(("Portrayed by", rec["portrayed_by"]))
+    if rec.get("weapon"):
+        facts.append(("Weapon", rec["weapon"]))
+    return [{"label": k, "value": v} for k, v in facts]
+
+
+def quest_facts(rec):
+    facts = []
+    if rec.get("giver"):
+        facts.append(("Given by", rec["giver"]))
+    if rec.get("location"):
+        facts.append(("Location", rec["location"]))
+    if rec.get("trigger"):
+        facts.append(("How to start", rec["trigger"]))
+    facts.append(("Type", rec.get("kind") or UNKNOWN))
+    if rec.get("reward"):
+        facts.append(("Reward", " · ".join(rec["reward"]) if isinstance(rec["reward"], list) else rec["reward"]))
+    return [{"label": k, "value": v} for k, v in facts]
+
+
+def trophy_facts(rec):
+    facts = []
+    facts.append(("Rarity", display(rec.get("rarity"))))
+    if rec.get("hidden"):
+        facts.append(("Hidden", "Yes"))
+    facts.append(("Missable", display(rec.get("missable"))))
+    return [{"label": k, "value": v} for k, v in facts]
+
+
+def weapon_sections(rec):
+    name = rec["name"]
+    out = [{"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'}]
+
+    slot = rec.get("slot")
+    if slot:
+        slot_text = (
+            f"<p>{name} occupies the <strong>{slot}</strong> slot. Soul carries two primary blades and "
+            "two secondary <a href=\"/weapons\">Phantom Edges</a> at once, and switching between the four "
+            "refills stamina rather than costing it - which is what keeps a combo chain running. "
+            "<a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks.</p>"
+        )
+    else:
+        slot_text = f"<p>{UNKNOWN} which slot this weapon uses.</p>"
+    out.append({"id": "classification", "title": "Weapon Class and Slot", "content": slot_text})
+
+    stats = [
+        ("Damage", rec.get("damage")),
+        ("Scaling", rec.get("scaling")),
+        ("Special property", rec.get("property")),
+        ("Attack speed", rec.get("speed")),
+        ("Range", rec.get("range")),
+    ]
+    rows = "".join(
+        f"<tr><td>{label}</td><td>{display(value)}</td></tr>" for label, value in stats
+    )
+    body = (
+        "<table><thead><tr><th>Stat</th><th>Value</th></tr></thead>"
+        f"<tbody>{rows}</tbody></table>"
+    )
+    if not any(v for _, v in stats):
+        body += (
+            f"<p>{UNKNOWN}. Numbers are filled in only after they have been measured in the "
+            "shipped game - no value on this table is inferred from the weapon's appearance or name.</p>"
+        )
+    out.append({"id": "stats", "title": "Stats and Effects", "content": body})
+
+    if rec.get("moveset"):
+        moves = "".join(f"<li>{m}</li>" for m in rec["moveset"])
+        combo = f"<ul>{moves}</ul>"
+    else:
+        combo = (
+            f"<p>{UNKNOWN}. Individual weapon movesets have not been catalogued in material we could "
+            "verify, so nothing is listed here.</p>"
+        )
+    out.append({"id": "combo", "title": "Combo Contribution", "content": combo})
+
+    out.append(
+        {
+            "id": "acquisition",
+            "title": "How to Obtain",
+            "content": (
+                f"<p>{rec['obtained'] if rec.get('obtained') else UNKNOWN}</p>"
+                "<p>Boss kills are described by S-GAME as rewarding unique weapons, but no drop table "
+                "has been published, so acquisition is recorded only once it has been confirmed.</p>"
+            ),
+        }
+    )
+    out.append(
+        {
+            "id": "status",
+            "title": "Source Status",
+            "content": (
+                f"<p>This page tracks {name} in Phantom Blade Zero. Anything marked "
+                f"&ldquo;{UNKNOWN.lower()}&rdquo; has not been published or measured yet; see the "
+                "<a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+            ),
+        }
+    )
+    return out
+
+
+def character_sections(rec):
+    name = rec["name"]
+    out = [{"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'}]
+
+    playable = rec.get("playable")
+    if playable is True:
+        play_text = f"<p><strong>{name} is playable.</strong></p>"
+    elif playable is False:
+        play_text = (
+            f"<p><strong>{name} is not playable.</strong> Phantom Blade Zero is single-player and "
+            "the player controls Soul throughout - a claim that any other character is playable needs "
+            "an official source, because several pre-launch write-ups have carried a roster from "
+            "S-Game's mobile entries by mistake.</p>"
+        )
+    else:
+        play_text = f"<p>{UNKNOWN} whether this character can be played.</p>"
+    out.append({"id": "playable", "title": "Playable or NPC", "content": play_text})
+
+    if rec.get("observed"):
+        items = "".join(f"<li>{o}</li>" for o in rec["observed"])
+        shown = f"<ul>{items}</ul>"
+    else:
+        shown = f"<p>{UNKNOWN} further on-screen detail.</p>"
+    out.append({"id": "shown", "title": "What Has Been Shown", "content": shown})
+
+    cast = rec.get("portrayed_by")
+    out.append(
+        {
+            "id": "portrayal",
+            "title": "Portrayal",
+            "content": (
+                f"<p>{cast}</p>"
+                "<p>Character models were built from 3D scans of the cast and facial capture came from "
+                "the actors themselves.</p>"
+            )
+            if cast
+            else f"<p>{UNKNOWN} which actor portrays this character.</p>"
+        }
+    )
+
+    out.append(
+        {
+            "id": "status",
+            "title": "Source Status",
+            "content": (
+                f"<p>This page tracks {name} in Phantom Blade Zero. See the "
+                "<a href=\"/characters\">characters page</a> for the full cast and "
+                "<a href=\"/protagonist\">Soul</a> for the protagonist.</p>"
+            ),
+        }
+    )
+    return out
+
+
+def quest_sections(rec):
+    name = rec["name"]
+    out = [{"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'}]
+
+    steps = rec.get("steps") or []
+    if steps:
+        walkthrough = "<ol>" + "".join(f"<li>{s}</li>" for s in steps) + "</ol>"
+    else:
+        walkthrough = (
+            f"<p>{UNKNOWN}. Quest walkthroughs are written from the shipped game; a step list written "
+            "before release would be a guess with extra steps.</p>"
+        )
+    out.append({"id": "walkthrough", "title": "Walkthrough", "content": walkthrough})
+
+    out.append(
+        {
+            "id": "requirements",
+            "title": "How to Start",
+            "content": f"<p>{rec['trigger'] if rec.get('trigger') else UNKNOWN}</p>",
+        }
+    )
+
+    reward = rec.get("reward")
+    if reward:
+        reward_text = (
+            "<ul>"
+            + "".join(f"<li>{r}</li>" for r in reward)
+            + "</ul>"
+            if isinstance(reward, list)
+            else f"<p>{reward}</p>"
+        )
+    else:
+        reward_text = f"<p>{UNKNOWN} what this quest rewards.</p>"
+    out.append({"id": "rewards", "title": "Rewards", "content": reward_text})
+
+    out.append(
+        {
+            "id": "branching",
+            "title": "Does It Affect the Story?",
+            "content": (
+                "<p>The official State of Play write-up says interacting with citizens and completing "
+                "side quests &ldquo;might even open up new story paths&rdquo;. That is the only published "
+                "statement about quest branching, so whether <em>this</em> quest gates anything is "
+                f"{UNKNOWN.lower()}.</p>"
+                "<p>See <a href=\"/endings\">endings</a> for what is known about how the story diverges.</p>"
+            ),
+        }
+    )
+    return out
+
+
+def trophy_sections(rec):
+    name = rec["name"]
+    out = [{"id": "overview", "title": "Overview", "content": f'<p>{rec["summary"]}</p>'}]
+
+    if rec.get("how"):
+        how = f"<p>{rec['how']}</p>"
+        if rec.get("steps"):
+            how += "<ol>" + "".join(f"<li>{s}</li>" for s in rec["steps"]) + "</ol>"
+    else:
+        how = f"<p>{UNKNOWN} how to earn this trophy.</p>"
+    out.append({"id": "how", "title": "How to Earn", "content": how})
+
+    rows = [
+        ("Rarity", display(rec.get("rarity"))),
+        ("Missable", display(rec.get("missable"))),
+        ("Hidden", "Yes" if rec.get("hidden") else display(rec.get("hidden"))),
+        ("Glitchable", display(rec.get("glitchable"))),
+    ]
+    out.append(
+        {
+            "id": "details",
+            "title": "Trophy Details",
+            "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody>"
+            + "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows)
+            + "</tbody></table>",
+        }
+    )
+
+    out.append(
+        {
+            "id": "status",
+            "title": "Source Status",
+            "content": (
+                f"<p>Trophy lists for Phantom Blade Zero are not published before release. This entry is "
+                f"filled from the shipped game on either platform; PS5 trophy and PC achievement lists "
+                f"are recorded separately where they differ. See "
+                f"<a href=\"/how-long-to-beat\">how long to beat</a> for run-length context.</p>"
+            ),
+        }
+    )
+    return out
+
+
+META = {
+    "boss": {
+        "sections": boss_sections,
+        "facts": boss_facts,
+        "keyword": lambda n: f"{n} phantom blade zero boss",
+        "desc": lambda n, has: (
+            f"{n} in Phantom Blade Zero - what has been confirmed about the encounter, "
+            "its elemental weakness, rewards and how to approach it."
+        ),
+        "subtitle": lambda has: "Location, Weakness & How to Beat" if has else "Everything Confirmed So Far",
+    },
+    "weapon": {
+        "sections": weapon_sections,
+        "facts": weapon_facts,
+        "keyword": lambda n: f"{n} phantom blade zero",
+        "desc": lambda n, has: (
+            f"{n} in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to "
+            "obtain it, with unconfirmed numbers left marked as unconfirmed."
+        ),
+        "subtitle": lambda has: "Stats, Combo & How to Get" if has else "Everything Confirmed So Far",
+    },
+    "character": {
+        "sections": character_sections,
+        "facts": character_facts,
+        "keyword": lambda n: f"{n} phantom blade zero character",
+        "desc": lambda n, has: (
+            f"{n} in Phantom Blade Zero - whether the character is playable, what has been shown, "
+            "and who portrays them."
+        ),
+        "subtitle": lambda has: "Role, Story & Portrayal",
+    },
+    "quest": {
+        "sections": quest_sections,
+        "facts": quest_facts,
+        "keyword": lambda n: f"{n} phantom blade zero quest",
+        "desc": lambda n, has: (
+            f"{n} in Phantom Blade Zero - how to start the quest, the walkthrough, rewards, and "
+            "whether it opens new story paths."
+        ),
+        "subtitle": lambda has: "Walkthrough & Rewards",
+    },
+    "trophy": {
+        "sections": trophy_sections,
+        "facts": trophy_facts,
+        "keyword": lambda n: f"{n} phantom blade zero trophy",
+        "desc": lambda n, has: (
+            f"{n} trophy in Phantom Blade Zero - how to earn it, whether it is missable, and "
+            "rarity once the list is public."
+        ),
+        "subtitle": lambda has: "How to Earn & Missable Status",
+    },
+}
 
 
 def build(rec, kind):
-    sections_fn, facts_fn = BUILDERS[kind]
+    meta = META[kind]
     name = rec["name"]
-    has_data = rec.get("weak") not in (None, NOT_CONFIRMED) or bool(rec.get("location"))
-    subtitle = "Location, Weakness & How to Beat" if has_data else "Everything Confirmed So Far"
+    has_data = any(
+        v not in (None, "", NOT_CONFIRMED) for k, v in rec.items() if k not in ("slug", "name", "summary")
+    )
     return {
         "slug": rec["slug"],
-        "title": f"{name} - {subtitle} (Phantom Blade Zero)",
-        "description": (
-            f"{name} in Phantom Blade Zero - what has been confirmed about the encounter, "
-            f"its elemental weakness, rewards and how to approach it."
-        ),
-        "keyword": f"{name} phantom blade zero",
+        "title": f"{name} - {meta['subtitle'](has_data)} (Phantom Blade Zero)",
+        "description": meta["desc"](name, has_data),
+        "keyword": meta["keyword"](name),
         "lastUpdated": "2026-09-28",
-        "facts": facts_fn(rec),
-        "sections": sections_fn(rec),
+        "facts": meta["facts"](rec),
+        "sections": meta["sections"](rec),
     }
 
 
@@ -187,6 +509,9 @@ def main():
         kind = sys.argv[sys.argv.index("--type") + 1]
     if not args:
         print(__doc__)
+        sys.exit(1)
+    if kind not in META:
+        print(f"unknown --type {kind!r}; available: {', '.join(sorted(META))}")
         sys.exit(1)
 
     records = json.load(open(args[0]))
