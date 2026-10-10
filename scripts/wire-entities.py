@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """Wire generated entity pages into the site.
 
-Usage: python3 scripts/wire-entities.py <data-file> <topic-label> [--pages p1,p2,...]
+Usage:
+  python3 scripts/wire-entities.py src/data/entities/bosses.json --type boss
+  python3 scripts/wire-entities.py <data-file> <topic-label> [--pages p1,p2,...]
 
-- links every entity name in the listed index pages to its own page
-- appends the entities to a navbox topic in src/lib/nav-topics.ts
+With --type, the navbox topic and the host pages that should link the entity
+names come from the table below, so launch day is one command per type instead
+of a hand-tuned argument list. --type is also inferred from the data filename.
 
 Linking is a single combined-regex pass per text node: replacements are never
-rescanned, so a short name can no longer match inside the HTML just written for
-a longer one.
+rescanned, so a short name cannot match inside the HTML just written for a
+longer one.
 """
 import json
 import os
@@ -17,26 +20,63 @@ import sys
 
 PAGES = "src/data/pages"
 NAV = "src/lib/nav-topics.ts"
-DEFAULT_PAGES = [
-    "Enemies", "enemy-weaknesses", "boss-guide", "boss-order", "bosses-by-area",
-    "boss-drops", "walkthrough", "walkthrough-act-1", "trophy-guide",
-    "side-quests", "interactive-map", "guide", "locations", "best-pictos",
-    "weapons-locations", "weapons-tier-list", "best-weapons", "best-builds",
-    "tier-list", "characters", "camp-guide", "damage-mechanics",
-]
+
+# Host pages per entity type. Only pages that exist in src/data/pages are wired;
+# quests and trophies hubs are listed because they land on launch day, and are
+# skipped silently until then.
+TYPES = {
+    "boss": {
+        "label": "Bosses",
+        "pages": ["boss-guide", "boss-video-guides", "guide", "faq", "release-date"],
+    },
+    "weapon": {
+        "label": "Weapons",
+        "pages": ["weapons", "combat", "guide", "faq", "difficulty-modes"],
+    },
+    "character": {
+        "label": "Characters",
+        "pages": ["characters", "protagonist", "guide", "faq", "endings"],
+    },
+    "quest": {
+        "label": "Quests",
+        "pages": ["quests", "guide", "how-long-to-beat", "faq", "endings"],
+    },
+    "trophy": {
+        "label": "Trophies",
+        "pages": ["trophies", "how-long-to-beat", "guide", "faq"],
+    },
+}
+
+FILENAME_HINTS = {
+    "boss": "boss",
+    "bosses": "boss",
+    "bosses-prelaunch": "boss",
+    "weapon": "weapon",
+    "weapons": "weapon",
+    "character": "character",
+    "characters": "character",
+    "quest": "quest",
+    "quests": "quest",
+    "trophy": "trophy",
+    "trophies": "trophy",
+}
 
 SKIP_TAGS = {"a", "h1", "h2", "h3", "h4", "code", "pre"}
 
 
 def link_text(html, names, current_slug):
+    """Linkify entity names outside tags we must not touch.
+
+    Matching is case-sensitive on purpose: a proper noun like Soul must not
+    capture the ordinary word soul in running prose.
+    """
     tokens = re.split(r"(<[^>]+>)", html)
     stack = []
     out = []
     pattern = re.compile(
-        r"(?<![>\w-])(" + "|".join(re.escape(n) for n, _ in names) + r")(?![\w-])",
-        re.I,
+        r"(?<![>\w-])(" + "|".join(re.escape(n) for n, _ in names) + r")(?![\w-])"
     )
-    lookup = {n.lower(): s for n, s in names}
+    lookup = {n: s for n, s in names}
 
     for token in tokens:
         if token.startswith("<"):
@@ -57,7 +97,7 @@ def link_text(html, names, current_slug):
             continue
 
         def replace(match):
-            slug = lookup[match.group(1).lower()]
+            slug = lookup[match.group(1)]
             if slug == current_slug:
                 return match.group(1)
             return (
@@ -76,6 +116,7 @@ def wire_pages(records, page_list):
     for page in page_list:
         path = os.path.join(PAGES, f"{page}.json")
         if not os.path.exists(path):
+            print(f"  {page:22s} - (页不存在，跳过)")
             continue
         data = json.load(open(path))
         added = 0
@@ -91,14 +132,14 @@ def wire_pages(records, page_list):
 
 
 def wire_nav(records, label):
-    src = open(NAV).read()
+    src = open(NAV, encoding="utf-8").read()
     entries = "".join(
         f'  {{ slug: "{r["slug"]}", title: "{r["name"]}" }},\n'
         for r in records
         if f'"{r["slug"]}"' not in src
     )
     if not entries:
-        print(f"  nav-topics: {label} already complete")
+        print(f"  nav-topics: {label} 已完整")
         return 0
 
     if f'label: "{label}"' in src:
@@ -116,26 +157,63 @@ def wire_nav(records, label):
             "  },\n"
         )
         anchor = "export const TOPICS: NavTopic[] = [\n"
+        assert anchor in src, f"{NAV} 结构变化，找不到 TOPICS 锚点"
         src = src.replace(anchor, anchor + block)
-    open(NAV, "w").write(src)
+    open(NAV, "w", encoding="utf-8").write(src)
     return entries.count("slug")
+
+
+def infer_type(data_file):
+    stem = os.path.basename(data_file)[:-5]
+    return FILENAME_HINTS.get(stem)
 
 
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
-    if len(args) < 2:
+    if not args:
         print(__doc__)
         sys.exit(1)
 
-    data_file, label = args[0], args[1]
-    page_list = DEFAULT_PAGES
+    data_file = args[0]
+    kind = None
+    if "--type" in sys.argv:
+        kind = sys.argv[sys.argv.index("--type") + 1]
+        if kind not in TYPES:
+            print(f"unknown --type {kind!r}; available: {', '.join(sorted(TYPES))}")
+            sys.exit(1)
+    else:
+        kind = infer_type(data_file)
+
+    if kind:
+        label = TYPES[kind]["label"]
+        default_pages = TYPES[kind]["pages"]
+    elif len(args) >= 2:
+        label = args[1]
+        default_pages = []
+        print("  (未识别类型，按传统模式使用显式参数)")
+    else:
+        print(__doc__)
+        sys.exit(1)
+
+    if len(args) >= 2 and "--type" not in sys.argv:
+        label = args[1]
     if "--pages" in sys.argv:
         page_list = sys.argv[sys.argv.index("--pages") + 1].split(",")
+    else:
+        page_list = default_pages
 
-    records = json.load(open(data_file))
-    print(f"Wiring {len(records)} records as topic '{label}'")
-    linked = wire_pages(records, page_list)
-    added = wire_nav(records, label)
+    records = json.load(open(data_file, encoding="utf-8"))
+    wired = [r for r in records if os.path.exists(os.path.join(PAGES, f'{r["slug"]}.json'))]
+    missing_pages = [r["slug"] for r in records if r not in wired]
+    if missing_pages:
+        print(f"  跳过 {len(missing_pages)} 条未生成页面的记录（避免造出死链）: {missing_pages}")
+    if not wired:
+        print("没有可接入的记录，请先运行 gen-entity-pages.py")
+        sys.exit(1)
+
+    print(f"Wiring {len(wired)} records as topic '{label}' (type={kind or 'explicit'})")
+    linked = wire_pages(wired, page_list)
+    added = wire_nav(wired, label)
     print(f"\n{linked} internal links added, {added} nav entries added")
 
 
