@@ -1,0 +1,63 @@
+{
+  "slug": "phantom-edges",
+  "title": "Phantom Edges in Phantom Blade Zero - Secondary Weapon List",
+  "description": "Phantom Edges are Phantom Blade Zero's secondary weapons - cannons, lances, axes and hammers rather than more swords. What is confirmed, the list as it is verified, and how they pair with blades.",
+  "keyword": "phantom edge phantom blade zero, secondary weapons phantom blade zero",
+  "lastUpdated": "2026-10-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Secondary"
+    },
+    {
+      "label": "Carried at once",
+      "value": "2"
+    },
+    {
+      "label": "Counterpart",
+      "value": "Blades"
+    },
+    {
+      "label": "Confirmed example types",
+      "value": "Cannons, lances, axes, hammers"
+    },
+    {
+      "label": "Named edges",
+      "value": "Not confirmed pre-launch"
+    }
+  ],
+  "section_order": [
+    "overview",
+    "list",
+    "types",
+    "pairing",
+    "status"
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What Phantom Edges Are",
+      "content": "<p>Phantom Edges occupy Soul's <strong>two secondary weapon slots</strong>. The confirmed example set is deliberately ungovernable - <strong>cannons, lances, axes and hammers</strong> - which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the name is doing conceptual work rather than literal work: several of them are not blades at all.</p> <a href=\"/blades\">Blades</a> are the primary counterpart."
+    },
+    {
+      "id": "list",
+      "title": "Phantom Edge List",
+      "content": "<p>No entries have been confirmed yet. This table is generated from <code>src/data/entities/</code>, so it fills itself as each entity is verified against the shipped game - nothing here is hand-typed and nothing is estimated.</p>"
+    },
+    {
+      "id": "types",
+      "title": "The Confirmed Types",
+      "content": "<p>Ranged and reach-extreme weapons cover problems a blade build cannot, which is why a loadout is a choice about <em>which situations you can handle</em> rather than a damage comparison. The four types named in published material:</p><ul><li><strong>Cannons</strong> - ranged fire, the only confirmed option that engages from distance.</li><li><strong>Lances</strong> - long reach on a melee weapon.</li><li><strong>Axes</strong> - slow, heavy hits.</li><li><strong>Hammers</strong> - slow, heavy hits with a different guard-break profile.</li></ul><p>Counts, names and stats for individual Phantom Edges are unpublished.</p>"
+    },
+    {
+      "id": "pairing",
+      "title": "Pairing With Blades",
+      "content": "<p>Two <a href=\"/blades\">blades</a> plus two Phantom Edges, all four live during a fight. Swapping between them refills stamina and continues the combo chain, so a run is normally built around which two edges cover what the blades cannot.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>Tier-2 index generated from <code>src/data/entities/weapons.json</code>. See <a href=\"/weapons\">the weapons hub</a>.</p>"
+    }
+  ]
+}
