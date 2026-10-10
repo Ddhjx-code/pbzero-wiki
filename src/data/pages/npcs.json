@@ -1,0 +1,49 @@
+{
+  "slug": "npcs",
+  "title": "Phantom Blade Zero NPCs - Non-Playable Characters",
+  "description": "Every confirmed non-playable character in Phantom Blade Zero. The game is single-player and Soul is the only character you control, so the rest of the cast are NPCs.",
+  "keyword": "phantom blade zero npcs, phantom blade zero characters list",
+  "lastUpdated": "2026-10-10",
+  "facts": [
+    {
+      "label": "Playable characters",
+      "value": "1 - Soul only"
+    },
+    {
+      "label": "Confirmed NPCs",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "Mode",
+      "value": "Single-player"
+    }
+  ],
+  "section_order": [
+    "overview",
+    "list",
+    "confusion",
+    "status"
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Who Is on This List",
+      "content": "<p>Phantom Blade Zero is single-player and <strong>Soul is the only playable character</strong>. Everyone else in the cast is an NPC, including the characters that are playable in S-Game's mobile entries.</p>"
+    },
+    {
+      "id": "list",
+      "title": "Confirmed NPCs",
+      "content": "<p>No entries have been confirmed yet. This table is generated from <code>src/data/entities/</code>, so it fills itself as each entity is verified against the shipped game - nothing here is hand-typed and nothing is estimated.</p>"
+    },
+    {
+      "id": "confusion",
+      "title": "Why This Distinction Exists",
+      "content": "<p>An earlier wave of pre-launch write-ups listed four playable characters for this game - Soul, Mu Xiaokui, Zuo Shang and <em>The Chord</em>. That roster belongs to S-Game's mobile entries, where those names are playable together. It was never announced for Phantom Blade Zero.</p><p>The likeliest source of the confusion is the music: composer Caisheng Bo confirmed that Soul, Mu Xiaokui and Zuoshang each have their own thematic melody, all descended from the same A minor theme. Three leitmotifs reads like three playable characters. It is not. See <a href=\"/is-phantom-blade-zero-single-player\">is Phantom Blade Zero single-player</a>.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>Tier-2 index generated from <code>src/data/entities/characters.json</code>. The narrative cast is described on <a href=\"/characters\">characters</a>; the protagonist has his own page at <a href=\"/protagonist\">Soul</a>.</p>"
+    }
+  ]
+}

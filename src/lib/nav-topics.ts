@@ -10,6 +10,14 @@ export interface NavTopic {
 
 export const TOPICS: NavTopic[] = [
   {
+    label: "Weapons",
+    pages: [
+      { slug: "weapons", title: "Weapons Overview" },
+      { slug: "blades", title: "Blades (Primary)" },
+      { slug: "phantom-edges", title: "Phantom Edges (Secondary)" },
+    ],
+  },
+  {
     label: "Bosses",
     pages: [
       { slug: "puppet-boss", title: "Puppet Boss" },
@@ -50,6 +58,7 @@ export const TOPICS: NavTopic[] = [
     pages: [
       { slug: "protagonist", title: "Soul (Protagonist)" },
       { slug: "characters", title: "All Characters" },
+      { slug: "npcs", title: "NPCs" },
       { slug: "endings", title: "Endings" },
     ],
   },

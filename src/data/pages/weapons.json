@@ -12,12 +12,12 @@
     {
       "id": "main-weapons",
       "title": "Primary Weapons: Blades",
-      "content": "<p>Pre-release caveat, stated up front rather than buried: <strong>no weapon roster has been published</strong>. The category counts and per-category item totals that used to sit on this page could not be traced to any official source, so they have been removed instead of hedged.</p><p>What can be said is that primaries are blades, and that the demo build gave Soul a pair of short swords alongside a longer katana-class weapon, per the same IGN hands-on. Length and speed trade-offs between those shapes are visible in the demo and are the reason the swap matters: reach changes with the weapon, not with a stat line.</p><p>S-GAME has described boss kills as rewarding unique weapons, which is the strongest available hint about roster size, and a hint is all it is.</p>"
+      "content": "<p>Pre-release caveat, stated up front rather than buried: <strong>no weapon roster has been published</strong>. The category counts and per-category item totals that used to sit on this page could not be traced to any official source, so they have been removed instead of hedged.</p><p>What can be said is that primaries are blades, and that the demo build gave Soul a pair of short swords alongside a longer katana-class weapon, per the same IGN hands-on. Length and speed trade-offs between those shapes are visible in the demo and are the reason the swap matters: reach changes with the weapon, not with a stat line.</p><p>S-GAME has described boss kills as rewarding unique weapons, which is the strongest available hint about roster size, and a hint is all it is.</p> See the <a href=\"/blades\">blades index</a> for the full list of primary weapons."
     },
     {
       "id": "shachi-weapons",
       "title": "Phantom Edges (Secondary Slots)",
-      "content": "<p>Phantom Edges occupy the two secondary slots and change what a fight is about. The confirmed example set - cannons, lances, axes, hammers - spans ranged and reach-extreme weapons that no blade build covers, so a loadout is a choice about which problems you can solve rather than a damage comparison.</p><p>Individual Edge names, values and totals are unpublished. The count of &ldquo;20+ types&rdquo; that previously appeared here had no source and has been dropped.</p>"
+      "content": "<p>Phantom Edges occupy the two secondary slots and change what a fight is about. The confirmed example set - cannons, lances, axes, hammers - spans ranged and reach-extreme weapons that no blade build covers, so a loadout is a choice about which problems you can solve rather than a damage comparison.</p><p>Individual Edge names, values and totals are unpublished. The count of &ldquo;20+ types&rdquo; that previously appeared here had no source and has been dropped.</p> The secondary list lives at <a href=\"/phantom-edges\">Phantom Edges</a>."
     },
     {
       "id": "weapon-acquisition",
