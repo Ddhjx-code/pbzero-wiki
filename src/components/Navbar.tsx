@@ -4,6 +4,7 @@ import Link from "next/link";
 import SearchDialog from "./SearchDialog";
 
 const NAV_LINKS = [
+  { href: "/news", label: "News" },
   { href: "/guide", label: "Guide" },
   { href: "/characters", label: "Characters" },
   { href: "/boss-guide", label: "Bosses" },

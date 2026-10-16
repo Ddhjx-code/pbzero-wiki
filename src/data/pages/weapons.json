@@ -2,22 +2,22 @@
   "title": "Phantom Blade Zero Weapons Guide - All Weapons & Sha-chi System",
   "description": "Complete Phantom Blade Zero weapons guide. Main weapon categories, Sha-chi secondary weapons, and the dual-weapon combat system explained.",
   "keyword": "phantom blade zero weapons",
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-10-16",
   "sections": [
     {
       "id": "weapon-system",
       "title": "Weapon System Overview",
-      "content": "<p>The one weapon rule stated consistently across official material and hands-on coverage is the <strong>slot count</strong>: Soul carries <strong>two primary weapons and two secondary weapons</strong> and switches between them freely mid-fight.</p><p><strong>Blades are the primaries.</strong> <strong>Phantom Edges are the secondaries</strong>, and the set is deliberately ungovernable - the named examples include cannons, lances, axes and hammers, which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the label is doing conceptual work rather than literal work: several of them are not blades at all.</p><p>Switching is a mechanic, not a menu action. During the 2024 demo, IGN observed that changing weapons restored Soul's stamina immediately and let an ongoing combo keep running. That single detail is why the game plays like <em>Ninja Gaiden</em> instead of like a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is the separate resource that pays for heavy attacks and blocks. Because both of them spend it, a player who blocks everything runs dry at the worst possible moment.</p>"
+      "content": "<p>The scale is now known even though the roster is not: <strong>more than 30 main weapons and 25 Phantom Edges</strong>, per S-Game's August 2026 deep dive.</p><p>The one weapon rule stated consistently across official material and hands-on coverage is the <strong>slot count</strong>: Soul carries <strong>two primary weapons and two secondary weapons</strong> and switches between them freely mid-fight.</p><p><strong>Blades are the primaries.</strong> <strong>Phantom Edges are the secondaries</strong>, and the set is deliberately ungovernable - the named examples include cannons, lances, axes and hammers, which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the label is doing conceptual work rather than literal work: several of them are not blades at all.</p><p>Switching is a mechanic, not a menu action. During the 2024 demo, IGN observed that changing weapons restored Soul's stamina immediately and let an ongoing combo keep running. That single detail is why the game plays like <em>Ninja Gaiden</em> instead of like a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is the separate resource that pays for heavy attacks and blocks. Because both of them spend it, a player who blocks everything runs dry at the worst possible moment.</p>"
     },
     {
       "id": "main-weapons",
       "title": "Primary Weapons: Blades",
-      "content": "<p>Pre-release caveat, stated up front rather than buried: <strong>no weapon roster has been published</strong>. The category counts and per-category item totals that used to sit on this page could not be traced to any official source, so they have been removed instead of hedged.</p><p>What can be said is that primaries are blades, and that the demo build gave Soul a pair of short swords alongside a longer katana-class weapon, per the same IGN hands-on. Length and speed trade-offs between those shapes are visible in the demo and are the reason the swap matters: reach changes with the weapon, not with a stat line.</p><p>S-GAME has described boss kills as rewarding unique weapons, which is the strongest available hint about roster size, and a hint is all it is.</p> See the <a href=\"/blades\">blades index</a> for the full list of primary weapons."
+      "content": "<p><strong>More than 30 main weapons.</strong> That number is official: the founder and CEO of S-Game wrote in the August 2026 PlayStation Blog deep dive that you unlock <em>more than 30 main weapons</em> while exploring, alongside <em>25 secondary weapons known as Phantom Edges</em>. Earlier versions of this page carried category counts that could not be traced to any source; those are still gone, but the totals above are sourced and dated.</p><p>What is still not published is the roster itself - no list of names, models, stats or acquisition points exists pre-launch. So the honest shape is: total count known, composition unknown.</p><p>What hands-on coverage adds is the character of the spread. The demo build gave Soul a pair of short swords alongside a longer katana-class weapon, and the October 2026 preview described a drunken sword whose base form is a one-handed jian but which can be sent to fly and slash on its own while the player stays in a stumbling stance. Length and speed trade-offs between those shapes are visible in the demo and are the real decision, not raw damage.</p><p>Upgrades and accessories are where the build depth lives: weapons take upgrades, pair with accessories, and can be reforged to recover the materials and spend them elsewhere - stated in the same official post. The full list with locations and stats lands after release; see <a href=\"/blades\">blades</a>.</p>"
     },
     {
       "id": "shachi-weapons",
       "title": "Phantom Edges (Secondary Slots)",
-      "content": "<p>Phantom Edges occupy the two secondary slots and change what a fight is about. The confirmed example set - cannons, lances, axes, hammers - spans ranged and reach-extreme weapons that no blade build covers, so a loadout is a choice about which problems you can solve rather than a damage comparison.</p><p>Individual Edge names, values and totals are unpublished. The count of &ldquo;20+ types&rdquo; that previously appeared here had no source and has been dropped.</p> The secondary list lives at <a href=\"/phantom-edges\">Phantom Edges</a>."
+      "content": "<p><strong>25 of them, per the same official August 2026 post.</strong> Phantom Edges occupy the two secondary slots and change what a fight is about rather than how hard it hits: the named examples include cannons, lances, axes and hammers, which spans ranged and reach-extreme options no blade build covers. A loadout is therefore a choice about which problems you can solve, not a damage comparison.</p><p>Individual Edge names and values are still unpublished, and the loose &ldquo;20+ types&rdquo; figure that used to sit here had no source and stays dropped. The list lives at <a href=\"/phantom-edges\">Phantom Edges</a>.</p>"
     },
     {
       "id": "weapon-acquisition",
@@ -57,7 +57,15 @@
     },
     {
       "label": "Full roster",
-      "value": "Not published pre-launch"
+      "value": "Not published; totals announced (30+ Blades, 25 Phantom Edges)"
+    },
+    {
+      "label": "Total announced",
+      "value": "50+ - more than 30 main weapons plus 25 Phantom Edges (official, Aug 2026)"
+    },
+    {
+      "label": "Reforging",
+      "value": "Returns upgrade materials for reinvestment (official)"
     }
   ]
 }

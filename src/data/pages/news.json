@@ -1,0 +1,78 @@
+{
+  "title": "Phantom Blade Zero News & Official Updates",
+  "description": "Dated, sourced Phantom Blade Zero news before the 29 October 2026 release: difficulty modes, weapon totals, demo status, pre-order editions and PC details, with the guide pages each item changed.",
+  "keyword": "phantom blade zero news, phantom blade zero updates, pbz announcement, phantom blade zero release news",
+  "lastUpdated": "2026-10-16",
+  "facts": [
+    {
+      "label": "Game",
+      "value": "Phantom Blade Zero"
+    },
+    {
+      "label": "Developer",
+      "value": "S-Game"
+    },
+    {
+      "label": "Publisher",
+      "value": "Kepler Interactive"
+    },
+    {
+      "label": "Release date",
+      "value": "October 29, 2026 (Oct 28 in US and select regions)"
+    },
+    {
+      "label": "Platforms",
+      "value": "PlayStation 5, PC (Steam, Epic Games Store)"
+    },
+    {
+      "label": "Entries tracked",
+      "value": "6"
+    },
+    {
+      "label": "Last news update",
+      "value": "2026-10-16"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What this page tracks",
+      "content": "<p>Official Phantom Blade Zero news, newest first, each entry dated and attributed. Before the game released on 29 October 2026 the useful question was usually what had <em>not</em> been confirmed yet, so every entry is marked confirmed, corrects earlier info on this site or unconfirmed rather than presented as settled.</p><p>Where the guide pages on this site disagreed with newer information, the newer information won and the entry says so. The affected pages are linked at the end of each item.</p><p>Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.</p>"
+    },
+    {
+      "id": "2026-10-09-final-hands-on-previews-boss-phase-retry",
+      "title": "2026-10-09 — Final hands-on previews: boss phase retry, Nioh-style chapters, Denuvo and path tracing on PC",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>S-Game lifted the embargo on its last pre-release preview round, held in Los Angeles. Coverage from three outlets plus a group Q&A with director Soulframe Liang and publishing head Will Chen added structural detail that was not in any earlier official material.</p><ul><li>Chapters are self-contained levels with alternative paths and optional bosses, compared by hands-on writers to Nioh 1 and 2 rather than to an open world</li><li>If you reach a boss's second phase and die shortly after, you can re-challenge from the unlocked phase with a refreshed arsenal instead of replaying the whole first section</li><li>The opening gives a choice between two hearts; the 66-day heart is not selectable on a first run and is a tease for what unlocks later</li><li>66 Days mode is not required for the PlayStation 5 platinum trophy, per the developers at the Q&A</li><li>Side quests are deliberately few and heavy: the director said the cast does not get errand quests because the protagonist has 66 days to live</li><li>QTEs are short and fragmentary, inserted between combos rather than replacing play; the opening wagon fight is real combat under a fixed camera</li><li>Boss fights each have their own dynamic soundtrack, and a second phase changes musical genre while reusing the fight's leitmotif</li><li>PC ships with Denuvo anti-tamper and supports path tracing; official PC system requirements were published</li></ul><p class=\"text-sm\">Source: <a href=\"https://rpgamer.com/2026/10/phantom-blade-zero-preview-qa/\" rel=\"noopener nofollow\" target=\"_blank\">DSOGaming, wccftech, RPGamer</a></p><p class=\"text-sm\">Updates: <a href=\"/boss-guide\">Boss Guide</a> · <a href=\"/guide\">Guide</a> · <a href=\"/is-phantom-blade-zero-a-soulslike\">Is Phantom Blade Zero A Soulslike</a> · <a href=\"/pc-requirements\">Pc Requirements</a> · <a href=\"/difficulty-modes\">Difficulty Modes</a></p>"
+    },
+    {
+      "id": "2026-08-18-difficulty-corrected-to-four-modes-and-t",
+      "title": "2026-08-18 — Difficulty corrected to four modes, and the standard tier is named Pathbreaker",
+      "content": "<p class=\"text-sm text-amber-400\">Corrects earlier info on this site</p><p>The August State of Play showed four difficulty options on the menu. PlayStation's own English blog post named only three of them, which is why some guides still say three; contemporaneous coverage of the same broadcast, the game's Wikipedia article and later hands-on write-ups all name the fourth, Pathbreaker, as the standard tier.</p><ul><li>Four modes: Wayfarer, Pathbreaker, Hellwalker and 66 Days</li><li>Wayfarer is described by S-Game as intuitive and cinematic, for players who want the story</li><li>Pathbreaker is the standard difficulty and the closest match to the balance the combat was built around</li><li>Hellwalker adds fighting-game mechanics and bosses that do not rely on preset attack patterns, adapting to the player</li><li>66 Days runs at Hellwalker intensity and adds a counter starting at 66 that drops by one per death; reaching zero ends the run</li><li>66 Days unlocks after completing Pathbreaker or Hellwalker; finishing on Wayfarer does not unlock it</li><li>Earlier previews called the standard tier Gamechanger. Two independent write-ups state the name changed to Pathbreaker, so Gamechanger should be read as retired, not as a fifth mode</li></ul><p class=\"text-sm\">Source: <a href=\"https://en.wikipedia.org/wiki/Phantom_Blade_Zero\" rel=\"noopener nofollow\" target=\"_blank\">RPGamer, GamingBolt, GameReactor, The Click, Wikipedia</a></p><p class=\"text-sm\">Updates: <a href=\"/difficulty-modes\">Difficulty Modes</a></p>"
+    },
+    {
+      "id": "2026-08-17-official-weapon-totals-published-30-blad",
+      "title": "2026-08-17 — Official weapon totals published: 30+ Blades and 25 Phantom Edges",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>The founder and CEO of S-Game wrote a PlayStation Blog deep dive that put numbers on the arsenal for the first time, alongside confirmation of Donnie Yen's dual role.</p><ul><li>More than 30 main weapons, plus 25 secondary weapons called Phantom Edges</li><li>Weapons are upgraded and paired with accessories to form a build</li><li>Reforging a weapon returns its materials so they can be reinvested elsewhere</li><li>Defeating some enemies expands the arsenal; summons can assist in battle</li><li>Side quests can open new story paths, per the same post</li><li>Donnie Yen is kung fu creative consultant and also performs Mó Yuan through facial and motion capture</li><li>The setting is named the Wulin, and the studio's own genre term is kungfupunk</li></ul><p class=\"text-sm\">Source: <a href=\"https://blog.playstation.com/2026-08-17/phantom-blade-zero-state-of-play-dives-deep-into-combat-and-the-wulin-world/\" rel=\"noopener nofollow\" target=\"_blank\">PlayStation.Blog, signed by Soulframe Liang (S-Game founder and CEO)</a></p><p class=\"text-sm\">Updates: <a href=\"/weapons\">Weapons</a> · <a href=\"/blades\">Blades</a> · <a href=\"/phantom-edges\">Phantom Edges</a> · <a href=\"/combat\">Combat</a> · <a href=\"/protagonist\">Protagonist</a></p>"
+    },
+    {
+      "id": "2026-08-11-a-demo-page-leaked-on-the-chinese-playst",
+      "title": "2026-08-11 — A demo page leaked on the Chinese PlayStation Store, then went unmentioned",
+      "content": "<p class=\"text-sm text-amber-400\">Unconfirmed</p><p>A playable demo listing appeared on the Chinese PlayStation Store on 11 August. The dedicated State of Play a week later did not announce a demo, and no official confirmation has followed. Treat the demo as not announced.</p><ul><li>The leaked page is the only evidence a demo was planned</li><li>No demo was announced at the State of Play or in the October preview round</li><li>Absence is not cancellation, so the honest status is unannounced rather than cancelled</li></ul><p class=\"text-sm\">Source: <a href=\"https://www.vice.com/en/article/phantom-blade-zero-demo-release-date-ps5/\" rel=\"noopener nofollow\" target=\"_blank\">Vice, covering the store leak</a></p><p class=\"text-sm\">Updates: <a href=\"/release-date\">Release Date</a></p>"
+    },
+    {
+      "id": "2026-06-02-moved-from-september-9-to-october-29-202",
+      "title": "2026-06-02 — Moved from September 9 to October 29, 2026",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>S-Game announced the delay in an open letter from the creator, alongside the start of pre-orders and a promise of a new trailer and a dedicated State of Play. Both promised items shipped in August.</p><ul><li>Release date is October 29, 2026, with October 28 in the US and select regions</li><li>Platforms are PlayStation 5 and PC via Steam and the Epic Games Store; no Xbox version has been announced</li><li>The stated reason was quality: character models upgraded and many environments reworked</li><li>The studio said it aimed to hold the visual standard without depending on ray tracing, with ray tracing as an enhancement</li></ul><p class=\"text-sm\">Source: <a href=\"https://www.gematsu.com/2026/06/phantom-blade-zero-delayed-to-october-29\" rel=\"noopener nofollow\" target=\"_blank\">Gematsu, reproducing the creator's letter</a></p><p class=\"text-sm\">Updates: <a href=\"/release-date\">Release Date</a> · <a href=\"/how-long-to-beat\">How Long To Beat</a></p>"
+    },
+    {
+      "id": "2026-10-16-pre-order-editions-as-currently-listed-o",
+      "title": "2026-10-16 — Pre-order editions as currently listed on the official site",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>Checked directly against the official product page on the date shown. The notable line is the small print: the bonus content is also obtainable in game, which changes how much the Deluxe Edition is worth to someone who plans to play rather than collect.</p><ul><li>Standard Edition is the full game plus pre-order unlocks: the Treasure Basin accessory and the Legacy outfit</li><li>Deluxe Edition adds the Wulin Legend and Blood-Steel Form outfits, a digital artbook and the digital soundtrack</li><li>The official page states for both editions that the bonus content can also be obtained through in-game progression</li><li>There is no early access: the Deluxe Edition does not let anyone play before the release date, so every player starts on the same day</li></ul><p class=\"text-sm\">Source: <a href=\"https://pbz.s-game.com/en-US/\" rel=\"noopener nofollow\" target=\"_blank\">Official Phantom Blade Zero site (pbz.s-game.com)</a></p><p class=\"text-sm\">Updates: <a href=\"/pre-order-guide\">Pre Order Guide</a></p>"
+    },
+    {
+      "id": "corrections",
+      "title": "Corrections applied to this wiki",
+      "content": "<p>Items where this site had published something that newer sourcing contradicted, and the guide page has been rewritten to match.</p><table><thead><tr><th>Date</th><th>Correction</th></tr></thead><tbody><tr><td>2026-08-18</td><td>Difficulty corrected to four modes, and the standard tier is named Pathbreaker</td></tr></tbody></table>"
+    }
+  ]
+}

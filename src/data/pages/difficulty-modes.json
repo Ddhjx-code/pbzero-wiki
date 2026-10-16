@@ -1,29 +1,37 @@
 {
   "slug": "difficulty-modes",
   "title": "Phantom Blade Zero Difficulty Modes Explained",
-  "description": "Every Phantom Blade Zero difficulty mode with its source and date: Wayfarer, Hellwalker, Sixty-Six Days and the earlier Gamechanger tier, plus what S-GAME has not confirmed.",
+  "description": "All four Phantom Blade Zero difficulty modes with their sources and dates: Wayfarer, Pathbreaker, Hellwalker and 66 Days, what each does, how 66 Days unlocks, and why some guides still say three.",
   "keyword": "phantom blade zero difficulty",
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-16",
   "facts": [
     {
-      "label": "Current official list",
-      "value": "3 - Wayfarer, Hellwalker, Sixty-Six Days"
+      "label": "Difficulty modes",
+      "value": "4 - Wayfarer, Pathbreaker, Hellwalker, 66 Days"
     },
     {
       "label": "Wayfarer",
-      "value": "Story-first, easiest"
+      "value": "Story-first, easiest; described by S-Game as intuitive and cinematic"
     },
     {
-      "label": "Gamechanger",
-      "value": "Default balanced tier in the June 2025 letter"
+      "label": "Pathbreaker",
+      "value": "Standard tier, the intended balance"
     },
     {
       "label": "Hellwalker",
-      "value": "Adaptive AI; hardest in the 2025 letter"
+      "value": "Fighting-game mechanics; bosses drop preset patterns and adapt"
     },
     {
-      "label": "Sixty-Six Days",
-      "value": "Hardest option in the 2026 list"
+      "label": "66 Days",
+      "value": "Hellwalker intensity plus 66 deaths, one per day; run ends at zero"
+    },
+    {
+      "label": "66 Days unlock",
+      "value": "Complete Pathbreaker or Hellwalker; Wayfarer does not count"
+    },
+    {
+      "label": "Platinum trophy",
+      "value": "66 Days not required, per developers at the October 2026 preview Q&A"
     },
     {
       "label": "Mode switching",
@@ -33,38 +41,43 @@
   "sections": [
     {
       "id": "overview",
-      "title": "How Many Modes, And Why The Answer Moved",
-      "content": "<p><strong>Three, per the most recent official word</strong> - and the number was different a year ago, which is worth knowing before trusting any single list you find.</p><p>The June 24, 2025 developer's letter, relayed by Game8, described <strong>three</strong> tiers: <em>Gamechanger</em> as the default balanced playthrough and a good beginner setting, <em>Wayfarer</em> as the easiest for people new to action games, and <em>Hellwalker</em> as the hardest, unlocked only in New Game+, with smarter AI, reshuffled enemy movesets and entirely new moves.</p><p>The August 2026 State of Play write-up on the official PlayStation Blog lists <strong>a different three</strong>: <em>Wayfarer</em> if you want the story, <em>Hellwalker</em> for advanced and adaptive enemy intelligence, and <em>Sixty-Six Days</em> for the faint of heart. Gamechanger is gone from that list, and Sixty-Six Days is new.</p><p>Both sources are official-adjacent and neither is wrong; they are seven months apart. The defensible reading is that a fourth mode arrived with the deep dive and the default tier either got renamed or got folded into the baseline. Until S-GAME publishes a mode screen, treat the 2026 list as current and the 2025 letter as history. Anything stating a final mode count with confidence is filling a gap.</p>"
+      "title": "How Many Modes, And Why Some Guides Still Say Three",
+      "content": "<p><strong>Four: Wayfarer, Pathbreaker, Hellwalker and 66 Days.</strong></p><p>The confusion has a specific cause. PlayStation's own English blog post for the August 2026 State of Play named only three of them - Wayfarer, Hellwalker and Sixty-Six Days - because a showcase write-up skipped the default tier. The difficulty menu shown in the same broadcast had four, and contemporaneous coverage of it (RPGamer, GamingBolt, GameReactor, The Click) plus the game's Wikipedia article all name <em>Pathbreaker</em> as the standard option.</p><p>The history is worth knowing too, because it explains a name you may have read. The June 2025 developer's letter, relayed by Game8, described <em>Gamechanger</em> as the default balanced tier, <em>Wayfarer</em> as easiest and <em>Hellwalker</em> as hardest and locked behind New Game+. Two independent write-ups of the 2026 material state plainly that the standard tier is now called Pathbreaker, so Gamechanger reads as <strong>renamed, not removed</strong>, and Hellwalker's New Game+ gate is gone: three of the four are selectable on a first run.</p><p>What settled since the August showcase: the October 2026 preview Q&A confirmed 66 Days is not needed for the PlayStation 5 platinum trophy, and hands-on coverage confirmed the counter is a death count rather than a shortened clock.</p>"
     },
     {
       "id": "wayfarer",
       "title": "Wayfarer",
-      "content": "<p><strong>For players who mainly want the story.</strong></p><p>This is the entry point if you are coming to action RPGs from narrative games rather than from <em>Devil May Cry</em> or <em>Sekiro</em>. The <a href=\"/combat\">parry and Sha-chi systems</a> still exist, but the tolerance for missing them is much wider.</p><p>Worth knowing: the 66-day countdown still applies. Wayfarer lowers combat pressure, it does not remove the structural time limit that shapes the story.</p>"
+      "content": "<p><strong>For players who mainly want the story.</strong> S-Game describes it as intuitive and cinematic, built so that anyone can feel like a kung fu master.</p><p>This is the entry point if you are coming to action RPGs from narrative games rather than from <em>Devil May Cry</em> or <em>Sekiro</em>. The <a href=\"/combat\">parry and Sha-chi systems</a> still exist, but the tolerance for missing them is much wider.</p><p>One correction worth making explicitly: the 66 days is <strong>not a timer on this setting</strong>. The director said in October 2026 that on a first playthrough the 66-day premise works as narrative backstory, and that the countdown as a mechanic is what the 66 Days mode adds. If you read somewhere that Wayfarer still enforces a deadline, that was wrong.</p><p>The trade-off is that finishing on Wayfarer does not unlock 66 Days.</p>"
+    },
+    {
+      "id": "pathbreaker",
+      "title": "Pathbreaker",
+      "content": "<p><strong>The standard difficulty, and the closest match to the balance the combat was designed around.</strong></p><p>It sits between Wayfarer and Hellwalker. Hands-on coverage describes bosses here as keeping learnable, fixed combos - the director called a boss like Huangxing somewhat Soulslike at this tier - which is exactly what makes it the sensible first choice for anyone comfortable with action games but not looking for adaptive enemies.</p><p>Two practical notes. This is the tier that most pre-release footage was captured at, so if a boss clip looked learnable, this is where it will feel that way. And clearing the game on Pathbreaker unlocks 66 Days, so it is also the efficient route to the permadeath mode.</p>"
     },
     {
       "id": "hellwalker",
       "title": "Hellwalker",
-      "content": "<p>Hardest tier in the 2025 letter, where it was gated behind New Game+ and described as carrying smarter AI, reshuffled movesets and brand-new enemy moves. In the 2026 list it is described as &ldquo;advanced and adaptive enemy intelligence&rdquo; and is no longer presented as locked behind a clear.</p><p>Two live questions the marketing cannot answer: whether the New Game+ gate survived, and what &ldquo;adaptive&rdquo; does under the hood. That word has covered both genuine behaviour changes and simply larger health pools. It will only be knowable by testing, so it is marked unverified here rather than described as a feature.</p>"
+      "content": "<p><strong>The hardest conventional tier.</strong> Two things are said to change relative to Pathbreaker: fighting-game mechanics come into play, and bosses stop relying on preset attack patterns, adapting to what the player has been doing.</p><p>That is a real shift from the June 2025 letter, where Hellwalker was the hardest tier <em>and</em> gated behind New Game+, with smarter AI, reshuffled movesets and brand-new enemy moves. In the 2026 structure it is selectable on a first run.</p><p>What is still not knowable before release: <em>how</em> adaptive the AI actually is. That word has historically covered everything from genuine behaviour changes to bigger health bars. The October hands-on reported bosses reacting to the player's habits, which is the best evidence so far, but it is one preview session rather than a system you can measure. Treat it as reported, not verified.</p>"
     },
     {
       "id": "sixty-six-days",
-      "title": "Sixty-Six Days",
-      "content": "<p>The mode added by the August 2026 deep dive, and the one the combat choreography was built for. The name is the giveaway: it comes from the 66-day countdown that drives the narrative, which suggests a run with no slack rather than merely a run with bigger numbers.</p><p>Nothing has been published about whether it shortens the countdown, removes healing, changes death consequences, or is a pure stat scale. Anyone describing those mechanics before release is guessing.</p>"
+      "title": "66 Days",
+      "content": "<p><strong>Hellwalker-level challenge plus a life counter, and the mode the whole premise was built for.</strong></p><p>The mechanic is now described consistently across sources: you start with 66, and every death costs one. Reaching zero ends the run. It is a take on permadeath rather than a stat multiplier, which is why it is listed separately from the three selectable tiers.</p><p>How it unlocks: complete the game on <strong>Pathbreaker or Hellwalker</strong>. Finishing on Wayfarer does not count. The director's stated intent is that the first run exists so as many people as possible see the story, and the second is where the pure challenge lives - with your equipment and levels carried over, which matters because a lot of the strongest weapons only drop from late and hidden bosses and are effectively collectibles on a first playthrough.</p><p>On trophies: the developers said at the October 2026 preview Q&A that 66 Days is <strong>not required for the platinum</strong>. That makes it optional in the sense that matters to completionists.</p>"
     },
     {
       "id": "gamechanger",
-      "title": "Gamechanger - The Tier That May Have Gone",
-      "content": "<p>Named in the June 2025 developer's letter as the <strong>default</strong> difficulty: a balanced playthrough, explicitly recommended for beginners. It does not appear in the August 2026 mode list.</p><p>That absence is not proof of removal. Official mode lists get abbreviated for a showcase, and a default tier often goes unmentioned precisely because it is what you get by doing nothing. But it is not proof of survival either. This page keeps Gamechanger listed with its source date instead of silently dropping it, because a reader who watched the 2025 letter and then finds a three-mode page with no explanation is being told the wrong story by omission.</p>"
+      "title": "Gamechanger - The Old Name For Pathbreaker",
+      "content": "<p>If you read a 2025 preview describing <em>Gamechanger</em> as the default balanced difficulty and recommended for beginners, that was accurate at the time. It is the tier now called Pathbreaker.</p><p>Two independent write-ups of the current material say this outright, so the sensible reading is a rename during development rather than a fifth mode that quietly vanished. This entry stays on the page because older coverage is still indexed and still circulating, and a reader who lands on a mode list without the old name has no way to reconcile the two.</p>"
     },
     {
       "id": "what-is-unknown",
       "title": "What Is Not Confirmed",
-      "content": "<p>Being precise about the gaps:</p><ul><li><strong>Whether you can switch modes mid-run.</strong> Not announced. This matters more than the mode names do - a game that locks your choice is a different proposition from one that lets you drop down after a wall.</li><li><strong>Whether difficulty affects achievements.</strong> Not announced. See the trophy situation on the <a href=\"/release-date\">release date page</a>.</li><li><strong>Whether there is a fourth mode or a post-unlock option.</strong> Nothing announced.</li><li><strong>Exact enemy behaviour changes between tiers.</strong> Not shown.</li></ul>"
+      "content": "<p>The gaps that are still genuinely open:</p><ul><li><strong>Whether you can switch modes mid-run.</strong> Not announced, and it matters more than the names do - a game that locks your choice is a different proposition from one that lets you drop down after hitting a wall.</li><li><strong>Whether difficulty changes the story, the endings, or what side quests appear.</strong> Not announced. The <a href=\"/endings\">endings page</a> has the same caveat.</li><li><strong>What adaptive means under the hood on Hellwalker.</strong> Reported from a preview session, not documented.</li><li><strong>Whether 66 Days has its own rewards or just the run.</strong> Not announced.</li></ul>"
     },
     {
       "id": "recommendation",
       "title": "Which Should You Pick?",
-      "content": "<ul><li><strong>New to character-action games:</strong> Wayfarer. There is no shame in it and the story is the reason the game exists.</li><li><strong>Comfortable with Sekiro-style parrying:</strong> Hellwalker.</li><li><strong>Finished Ninja Gaiden or Bayonetta on high difficulty:</strong> Sixty-Six Days.</li></ul><p>Whatever you choose, learn the <a href=\"/combat\">Sha-chi resource system</a> first - it governs both your heavy attacks and your blocking, so misreading it will make any mode feel harder than it is. Weapon choice interacts with this too; see <a href=\"/weapons\">weapons</a>.</p>"
+      "content": "<ul><li><strong>New to character-action games:</strong> Wayfarer. No shame in it, and the story is the reason the game exists.</li><li><strong>Comfortable with action games but not with Sekiro-level parrying:</strong> Pathbreaker. This is the intended balance and it unlocks 66 Days.</li><li><strong>Comfortable with Sekiro-style parrying:</strong> Hellwalker.</li><li><strong>Finished Ninja Gaiden or Bayonetta on high difficulty, and you want real stakes:</strong> 66 Days, on a second run with your build carried over.</li></ul><p>Whatever you choose, learn the <a href=\"/combat\">Sha-chi resource system</a> first - it governs both your heavy attacks and your blocking, so misreading it will make any mode feel harder than it is. Weapon choice interacts with this too; see <a href=\"/weapons\">weapons</a>.</p>"
     }
   ]
 }
