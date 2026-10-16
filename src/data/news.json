@@ -1,0 +1,105 @@
+{
+  "updated": "2026-10-16",
+  "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
+  "entries": [
+    {
+      "date": "2026-10-09",
+      "title": "Final hands-on previews: boss phase retry, Nioh-style chapters, Denuvo and path tracing on PC",
+      "status": "confirmed",
+      "summary": "S-Game lifted the embargo on its last pre-release preview round, held in Los Angeles. Coverage from three outlets plus a group Q&A with director Soulframe Liang and publishing head Will Chen added structural detail that was not in any earlier official material.",
+      "facts": [
+        "Chapters are self-contained levels with alternative paths and optional bosses, compared by hands-on writers to Nioh 1 and 2 rather than to an open world",
+        "If you reach a boss's second phase and die shortly after, you can re-challenge from the unlocked phase with a refreshed arsenal instead of replaying the whole first section",
+        "The opening gives a choice between two hearts; the 66-day heart is not selectable on a first run and is a tease for what unlocks later",
+        "66 Days mode is not required for the PlayStation 5 platinum trophy, per the developers at the Q&A",
+        "Side quests are deliberately few and heavy: the director said the cast does not get errand quests because the protagonist has 66 days to live",
+        "QTEs are short and fragmentary, inserted between combos rather than replacing play; the opening wagon fight is real combat under a fixed camera",
+        "Boss fights each have their own dynamic soundtrack, and a second phase changes musical genre while reusing the fight's leitmotif",
+        "PC ships with Denuvo anti-tamper and supports path tracing; official PC system requirements were published"
+      ],
+      "source": "DSOGaming, wccftech, RPGamer",
+      "url": "https://rpgamer.com/2026/10/phantom-blade-zero-preview-qa/",
+      "affects": ["boss-guide", "guide", "is-phantom-blade-zero-a-soulslike", "pc-requirements", "difficulty-modes"]
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Difficulty corrected to four modes, and the standard tier is named Pathbreaker",
+      "status": "corrected",
+      "summary": "The August State of Play showed four difficulty options on the menu. PlayStation's own English blog post named only three of them, which is why some guides still say three; contemporaneous coverage of the same broadcast, the game's Wikipedia article and later hands-on write-ups all name the fourth, Pathbreaker, as the standard tier.",
+      "facts": [
+        "Four modes: Wayfarer, Pathbreaker, Hellwalker and 66 Days",
+        "Wayfarer is described by S-Game as intuitive and cinematic, for players who want the story",
+        "Pathbreaker is the standard difficulty and the closest match to the balance the combat was built around",
+        "Hellwalker adds fighting-game mechanics and bosses that do not rely on preset attack patterns, adapting to the player",
+        "66 Days runs at Hellwalker intensity and adds a counter starting at 66 that drops by one per death; reaching zero ends the run",
+        "66 Days unlocks after completing Pathbreaker or Hellwalker; finishing on Wayfarer does not unlock it",
+        "Earlier previews called the standard tier Gamechanger. Two independent write-ups state the name changed to Pathbreaker, so Gamechanger should be read as retired, not as a fifth mode"
+      ],
+      "source": "RPGamer, GamingBolt, GameReactor, The Click, Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Phantom_Blade_Zero",
+      "affects": ["difficulty-modes", "autolink"]
+    },
+    {
+      "date": "2026-08-17",
+      "title": "Official weapon totals published: 30+ Blades and 25 Phantom Edges",
+      "status": "confirmed",
+      "summary": "The founder and CEO of S-Game wrote a PlayStation Blog deep dive that put numbers on the arsenal for the first time, alongside confirmation of Donnie Yen's dual role.",
+      "facts": [
+        "More than 30 main weapons, plus 25 secondary weapons called Phantom Edges",
+        "Weapons are upgraded and paired with accessories to form a build",
+        "Reforging a weapon returns its materials so they can be reinvested elsewhere",
+        "Defeating some enemies expands the arsenal; summons can assist in battle",
+        "Side quests can open new story paths, per the same post",
+        "Donnie Yen is kung fu creative consultant and also performs Mó Yuan through facial and motion capture",
+        "The setting is named the Wulin, and the studio's own genre term is kungfupunk"
+      ],
+      "source": "PlayStation.Blog, signed by Soulframe Liang (S-Game founder and CEO)",
+      "url": "https://blog.playstation.com/2026-08-17/phantom-blade-zero-state-of-play-dives-deep-into-combat-and-the-wulin-world/",
+      "affects": ["weapons", "blades", "phantom-edges", "combat", "protagonist"]
+    },
+    {
+      "date": "2026-08-11",
+      "title": "A demo page leaked on the Chinese PlayStation Store, then went unmentioned",
+      "status": "unconfirmed",
+      "summary": "A playable demo listing appeared on the Chinese PlayStation Store on 11 August. The dedicated State of Play a week later did not announce a demo, and no official confirmation has followed. Treat the demo as not announced.",
+      "facts": [
+        "The leaked page is the only evidence a demo was planned",
+        "No demo was announced at the State of Play or in the October preview round",
+        "Absence is not cancellation, so the honest status is unannounced rather than cancelled"
+      ],
+      "source": "Vice, covering the store leak",
+      "url": "https://www.vice.com/en/article/phantom-blade-zero-demo-release-date-ps5/",
+      "affects": ["release-date"]
+    },
+    {
+      "date": "2026-06-02",
+      "title": "Moved from September 9 to October 29, 2026",
+      "status": "confirmed",
+      "summary": "S-Game announced the delay in an open letter from the creator, alongside the start of pre-orders and a promise of a new trailer and a dedicated State of Play. Both promised items shipped in August.",
+      "facts": [
+        "Release date is October 29, 2026, with October 28 in the US and select regions",
+        "Platforms are PlayStation 5 and PC via Steam and the Epic Games Store; no Xbox version has been announced",
+        "The stated reason was quality: character models upgraded and many environments reworked",
+        "The studio said it aimed to hold the visual standard without depending on ray tracing, with ray tracing as an enhancement"
+      ],
+      "source": "Gematsu, reproducing the creator's letter",
+      "url": "https://www.gematsu.com/2026/06/phantom-blade-zero-delayed-to-october-29",
+      "affects": ["release-date", "how-long-to-beat"]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Pre-order editions as currently listed on the official site",
+      "status": "confirmed",
+      "summary": "Checked directly against the official product page on the date shown. The notable line is the small print: the bonus content is also obtainable in game, which changes how much the Deluxe Edition is worth to someone who plans to play rather than collect.",
+      "facts": [
+        "Standard Edition is the full game plus pre-order unlocks: the Treasure Basin accessory and the Legacy outfit",
+        "Deluxe Edition adds the Wulin Legend and Blood-Steel Form outfits, a digital artbook and the digital soundtrack",
+        "The official page states for both editions that the bonus content can also be obtained through in-game progression",
+        "There is no early access: the Deluxe Edition does not let anyone play before the release date, so every player starts on the same day"
+      ],
+      "source": "Official Phantom Blade Zero site (pbz.s-game.com)",
+      "url": "https://pbz.s-game.com/en-US/",
+      "affects": ["pre-order-guide"]
+    }
+  ]
+}

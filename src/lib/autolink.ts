@@ -3,13 +3,11 @@ const ENTITY_LINKS: ReadonlyArray<readonly [RegExp, string]> = [
   [/\bSha-chi\b/, "/combat"],
   [/\bPhantom Edges?\b/i, "/weapons"],
   // Characters
+  // Wayfarer / Hellwalker / Pathbreaker / 66 Days are difficulty modes, not
+  // characters - their rules live under Pre-launch info pages below.
   [/\bSoul\b/, "/protagonist"],
   [/\bMu Xiaokui\b/, "/characters"],
-  [/\bMu Tianmiao\b/, "/characters"],
-  [/\bZuo Shang\b/, "/characters"],
-  [/\bHellwalkers?\b/, "/characters"],
-  [/\bMystic Healer\b/, "/characters"],
-  [/\bWayfarers?\b/, "/characters"],
+  [/\bZuoshang\b/, "/characters"],
   [/\bThe Order\b/, "/characters"],
   // Weapon types
   [/\bRegular Sword\b/, "/weapons"],
@@ -18,10 +16,11 @@ const ENTITY_LINKS: ReadonlyArray<readonly [RegExp, string]> = [
   // World & framing
   [/\bPhantom World\b/, "/guide"],
   [/\bKungfu\s?Punk\b/i, "/guide"],
-  [/\bSixty-Six Days\b/, "/release-date"],
   [/\bsoulslike\b/i, "/is-phantom-blade-zero-a-soulslike"],
   // Pre-launch info pages
   [/\bWayfarer\b/, "/difficulty-modes"],
+  [/\bPathbreaker\b/, "/difficulty-modes"],
+  [/\b66 Days\b|\bSixty-Six Days\b/, "/difficulty-modes"],
   [/\bHellwalker\b/, "/difficulty-modes"],
   [/\bsingle-player\b/i, "/is-phantom-blade-zero-single-player"],
   [/\bpre-order(?:ing)?\b/i, "/pre-order-guide"],
