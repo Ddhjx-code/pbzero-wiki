@@ -28,6 +28,11 @@
       "id": "build-synergy",
       "title": "Weapon Build Synergy",
       "content": "<div class=\"tip-box\"><p>💡 <strong>Pro Tip:</strong> Experiment with different Sha-chi + Main weapon combinations. The best builds depend on your playstyle — aggressive players favor Dual Swords + offensive Sha-chi, while defensive players prefer Regular Sword + defensive Sha-chi.</p></div><p>The combination of main weapon + Sha-chi weapon + Phantom Edge creates your \"build\" in Phantom Blade Zero. Here are some expected synergy archetypes:</p><table><thead><tr><th>Build Type</th><th>Main Weapon</th><th>Sha-chi</th><th>Playstyle</th></tr></thead><tbody><tr><td>Speed DPS</td><td>Dual Swords</td><td>Close-range technique</td><td>Aggressive, in-your-face combos</td></tr><tr><td>Heavy Hitter</td><td>Long Sword</td><td>Cannon</td><td>Ranged opener → big melee finisher</td></tr><tr><td>Balanced</td><td>Regular Sword</td><td>Throwing weapons</td><td>Versatile at all ranges</td></tr><tr><td>Parry Master</td><td>Regular Sword</td><td>Counter technique</td><td>Defensive, punish-focused</td></tr></tbody></table><p>See our <a href=\"/combat\">Sha-chi system</a> for optimized combinations (available at launch).</p>"
+    },
+    {
+      "id": "what-changed-this-week",
+      "title": "What changed this week",
+      "content": "<p>The October interviews added two things. Scope: the director put the boss count at <strong>at least 50</strong>, close to the weapon count by design because bosses are where weapons come from. Intent: he said the team was happy they did not have to balance every weapon equally. Certain weapons blunt certain boss attacks, and the game does not point you at them - finding the counter is the design.</p><p>One discrepancy recorded rather than hidden: the October interviews describe <strong>30 main weapons and around 20 secondary</strong>, while the August PlayStation Blog post said <strong>more than 30 main and 25 Phantom Edges</strong>. Both are S-Game. The likely reading is rounding in interview conditions versus a written showcase post, so the August figures stay the headline and the October ones are noted here.</p>"
     }
   ],
   "facts": [
@@ -66,6 +71,14 @@
     {
       "label": "Reforging",
       "value": "Returns upgrade materials for reinvestment (official)"
+    },
+    {
+      "label": "Boss count",
+      "value": "At least 50, per the director (October 2026)"
+    },
+    {
+      "label": "Balance",
+      "value": "Deliberately uneven - the director said the team was glad it did not have to make everything 100% balanced"
     }
   ]
 }

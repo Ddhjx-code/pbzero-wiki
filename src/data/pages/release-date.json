@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero Release Date - October 29, 2026 (PS5 & PC)",
   "description": "Phantom Blade Zero releases October 29, 2026 on PS5 and PC. The confirmed date, platforms, and the full history of the September 9 delay explained.",
   "keyword": "phantom blade zero release date",
-  "lastUpdated": "2026-09-18",
+  "lastUpdated": "2026-10-16",
   "sections": [
     {
       "id": "confirmed-date",
@@ -28,6 +28,11 @@
       "id": "what-to-do-now",
       "title": "What to Do Before October 29",
       "content": "<p>If you are waiting for the game, there is a reasonable amount of official material to work through in the meantime:</p><ul><li>Read the <a href=\"/protagonist\">protagonist and story premise</a> — the 66-day setup is the core of the game and shapes everything</li><li>Understand the <a href=\"/combat\">Sha-chi combat system</a> before launch so the mechanics are not new to you on day one</li><li>Look at the <a href=\"/s-game\">studio background</a> — S-GAME's history explains why the game looks the way it does</li><li>Wishlist on Steam or the PlayStation Store so you get notified at launch</li></ul>"
+    },
+    {
+      "id": "what-changed-this-week",
+      "title": "What changed this week",
+      "content": "<p>The unlock time is now known from the PlayStation Store listing: <strong>02:00 UTC on 29 October</strong>, which lands as the evening of 28 October in the US. That is why some pages say October 28 and some October 29 - both are right for their region.</p><p>Still not announced as of 16 October: the review embargo, the preload window and the install size. Anyone publishing a download size before S-Game or the stores do is guessing.</p>"
     }
   ],
   "facts": [
@@ -58,6 +63,18 @@
     {
       "label": "Console exclusivity",
       "value": "PS5 timed exclusive, 12 months"
+    },
+    {
+      "label": "Global unlock",
+      "value": "02:00 UTC on October 29 - 7 PM Pacific / 10 PM Eastern on October 28"
+    },
+    {
+      "label": "Physical edition",
+      "value": "None at launch - retailer listing withdrawn"
+    },
+    {
+      "label": "Preload",
+      "value": "Not announced"
     }
   ]
 }

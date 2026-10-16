@@ -3,7 +3,7 @@
   "title": "Phantom Blade Zero Pre-Order Guide - Is It Worth It?",
   "description": "What you actually get for pre-ordering Phantom Blade Zero: the Treasure Basin accessory and Legacy outfit, both of which are also obtainable in-game. Price, editions and where to buy.",
   "keyword": "phantom blade zero pre-order",
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-16",
   "facts": [
     {
       "label": "Pre-orders opened",
@@ -11,19 +11,19 @@
     },
     {
       "label": "Pre-order bonus",
-      "value": "Treasure Basin accessory + Legacy outfit"
+      "value": "Treasure Basin accessory (+10% Remnant Dust drop rate) + Legacy appearance"
     },
     {
       "label": "Bonus exclusivity",
-      "value": "Not exclusive - both obtainable in-game"
+      "value": "Pre-order bonus obtainable in-game; the two Deluxe outfits are labelled Exclusive, unresolved"
     },
     {
       "label": "Standard price",
-      "value": "Not announced"
+      "value": "$59.99 (Steam US)"
     },
     {
       "label": "Deluxe edition",
-      "value": "Not announced"
+      "value": "$69.99 - Wulin Legend and Blood-Steel Form outfits, artbook, OST"
     },
     {
       "label": "Where to buy",
@@ -32,6 +32,10 @@
     {
       "label": "Release date",
       "value": "October 29, 2026"
+    },
+    {
+      "label": "Physical edition",
+      "value": "Not available at launch - retailer listing withdrawn"
     }
   ],
   "sections": [
@@ -59,6 +63,11 @@
       "id": "should-you",
       "title": "Should You Pre-Order?",
       "content": "<p>Given the bonus structure, the honest framing is:</p><ul><li><strong>Pre-order if</strong> you want to guarantee a day-one download and do not care about the money being spent before reviews exist. You lose nothing by doing it.</li><li><strong>Wait if</strong> you want to know how the performance holds up on your hardware, or whether the difficulty modes work as described. You give up nothing except the small chance of a storefront sale.</li></ul><p>The one thing that would change this calculus is a deluxe edition with meaningful content, which has not been announced. Watch the <a href=\"/release-date\">release date page</a> for updates.</p>"
+    },
+    {
+      "id": "what-changed-this-week",
+      "title": "What changed this week",
+      "content": "<p>Prices are now published, so the earlier &ldquo;not announced&rdquo; line is gone. Standard is $59.99 and Digital Deluxe $69.99 on Steam in the US. Pre-ordering Deluxe also carries the pre-order bonuses.</p><p>One honest ambiguity: the official page says bonus content can also be obtained through in-game progression, but it prints that line under both edition blocks while separately labelling the two Deluxe appearances as Exclusive. Those two statements cannot both hold, so treat the Deluxe outfits as paid-only until it is cleared up.</p><p>There is no early access in any edition, and no physical PlayStation 5 version at launch - Play-Asia removed its boxed listing after being told none was coming. A later boxed release is speculation, not an announcement.</p><p><em>Source: listings checked by GamerFuzion, 2026-10-13.</em></p>"
     }
   ]
 }
