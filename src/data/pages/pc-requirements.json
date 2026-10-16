@@ -3,11 +3,11 @@
   "title": "Phantom Blade Zero PC Requirements - What Is Confirmed",
   "description": "System requirements for Phantom Blade Zero on PC have not been published. Here is what is confirmed - Unreal Engine 5, native DLSS 4.5, ray-traced reflections - and how to judge your hardware before the October 29 release.",
   "keyword": "phantom blade zero pc requirements",
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-16",
   "facts": [
     {
       "label": "System requirements",
-      "value": "Not yet published"
+      "value": "Published alongside the October 2026 preview coverage"
     },
     {
       "label": "Engine",
@@ -32,6 +32,14 @@
     {
       "label": "Release date",
       "value": "October 29, 2026"
+    },
+    {
+      "label": "Anti-tamper",
+      "value": "Denuvo confirmed on PC"
+    },
+    {
+      "label": "Path tracing",
+      "value": "Supported on PC, on top of ray-traced reflections and shadows"
     }
   ],
   "sections": [
@@ -59,6 +67,11 @@
       "id": "related",
       "title": "Related",
       "content": "<p>The <a href=\"/release-date\">release date page</a> tracks the schedule. If you are deciding whether to pre-order while waiting for the specs, the <a href=\"/pre-order-guide\">pre-order guide</a> explains what you do and do not gain by committing early - the short version is that the announced bonuses are both obtainable in-game.</p>"
+    },
+    {
+      "id": "what-changed-this-week",
+      "title": "What changed this week",
+      "content": "<p>Two PC details arrived with the October preview round: the game ships with <strong>Denuvo anti-tamper</strong>, and it supports <strong>path tracing</strong> in addition to the ray-traced reflections already listed. Official system requirements were published alongside that coverage.</p><p>A caution worth carrying into launch week: one preview team reported <em>rare but extreme</em> frame-rate drops even on a high-end PC, and the preview build was PC-only, so PlayStation 5 performance has not been independently seen.</p>"
     }
   ]
 }

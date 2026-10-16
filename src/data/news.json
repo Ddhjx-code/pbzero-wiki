@@ -3,6 +3,106 @@
   "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
   "entries": [
     {
+      "date": "2026-10-16",
+      "title": "Pre-order editions and prices, with a caveat on what 'exclusive' means",
+      "status": "corrected",
+      "summary": "Checked against the official product page and Steam listings. The small print on the official page says bonus content can also be obtained through in-game progression, but it sits under both edition blocks while the two Deluxe outfits are separately labelled Exclusive. Those two statements cannot both be fully true, so this page records the conflict instead of picking a side.",
+      "facts": [
+        "Standard Edition on Steam (US) is $59.99; Digital Deluxe is $69.99",
+        "Pre-order bonus in both editions: the Treasure Basin accessory and the Legacy appearance",
+        "Treasure Basin is described as raising Remnant Dust drop rate by 10%",
+        "Deluxe adds the Wulin Legend and Blood-Steel Form appearances, a digital artbook and the digital soundtrack",
+        "The official page states that bonus content can also be obtained through in-game progression - but the two Deluxe appearances are labelled Exclusive, so whether they are earnable is unresolved",
+        "No early access: the Deluxe Edition does not let anyone play before the release date",
+        "Buying the Deluxe Edition on pre-order also includes the pre-order bonuses, per the PlayStation.com footnote"
+      ],
+      "source": "Official Phantom Blade Zero site, plus Steam and PlayStation Store listings checked 2026-10-16",
+      "url": "https://pbz.s-game.com/en-US/",
+      "affects": [
+        "pre-order-guide"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "title": "Director on weapon balance: the team deliberately did not make everything equal",
+      "status": "confirmed",
+      "summary": "PC Games N visited S-Game in Beijing and asked director Soulframe Liang how 30 weapons get balanced. The answer was that they are not, and that this is intentional.",
+      "facts": [
+        "The director said the team was happy they did not have to make everything 100% balanced",
+        "Bosses can be chipped at with anything in the arsenal, but specific weapons blunt specific attacks - the example given was a fight where one weapon reduced the impact of the boss's main attack",
+        "The game does not push players toward particular equipment; it leaves the counter-weapon discovery to the player",
+        "Unlock order is deliberate, and more undisclosed weapons are still to be revealed",
+        "The advice given is to try every weapon when you find it"
+      ],
+      "source": "PC Games N, interview with Soulframe Liang",
+      "url": "https://www.pcgamesn.com/phantom-blade-zero/interview-make-everything-balanced",
+      "affects": [
+        "weapons",
+        "boss-guide",
+        "combat"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "title": "IGN shows The Hunt boss fight and the first look at Blood-Steel Form",
+      "status": "confirmed",
+      "summary": "IGN released gameplay of a boss called The Hunt - the assassin Soul fights on the moving cart in the opening - together with a first look at Blood-Steel Form, one of the two Deluxe Edition outfits.",
+      "facts": [
+        "The Hunt is the opening-act assassin, fought atop a moving cart, and is considerably tougher than that first encounter suggests",
+        "Coverage describes the fight as parrying across four axes",
+        "Blood-Steel Form is a Deluxe Edition exclusive appearance, shown for the first time in this clip",
+        "What weapon, if any, The Hunt drops has not been announced",
+        "Steam's own copy says weapons are wrested from fallen foes, so a drop is a reasonable inference but is not confirmed"
+      ],
+      "source": "IGN video, written up by GamingBolt and GamerFuzion",
+      "url": "https://in.ign.com/phantom-blade-zero/274292/phantom-blade-zero-the-hunt-boss-fight-blood-steel-form-appearance-reveal",
+      "affects": [
+        "boss-guide",
+        "pre-order-guide"
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "title": "No physical edition at launch, and the unlock time is now known",
+      "status": "confirmed",
+      "summary": "Two logistics facts settled over this week. Play-Asia removed its boxed PS5 listing after being told none is coming, and the PlayStation Store listing puts the global unlock at 02:00 UTC on 29 October.",
+      "facts": [
+        "No physical PlayStation 5 edition at launch; a retailer listing was withdrawn. A later boxed release is speculation, not an announcement",
+        "Global unlock is 02:00 UTC on October 29, which is 7 PM Pacific and 10 PM Eastern on October 28",
+        "PC launches at the same time as PS5, and PC is via Steam and the Epic Games Store",
+        "As of this date, no review embargo, preload window or install size had been announced"
+      ],
+      "source": "NoobFeed on the physical edition; GamerFuzion citing the PlayStation Store listing",
+      "url": "https://www.noobfeed.com/news/phantom-blade-zero-physical-copies-missing",
+      "affects": [
+        "release-date",
+        "pre-order-guide"
+      ]
+    },
+    {
+      "date": "2026-10-12",
+      "title": "Preview wave: 50+ bosses, 30-40 hours, stealth takedowns - and frame-rate concern",
+      "status": "confirmed",
+      "summary": "A second round of previews landed from writers who had hands-on time at gamescom 2026 and at the Los Angeles event. Together they put numbers on scope, and one raised the first real technical worry.",
+      "facts": [
+        "The director stated the game has at least 50 bosses, with the boss count roughly matching the weapon count since bosses are where weapons come from",
+        "He described the arsenal as 30 main weapons and around 20 secondary weapons. Note this differs slightly from the August PlayStation Blog post, which said more than 30 main and 25 Phantom Edges; both are recorded with their dates",
+        "Expected playthrough length given as 30 to 40 hours, varying with difficulty and how much you explore",
+        "GamerBraves, after three hours at gamescom 2026, described rooftop and terrain assassinations, so exploration feeds combat rather than sitting beside it",
+        "GameScreed reported rare but extreme frame-rate drops even on a high-end PC in the preview build, and noted the preview was PC-only, so console performance is still unknown",
+        "The same piece flagged that the combat's deeper weapon-switching systems take time to internalise"
+      ],
+      "source": "NoobFeed, GamerBraves, GameScreed",
+      "url": "https://www.gamerbraves.com/phantom-blade-zero-preview-exploration-upgrades-and-combat-all-connect-together/",
+      "affects": [
+        "how-long-to-beat",
+        "weapons",
+        "boss-guide",
+        "pc-requirements",
+        "combat"
+      ]
+    },
+    {
       "date": "2026-10-09",
       "title": "Final hands-on previews: boss phase retry, Nioh-style chapters, Denuvo and path tracing on PC",
       "status": "confirmed",
@@ -19,7 +119,13 @@
       ],
       "source": "DSOGaming, wccftech, RPGamer",
       "url": "https://rpgamer.com/2026/10/phantom-blade-zero-preview-qa/",
-      "affects": ["boss-guide", "guide", "is-phantom-blade-zero-a-soulslike", "pc-requirements", "difficulty-modes"]
+      "affects": [
+        "boss-guide",
+        "guide",
+        "is-phantom-blade-zero-a-soulslike",
+        "pc-requirements",
+        "difficulty-modes"
+      ]
     },
     {
       "date": "2026-08-18",
@@ -37,7 +143,10 @@
       ],
       "source": "RPGamer, GamingBolt, GameReactor, The Click, Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Phantom_Blade_Zero",
-      "affects": ["difficulty-modes", "autolink"]
+      "affects": [
+        "difficulty-modes",
+        "autolink"
+      ]
     },
     {
       "date": "2026-08-17",
@@ -55,7 +164,13 @@
       ],
       "source": "PlayStation.Blog, signed by Soulframe Liang (S-Game founder and CEO)",
       "url": "https://blog.playstation.com/2026-08-17/phantom-blade-zero-state-of-play-dives-deep-into-combat-and-the-wulin-world/",
-      "affects": ["weapons", "blades", "phantom-edges", "combat", "protagonist"]
+      "affects": [
+        "weapons",
+        "blades",
+        "phantom-edges",
+        "combat",
+        "protagonist"
+      ]
     },
     {
       "date": "2026-08-11",
@@ -69,7 +184,9 @@
       ],
       "source": "Vice, covering the store leak",
       "url": "https://www.vice.com/en/article/phantom-blade-zero-demo-release-date-ps5/",
-      "affects": ["release-date"]
+      "affects": [
+        "release-date"
+      ]
     },
     {
       "date": "2026-06-02",
@@ -84,22 +201,10 @@
       ],
       "source": "Gematsu, reproducing the creator's letter",
       "url": "https://www.gematsu.com/2026/06/phantom-blade-zero-delayed-to-october-29",
-      "affects": ["release-date", "how-long-to-beat"]
-    },
-    {
-      "date": "2026-10-16",
-      "title": "Pre-order editions as currently listed on the official site",
-      "status": "confirmed",
-      "summary": "Checked directly against the official product page on the date shown. The notable line is the small print: the bonus content is also obtainable in game, which changes how much the Deluxe Edition is worth to someone who plans to play rather than collect.",
-      "facts": [
-        "Standard Edition is the full game plus pre-order unlocks: the Treasure Basin accessory and the Legacy outfit",
-        "Deluxe Edition adds the Wulin Legend and Blood-Steel Form outfits, a digital artbook and the digital soundtrack",
-        "The official page states for both editions that the bonus content can also be obtained through in-game progression",
-        "There is no early access: the Deluxe Edition does not let anyone play before the release date, so every player starts on the same day"
-      ],
-      "source": "Official Phantom Blade Zero site (pbz.s-game.com)",
-      "url": "https://pbz.s-game.com/en-US/",
-      "affects": ["pre-order-guide"]
+      "affects": [
+        "release-date",
+        "how-long-to-beat"
+      ]
     }
   ]
 }

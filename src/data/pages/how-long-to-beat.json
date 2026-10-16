@@ -3,15 +3,15 @@
   "title": "How Long Is Phantom Blade Zero? (Unconfirmed)",
   "description": "Playtime for Phantom Blade Zero has not been confirmed before release. Here is what is known about the game's structure - the 66-day countdown, four characters, semi-open world - and how to read any hour estimate you see.",
   "keyword": "how long is phantom blade zero",
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-16",
   "facts": [
     {
       "label": "Main story length",
-      "value": "Not confirmed pre-release"
+      "value": "30-40 hours, per the director (October 2026)"
     },
     {
       "label": "Completionist length",
-      "value": "Not confirmed pre-release"
+      "value": "Not confirmed; 50+ bosses and optional paths push it higher"
     },
     {
       "label": "Structure",
@@ -27,7 +27,7 @@
     },
     {
       "label": "Difficulty modes",
-      "value": "3"
+      "value": "4 - Wayfarer, Pathbreaker, Hellwalker, 66 Days"
     },
     {
       "label": "Release date",
@@ -43,7 +43,7 @@
     {
       "id": "why-estimates-fail",
       "title": "Why Pre-Launch Estimates Go Wrong",
-      "content": "<p>Action RPGs are the worst category to estimate, because playtime is driven by player skill rather than content volume:</p><ul><li><strong>Boss gates.</strong> One fight that takes one player 20 minutes and another player two hours changes the total by more than most of the map.</li><li><strong>Difficulty mode.</strong> With three modes announced, the same content has a very different wall-clock time on Wayfarer than on Sixty-Six Days.</li><li><strong>Death loops.</strong> Checkpoint-based design with respawning enemies means a stuck player re-runs the same corridor repeatedly.</li><li><strong>Optional content depth.</strong> A semi-open world can be rushed or emptied, and nobody outside the studio knows how much is there.</li></ul>"
+      "content": "<p>Action RPGs are the worst category to estimate, because playtime is driven by player skill rather than content volume:</p><ul><li><strong>Boss gates.</strong> One fight that takes one player 20 minutes and another player two hours changes the total by more than most of the map.</li><li><strong>Difficulty mode.</strong> With four modes announced, the same content has a very different wall-clock time on Wayfarer than on Sixty-Six Days.</li><li><strong>Death loops.</strong> Checkpoint-based design with respawning enemies means a stuck player re-runs the same corridor repeatedly.</li><li><strong>Optional content depth.</strong> A semi-open world can be rushed or emptied, and nobody outside the studio knows how much is there.</li></ul>"
     },
     {
       "id": "what-is-known",

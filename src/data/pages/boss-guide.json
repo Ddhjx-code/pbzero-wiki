@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero Boss Guide - All Known Bosses & Strategies",
   "description": "Complete Phantom Blade Zero boss guide. All confirmed bosses from demos and trailers, with combat tips and strategies for each encounter.",
   "keyword": "phantom blade zero boss guide",
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-10-16",
   "sections": [
     {
       "id": "overview",
@@ -28,6 +28,11 @@
       "id": "general-tips",
       "title": "General Boss Fight Tips",
       "content": "<ul><li><strong>Learn the parry timing</strong> — Every boss has parryable attacks. The counter-damage is always worth the risk.</li><li><strong>Boss-specific weapons</strong> — Some bosses drop unique weapons. These are often among the best in the game.</li><li><strong>NPC vendors sell consumables</strong> — Stock up on healing items from NPC merchants before boss encounters.</li><li><strong>Watch for red flash</strong> — Unblockable/unparryable attacks are telegraphed with a red indicator. Dodge these.</li><li><strong>Multi-phase fights</strong> — Most bosses have at least 2 phases. Save your strongest Phantom Edge abilities for phase 2.</li><li><strong>Death costs days</strong> — Remember, dying pushes your 66-day timer forward. If you're stuck, consider leveling up elsewhere first.</li></ul><p><em>Full detailed strategies with frame data and optimal loadouts will be added at launch.</em></p><p>Prefer to watch a fight rather than read it? Our <a href=\"/boss-video-guides\">boss video guide index</a> lists third-party walkthroughs as plain links, with notes on which phases each one covers.</p>"
+    },
+    {
+      "id": "what-changed-this-week",
+      "title": "What changed this week",
+      "content": "<p>The director stated in October that the game has <strong>at least 50 bosses</strong>, and that the count tracks the weapon count because defeating a boss is how its weapon is earned. The boss list is therefore the closest thing to a weapon list.</p><p>A boss called <strong>The Hunt</strong> was shown in IGN footage on 13 October - the assassin Soul fights on the moving cart in the opening, here as a full encounter. What it drops has not been announced.</p>"
     }
   ],
   "facts": [
@@ -54,6 +59,10 @@
     {
       "label": "Boss rewards",
       "value": "Unique weapons not available elsewhere"
+    },
+    {
+      "label": "Total bosses",
+      "value": "At least 50, per the director (October 2026)"
     }
   ]
 }

@@ -37,7 +37,8 @@ def para(text: str) -> str:
 
 def main() -> int:
     news = json.load(open(DATA, encoding="utf-8"))
-    entries = news["entries"]
+    # Newest first regardless of how the data file was edited.
+    entries = sorted(news["entries"], key=lambda e: e["date"], reverse=True)
     pages = {f[:-5] for f in os.listdir(PAGES) if f.endswith(".json")}
 
     broken = sorted(
