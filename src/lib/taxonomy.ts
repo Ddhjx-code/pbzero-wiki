@@ -39,7 +39,7 @@ const SECTIONS: SectionDef[] = [
   {
     label: "World & Exploration",
     href: "/locations",
-    slugs: new Set(["locations", "collectibles", "missable", "blades", "phantom-edges", "npcs"]),
+    slugs: new Set(["locations", "collectibles", "missable", "phantom-edges", "npcs"]),
     category: "World & Exploration",
   },
   {
@@ -80,7 +80,6 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Locations & Regions", href: "/locations" },
     { label: "Collectibles", href: "/collectibles" },
     { label: "Missable Content", href: "/missable" },
-    { label: "Blades", href: "/blades" },
     { label: "Phantom Edges", href: "/phantom-edges" },
     { label: "NPCs", href: "/npcs" },
   ],  Studio: [

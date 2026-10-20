@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/blades",
+      "destination": "/weapons",
+      "permanent": true
+    }
+  ]
+}

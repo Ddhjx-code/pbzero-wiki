@@ -45,7 +45,7 @@
     {
       "id": "overview",
       "title": "What Phantom Edges Are",
-      "content": "<p>Phantom Edges occupy Soul's <strong>two secondary weapon slots</strong>. The confirmed example set is deliberately ungovernable - <strong>cannons, lances, axes and hammers</strong> - which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the name is doing conceptual work rather than literal work: several of them are not blades at all.</p> <a href=\"/blades\">Blades</a> are the primary counterpart.<p><strong>They are not only weapons.</strong> Six hours of studio preview coverage in October 2026 described an axe that breaks environmental barriers and a chain sickle that doubles as a grappling hook for reaching places that were inaccessible before. That gives the world a Metroidvania shape: a new Phantom Edge changes how you read a region you have already visited, and the director has acknowledged the influence directly. It also means skipping a Phantom Edge can lock content you will want later.</p>"
+      "content": "<p>Phantom Edges occupy Soul's <strong>two secondary weapon slots</strong>. The confirmed example set is deliberately ungovernable - <strong>cannons, lances, axes and hammers</strong> - which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the name is doing conceptual work rather than literal work: several of them are not blades at all.</p> Main weapons (blades) are the primary counterpart.<p><strong>They are not only weapons.</strong> Six hours of studio preview coverage in October 2026 described an axe that breaks environmental barriers and a chain sickle that doubles as a grappling hook for reaching places that were inaccessible before. That gives the world a Metroidvania shape: a new Phantom Edge changes how you read a region you have already visited, and the director has acknowledged the influence directly. It also means skipping a Phantom Edge can lock content you will want later.</p>"
     },
     {
       "id": "roster-cn",
@@ -65,7 +65,7 @@
     {
       "id": "pairing",
       "title": "Pairing With Blades",
-      "content": "<p>Two <a href=\"/blades\">blades</a> plus two Phantom Edges, all four live during a fight. Swapping between them refilled stamina and continued the combo chain in the 2024 demo build (IGN&#39;s observation), so a run is normally built around which two edges cover what the blades cannot.</p><p class=\"text-sm text-gray-500\">Naming note: the 2024 demo build called this meter stamina and the 2026 combat write-up calls it Sha-chi, with a cooldown cost attached. The reconciliation, and why it may still be wrong, is on the <a href=\"/combat\">combat page</a>.</p>"
+      "content": "<p>Two <a href=\"/weapons\">blades</a> plus two Phantom Edges, all four live during a fight. Swapping between them refilled stamina and continued the combo chain in the 2024 demo build (IGN&#39;s observation), so a run is normally built around which two edges cover what the blades cannot.</p><p class=\"text-sm text-gray-500\">Naming note: the 2024 demo build called this meter stamina and the 2026 combat write-up calls it Sha-chi, with a cooldown cost attached. The reconciliation, and why it may still be wrong, is on the <a href=\"/combat\">combat page</a>.</p>"
     },
     {
       "id": "status",

@@ -21,7 +21,6 @@ export const TOPICS: NavTopic[] = [
     label: "Weapons",
     pages: [
       { slug: "weapons", title: "Weapons Overview" },
-      { slug: "blades", title: "Blades (Primary)" },
       { slug: "phantom-edges", title: "Phantom Edges (Secondary)" },
     ],
   },
