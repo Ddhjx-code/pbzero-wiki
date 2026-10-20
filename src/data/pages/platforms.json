@@ -1,0 +1,59 @@
+{
+  "slug": "platforms",
+  "title": "Phantom Blade Zero Platforms - PS5, PC, and What About Xbox and Switch?",
+  "description": "Phantom Blade Zero releases on PlayStation 5 and PC via Steam and the Epic Games Store on 29 October 2026. No Xbox version and no Nintendo Switch or Switch 2 version has been announced.",
+  "keyword": "phantom blade zero xbox, phantom blade zero switch 2, is phantom blade zero ps5 exclusive, phantom blade zero platforms, phantom blade zero steam epic",
+  "lastUpdated": "2026-10-20",
+  "facts": [
+    {
+      "label": "PlayStation 5",
+      "value": "Confirmed - digital, PS5 Pro Enhanced"
+    },
+    {
+      "label": "PC",
+      "value": "Confirmed - Steam and Epic Games Store"
+    },
+    {
+      "label": "Xbox Series X|S",
+      "value": "Not announced"
+    },
+    {
+      "label": "Nintendo Switch 2",
+      "value": "Not announced"
+    },
+    {
+      "label": "Physical disc",
+      "value": "None - see the physical edition page"
+    },
+    {
+      "label": "Cross-save between stores",
+      "value": "Not announced"
+    },
+    {
+      "label": "Chinese release",
+      "value": "Simultaneous - the game holds a mainland publishing licence"
+    }
+  ],
+  "sections": [
+    {
+      "id": "confirmed",
+      "title": "What is confirmed",
+      "content": "<p>Two platforms at launch: <a href=\"/release-date\"><strong>PlayStation 5</strong></a> and <a href=\"/pc-requirements\"><strong>PC</strong></a>, with the PC version on both Steam and the Epic Games Store. The PS5 version is listed as PS5 Pro Enhanced, with DualSense adaptive triggers, haptic feedback and Tempest 3D audio called out in Sony's own product page.</p><p>There is no Xbox and no Nintendo Switch or Switch 2 entry in any official material. Searches for both appear in the rising query lists, which means people are hoping rather than reacting to news.</p>"
+    },
+    {
+      "id": "exclusive",
+      "title": "Is it a PlayStation exclusive?",
+      "content": "<p>Not in the sense that only PlayStation can play it - PC is a launch platform. What is true is that Sony is promoting it unusually hard for a third-party title: a dedicated standalone State of Play, which PlayStation Blog Japan covered in Japanese under the director's own byline, plus first-party-level hardware treatment on the Japanese store page.</p><p>Whether there is a timed-exclusivity period on console has not been stated in the official material behind this page, so treat any specific month count as unconfirmed. What can be said with confidence: it is not a PlayStation-only game, because PC ships the <a href=\"/release-date\">same day</a>.</p>"
+    },
+    {
+      "id": "pc-stores",
+      "title": "Steam versus Epic",
+      "content": "<p>Both stores sell the same game at the same price, currently listed at $59.99 standard and $69.99 for the Digital Deluxe Edition in the US. The practical differences are launcher habit and friend lists, not features. Note that the PC build ships with <strong>Denuvo anti-tamper</strong>, which is the detail most likely to matter to the people deciding between storefronts.</p>"
+    },
+    {
+      "id": "languages",
+      "title": "Language support, including Japanese and Chinese",
+      "content": "<p>The game ships with Simplified Chinese, Traditional Chinese, English, Japanese and other languages, and S-GAME's own site is published in all of them plus Korean, Spanish (two variants), Portuguese (two), French, German, Italian, Russian, Vietnamese and Thai.</p><p>For Japanese buyers specifically: the support listed is <strong>interface and subtitles</strong>. Japanese voice acting does not appear in the Steam support table, so if dubbing matters to you, assume it is not there until a store page says otherwise.</p><p>China releases simultaneously with the rest of the world because the game holds a mainland publishing licence, which is why the Chinese marketing push is unusually heavy for this kind of launch.</p>"
+    }
+  ]
+}

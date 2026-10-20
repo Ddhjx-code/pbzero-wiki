@@ -1,0 +1,59 @@
+{
+  "slug": "missable",
+  "title": "Phantom Blade Zero Missable Content - What You Can Permanently Skip",
+  "description": "Community documentation states plainly that some side quests cannot be recovered once missed. This page separates what is actually known from what is guess, and gives a route that keeps the recoverable stuff safe.",
+  "keyword": "phantom blade zero missable, phantom blade zero miss side quests, phantom blade zero points of no return, phantom blade zero completionist",
+  "lastUpdated": "2026-10-20",
+  "facts": [
+    {
+      "label": "Missable side quests",
+      "value": "Reported by the community wiki: some cannot be recovered"
+    },
+    {
+      "label": "Which ones",
+      "value": "Not published before release - no list exists yet"
+    },
+    {
+      "label": "Points of no return",
+      "value": "Not documented before release"
+    },
+    {
+      "label": "New Game Plus",
+      "value": "Confirmed; carries weapons, upgrades and progression"
+    },
+    {
+      "label": "66 Days mode unlock",
+      "value": "Requires finishing on Pathbreaker or Hellwalker"
+    },
+    {
+      "label": "Late-game weapons",
+      "value": "Drop from late and hidden bosses, effectively collectibles on a first run"
+    },
+    {
+      "label": "Completion tracking",
+      "value": "Per-map totals and percentage, which is your missable detector"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what-is-known",
+      "title": "What is actually known, and what is not",
+      "content": "<p>One line in the community wiki is worth more than any other pre-release sentence: <strong>部分支线任务错过后无法挽回</strong> - some side quests cannot be recovered once missed. That is a real warning, and it is the reason this page exists.</p><p>What nobody has, before launch, is the list. No outlet or wiki has published which quests are missable, where the points of no return are, or which quests lock behind a chapter. Anyone publishing a specific missable list before reviewers have the retail build is guessing, and this page will not pretend otherwise.</p>"
+    },
+    {
+      "id": "why-it-matters",
+      "title": "Why this game makes it sharper than usual",
+      "content": "<p>Three confirmed design choices stack the risk:</p><ul><li><strong>Side quests can open new story paths.</strong> S-GAME's own State of Play post says interacting with people and completing some side quests may open paths through the story. So a missed quest is potentially a missed branch, not just missed loot.</li><li><strong>There are reportedly eight endings.</strong> If endings are driven by side content and collection, a missable quest is an ending you may not see on this run.</li><li><strong>Exploration is gated by weapons.</strong> Some areas need a specific Phantom Edge to reach, so an area you skip is a set of quests you never saw the existence of.</li></ul>"
+    },
+    {
+      "id": "safe-route",
+      "title": "The route that keeps you safe",
+      "content": "<p>Until a real list exists, the only defensible approach is procedural:</p><ol><li><strong>Watch the map percentage, not the quest markers.</strong> The game tracks totals per area, so a map that stops climbing is telling you something.</li><li><strong>Clear 庞镇 / Pang Town before advancing a chapter.</strong> The hub is where the NPC-linked quests live, and the community notes say some side quests are tied to Pang Town NPCs. Hub state is usually the first thing a chapter transition invalidates.</li><li><strong>Take every Phantom Edge you find,</strong> even if you do not use it - it may be the key to a region rather than a weapon.</li><li><strong>Pick a difficulty you can actually finish with.</strong> The director's stated reason for moving the death limit into <a href=\"/difficulty-modes\">66 Days</a> was that a countdown on the first run was too harsh. That is an explicit invitation to play the story first and the challenge second.</li><li><strong>Plan on a second run.</strong> New Game Plus carries weapons and upgrades, and the late-game arsenal is designed to be used there.</li></ol>"
+    },
+    {
+      "id": "ng-plus",
+      "title": "New Game Plus is part of the plan, not a consolation prize",
+      "content": "<p>The director has been direct about why NG+ exists: weapons that drop from late, final and hidden bosses arrive with so little of the campaign left that on a first run they are collectibles. They were built out in full anyway, with more motion capture and more involved mechanics than the early weapons.</p><p>So a first run that misses content is not a failure state - it is the intended shape. Clearing the game on Pathbreaker or Hellwalker also unlocks 66 Days, which means finishing the story is a prerequisite for the hardest mode rather than a warm-up for it.</p><p class=\"text-sm text-gray-500\">Community terminology and structure on this page comes from the <a href=\"https://wiki.biligame.com/yingzhiren/\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a>, a fan wiki maintained by the moderators of the 影之刃 Baidu Tieba, which states it has no affiliation with S-GAME. It was last edited 2026-10-13 and much of it is still marked 待补充 (to be filled in). Anything taken from it is labelled as community-sourced rather than official, and counts will be replaced with measured data after release.</p>"
+    }
+  ]
+}

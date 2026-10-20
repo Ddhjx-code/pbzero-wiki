@@ -1,0 +1,63 @@
+{
+  "slug": "collectibles",
+  "title": "Phantom Blade Zero Collectibles - All Seven Types and What Each Gives",
+  "description": "The world hides seven categories of collectibles, including three fragment types that permanently raise Soul's Sha-chi bar, attack and health. Bells double as fast travel and resource restock points. Bilingual names included.",
+  "keyword": "phantom blade zero collectibles, phantom blade zero memory flower, sha-chi amber, black stone fragment, bells fast travel",
+  "lastUpdated": "2026-10-20",
+  "facts": [
+    {
+      "label": "Collectible categories",
+      "value": "7 documented, plus story notes and letters"
+    },
+    {
+      "label": "Completion tracking",
+      "value": "The game shows a total and a percentage per map"
+    },
+    {
+      "label": "Bells (铃铛 / ベル)",
+      "value": "Fog reveal, resource restock, and fast travel between discovered bells"
+    },
+    {
+      "label": "Sha-chi Amber shards (杀气琥珀碎片)",
+      "value": "Community-documented: +10% to the Sha-chi bar cap each"
+    },
+    {
+      "label": "Black Stone shards (黑石碎片)",
+      "value": "Community-documented: +10% attack and guard-breaking"
+    },
+    {
+      "label": "Memory Flowers (记忆之花 / 記憶の花)",
+      "value": "Community-documented: +10% maximum health"
+    },
+    {
+      "label": "Gate-locked pickups",
+      "value": "Some weapons and Phantom Edges need a specific Phantom Edge to reach"
+    },
+    {
+      "label": "Exact counts per map",
+      "value": "Not published before release"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "The seven categories",
+      "content": "<p>The world is built to be walked back through, and the collectibles are what mark whether you have actually explored it. Community documentation lists seven categories, and the game tracks a total and a completion percentage per map, so you can see what you skipped.</p><ol><li><a href=\"/locations\"><strong>Bells (铃铛)</strong></a> - the backbone of the map system, described in its own section below.</li><li><strong>Weapons and Phantom Edges (武器与影之武装)</strong> - pickups scattered through the world, some of which need a specific Phantom Edge to reach at all.</li><li><strong>Accessories and flasks (饰品与药瓶)</strong> - the gear and healing items that round out a build.</li><li><strong>Challenge locations (挑战地点)</strong> - optional fight areas with rewards on completion.</li><li><strong>Sha-chi Amber shards (杀气琥珀碎片)</strong> - community-documented as raising the Sha-chi bar cap by 10%.</li><li><strong>Black Stone shards (黑石碎片)</strong> - community-documented as raising attack and guard-breaking by 10%.</li><li><strong>Memory Flowers (记忆之花)</strong> - community-documented as raising maximum health by 10%.</li></ol><p>Separate from those are <strong>story collectibles</strong> - notes and letters (纸条、信件) that sit in the world and can be re-read from the inventory. They carry lore rather than power, which makes them the category completionists are most likely to miss on a first pass.</p>"
+    },
+    {
+      "id": "bells",
+      "title": "Bells do three jobs",
+      "content": "<p>The official State of Play described bells as the fast-travel mechanism. Community documentation adds two things that matter more in practice:</p><ul><li><strong>Touching a bell for the first time clears the fog on the minimap around it</strong>, so a bell is a map-reveal as well as a waypoint.</li><li><strong>Bells restore combat resources</strong>, which makes them the rest point in a game where, by the same accounts, defeated enemies do not simply repopulate when you rest.</li><li>Travel runs between discovered bells, and a consumable teleport item (穿行符) lets you jump from anywhere back to one.</li></ul><p>The practical consequence: bells are not just convenience, they are the economy of the map. If you are stuck on a boss, the answer is more often a bell you have not reached than a level you have not earned.</p>"
+    },
+    {
+      "id": "fragments",
+      "title": "The three permanent upgrades",
+      "content": "<p>Three of the seven categories are progression rather than loot, each reported by the community wiki as a flat 10% per pickup: Sha-chi Amber to the resource bar cap, Black Stone to attack and guard-breaking, Memory Flower to health. That is the closest thing this game has to a stat system, and it is exploration-driven rather than combat-driven - which is the design statement.</p><p><strong>Marked as community-sourced.</strong> The exact percentage, whether it compounds linearly, and how many of each exist have not been published by S-GAME. Verify against the retail game before planning a route around them.</p>"
+    },
+    {
+      "id": "gating",
+      "title": "Why you will come back",
+      "content": "<p>The October 2026 studio previews described Phantom Edges being used outside combat: an axe that smashes environmental barriers, a <a href=\"/phantom-edges\">chain sickle</a> that works as a grappling hook. That means some pickups in the seven categories are physically unreachable until you have the right secondary weapon, which is also why the per-map completion percentage exists at all - see <a href=\"/missable\">missable content</a>.</p><p>Treat any 80%-complete map as a promise rather than a mistake - the missing 20% is probably gated, and the game tells you how much you have left.</p><p class=\"text-sm text-gray-500\">Community terminology and structure on this page comes from the <a href=\"https://wiki.biligame.com/yingzhiren/\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a>, a fan wiki maintained by the moderators of the 影之刃 Baidu Tieba, which states it has no affiliation with S-GAME. It was last edited 2026-10-13 and much of it is still marked 待补充 (to be filled in). Anything taken from it is labelled as community-sourced rather than official, and counts will be replaced with measured data after release.</p>"
+    }
+  ]
+}

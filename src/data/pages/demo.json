@@ -1,0 +1,55 @@
+{
+  "slug": "demo",
+  "title": "Phantom Blade Zero Demo - Is There a Playable Trial?",
+  "description": "There is no public playable demo of Phantom Blade Zero. A demo page briefly appeared on the Chinese PlayStation Store in August 2026 and was never announced, which is the whole story so far.",
+  "keyword": "phantom blade zero demo, pbz demo, phantom blade zero playable, is there a phantom blade zero demo",
+  "lastUpdated": "2026-10-20",
+  "facts": [
+    {
+      "label": "Public demo",
+      "value": "None available"
+    },
+    {
+      "label": "Leaked store page",
+      "value": "Chinese PlayStation Store, 11 August 2026"
+    },
+    {
+      "label": "Announced since",
+      "value": "No - the 17 August State of Play did not mention a demo"
+    },
+    {
+      "label": "Event demos",
+      "value": "Playable booths at gamescom and Tokyo Game Show, invite and press sessions"
+    },
+    {
+      "label": "Demo footage online",
+      "value": "Yes - hands-on captures, which are not the same as a demo you can download"
+    },
+    {
+      "label": "Trial at launch",
+      "value": "None announced; no early access in any edition"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "title": "The Short Answer",
+      "content": "<p><strong>No, there is no demo you can download and play.</strong> What exists is a large amount of captured gameplay from closed and event demos, which is easy to mistake for a public trial when searching.</p>"
+    },
+    {
+      "id": "leak",
+      "title": "The store page that appeared and vanished",
+      "content": "<p>On 11 August 2026 a demo listing for Phantom Blade Zero surfaced on the Chinese PlayStation Store. The dedicated State of Play a week later - roughly twenty minutes of gameplay deep dive - did not announce a demo, and nothing has been said since. That is the complete public record.</p><p>The honest reading: a demo was at some point planned, and either slipped or was cancelled. Absence of an announcement is not a cancellation notice, so this page records it as unannounced rather than as dead.</p>"
+    },
+    {
+      "id": "event-vs-demo",
+      "title": "Event demos are not a demo",
+      "content": "<p>S-GAME has run playable sessions at Gamescom and Tokyo Game Show, and journalists have published long hands-on pieces from them - one outlet spent six hours in a near-final build at the studio, another reported a twenty-minute time-limited booth build at TGS 2025. Those are on-site, time-boxed and, for the press sessions, invitation-based.</p><p>The distinction matters because the footage those sessions produced circulates as if it were current-gen review material. It is close to the finished game, but the builds were not the shipping build, and the frame-rate reports came from a PC preview, not from a retail PS5.</p>"
+    },
+    {
+      "id": "try-before-buy",
+      "title": "What you can do instead",
+      "content": "<ul><li>Watch the <strong>20-minute State of Play deep dive</strong>, which is real gameplay rather than a cinematic trailer, and is the closest thing to seeing the combat before buying.</li><li>Read the <a href=\"/is-phantom-blade-zero-a-soulslike\">soulslike question</a> and the <a href=\"/difficulty-modes\">four difficulty modes</a> - the single biggest source of buyer regret for this genre is mismatched difficulty expectations, and this game has an explicit story mode.</li><li>Check <a href=\"/pc-requirements\">PC requirements</a> before purchase. The install is around 135 GB and the preview build was reported to have rare but severe frame drops on high-end hardware.</li><li>Steam refunds apply to games played under two hours within fourteen days, which is the practical safety net in the absence of a demo.</li></ul>"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const SECTIONS: SectionDef[] = [
     href: "/guide",
     slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
       "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
-      "how-long-to-beat"]),
+      "how-long-to-beat", "physical-edition", "demo", "platforms"]),
     category: "Beginner guides",
   },
   {
@@ -35,6 +35,12 @@ const SECTIONS: SectionDef[] = [
     href: "/characters",
     slugs: new Set(["characters", "protagonist", "endings"]),
     category: "Characters & Story",
+  },
+  {
+    label: "World & Exploration",
+    href: "/locations",
+    slugs: new Set(["locations", "collectibles", "missable", "blades", "phantom-edges", "npcs"]),
+    category: "World & Exploration",
   },
   {
     label: "Studio",
@@ -54,6 +60,9 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Pre-Order Guide", href: "/pre-order-guide" },
     { label: "PC Requirements", href: "/pc-requirements" },
     { label: "How Long?", href: "/how-long-to-beat" },
+    { label: "Physical Edition?", href: "/physical-edition" },
+    { label: "Is There a Demo?", href: "/demo" },
+    { label: "Platforms", href: "/platforms" },
   ],
   "Combat & Bosses": [
     { label: "Combat System", href: "/combat" },
@@ -67,7 +76,14 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Soul", href: "/protagonist" },
     { label: "Endings", href: "/endings" },
   ],
-  Studio: [
+  "World & Exploration": [
+    { label: "Locations & Regions", href: "/locations" },
+    { label: "Collectibles", href: "/collectibles" },
+    { label: "Missable Content", href: "/missable" },
+    { label: "Blades", href: "/blades" },
+    { label: "Phantom Edges", href: "/phantom-edges" },
+    { label: "NPCs", href: "/npcs" },
+  ],  Studio: [
     { label: "S-GAME", href: "/s-game" },
     { label: "About This Site", href: "/site-about" },
   ],

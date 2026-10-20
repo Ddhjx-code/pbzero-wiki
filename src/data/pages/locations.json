@@ -1,0 +1,55 @@
+{
+  "slug": "locations",
+  "title": "Phantom Blade Zero Locations - Every Region Named So Far",
+  "description": "Six regions have been named across official material and community documentation, from the valley where Soul wakes to a mountain prison. The world is a wide-linear structure of handcrafted areas, not an open world.",
+  "keyword": "phantom blade zero locations, phantom blade zero map, phantom blade zero regions, Pang Town, phantom blade world map",
+  "lastUpdated": "2026-10-20",
+  "facts": [
+    {
+      "label": "World structure",
+      "value": "Wide-linear: handcrafted regions joined seamlessly, not an open world"
+    },
+    {
+      "label": "Hand-painted maps",
+      "value": "Eight, in Chinese ink-wash style, deliberately imprecise"
+    },
+    {
+      "label": "Fast travel",
+      "value": "Bells between discovered locations"
+    },
+    {
+      "label": "Named regions",
+      "value": "6 so far, from official and community material"
+    },
+    {
+      "label": "Setting names",
+      "value": "The Wulin 武林, also called the Phantom World in official English copy"
+    },
+    {
+      "label": "Full map",
+      "value": "To be completed after release"
+    }
+  ],
+  "sections": [
+    {
+      "id": "structure",
+      "title": "Not an open world, not a corridor either",
+      "content": "<p>This is one of the most-asked questions about the game, and the answer is settled. S-GAME's own wording: Phantom Blade Zero is <em>not</em> an open-world game, nor a linear adventure from beginning to end - every corner is handcrafted. Community documentation describes it as a wide-linear flow built from large maps with light Metroidvania-style exploration and side content filling them.</p><p>Navigation runs through <strong>eight hand-painted Chinese ink-wash maps</strong>. In complex regions they deliberately give only a rough sense of direction, which is where the hidden enemies, side quests, rare treasures and story clues sit. Previewers reported genuinely struggling to orient early on, so that friction is designed, not a shortcoming.</p>"
+    },
+    {
+      "id": "regions",
+      "title": "The named regions",
+      "content": "<ul><li><strong>溪谷 / the Valley</strong> - the first map, where Soul wakes.</li><li><strong>血色森林 / Blood-Coloured Forest</strong> - a forest under red blood-mist.</li><li><strong>庞镇 / Pang Town</strong> - the central hub, where martial artists from across the Wulin have gathered; described in the deep dive as a trap of rival factions and hidden malice, and scored with an unusual seven-beat piece.</li><li><strong>梅谷湖 / Plum Valley Lake</strong> - a lake area crossed by water travel on a fast vessel.</li><li><strong>狱山 / Prison Mountain</strong> - a mountain prison region.</li><li><strong>正道大营 / Camp of the Righteous Path</strong> - the encampment of a righteous sect.</li></ul><p>Also named in official material: an abandoned warehouse hung with puppets where a ritual is underway, and a steam-powered iron tower built for some kind of dark experiment.</p>"
+    },
+    {
+      "id": "naming",
+      "title": "Two official names for the same world",
+      "content": "<p>Expect to see both. The August State of Play post on PlayStation Blog, written by S-GAME's founder, calls the setting <strong>the Wulin (武林)</strong>. The English store copy and the Japanese product page call it <strong>the Phantom World</strong> - and the Chinese site uses 影境. None of these is a translation error; they are the marketing, the in-fiction and the localised names for one place.</p><p>Japanese material uses 武林 alongside Phantom World, and the Chinese official site's own tagline pairs 影境江湖 with 功夫朋克 (kungfupunk).</p>"
+    },
+    {
+      "id": "travel",
+      "title": "Getting around",
+      "content": "<p>Bells handle fast travel between discovered locations, and each bell also clears nearby minimap fog and restocks combat resources. Water travel exists in at least one region. Some areas are only reachable once you hold the right <a href=\"/phantom-edges\">Phantom Edge</a>, which is why <a href=\"/collectibles\">per-map completion percentages</a> matter more here than in a typical action game.</p><p>Region design is said to draw on real terrain from Guangdong, Fujian, Zhejiang and Hebei, with Ming-era architecture sitting alongside industrial machinery - the visual argument for the kungfupunk label.</p><p class=\"text-sm text-gray-500\">Community terminology and structure on this page comes from the <a href=\"https://wiki.biligame.com/yingzhiren/\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a>, a fan wiki maintained by the moderators of the 影之刃 Baidu Tieba, which states it has no affiliation with S-GAME. It was last edited 2026-10-13 and much of it is still marked 待补充 (to be filled in). Anything taken from it is labelled as community-sourced rather than official, and counts will be replaced with measured data after release.</p>"
+    }
+  ]
+}
