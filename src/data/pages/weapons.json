@@ -2,17 +2,27 @@
   "title": "Phantom Blade Zero Weapons Guide - All Weapons & Sha-chi System",
   "description": "Complete Phantom Blade Zero weapons guide. Main weapon categories, Sha-chi secondary weapons, and the dual-weapon combat system explained.",
   "keyword": "phantom blade zero weapons",
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-20",
   "sections": [
     {
       "id": "weapon-system",
       "title": "Weapon System Overview",
-      "content": "<p>The scale is now known even though the roster is not: <strong>more than 30 main weapons and 25 Phantom Edges</strong>, per S-Game's August 2026 deep dive.</p><p>The one weapon rule stated consistently across official material and hands-on coverage is the <strong>slot count</strong>: Soul carries <strong>two primary weapons and two secondary weapons</strong> and switches between them freely mid-fight.</p><p><strong>Blades are the primaries.</strong> <strong>Phantom Edges are the secondaries</strong>, and the set is deliberately ungovernable - the named examples include cannons, lances, axes and hammers, which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the label is doing conceptual work rather than literal work: several of them are not blades at all.</p><p>Switching is a mechanic, not a menu action. During the 2024 demo, IGN observed that changing weapons restored Soul's stamina immediately and let an ongoing combo keep running. That single detail is why the game plays like <em>Ninja Gaiden</em> instead of like a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is the separate resource that pays for heavy attacks and blocks. Because both of them spend it, a player who blocks everything runs dry at the worst possible moment.</p>"
+      "content": "<p>The scale is now known even though the roster is not: <strong>more than 30 main weapons and 25 Phantom Edges</strong>, per S-Game's August 2026 deep dive.</p><p>The one weapon rule stated consistently across official material and hands-on coverage is the <strong>slot count</strong>: Soul carries <strong>two primary weapons and two secondary weapons</strong> and switches between them freely mid-fight.</p><p><strong>Blades are the primaries.</strong> <strong>Phantom Edges are the secondaries</strong>, and the set is deliberately ungovernable - the named examples include cannons, lances, axes and hammers, which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the label is doing conceptual work rather than literal work: several of them are not blades at all.</p><p>Switching is a mechanic, not a menu action. During the 2024 demo, IGN observed that changing weapons restored Soul's stamina immediately and let an ongoing combo keep running. That single detail is why the game plays like <em>Ninja Gaiden</em> instead of like a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is the separate resource that pays for heavy attacks and blocks. Because both of them spend it, a player who blocks everything runs dry at the worst possible moment.</p><p class=\"text-sm text-gray-500\">Naming note: the 2024 demo build called this meter stamina and the 2026 combat write-up calls it Sha-chi, with a cooldown cost attached. The reconciliation, and why it may still be wrong, is on the <a href=\"/combat\">combat page</a>.</p>"
     },
     {
       "id": "main-weapons",
       "title": "Primary Weapons: Blades",
       "content": "<p><strong>More than 30 main weapons.</strong> That number is official: the founder and CEO of S-Game wrote in the August 2026 PlayStation Blog deep dive that you unlock <em>more than 30 main weapons</em> while exploring, alongside <em>25 secondary weapons known as Phantom Edges</em>. Earlier versions of this page carried category counts that could not be traced to any source; those are still gone, but the totals above are sourced and dated.</p><p>What is still not published is the roster itself - no list of names, models, stats or acquisition points exists pre-launch. So the honest shape is: total count known, composition unknown.</p><p>What hands-on coverage adds is the character of the spread. The demo build gave Soul a pair of short swords alongside a longer katana-class weapon, and the October 2026 preview described a drunken sword whose base form is a one-handed jian but which can be sent to fly and slash on its own while the player stays in a stumbling stance. Length and speed trade-offs between those shapes are visible in the demo and are the real decision, not raw damage.</p><p>Upgrades and accessories are where the build depth lives: weapons take upgrades, pair with accessories, and can be reforged to recover the materials and spend them elsewhere - stated in the same official post. The full list with locations and stats lands after release; see <a href=\"/blades\">blades</a>.</p>"
+    },
+    {
+      "id": "roster-cn",
+      "title": "The Weapon Names Published So Far, In Chinese",
+      "content": "<p>BWIKI states the roster is <strong>30 weapons in total</strong>, drawn from a design document, split into three classes: <strong>单手刀刃</strong> (one-handed blades, 8 listed), <strong>双手刀刃</strong> (two-handed blades, 7 listed) and <strong>双持刀刃</strong> (dual-wielded blades, 7 listed). That accounts for 22 named entries; the remaining 8 sit in an explicitly unconfirmed list. Per-weapon attributes are given as attack (攻击力), guard-break value (破盾值), normal and Sha-chi attacks (攻击及杀气攻击), weapon special (绝技) and execution animation (处决动作), with some blades also changing dodge and guard performance.</p><ul><li><strong>One-handed (8 slots, 7 named):</strong> 残钢刃, 灵蛇软剑, 痴者残剑, 黑魔伤, 木剑, 黑伤, 越王剑 - plus one entry the wiki marks 待确认</li><li><strong>Two-handed (7):</strong> 荡寇凶刃, 破军者, 吸血刀, 青龙偃月刀, 长形黑伤, 红妆鬼斩, 白影</li><li><strong>Dual-wielded (7):</strong> 白蟒赤练, 双钩, 玉妖双刀, 风雷双刀, 玉双环, 黑伤双刃, 子午鸳鸯钺</li><li><strong>Class unconfirmed (8):</strong> 鬼差宝剑, 紫冥, 令剑, 玉音子佩剑, 魔切, 笛剑, 双头刀, 八斩刀</li></ul><p>Names worth unpacking for an English reader, because several are borrowed from martial history rather than invented: <strong>青龙偃月刀</strong> is the Green Dragon Crescent Blade, the guan dao associated with Guan Yu; <strong>越王剑</strong> is the Sword of the King of Yue; <strong>子午鸳鸯钺</strong> are bagua-style mandarin-duck axes; <strong>八斩刀</strong> are the butterfly wings of Wing Chun; <strong>峨嵋刺</strong>, on the secondary-weapon side, are Emei piercing needles. The rest are descriptive names with no established English form.</p><p>Note also that <strong>黑伤</strong> appears three times across classes - as 黑伤, as 长形黑伤 (&quot;long&quot; variant) and as 黑伤双刃 (dual) - which reads like a weapon family or an unfinished naming pass in the source document. Do not treat these as three unrelated blades until the retail list says so.</p><p class=\"text-sm text-gray-500\">Weapon counts, class split and upgrade rules come from the <a href=\"https://wiki.biligame.com/yingzhiren/%E4%B8%BB%E6%AD%A6%E5%99%A8\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (主武器, revision 3206, last edited 2026-10-13), a fan wiki run by the moderators of the 影之刃 Baidu Tieba, unaffiliated with S-GAME. It states the total of 30 is derived from a design document (根据文档统计). The Chinese names are the client names; <strong>no official English weapon names have been published</strong>, so the glosses below are literal readings of the Chinese, not localisations.</p>"
+    },
+    {
+      "id": "upgrade-system",
+      "title": "Upgrades: Three Materials, Thirty Levels, No Commitment",
+      "content": "<p>The upgrade system is described as costing at least <strong>意识尘埃</strong> (a dust-like material), <strong>金属</strong> (metal) and <strong>溶剂</strong> (solvent), capped at <strong>30 levels</strong> per weapon. Each level raises attack and poise-break; at certain thresholds a weapon gains a new move or trait, and the wiki's wording is that the changes can alter how the weapon is played rather than only how hard it hits - described as a qualitative change in controls and combat strategy. Past level 10, upgrades additionally require <strong>逆炼符</strong>, a talisman.</p><p>The line that matters for anyone afraid of picking wrong: <strong>weapon levels can be reset with no loss</strong> (可无损重置武器等级). This agrees with the official statement that reforging returns upgrade materials for reinvestment, from two directions. A build is a commitment for the moment, not for the save file.</p><p>One thing the wiki flags but cannot explain: the equipment screen shows weapons at a purple icon tier, which it guesses is a separate special upgrade. Marked as speculation in the source, so treated here as an open question.</p>"
     },
     {
       "id": "shachi-weapons",
@@ -38,7 +48,7 @@
   "facts": [
     {
       "label": "Loadout",
-      "value": "2 primary + 2 secondary weapons"
+      "value": "2 main weapons plus 2 Phantom Edges, switchable mid-combat"
     },
     {
       "label": "Primary type",
@@ -54,7 +64,7 @@
     },
     {
       "label": "Swap effect",
-      "value": "Refills stamina, continues the combo"
+      "value": "Refills the Sha-chi bar and clears guard break, but puts the outgoing weapon on cooldown"
     },
     {
       "label": "Block / heavy resource",
@@ -62,7 +72,7 @@
     },
     {
       "label": "Full roster",
-      "value": "Not published; totals announced (30+ Blades, 25 Phantom Edges)"
+      "value": "Official: 30+ Blades and 25 Phantom Edges. BWIKI catalogue: 22 named Blades + 8 unconfirmed, 23 named edges + 10 unconfirmed"
     },
     {
       "label": "Total announced",
@@ -71,6 +81,10 @@
     {
       "label": "Reforging",
       "value": "Returns upgrade materials for reinvestment (official)"
+    },
+    {
+      "label": "Weapon upgrade cap",
+      "value": "30 levels; past level 10 needs 逆炼符; reset is lossless (BWIKI)"
     },
     {
       "label": "Boss count",

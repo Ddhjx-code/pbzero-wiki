@@ -47,7 +47,7 @@
     {
       "id": "swap",
       "title": "Why Switching Matters More Than Which Blade",
-      "content": "<p>Switching weapons <strong>refills stamina immediately</strong> and lets a combo continue. That single mechanic is why the combat reads closer to <em>Ninja Gaiden</em> than to a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and on blocking. Because both spend it, blocking everything runs the resource dry at the worst moment.</p>"
+      "content": "<p>IGN observed in the <strong>2024 demo</strong> that switching weapons refilled stamina immediately and let an ongoing combo keep running; the BWIKI combat page, written against 2026 footage, describes the same swap as refilling the <strong>Sha-chi bar</strong> and putting the outgoing weapon on cooldown. That single mechanic is why the combat reads closer to <em>Ninja Gaiden</em> than to a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and on blocking. Because both spend it, blocking everything runs the resource dry at the worst moment.</p>"
     },
     {
       "id": "acquisition",

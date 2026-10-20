@@ -15,6 +15,31 @@
       "content": "<p><strong>Sha-chi</strong> is the combat resource that drives the game's offence and defence. It is spent on <strong>Sha-chi attacks</strong> — heavy attacks — and on <strong>blocking</strong>.</p><p>This is the single most important thing to understand about the combat before you play: there is no separate stamina bar to manage. Sha-chi is the pool that gates your heavier options, so how you generate and spend it shapes every encounter.</p><table><thead><tr><th>System</th><th>Detail</th></tr></thead><tbody><tr><td>Combat resource</td><td>Sha-chi</td></tr><tr><td>Spent on</td><td>Heavy (Sha-chi) attacks, blocking</td></tr><tr><td>Stamina bar</td><td>No separate stamina bar in the traditional sense — Sha-chi fills that role</td></tr><tr><td>Level-ups</td><td>No XP-based levelling</td></tr></tbody></table>"
     },
     {
+      "id": "sha-chi-economy",
+      "title": "What Actually Drains The Bar",
+      "content": "<p>The single most common misreading of this combat is that Sha-chi is a stamina bar you spend on strong attacks. Community documentation lists four separate drains, and only one of them is your own aggression:</p><ul><li><strong>Taking damage</strong> - getting hit costs you the resource, so a bad exchange is a double loss.</li><li><strong>Holding stance (架势)</strong> - the guard posture burns Sha-chi continuously while auto-blocking most attacks and chipping the enemy's own bar.</li><li><strong>Auto-blocking</strong> - including the forced block against white-glow attacks described below.</li><li><strong>Sha-chi attacks</strong> - your heavy attacks, the only attacks that reduce an enemy's bar.</li></ul><p>It recovers on its own once you stop spending it for a moment, and <strong>an enemy blocking your attacks drains their bar too</strong>. That is the whole puzzle: normal attacks cannot touch an enemy's Sha-chi, but making them block can. Sustained pressure with ordinary swings is a resource play, not just damage.</p><p>Normal attacks cost nothing and cannot reduce the enemy bar; Sha-chi attacks do both, and some weapons gain extra effects when the bar is high. <a href=\"/weapons\">Weapon choice</a> changes this calculus per blade.</p>"
+    },
+    {
+      "id": "guard-break",
+      "title": "Guard Break Is The Real Loss Condition",
+      "content": "<p>When either Sha-chi bar empties, that side is <strong>破防</strong> - guard-broken. While broken you cannot hold stance, cannot use Sha-chi-consuming techniques, take increased damage, and are held in a long stagger with your animations interrupted. The enemy cannot block during their own break, which is the window you are trying to create.</p><p>The escape is specific and worth memorising before launch: <strong>switching main weapons instantly cancels guard break</strong> and refills the bar, at the cost of putting the outgoing weapon on cooldown. The same swap is what lets you drop out of a broken state mid-fight rather than eating the stagger.</p><p>One more trap: some enemies adopt their own guard posture, and attacking them while they hold it triggers a throw or grab counter. Long attacks into a stance-holding enemy are how runs actually end.</p><p><strong>Flagged as a correction.</strong> A machine-generated wiki circulating in this niche claims weapon-switching refills Sha-chi, and it was reasonable to read that as invented. The BWIKI combat page states the same mechanic with the cooldown caveat attached, so treat the switch-back refill as community-reported rather than fabricated. It has still not been confirmed by S-GAME.</p><p><strong>Why older coverage says &quot;stamina&quot;.</strong> IGN watched the <strong>2024 demo</strong> and reported that switching weapons restored stamina instantly and let an ongoing combo keep running. The BWIKI combat page, written against <strong>2026 footage</strong>, describes the same input as refilling the Sha-chi bar, adding that the outgoing weapon goes on cooldown. The coherent reading is one meter under two names - Sha-chi already does the work a stamina bar would, since it governs both heavy attacks and blocking - with the 2026 build attaching a cost the 2024 build did not. <strong>Neither source says this.</strong> It is an inference, and it is the kind that breaks: if the retail game ships a separate stamina meter, or if the combo-continuation survived as its own property, this paragraph is wrong. It will be corrected against the shipped build.</p>"
+    },
+    {
+      "id": "telegraphs",
+      "title": "White, Red And Black Glow",
+      "content": "<p>Enemy attacks are colour-coded, and the correct answer differs per colour. Community documentation gives three rules and one open question:</p><ul><li><strong>White glow (白光)</strong> - blocking it works but burns a large amount of Sha-chi and leaves you in a stagger. A <em>precise</em> guard costs you nothing, takes the enemy's bar, and triggers Ghost Step.</li><li><strong>Red glow (红光)</strong> - unblockable. Dodging precisely triggers Ghost Step with a large Sha-chi refund; some enemies go into a dedicated animation and a prompt-based sequence.</li><li><strong>Black glow (黑光)</strong> - blocking it costs an enormous amount of Sha-chi. Whether a precisely-timed block helps is explicitly listed as unconfirmed.</li></ul><p><strong>Ghost Step (鬼步)</strong> is the reward loop: triggered by a precise guard on white or a precise dodge on red, it moves Soul behind the enemy, and the follow-up attack from there cannot be blocked and hits hard. So the defensive options are not defensive - they are the fastest way to build an uncounterable attack.</p><p>There is no published list of which enemies use which colour. Learn the three reflexes rather than the matchup table.</p>"
+    },
+    {
+      "id": "stealth",
+      "title": "Stealth And Executions",
+      "content": "<p>Combat can be started rather than entered. Crouching puts Soul in a stealth state; from behind an unaware ordinary enemy you get an execution, and when two ordinary enemies stand close together a single approach triggers a <strong>chained execution</strong> across both. Dropping onto an enemy from above while unseen also executes.</p><p>That matters more here than in most action games because of the surrounding systems: defeated enemies do not simply repopulate when you rest, so clearing a camp by stealth saves a real fight later, and kills probabilistically refund flask charges and feed the resource <a href=\"/phantom-edges\">Phantom Edges</a> consume.</p>"
+    },
+    {
+      "id": "naming",
+      "title": "A Naming Problem Worth Knowing About",
+      "content": "<p>English and Chinese material currently use resource names that do not line up, and this will confuse anyone comparing footage across regions.</p><p>The official English product page and the October studio preview call <strong>Remnant Dust</strong> the principal currency, spent on weapon upgrades, with the pre-order Treasure Basin raising its drop rate by 10%. The Chinese combat page describes two different things: <strong>残魂星火</strong>, consumed to use Phantom Edges and gained probabilistically from kills - and <strong>意识尘埃</strong>, spent on weapon upgrades alongside 金属 and 溶剂.</p><p>Neither mapping is clean. 残魂星火 reads back as &quot;remnant-soul spark&quot;, so it fits the &quot;Remnant&quot; half of Remnant Dust but not the &quot;dust&quot; half; 意识尘埃 means &quot;consciousness dust&quot;, so it fits &quot;dust&quot; but not &quot;Remnant&quot;. Either the official English collapsed two resources into one name, or one of these terms is a fan translation. <strong>Do not assume they are the same item until a bilingual retail listing says so.</strong></p>"
+    },
+    {
       "id": "weapons",
       "title": "Blades and Phantom Edges",
       "content": "<p>The player character Soul fights with a <strong>two-slot weapon structure</strong>: primary weapons and secondary weapons.</p><h3>Primary: Blades</h3><p>Blades are the primary weapons. Each blade has a <strong>Power Surge</strong>, which functions as that weapon's ultimate ability. Rather than being flat stat sticks, blades carry distinct movesets and their own progression.</p><h3>Secondary: Phantom Edges</h3><p><strong>Phantom Edges</strong> are the secondary weapons, and this is where the game's range broadens considerably. They include cannons, lances, axes, hammers and similar armaments. The player can carry <strong>two primary weapons and two secondary weapons</strong>, and can <strong>switch weapons mid-combo</strong> to extend attack chains.</p><div class=\"warning-box\"><p><strong>On weapon counts:</strong> some sites state precise figures such as \"30+ blades and 20+ Phantom Edges\". S-GAME has not confirmed exact counts, and they can only be verified once the game ships. Treat specific numbers as unconfirmed.</p></div>"
@@ -22,7 +47,7 @@
     {
       "id": "progression",
       "title": "Progression Without XP",
-      "content": "<p>Phantom Blade Zero does not use a traditional experience-point levelling system. Instead, the character grows through <strong>equipment and found items</strong>:</p><ul><li>Acquiring weapons and <strong>upgrading</strong> them</li><li>Finding items that raise your <strong>health and stamina gauges</strong></li><li>Gear, artifacts and skills discovered through the game's optional challenges</li></ul><p>The practical consequence is that exploration is progression. Seeking out the harder optional encounters is how you become stronger, rather than farming encounters for XP.</p>"
+      "content": "<p>Phantom Blade Zero does not use a traditional experience-point levelling system. Instead, the character grows through <strong>equipment and found items</strong>:</p><ul><li>Acquiring weapons and <strong>upgrading</strong> them</li><li>Finding items that raise your <strong>health and stamina gauges</strong></li><li>Gear, artifacts and skills discovered through the game's optional challenges</li></ul><p>The practical consequence is that exploration is progression. Seeking out the harder optional encounters is how you become stronger, rather than farming encounters for XP.</p><p>The Chinese combat page names the progression layer <strong>能力修行</strong> - ability cultivation - and states plainly that the numbers it publishes are post-upgrade figures, which is why some pre-release claims about fixed damage values should be read with suspicion. Related: <a href=\"/weapons\">weapon upgrades</a> cap at 30 levels per BWIKI and can be reset with no loss, so a build is not a permanent commitment.</p><p>Growth is still equipment- and exploration-driven rather than XP-driven: <a href=\"/collectibles\">Memory Flowers</a> raise health and Sha-chi Amber raises the bar cap, which is where the &quot;no levelling system&quot; claim on this page comes from.</p>"
     },
     {
       "id": "animation",
@@ -46,7 +71,19 @@
     },
     {
       "label": "Weapon slots",
-      "value": "2 - primary blade plus Sha-chi weapon"
+      "value": "4 - two main weapons plus two Phantom Edges, switchable on the fly"
+    },
+    {
+      "label": "Loadout slots",
+      "value": "2 main weapons, 2 Phantom Edges, 2 flasks, 6 accessories"
+    },
+    {
+      "label": "Sha-chi is spent by",
+      "value": "Damage taken, holding stance, auto-blocking, and Sha-chi attacks"
+    },
+    {
+      "label": "Guard break (破防)",
+      "value": "Emptying either Sha-chi bar; extra damage taken until it refills"
     },
     {
       "label": "Levelling",
@@ -58,7 +95,7 @@
     },
     {
       "label": "Defence options",
-      "value": "Parry, block, dodge"
+      "value": "Stance (架势), precise guard, dodge with full invulnerability frames"
     }
   ]
 }

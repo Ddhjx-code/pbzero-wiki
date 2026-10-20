@@ -14,16 +14,24 @@
       "value": "2"
     },
     {
+      "label": "Cost per use",
+      "value": "残魂星火 (Remnant Spark), gained probabilistically from kills; cost varies by edge"
+    },
+    {
+      "label": "Combat role",
+      "value": "Breaks giant-shield guards, counters specific enemies, can be chained into combos"
+    },
+    {
       "label": "Counterpart",
       "value": "Blades"
     },
     {
       "label": "Confirmed example types",
-      "value": "Cannons, lances, axes, hammers"
+      "value": "BWIKI names 23 confirmed plus 10 unconfirmed; official material announced 25 total"
     },
     {
       "label": "Named edges",
-      "value": "Not confirmed pre-launch"
+      "value": "Named in Chinese only: 巨凶斧, 追命链钩, 血滴子, 虎神炮, 烈焰狮头, 三股钢叉, 琵琶, 佛珠 and more"
     }
   ],
   "section_order": [
@@ -40,9 +48,14 @@
       "content": "<p>Phantom Edges occupy Soul's <strong>two secondary weapon slots</strong>. The confirmed example set is deliberately ungovernable - <strong>cannons, lances, axes and hammers</strong> - which is a long way from a standard sword list. The word &ldquo;Edge&rdquo; in the name is doing conceptual work rather than literal work: several of them are not blades at all.</p> <a href=\"/blades\">Blades</a> are the primary counterpart.<p><strong>They are not only weapons.</strong> Six hours of studio preview coverage in October 2026 described an axe that breaks environmental barriers and a chain sickle that doubles as a grappling hook for reaching places that were inaccessible before. That gives the world a Metroidvania shape: a new Phantom Edge changes how you read a region you have already visited, and the director has acknowledged the influence directly. It also means skipping a Phantom Edge can lock content you will want later.</p>"
     },
     {
-      "id": "list",
-      "title": "Phantom Edge List",
-      "content": "<p>No entries have been confirmed yet. This table is generated from <code>src/data/entities/</code>, so it fills itself as each entity is verified against the shipped game - nothing here is hand-typed and nothing is estimated.</p>"
+      "id": "roster-cn",
+      "title": "The Named Edges, And What The List Will Not Say",
+      "content": "<p>BWIKI splits its catalogue honestly, which is the reason to trust it over the aggregated lists: <strong>23 entries it marks confirmed</strong> and <strong>10 it cannot place</strong>, with a written warning that some of the unplaced names are not official at all.</p><p><strong>Confirmed (23, named in Chinese only):</strong> 巨凶斧, 长柄金瓜, 墨血无痕, 铁拳套, 追命链钩, 链球, 长鸿的枪, 血滴子, 锯子, 虎神炮, 烈焰狮头, 羽弓, 飞刀, 通用火铳, 三股钢叉, 铁羽双扇, 琵琶, 佛珠, 铃铛, 水龙头, 大盾 - the list as published carries 21 named rows with 臂弩 marked doubtful.</p><p><strong>Unconfirmed (10):</strong> 拂尘, 锏, 鞭, 铁杀, 玉音子佩剑, 笛剑, 双头刀, 峨嵋刺, 八斩刀, 三节棍</p><p>Read against the weapons side, the shape is legible: edged and blunt hand weapons (巨凶斧 giant axe, 长柄金瓜 mace, 铁拳套 knuckles, 链球 flail), polearms and spears (追命链钩 chain hook, 长鸿的枪 spear, 三股钢叉 trident), concealed and exotic pieces (血滴子, the flying-head legend, and 锯子 saw), firearms and projectiles (虎神炮, 羽弓 bow, 飞刀 throwing knives, 通用火铳 generic musket), an odd defensive slot (大盾 great shield, described as a defensive type) and objects that are clearly tools or instruments rather than weapons - <strong>琵琶</strong> is a pipa, a lute, and <strong>佛珠</strong> are Buddhist prayer beads.</p><p>Two entries deserve scepticism. <strong>铃铛</strong> is a bell, which is the game's fast-travel object; BWIKI lists it in this column with the note 探索/传送功能 (exploration/teleport function), which is probably a waypoint rather than an equippable edge. <strong>水龙头</strong> is literally a faucet; the wiki itself appends 已知（水中交互？） with a question mark. Neither should be repeated as a weapon.</p><p>On the English side, nothing: <strong>no official English names for any Phantom Edge have been published</strong>, so if you see 血滴子 rendered as &quot;Blood Drop&quot; in a preview list, that is somebody's translation, not a localisation.</p><p class=\"text-sm text-gray-500\">The Phantom Edge roster comes from the <a href=\"https://wiki.biligame.com/yingzhiren/%E5%BD%B1%E4%B9%8B%E6%AD%A6%E8%A3%85\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (影之武装, revision 3139, last edited 2026-10-13). The wiki separates confirmed entries from names it cannot yet place, and says outright that some of those names are not official (部分名称并非官方命名). That split is preserved below rather than smoothed over. This is a fan compilation, not a first-party list.</p>"
+    },
+    {
+      "id": "combat-role",
+      "title": "What They Do In A Fight",
+      "content": "<p>Each use consumes <strong>残魂星火</strong> - BWIKI glosses this as Remnant Spark - in amounts that vary per edge, and the resource is refunded probabilistically by killing enemies. So edges are not a free ability: they are an expenditure you sustain by fighting, which is a different economy from the <a href=\"/combat\">Sha-chi bar</a> that governs your heavy attacks and guarding.</p><p>Combat uses the source lists: some edges <strong>break the defence of giant-shield enemies</strong> (攻克巨盾敌人防御), several <strong>counter specific enemies</strong> outright, and edges can be <strong>woven into combos</strong>, used for pursuit attacks, or trigger scene-specific interactions. You carry two and can swap between them at any time.</p><p>Outside combat they are the keyring for the map: an axe smashes environmental barriers, a chain sickle works as a grappling hook, and areas needing a particular edge are marked on the <a href=\"/locations\">map</a> - see <a href=\"/collectibles\">collectibles</a> for how gated pickups are tracked.</p><p><strong>Count discrepancy, stated plainly.</strong> Official material has announced 25 Phantom Edges; BWIKI's catalogue reaches 33 rows counting its own unconfirmed list. That gap is not a contradiction to resolve here - it is the difference between a publisher total and a fan wiki's working inventory of everything it has spotted in footage. Neither number is verification of the other.</p>"
     },
     {
       "id": "types",
@@ -52,7 +65,7 @@
     {
       "id": "pairing",
       "title": "Pairing With Blades",
-      "content": "<p>Two <a href=\"/blades\">blades</a> plus two Phantom Edges, all four live during a fight. Swapping between them refills stamina and continues the combo chain, so a run is normally built around which two edges cover what the blades cannot.</p>"
+      "content": "<p>Two <a href=\"/blades\">blades</a> plus two Phantom Edges, all four live during a fight. Swapping between them refilled stamina and continued the combo chain in the 2024 demo build (IGN&#39;s observation), so a run is normally built around which two edges cover what the blades cannot.</p><p class=\"text-sm text-gray-500\">Naming note: the 2024 demo build called this meter stamina and the 2026 combat write-up calls it Sha-chi, with a cooldown cost attached. The reconciliation, and why it may still be wrong, is on the <a href=\"/combat\">combat page</a>.</p>"
     },
     {
       "id": "status",
