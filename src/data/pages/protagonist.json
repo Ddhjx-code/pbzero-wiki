@@ -2,7 +2,7 @@
   "title": "Soul - Phantom Blade Zero Main Character & Protagonist Guide",
   "description": "Complete guide to Soul, the main protagonist of Phantom Blade Zero. Learn about the Dark Raider's backstory, the 66-day curse, combat abilities, and relationships.",
   "keyword": "phantom blade zero protagonist",
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-10-20",
   "sections": [
     {
       "id": "overview",
@@ -12,7 +12,7 @@
     {
       "id": "backstory",
       "title": "Backstory & The Betrayal",
-      "content": "<p>Soul was raised within <strong>The Order</strong> under the guidance of <strong>Mu Tianmiao</strong> (牧天渺), the organization's leader and Soul's <strong>adoptive father</strong>. He grew up alongside <strong>Mu Xiaokui</strong> (牧小葵), Mu Tianmiao's daughter, forming a deep bond.</p><h3>The Framing</h3><p>Everything changed when <strong>Mu Tianmiao was murdered</strong> — and Soul was framed for the crime. Betrayed by the very organization he served, Soul became a fugitive hunted by his former allies.</p><div class=\"warning-box\"><p>⚠️ <strong>Key Plot Point:</strong> Soul did NOT kill Mu Tianmiao. The true murderer is part of a larger conspiracy within The Order that Soul must uncover.</p></div><h3>Key Relationships</h3><table><thead><tr><th>Character</th><th>Relationship to Soul</th><th>Status</th></tr></thead><tbody><tr><td>The Order's patriarch</td><td>Raised him; his murder is the crime Soul is framed for</td><td>Deceased - name not published</td></tr><tr><td><strong>Zuoshang</strong></td><td>Blood brother turned enemy; the sword duel with him is what inflicts Soul's fatal heart wound</td><td>NPC - not playable</td></tr><tr><td><strong>Mu Xiaokui</strong></td><td>Grew up alongside Soul; daughter of The Order's founder</td><td>NPC - not playable</td></tr><tr><td><strong>Mo Yuan</strong></td><td>Portrayed by Donnie Yen, who is also the game's kung fu creative consultant</td><td>NPC - alignment not stated</td></tr><tr><td><strong>The Flesh Sculptor</strong></td><td>Mysterious healer who revived Soul with a tainted heart</td><td>NPC - motives unknown</td></tr></tbody></table>"
+      "content": "<p>Soul was raised within <strong>The Order</strong> under the guidance of <strong>Mu Tianmiao</strong> (牧天渺), the organization's leader and Soul's <strong>adoptive father</strong>. He grew up alongside <strong>Mu Xiaokui</strong> (牧小葵), Mu Tianmiao's daughter, forming a deep bond.</p><h3>The Framing</h3><p>Everything changed when <strong>Mu Tianmiao was murdered</strong> — and Soul was framed for the crime. Betrayed by the very organization he served, Soul became a fugitive hunted by his former allies.</p><div class=\"warning-box\"><p>⚠️ <strong>Key Plot Point:</strong> Soul did NOT kill Mu Tianmiao. The true murderer is part of a larger conspiracy within The Order that Soul must uncover.</p></div><h3>Key Relationships</h3><table><thead><tr><th>Character</th><th>Relationship to Soul</th><th>Status</th></tr></thead><tbody><tr><td>The Order's patriarch</td><td>Raised him; his murder is the crime Soul is framed for</td><td>Deceased - name not published</td></tr><tr><td><strong>Zuoshang</strong></td><td>Blood brother turned enemy; the sword duel with him is what inflicts Soul's fatal heart wound</td><td>NPC - not playable</td></tr><tr><td><strong>Mu Xiaokui</strong></td><td>Grew up alongside Soul; daughter of The Order's founder</td><td>NPC - not playable</td></tr><tr><td><strong>Mo Yuan</strong></td><td>Portrayed by Donnie Yen, who is also the game's kung fu creative consultant</td><td>NPC - alignment not stated</td></tr><tr><td><strong>The Flesh Sculptor</strong></td><td>Mysterious healer who revived Soul with a tainted heart</td><td>NPC - motives unknown</td></tr></tbody></table><p><strong>Two different father figures, kept apart deliberately.</strong> S-Game states outright that <a href=\"/characters\">Mó Yuan</a> is Soul's father. Separately, Soul was raised by the leader of The Order, whose murder he is framed for, and whose name has never been published. Whether those are the same person has not been addressed in any official material, so this page does not merge them. The name <em>Mu Tianmiao</em> that circulates for the patriarch could not be traced to an official source and should be treated as unverified.</p>"
     },
     {
       "id": "66-day-curse",
@@ -54,7 +54,11 @@
     },
     {
       "label": "Adoptive father",
-      "value": "The Order's patriarch - name not published"
+      "value": "The Order's patriarch - name not published, and not confirmed to be the same person as Mó Yuan"
+    },
+    {
+      "label": "Father",
+      "value": "Mó Yuan - stated by S-Game's founder on the official PlayStation Blog"
     },
     {
       "label": "Nemesis",

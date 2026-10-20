@@ -2,12 +2,12 @@
   "title": "Phantom Blade Zero Release Date - October 29, 2026 (PS5 & PC)",
   "description": "Phantom Blade Zero releases October 29, 2026 on PS5 and PC. The confirmed date, platforms, and the full history of the September 9 delay explained.",
   "keyword": "phantom blade zero release date",
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-20",
   "sections": [
     {
       "id": "confirmed-date",
       "title": "Confirmed Release Date: October 29, 2026",
-      "content": "<div class=\"highlight-box\"><p><strong>Phantom Blade Zero launches on October 29, 2026</strong> for PlayStation 5 and PC (Steam and Epic Games Store). This date comes directly from S-GAME's own published game information.</p></div><p>Note that many third-party sites still list <strong>September 9, 2026</strong>. That was the original date, and it is now out of date — the game was moved to October 29 in June 2026. If you see a page claiming a September 9 release, it has not been updated since the delay.</p><p>For the short answers to everything else, see the <a href=\"/faq\">FAQ</a>.</p>"
+      "content": "<div class=\"highlight-box\"><p><strong>Phantom Blade Zero launches on October 29, 2026</strong> for PlayStation 5 and PC (Steam and Epic Games Store). This date comes directly from S-GAME's own published game information.</p></div><p>Note that many third-party sites still list <strong>September 9, 2026</strong>. That was the original date, and it is now out of date — the game was moved to October 29 in June 2026. If you see a page claiming a September 9 release, it has not been updated since the delay.</p><p>For the short answers to everything else, see the <a href=\"/faq\">FAQ</a>.</p><p><strong>Preload and storage.</strong> Store backend data surfaced on 16 October puts the PS5 download at <strong>134.857 GB</strong> with preload opening <strong>October 27</strong>, two days before release. Treat the size as pre-patch. The listing is digital-only, matching the absence of any physical edition. On a base PS5 with a 1 TB drive this is large enough that you will be choosing what else to delete, so clearing space early is the single most useful pre-launch task.</p>"
     },
     {
       "id": "platforms",
@@ -27,7 +27,7 @@
     {
       "id": "what-to-do-now",
       "title": "What to Do Before October 29",
-      "content": "<p>If you are waiting for the game, there is a reasonable amount of official material to work through in the meantime:</p><ul><li>Read the <a href=\"/protagonist\">protagonist and story premise</a> — the 66-day setup is the core of the game and shapes everything</li><li>Understand the <a href=\"/combat\">Sha-chi combat system</a> before launch so the mechanics are not new to you on day one</li><li>Look at the <a href=\"/s-game\">studio background</a> — S-GAME's history explains why the game looks the way it does</li><li>Wishlist on Steam or the PlayStation Store so you get notified at launch</li></ul>"
+      "content": "<p>If you are waiting for the game, there is a reasonable amount of official material to work through in the meantime:</p><ul><li>Read the <a href=\"/protagonist\">protagonist and story premise</a> — the 66-day setup is the core of the game and shapes everything</li><li>Understand the <a href=\"/combat\">Sha-chi combat system</a> before launch so the mechanics are not new to you on day one</li><li>Look at the <a href=\"/s-game\">studio background</a> — S-GAME's history explains why the game looks the way it does</li><li>Wishlist on Steam or the PlayStation Store so you get notified at launch</li></ul><p><strong>Unlock times by region</strong>, from the store listing: Pacific 7:00 p.m. October 28, Central 9:00 p.m., Eastern 10:00 p.m.; GMT 2:00 a.m. October 29, Central European 3:00 a.m., India 7:30 a.m., China 10:00 a.m., Japan and Korea 11:00 a.m., eastern Australia 1:00 p.m., New Zealand 3:00 p.m. Neither edition grants early access, so buying the more expensive version does not get you in sooner.</p>"
     },
     {
       "id": "what-changed-this-week",
@@ -74,7 +74,15 @@
     },
     {
       "label": "Preload",
-      "value": "Not announced"
+      "value": "Opens October 27 on PS5 (store listing data, 16 October 2026)"
+    },
+    {
+      "label": "Install size",
+      "value": "134.857 GB on PS5 - pre-patch figure, a day-one update may change it"
+    },
+    {
+      "label": "Unlock time",
+      "value": "02:00 GMT October 29 = 7 PM Pacific / 10 PM Eastern on October 28"
     }
   ]
 }

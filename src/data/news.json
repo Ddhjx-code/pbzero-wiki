@@ -1,7 +1,111 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-20",
   "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
   "entries": [
+    {
+      "date": "2026-10-20",
+      "title": "Corrections: Mó Yuan's role is official, and two pages contradicted each other",
+      "status": "corrected",
+      "summary": "Two separate errors on this site were fixed in one pass. The characters page said no official source supported calling Mó Yuan the protagonist's father, while the FAQ asserted it as fact and the protagonist page described a different adoptive father whose name the same page elsewhere called unpublished. The official material settles the first question and leaves the second genuinely open.",
+      "facts": [
+        "S-Game founder and CEO Soulframe Liang, writing on the official PlayStation Blog on 11 August 2026, describes the role directly: Donnie Yen \"takes on the role of Facial & Motion Capture Actor for Mó Yuan, our protagonist Soul's father.\"",
+        "The character pages, the FAQ and the protagonist page had also contradicted each other - one asserted the relationship, another denied any official source, and the protagonist page named an adoptive father whose name the same page elsewhere said was unpublished",
+        "What remains genuinely unconfirmed is a different question: whether Mó Yuan is the same person as the Order's patriarch who raised Soul and whose murder he is framed for. Nothing official settles that, so the two are now kept apart rather than merged",
+        "The name Mu Tianmiao, still circulating on some pages here and elsewhere for that patriarch, could not be traced to any official source and is treated as unverified",
+        "He is also a hidden boss, not a story-only figure: in an August 2026 Bilibili post reported by GamingBolt, IGN India and others, director Liang called Mó Yuan a \"powerful hidden boss\" reached only after \"a series of explorations and trials\"",
+        "His title is published: S-Game's own pre-order announcement names him \"Leader of the Bastion of Mó\", revealed as the man cradling the infant in the pre-order trailer",
+        "Liang also said Yen's involvement is not \"another instance of a celebrity endorsing a game for commercial purposes\", and noted Yen directed the intro cinematic for Capcom's Onimusha 3",
+        "Still unresolved: whether Donnie Yen performs the character's English voice. One outlet says he does, another notes the trailer never stated it",
+        "The characters page has been rewritten to carry the confirmed items with their sources, and the protagonist page now keeps Soul's father and the Order's patriarch apart instead of merging them"
+      ],
+      "source": "PlayStation.Blog, 11 August 2026, signed by Soulframe Liang",
+      "url": "https://blog.playstation.com/2026-08-11/watch-the-phantom-blade-zero-gameplay-deep-dive-state-of-play-on-august-17-pre-orders-live-today/",
+      "affects": [
+        "protagonist",
+        "characters",
+        "faq"
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "title": "Six-hour studio preview: Phantom Edges gate exploration, enemies do not respawn, no grinding path",
+      "status": "confirmed",
+      "summary": "SavePoint Gaming spent six hours in a near-final build at S-GAME's studio. It is the most mechanically specific preview of this round, and it settles several things earlier coverage left open.",
+      "facts": [
+        "Phantom Edges have uses outside combat: an axe breaks environmental barriers and a chain sickle works as a grappling hook to reach areas that were inaccessible, so new tools reopen old places in a Metroidvania-like way that the director acknowledges as an influence",
+        "Defeated enemies do not simply repopulate when you rest, and death does not leave resources behind to recover - the Soulslike loop people expect is not the design",
+        "Getting stuck is meant to be solved by changing the loadout and spending Remnant Dust, described here as the principal currency, rather than by farming levels",
+        "Elemental counter-play is real: the write-up describes answering flame-spewing enemies with a jetstream of water",
+        "The hand-painted world map is deliberately imprecise, so early on it is possible to struggle with orientation while landmarks do the real work",
+        "Origin of the 66 Days mode: S-GAME first considered letting the countdown restrict deaths during a normal run, then moved it to New Game Plus because, in the director's words, it made the first experience way too hardcore",
+        "The director framed S-GAME's capability by pointing at two decades of Chinese studios doing asset, scanning, motion capture and animation work for Western and Japanese publishers"
+      ],
+      "source": "SavePoint Gaming, studio preview",
+      "url": "https://savepointgaming.co/feature/phantom-blade-zero-preview-s-game/",
+      "affects": [
+        "phantom-edges",
+        "combat",
+        "is-phantom-blade-zero-a-soulslike",
+        "difficulty-modes",
+        "guide"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "PS5 preload opens October 27, and the download is 134.857 GB",
+      "status": "confirmed",
+      "summary": "Store backend data surfaced through the PlayStation Game Size account gives the first hard numbers on storage. Treat the size as pre-patch: a day-one update can change it.",
+      "facts": [
+        "Preload begins October 27, two days before release",
+        "Download listed at 134.857 GB on PS5",
+        "The listing is digital-only, consistent with no physical disc being planned",
+        "Unreal Engine 5 shader handling plus high-fidelity textures and animation are the stated reasons for the size",
+        "Base PS5 consoles ship with a 1 TB drive, so the install is large enough to force decisions about what else stays installed"
+      ],
+      "source": "Notebookcheck, Console PC Gaming, TheGamer, citing PlayStation Game Size",
+      "url": "https://www.notebookcheck.net/Phantom-Blade-zero-pre-load-date-and-size-leaked-it-s-going-to-be-massive.1426199.0.html",
+      "affects": [
+        "release-date",
+        "pc-requirements"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "Full regional unlock times published",
+      "status": "confirmed",
+      "summary": "The store listing fixes the global unlock at 02:00 GMT on October 29, which is the previous evening in the Americas.",
+      "facts": [
+        "Pacific 7:00 p.m. October 28, Central 9:00 p.m., Eastern 10:00 p.m.",
+        "GMT 2:00 a.m. October 29, Central European 3:00 a.m., India 7:30 a.m.",
+        "China 10:00 a.m. October 29, Japan and Korea 11:00 a.m., Eastern Australia 1:00 p.m., New Zealand 3:00 p.m.",
+        "Neither the Standard nor the Digital Deluxe Edition includes early access, so paying more does not unlock the game sooner"
+      ],
+      "source": "Console PC Gaming, from the PlayStation Store listing",
+      "url": "https://consolepcgaming.com/phantom-blade-zeros-134-857-gb-ps5-preload-is-scheduled-for-oct-27/",
+      "affects": [
+        "release-date",
+        "pre-order-guide"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "title": "The Hunt boss footage breaks down his two phases",
+      "status": "confirmed",
+      "summary": "IGN released a boss encounter video for The Hunt, the assassin Soul fights on the moving wagon in the opening. Write-ups describe the fight in more detail than the trailer alone conveys.",
+      "facts": [
+        "The Hunt fights with a pair of one-handed axes joined by a chain, built around rapid strikes and disengaging",
+        "A move that reads as an acrobatic backward somersault is actually the wind-up for throwing an axe",
+        "His second phase grows two further arms, each carrying another axe, which is where the four-axes parry pressure comes from",
+        "He is described as relentless rather than heavy-hitting: the danger is accumulated small wounds, and his aggression creates parry windows",
+        "What weapon he drops has still not been announced"
+      ],
+      "source": "IGN footage, written up by GamingBolt, 7GrandSteps and GamerFuzion",
+      "url": "https://7grandsteps.com/a-new-gameplay-trailer-for-phantom-blade-zero-showcased-a-dynamic-boss-battle/",
+      "affects": [
+        "boss-guide",
+        "the-hunt"
+      ]
+    },
     {
       "date": "2026-10-16",
       "title": "Pre-order editions and prices, with a caveat on what 'exclusive' means",
@@ -146,6 +250,27 @@
       "affects": [
         "difficulty-modes",
         "autolink"
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "title": "State of Play established the world structure: eight ink-wash maps, bells as fast travel, no open world",
+      "status": "confirmed",
+      "summary": "Recorded here on 2026-10-20 because the site had not captured it. The August deep dive described how the map actually works, which turns out to be the detail most launch-week guides still get wrong by calling it an open world.",
+      "facts": [
+        "The world is interconnected handcrafted regions rather than an open world, with eight hand-painted Chinese ink-wash maps",
+        "Bells provide fast travel between discovered locations",
+        "Complex areas deliberately offer only a rough sense of direction, and that ambiguity is where hidden enemies, side quests, rare treasures and story clues sit",
+        "The director's framing of the style is traditional kung fu colliding with steampunk machinery and body modification, which S-GAME calls kungfupunk",
+        "The Lion Dance boss, Flame, was shown as the clearest expression of that: choreography drawn from the dance, with Chinese drums and cymbals, built to encourage weapon switching mid-fight",
+        "S-Game's official English site separately describes the setting as an alternate universe called the Phantom World, while the PlayStation Blog post calls it the Wulin - both names are official and refer to the same place"
+      ],
+      "source": "GosuGamers and PlayStation.Blog, State of Play coverage",
+      "url": "https://www.gosugamers.net/entertainment/news/78995-phantom-blade-zero-state-of-play-reveals-chinese-lion-dance-bossfight-co-op-gameplay-and-more",
+      "affects": [
+        "guide",
+        "lion-dance-boss",
+        "combat"
       ]
     },
     {

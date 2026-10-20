@@ -1,0 +1,53 @@
+{
+  "slug": "the-hunt",
+  "title": "The Hunt - Location, Weakness & How to Beat (Phantom Blade Zero)",
+  "description": "The Hunt in Phantom Blade Zero - what has been confirmed about the encounter, its elemental weakness, rewards and how to approach it.",
+  "keyword": "The Hunt phantom blade zero boss",
+  "lastUpdated": "2026-09-28",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Appears in the opening, fighting Soul atop a moving wagon"
+    },
+    {
+      "label": "Weak to",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "First shown",
+      "value": "IGN boss footage released 13 October 2026, described by GamingBolt and 7GrandSteps"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>The Hunt is the assassin Soul fights on the moving cart during the game's opening, and the October 2026 footage shows him again as a full encounter rather than a scripted escape. He is built around relentless pressure rather than single heavy hits: coverage describes the danger as death by a hundred small cuts, which sounds punishing but is also what makes him readable, because his aggression keeps creating parry windows.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the The Hunt",
+      "content": "<p><strong>Location:</strong> Appears in the opening, fighting Soul atop a moving wagon.</p><p><strong>First shown:</strong> IGN boss footage released 13 October 2026, described by GamingBolt and 7GrandSteps.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weakness & Resistances",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed pre-launch</td></tr><tr><td>Resists</td><td>Not confirmed pre-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed pre-launch</td></tr><tr><td>Immune</td><td>Not confirmed pre-launch</td></tr></tbody></table><p>Not confirmed pre-launch. S-GAME has not published elemental affinities for this encounter, and no demo footage shows one being exploited. Nothing here is estimated from the boss's appearance - that is exactly how wrong weakness tables get written before release.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Not confirmed pre-launch. Bosses in Phantom Blade Zero are described by S-GAME as rewarding unique weapons on defeat, but no drop table has been published for this encounter, so none is listed here.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the The Hunt",
+      "content": "<h3>What has actually been shown</h3><ul><li>Fights with a pair of one-handed axes joined by a chain, used for rapid strikes followed by disengaging withdrawals</li><li>A move that looks like an acrobatic backward somersault is the wind-up for throwing one of the axes</li><li>Second phase: he grows two additional arms, each carrying another axe, so the fight becomes four-axe coverage</li><li>His style is described as aggressive rather than tanky, with constant openings for a player who can read the chain attacks</li><li>What weapon or reward he grants has not been announced, despite store copy saying weapons are taken from fallen foes</li></ul><p>Everything above comes from footage S-GAME released. Anything not listed has not been shown, however confident a write-up elsewhere looks.</p><h3>How to approach it</h3><ul><li>Everything here comes from preview footage, so treat it as expectation rather than strategy: the numbers, ranges and any guard-break timings are unknown until the full build is public</li><li>The somersault is the tell worth learning from the clip - if you read it as evasion you will whiff a parry on what is actually an attack</li><li>A second phase with four axes is a coverage problem more than a damage problem, which is the kind of fight where a longer Phantom Edge or a change of weapon tends to matter more than raw damage</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Pre-launch Status",
+      "content": "<p>This page tracks the The Hunt in Phantom Blade Zero, which releases on <a href=\"/release-date\">October 29, 2026</a>. It is written from official demo and trailer material only. After release it gets updated with verified fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p>"
+    }
+  ]
+}
