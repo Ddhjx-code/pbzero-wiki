@@ -1,8 +1,8 @@
 {
   "title": "Privacy Policy",
-  "description": "Privacy Policy for pbzero.wiki. How we handle data, cookies, third-party advertising including Google AdSense, and analytics.",
+  "description": "Privacy Policy for pbzero.wiki. How we handle data, cookies, third-party advertising by Adsterra, and Google Analytics.",
   "keyword": "privacy policy",
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-10-20",
   "sections": [
     {
       "id": "overview",
@@ -17,7 +17,7 @@
     {
       "id": "advertising",
       "title": "Third-Party Advertising",
-      "content": "<p>We may partner with third-party advertising vendors, including <strong>Google AdSense</strong>, to display advertisements on the Site.</p><ul><li>Third-party vendors, including Google, use cookies to serve ads based on your prior visits to this website and/or other websites on the Internet.</li><li>Google&apos;s use of advertising cookies enables it and its partners to serve ads to you based on your visit to our Site and/or other sites on the Internet.</li><li>Google uses the <strong>DoubleClick DART cookie</strong> to serve ads to users based on their visits to this Site and other sites on the Internet.</li><li>You may opt out of personalized advertising by visiting <a href=\"https://www.google.com/settings/ads\" target=\"_blank\" rel=\"noopener noreferrer\">Google Ads Settings</a>.</li><li>Alternatively, you can opt out of some third-party vendors&apos; use of cookies for personalized advertising by visiting <a href=\"https://www.aboutads.info/choices/\" target=\"_blank\" rel=\"noopener noreferrer\">www.aboutads.info</a>.</li></ul>"
+      "content": "<p>Advertising on this Site is provided by a third-party ad network, currently <strong>Adsterra</strong>.</p><ul><li>Ad networks serve ads using cookies and similar technologies, and may target ads based on your visits to this and other websites. The specific advertisers shown depend on the network's demand partners and change over time.</li><li>Some of the formats this network uses - in particular pop-under ads - open a new browser window or tab when you interact with an ad. If you do not want that, please use an ad blocker or disable pop-ups for this Site in your browser.</li><li>We do not pass your name, email address or other identifying details to the ad network. What is shared is technical data such as cookie identifiers, IP address, browser and device information, which is how advertising on the open web works.</li><li>To opt out of interest-based advertising from many networks at once: <a href=\"https://www.aboutads.info/choices/\" target=\"_blank\" rel=\"noopener noreferrer\">US</a>, <a href=\"https://www.youronlinechoices.com/\" target=\"_blank\" rel=\"noopener noreferrer\">EU</a>, <a href=\"https://youradchoices.ca/\" target=\"_blank\" rel=\"noopener noreferrer\">Canada</a>.</li><li>Opting out limits personalised ads; you will still see advertising.</li></ul><p>If we change who serves advertising on this Site, this page will be updated before the new provider is switched on.</p>"
     },
     {
       "id": "analytics",
