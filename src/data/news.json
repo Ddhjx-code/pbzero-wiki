@@ -1,7 +1,33 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-22",
   "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
   "entries": [
+    {
+      "date": "2026-10-21",
+      "title": "Launch trailer: PS5 physical editions confirmed for 2027, all-platform preload on October 27",
+      "status": "confirmed",
+      "summary": "S-GAME released the launch trailer on 21-22 October 2026 and used it to announce boxed PS5 editions for 2027 - the first time a physical release has been confirmed for this game. This site previously stated that no physical edition had ever been announced; that claim is now corrected on the page it appeared on.",
+      "facts": [
+        "Three physical tiers announced for PlayStation 5 in 2027: standard, Deluxe, and an Ultimate edition in a collector's steelbook",
+        "No date within 2027, no price, no region list and no contents breakdown were published for the boxed editions",
+        "All-platform preload opens 10:00 China time on 27 October 2026, with full release at 10:00 China time on 29 October (02:00 GMT, 19:00 Pacific on 28 October)",
+        "The trailer runs 3:10 and shows Zuo Shang's conspiracy scenes, a human-form figure called Lord Huang, and boss fights against Hua Qianxiao the drunken swordsman, Huangxingzi, Changhong on horseback and Lei Dang",
+        "Mù Xiaokui appears in a new form fighting alongside Yù Yāo and Tiě Guǐ, and series veterans Changhong and Lei Dang return as adversaries",
+        "Signature skills from the original game return in 3D: the Absolute Shadow class' finishing move and the Blazing Blade class' fire vortex",
+        "Newly shown weapons include a green-flame meteor hammer, a bronze sword, a long-handled modao polearm and a drunken-sword slide execution",
+        "Search interest roughly doubled the same day, with Google Trends reaching its period maximum on 22 October"
+      ],
+      "source": "S-GAME launch trailer, reported by Gematsu, 4Gamer, ORICON and 3DM",
+      "url": "https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027",
+      "affects": [
+        "physical-edition",
+        "release-date",
+        "boss-guide",
+        "characters",
+        "weapons",
+        "phantom-edges"
+      ]
+    },
     {
       "date": "2026-10-20",
       "title": "Corrections: Mó Yuan's role is official, and two pages contradicted each other",

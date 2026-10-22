@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero News & Official Updates",
   "description": "Dated, sourced Phantom Blade Zero news before the 29 October 2026 release: difficulty modes, weapon totals, demo status, pre-order editions and PC details, with the guide pages each item changed.",
   "keyword": "phantom blade zero news, phantom blade zero updates, pbz announcement, phantom blade zero release news",
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-22",
   "facts": [
     {
       "label": "Game",
@@ -26,11 +26,11 @@
     },
     {
       "label": "Entries tracked",
-      "value": "16"
+      "value": "17"
     },
     {
       "label": "Last news update",
-      "value": "2026-10-20"
+      "value": "2026-10-22"
     }
   ],
   "sections": [
@@ -38,6 +38,11 @@
       "id": "overview",
       "title": "What this page tracks",
       "content": "<p>Official Phantom Blade Zero news, newest first, each entry dated and attributed. Before the game released on 29 October 2026 the useful question was usually what had <em>not</em> been confirmed yet, so every entry is marked confirmed, corrects earlier info on this site or unconfirmed rather than presented as settled.</p><p>Where the guide pages on this site disagreed with newer information, the newer information won and the entry says so. The affected pages are linked at the end of each item.</p><p>Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.</p>"
+    },
+    {
+      "id": "2026-10-21-launch-trailer-ps5-physical-editions-con",
+      "title": "2026-10-21 — Launch trailer: PS5 physical editions confirmed for 2027, all-platform preload on October 27",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>S-GAME released the launch trailer on 21-22 October 2026 and used it to announce boxed PS5 editions for 2027 - the first time a physical release has been confirmed for this game. This site previously stated that no physical edition had ever been announced; that claim is now corrected on the page it appeared on.</p><ul><li>Three physical tiers announced for PlayStation 5 in 2027: standard, Deluxe, and an Ultimate edition in a collector's steelbook</li><li>No date within 2027, no price, no region list and no contents breakdown were published for the boxed editions</li><li>All-platform preload opens 10:00 China time on 27 October 2026, with full release at 10:00 China time on 29 October (02:00 GMT, 19:00 Pacific on 28 October)</li><li>The trailer runs 3:10 and shows Zuo Shang's conspiracy scenes, a human-form figure called Lord Huang, and boss fights against Hua Qianxiao the drunken swordsman, Huangxingzi, Changhong on horseback and Lei Dang</li><li>Mù Xiaokui appears in a new form fighting alongside Yù Yāo and Tiě Guǐ, and series veterans Changhong and Lei Dang return as adversaries</li><li>Signature skills from the original game return in 3D: the Absolute Shadow class' finishing move and the Blazing Blade class' fire vortex</li><li>Newly shown weapons include a green-flame meteor hammer, a bronze sword, a long-handled modao polearm and a drunken-sword slide execution</li><li>Search interest roughly doubled the same day, with Google Trends reaching its period maximum on 22 October</li></ul><p class=\"text-sm\">Source: <a href=\"https://www.gematsu.com/2026/10/phantom-blade-zero-launch-trailer-ps5-physical-editions-launch-in-2027\" rel=\"noopener nofollow\" target=\"_blank\">S-GAME launch trailer, reported by Gematsu, 4Gamer, ORICON and 3DM</a></p><p class=\"text-sm\">Updates: <a href=\"/physical-edition\">Physical Edition</a> · <a href=\"/release-date\">Release Date</a> · <a href=\"/boss-guide\">Boss Guide</a> · <a href=\"/characters\">Characters</a> · <a href=\"/weapons\">Weapons</a> · <a href=\"/phantom-edges\">Phantom Edges</a></p>"
     },
     {
       "id": "2026-10-20-corrections-m-yuan-s-role-is-official-an",

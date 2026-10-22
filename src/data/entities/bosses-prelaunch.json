@@ -22,7 +22,7 @@
     "acts": null,
     "locations": null,
     "weak": "__not_confirmed__",
-    "source": "Official 4K demo (verified)",
+    "source": "Official 4K demo (verified); the launch trailer adds a conspiracy scene with a figure called 荒大人 (Lord Huang), which 3DM reads as the same boss before his transformation - reporter speculation, not official",
     "summary": "Huangxing is an aggressive warrior boss featured in the 4K demo footage, built around relentless melee pressure rather than ranged tools. The demo shows fast multi-hit sword combos and an unblockable grab, which is the combination that forces a player to dodge rather than turtle behind the Sha-chi block.",
     "observed": [
       "Warrior-type, melee-focused",
@@ -63,12 +63,12 @@
   },
   {
     "slug": "drunken-sword-boss",
-    "name": "Drunken Sword",
+    "name": "Drunken Sword (花千笑 / Hua Qianxiao)",
     "kind": "Pre-launch boss",
     "acts": null,
     "locations": null,
     "weak": "__not_confirmed__",
-    "source": "Trailer footage",
+    "source": "Trailer footage; the launch trailer names the drunken figure at the bridge 花千笑, per 3DM",
     "summary": "Drunken Sword is a swordsman boss using unpredictable drunken-style sword techniques - a recognised martial arts form, and one whose whole point is that the rhythm does not read like a standard attack cadence.",
     "observed": [
       "Swordsman-type boss",
@@ -131,5 +131,53 @@
       "The somersault is the tell worth learning from the clip - if you read it as evasion you will whiff a parry on what is actually an attack",
       "A second phase with four axes is a coverage problem more than a damage problem, which is the kind of fight where a longer Phantom Edge or a change of weapon tends to matter more than raw damage"
     ]
+  },
+  {
+    "slug": "changhong-boss",
+    "name": "Changhong (长鸿)",
+    "kind": "Boss shown in pre-release footage",
+    "weak": "__not_confirmed__",
+    "location": "Boss arena; fight shown in the launch trailer's combat reel",
+    "source": "Phantom Blade Zero launch trailer, released 21-22 October 2026, described by 3DM; series veteran from the original 影之刃",
+    "summary": "Changhong is a series veteran returning as an adversary, and the launch trailer shows him fighting Soul from horseback with a spear - coverage describes the charge as thunderous rather than fast in the footwork sense. The practical difference from the game's other bosses is the distance he controls: a mounted opponent commits to a line, so the read is the mount's wind-up rather than a hand or blade.",
+    "observed": [
+      "Fights mounted, with the spear charge as the centrepiece",
+      "Coverage stresses the pressure of the approach rather than a complex moveset",
+      "Appears in the same combat reel that ends with Lei Dang, so the two are shown as a sequence of set pieces",
+      "No health bar, phase count or arena has been published"
+    ],
+    "status": "Shown in the launch trailer; no confirmed mechanics"
+  },
+  {
+    "slug": "leidang-boss",
+    "name": "Lei Dang (雷当)",
+    "kind": "Boss shown in pre-release footage",
+    "weak": "__not_confirmed__",
+    "location": "Boss arena; the closing fight of the launch trailer's combat section",
+    "source": "Phantom Blade Zero launch trailer, released 21-22 October 2026, described by 3DM; series veteran known in the original games as the one-armed tiger",
+    "summary": "Lei Dang closes the launch trailer's combat section with what coverage calls a devastating wide-area attack, the widest single move shown in the trailer. Like Changhong he is a returning series character rather than a new invention, and like the other trailer fights, nothing about his kit beyond that one spectacle has been documented.",
+    "observed": [
+      "Closes the trailer's combat montage, which is a placement rather than a difficulty ranking",
+      "A large-radius area attack is the only move described in detail",
+      "Single-handed in the original series; whether that carries into this game is unconfirmed",
+      "No phase count, arena or weakness published"
+    ],
+    "status": "Shown in the launch trailer; no confirmed mechanics"
+  },
+  {
+    "slug": "xiaokui-guarded-fight",
+    "name": "Mu Xiaokui With Yu Yao and Tie Gui (沐小葵)",
+    "kind": "Boss shown in pre-release footage",
+    "weak": "__not_confirmed__",
+    "location": "Fight shown in the launch trailer; region not stated",
+    "source": "Phantom Blade Zero launch trailer, released 21-22 October 2026, described by 3DM; her attendants Yu Yao and Tie Gui are documented in series references",
+    "summary": "The trailer gives Mu Xiaokui a new form - hair down, fighting with her fists - and, more importantly for a player, changes the shape of the fight: she is no longer alone. Yu Yao and Tie Gui intervene alongside her, and coverage singles out her throws as the thing that hurts. That makes this the trailer's multi-target encounter, which is a different problem from every other boss shown so far.",
+    "observed": [
+      "Fist-based stance rather than the sword she is known for in earlier entries",
+      "Two allies, Yu Yao and Tie Gui, fight alongside her",
+      "Throws described as landing hard on the protagonist - a grab threat, which usually cannot be parried",
+      "The only trailer boss shown as a group fight"
+    ],
+    "status": "Shown in the launch trailer; party size and AI unconfirmed"
   }
 ]

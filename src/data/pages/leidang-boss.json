@@ -1,0 +1,70 @@
+{
+  "slug": "leidang-boss",
+  "title": "Lei Dang - Boss Guide (雷当)",
+  "description": "Lei Dang appears in Phantom Blade Zero's launch trailer. Location, weakness and rewards are unconfirmed before the 29 October 2026 release; this page records only what the footage and coverage actually show.",
+  "keyword": "phantom blade zero leidang boss, Lei Dang 雷当 boss, phantom blade zero boss guide",
+  "lastUpdated": "2026-10-22",
+  "facts": [
+    {
+      "label": "First shown",
+      "value": "Launch trailer, 21-22 October 2026, where he closes the combat section"
+    },
+    {
+      "label": "Location",
+      "value": "Arena not stated in any pre-release material"
+    },
+    {
+      "label": "Type",
+      "value": "Large-area attacks"
+    },
+    {
+      "label": "Weak to",
+      "value": "Not confirmed pre-launch"
+    },
+    {
+      "label": "Phases",
+      "value": "Not published"
+    },
+    {
+      "label": "Rewards",
+      "value": "Not published - boss kills are said to yield unique weapons"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Lei Dang gives the launch trailer its closing combat beat, and the fact that coverage remembers one move from him tells you how the sequence was edited rather than how the fight plays.</p><p>This is a pre-launch entry. Everything below comes from the launch trailer released 21-22 October 2026 and the coverage of it; nothing here is a claim about the shipping game's balance, and no strategy has been tested because no reviewer has had a final build long enough to publish one.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where To Find Lei Dang",
+      "content": "<p><strong>Arena not stated in any pre-release material</strong> Coverage has not placed this fight on the map, and the game's <a href=\"/locations\">regions</a> are only partially named before release, so treat the location as unknown rather than implied.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weakness & Resistances",
+      "content": "<p><strong>Nothing is confirmed.</strong> S-GAME has not published weakness data for any boss, and the trailer shows choreography rather than a stats sheet. What can be said is structural: his signature moment in the trailer is a single devastating wide-radius attack - the largest area move shown anywhere in the footage. Wide area means the answer is distance rather than a parry timing, but that is inference from one shot.</p><p>For the resource that governs this kind of read, see <a href=\"/combat\">Sha-chi and the combat system</a> - the guard-break mechanic is what makes heavy, committed attacks exploitable in general, which is the theory behind every one of these fights, not a verified answer for this one.</p>"
+    },
+    {
+      "id": "observed",
+      "title": "What The Footage Actually Shows",
+      "content": "<ul><li>Closes the trailer's combat montage</li><li>A large-radius area attack is the only move described in detail</li><li>Known in the original series as the one-armed tiger; whether that carries over is unconfirmed</li><li>No phase count, arena or weakness published</li></ul>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Unpublished. The general rule stated by S-GAME is that defeating powerful foes yields their weapons and signature techniques, so the expectation is a <a href=\"/weapons\">main weapon or Phantom Edge</a> - but no drop has been attributed to this specific boss, and pre-launch drop tables on other sites are guesses.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How To Beat Lei Dang",
+      "content": "<p><strong>No strategy is available yet, and a page that invents one would be worse than useless to you.</strong> What the trailer does support is a shape: Large-area attacks Once the game is out, this section becomes a real fight guide with phase counts and timings.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Pre-launch Status",
+      "content": "<p>Status: <strong>shown in the launch trailer, mechanics unconfirmed.</strong> Source: Phantom Blade Zero launch trailer, 21-22 October 2026, as reported by 3DM and Gematsu. This page is generated from <code>src/data/entities/bosses-prelaunch.json</code> and will be rewritten against the shipped game; until then it deliberately contains no numbers.</p>"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero Characters - Soul, Zuoshang, Mu Xiaokui & More",
   "description": "Every Phantom Blade Zero character confirmed by S-GAME: Soul is the only playable protagonist, with Zuoshang, Mu Xiaokui, The Flesh Sculptor and Mo Yuan around him.",
   "keyword": "phantom blade zero characters",
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-22",
   "sections": [
     {
       "id": "playable-characters",
@@ -21,8 +21,13 @@
     },
     {
       "id": "mu-xiaokui",
-      "title": "Mu Xiaokui (牧小葵) - The Founder's Daughter",
-      "content": "<p>Mu Xiaokui is the <strong>daughter of The Order's founder</strong> and a gifted young fighter positioned as a future leader, caught between her own place in the Jianghu and the expectations attached to the family name. She grew up alongside Soul.</p><p>She has her own thematic melody, and she has been given solo marketing weight: before pre-orders opened in August 2026, S-GAME released a 35-second teaser built entirely around her, showing her standing in front of a fire before leaving in what looked like a hot-air balloon. She is portrayed by actress <strong>Zhang Jinzhi</strong>.</p><p>Mu Xiaokui is not playable in Phantom Blade Zero, whatever her status in the mobile entries.</p>"
+      "title": "Mu Xiaokui (沐小葵) - The Founder's Daughter",
+      "content": "<p>Mu Xiaokui is the <strong>daughter of The Order's founder</strong> and a gifted young fighter positioned as a future leader, caught between her own place in the Jianghu and the expectations attached to the family name. She grew up alongside Soul.</p><p>She has her own thematic melody, and she has been given solo marketing weight: before pre-orders opened in August 2026, S-GAME released a 35-second teaser built entirely around her, showing her standing in front of a fire before leaving in what looked like a hot-air balloon. She is portrayed by actress <strong>Zhang Jinzhi</strong>.</p><p>Mu Xiaokui is not playable in Phantom Blade Zero, whatever her status in the mobile entries.</p><p><strong>Name note.</strong> Her Chinese name is 沐小葵 - <em>沐</em>, not <em>牧</em> - confirmed against Baidu Baike, the series wiki and Gamersky&apos;s coverage of her new model for this game. This page carried the wrong character until 22 October 2026.</p>"
+    },
+    {
+      "id": "zuo-shang",
+      "title": "Zuo Shang (左殇) - The Friend In The Conspiracy",
+      "content": "<p>Zuo Shang is Soul&apos;s oldest connection: the launch trailer released 21-22 October 2026 presents him as a friend raised alongside Soul in the Order, and gives him the trailer&apos;s framing scenes - his carriage crossing a wooden bridge into the blood-coloured forest, then a plot being arranged indoors with a figure he calls Lord Huang, in the name of upholding justice.</p><p>The detail that carries weight is visual rather than spoken. Across those shots his hair goes from black to white, arriving at the rain-night reunion with Soul fully changed. That is the trailer&apos;s one clear statement about the distance between the two of them, and it is presented without explanation.</p><p>Series references outside this game describe him as the one who took the leader&apos;s position after its founder was killed, and as Soul&apos;s sworn brother - carried here as context, not as a claim about <em>this</em> game&apos;s plot, since the reboot is not bound to reproduce it. S-GAME has not stated his role in Phantom Blade Zero.</p><p>One thing the trailer does confirm: <strong>he is not a boss shown in the combat reel</strong>. Whether you fight him has not been announced.</p><h3>Played by Donnie Yen</h3><p>Donnie Yen performs Mó Yuan, described by S-GAME&apos;s founder as Soul&apos;s father; the same actor&apos;s involvement in motion capture has been widely assumed to extend to other roles, but <strong>no official material links him to Zuo Shang</strong>. Anyone reporting that casting as fact is conflating two characters.</p>"
     },
     {
       "id": "mo-yuan",
