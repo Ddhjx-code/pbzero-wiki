@@ -43,6 +43,8 @@ export const TOPICS: NavTopic[] = [
   {
     label: "Getting Started",
     pages: [
+      { slug: "reviews", title: "Reviews & Embargo" },
+      { slug: "collectors-edition", title: "Collector's Edition" },
       { slug: "physical-edition", title: "Physical Edition" },
       { slug: "demo", title: "Is There a Demo?" },
       { slug: "platforms", title: "Platforms & Exclusivity" },

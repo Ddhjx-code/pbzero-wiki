@@ -24,6 +24,7 @@ STATUS_LABEL = {
     "confirmed": "Confirmed",
     "corrected": "Corrects earlier info on this site",
     "unconfirmed": "Unconfirmed",
+    "reported": "Press-reported, not confirmed by the publisher",
 }
 
 
@@ -58,8 +59,11 @@ def main() -> int:
                 "Before the game released on 29 October 2026 the useful question was usually what had "
                 "<em>not</em> been confirmed yet, so every entry is marked "
                 f"{STATUS_LABEL['confirmed'].lower()}, "
-                f"{STATUS_LABEL['corrected'].lower()} or "
-                f"{STATUS_LABEL['unconfirmed'].lower()} rather than presented as settled.</p>"
+                f"{STATUS_LABEL['corrected'].lower()}, "
+                f"{STATUS_LABEL['reported'].lower()} or "
+                f"{STATUS_LABEL['unconfirmed'].lower()} rather than presented as settled. "
+                f"&quot;Press-reported&quot; means one or more outlets stated it but the publisher has not "
+                f"confirmed it; &quot;Unconfirmed&quot; means we found no source at all.</p>"
                 + para(
                     "Where the guide pages on this site disagreed with newer information, the newer "
                     "information won and the entry says so. The affected pages are linked at the end "

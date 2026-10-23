@@ -53,6 +53,25 @@
       ]
     },
     {
+      "date": "2026-10-20",
+      "title": "Review embargo reportedly lifts 26 October - traced to a forum thread, not announced",
+      "status": "reported",
+      "summary": "Three outlets reported on 20 October that Phantom Blade Zero's review embargo lifts on 26 October 2026, three days before release. The date has one origin: a ResetEra thread, linked from r/GamingLeaksAndRumours under that subreddit's 'Grain of Salt' warning. S-GAME has published no embargo date and no embargo hour.",
+      "facts": [
+        "TwistedVoxel ran the date as a headline on 20 October; the sentence carrying it names a different game, Control Resonant",
+        "Playfront repeated the date the same day without naming a source; G2A News carried it with an explicit not-confirmed caveat",
+        "A Russian outlet restated it as fact on 21 October, by which point the caveat had been dropped",
+        "Metacritic's page is live with the Metascore as tbd and zero critic reviews; Steam shows no user reviews",
+        "No embargo hour has been published, so which sites carry first-hour scores is not predictable"
+      ],
+      "source": "TwistedVoxel, G2A News and Playfront, all 20 October 2026; Metacritic and Steam listings checked 22 October 2026",
+      "url": "https://twistedvoxel.com/phantom-blade-zero-review-embargo/",
+      "affects": [
+        "reviews",
+        "release-date"
+      ]
+    },
+    {
       "date": "2026-10-19",
       "title": "Six-hour studio preview: Phantom Edges gate exploration, enemies do not respawn, no grinding path",
       "status": "confirmed",

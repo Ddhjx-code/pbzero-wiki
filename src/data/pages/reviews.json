@@ -1,0 +1,48 @@
+{
+  "slug": "reviews",
+  "title": "Phantom Blade Zero Reviews - No Scores Yet, And When They Land",
+  "description": "No Phantom Blade Zero review score exists yet: Metacritic lists the game as tbd with zero critic reviews. The review embargo is reported to lift 26 October 2026, three days early, but S-GAME has not announced it - and the date traces back to a forum thread.",
+  "keyword": "phantom blade zero reviews, phantom blade zero metacritic score, phantom blade zero review embargo, phantom blade zero review date, pbz reviews, phantom blade zero critic score",
+  "lastUpdated": "2026-10-22",
+  "facts": [
+    { "label": "Critic reviews published", "value": "None as of 22 October 2026 - Metacritic reads tbd, 0 critic reviews" },
+    { "label": "User score", "value": "Not available - Steam shows no user reviews, Metacritic user score tbd" },
+    { "label": "Reported embargo lift", "value": "26 October 2026 - reported, not announced by S-GAME" },
+    { "label": "Exact embargo hour", "value": "Not published by anyone" },
+    { "label": "PC under review", "value": "No outlet has tested the shipping PC build" },
+    { "label": "Release", "value": "29 October 2026 (28 October in the Americas, because unlock is 02:00 GMT on the 29th)" },
+    { "label": "Our policy", "value": "This site does not review games and publishes no score of its own" }
+  ],
+  "sections": [
+    {
+      "id": "state",
+      "title": "The Short Answer",
+      "content": "<p><strong>There is no Phantom Blade Zero review score yet.</strong> Metacritic's page for the game is live but shows the Metascore as <em>tbd</em> with zero critic reviews and zero user reviews; Steam shows <strong>No user reviews</strong>. Anyone publishing a number for this game before the embargo lifts is either guessing or quoting a prediction market.</p><p>What does exist is a large volume of <em>previews</em> - hands-on writing from builds publishers supply under rules that normally forbid a score. A preview writer played four to six hours of a pre-release build and was mostly not allowed to say whether the finished game holds up. That is a different product from a review, which is why the outlets that praised it in October may publish something more measured on the 26th.</p><p>One date trap to be aware of: because the unlock is 02:00 GMT on 29 October, Steam's own store page states the release as <strong>28 October 2026</strong> while the official site and Metacritic say <strong>29 October</strong>. Both are correct - in US time zones the unlock lands on the evening of the 28th. The full table is on <a href=\"/release-date\">release date and unlock times</a>.</p>"
+    },
+    {
+      "id": "embargo",
+      "title": "The Reported Embargo Date, And How Solid It Is",
+      "content": "<p>The date circulating is <strong>Monday 26 October 2026</strong>, three days before release. Follow it back and the chain is short:</p><ol><li>A <strong>ResetEra thread</strong> - the only actual source.</li><li><strong>r/GamingLeaksAndRumours</strong>, which linked it, and is tagged &quot;Grain of Salt&quot; - the community's own label for unverified information.</li><li><strong>TwistedVoxel</strong>, 20 October, ran it as a headline. Worth noting: the very sentence in that article giving the embargo date names a <em>different game</em> (&quot;The review embargo for Control Resonant is expected to lift...&quot;), which tells you how carefully the date was handled.</li><li><strong>Playfront</strong> repeated it the same day naming no source; <strong>G2A News</strong> carried it with the caveat that S-GAME had not confirmed it; a Russian outlet stated it as fact on 21 October.</li></ol><p><strong>S-GAME has announced no embargo date and no embargo hour</strong> - not on the official site, not on the Steam page, not on the PlayStation Store page. So the honest position: reviews most likely appear 26 October, they could appear on the 27th or 28th, and even if the 26th is right the first hour is unknown - which is what decides which sites get the score first.</p>"
+    },
+    {
+      "id": "previews",
+      "title": "What The Previews Actually Established",
+      "content": "<p>These are the pre-release impressions this site has checked and dated, oldest last. They map what reviewers were already being shown; they are not verdicts.</p><ul><li><strong>12 October 2026 preview wave</strong> - coverage put the boss count at 50 or more, campaign length at 30-40 hours, added stealth takedowns, and raised frame-rate concerns.</li><li><strong>9 October 2026 final hands-on round</strong> - boss phase retry (fall in phase two, do not replay phase one), Nioh-style chapter structure, <strong>Denuvo</strong> on PC, and pattern-based boss design.</li><li><strong>19 October 2026 studio preview</strong> - a six-hour session at S-GAME's studio, the most mechanically specific of the round: Phantom Edges gating exploration, defeated enemies not respawning at rest, Remnant Dust as the principal currency.</li></ul><p>The recurring theme across independent previews is that the game is demanding but not built around punishment, and that parry timing is the skill every boss tests. Our reading of the genre question, including the director's own words, is on <a href=\"/is-phantom-blade-zero-a-soulslike\">Is Phantom Blade Zero a soulslike?</a></p><p>Two disclosures worth carrying into any score you read: several previewers travelled on publisher-provided transport or accommodation, and all of them played builds that were weeks from completion at best.</p>"
+    },
+    {
+      "id": "what-reviews-settle",
+      "title": "What Actual Reviews Will Settle",
+      "content": "<p>Five things previews cannot answer, which is why the embargo lift matters more than the preview wave did:</p><ul><li><strong>PC performance.</strong> No reviewer has tested the shipping PC build. Preview coverage reported rare but severe frame drops on high-end hardware, plus Denuvo - see <a href=\"/pc-requirements\">PC requirements</a>.</li><li><strong>Whether the opening holds.</strong> The first hours are what publishers show. Late-game structure and side-quest density are review territory; so is what is permanently missable - see <a href=\"/missable\">missable content</a>.</li><li><strong>Length in practice.</strong> 30-40 hours is a preview-stage figure; <a href=\"/how-long-to-beat\">how long to beat</a> gets rewritten against review completion times.</li><li><strong>Story and endings.</strong> Eight endings has been claimed and never verified - <a href=\"/endings\">endings</a> carries the same caveat.</li><li><strong>Whether 66 Days is a mode or a marketing number.</strong> See <a href=\"/difficulty-modes\">difficulty modes</a>.</li></ul>"
+    },
+    {
+      "id": "where",
+      "title": "Where Scores Appear First",
+      "content": "<ol><li><strong>Metacritic</strong> - the page already exists and is waiting on critic reviews; the aggregate appears once enough indexed outlets have published.</li><li><strong>OpenCritic</strong> - a different indexer set, so its percentage can diverge from the Metascore on a game with mixed coverage. Check both.</li><li><strong>Individual outlets</strong> - IGN, GameSpot, PC Gamer and the UK press publish at the embargo hour. For a PS5-and-PC game, the performance-focused write-ups matter more to most buyers than the review score.</li><li><strong>Steam user reviews</strong> - these need playtime, so they trail critic reviews by days and over-weight the first few hours of content.</li><li><strong>@pbzero_official</strong> - S-GAME quotes coverage on X once it is permitted to.</li></ol><p>This page is updated on the day scores publish, with one line per outlet: its score, the platform it tested, and its own words. We do not carry predicted scores, leaked aggregates or early-consensus numbers unless the outlet named has published something we can read.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Verification Status",
+      "content": "<p>Checked 22 October 2026: Metacritic's Phantom Blade Zero page shows the Metascore as tbd with no critic or user reviews; Steam shows no user reviews and a 28 October release date; no embargo statement exists on the S-GAME site or on either store page. Sources: <a href=\"https://www.metacritic.com/game/phantom-blade-zero/\" rel=\"noopener\" target=\"_blank\">Metacritic</a>, <a href=\"https://www.g2a.com/news/latest/phantom-blade-zero-review-embargo/\" rel=\"noopener\" target=\"_blank\">G2A News, 20 October 2026</a>, <a href=\"https://twistedvoxel.com/phantom-blade-zero-review-embargo/\" rel=\"noopener\" target=\"_blank\">TwistedVoxel, 20 October 2026</a>.</p><p>What is deliberately absent here: any score, any forecast, and any quotation lifted from another site's roundup of the previews. Several of those preview quotations trace back to a single aggregator page rather than to the outlets themselves, so they are not reproduced here until the original pieces can be read.</p>"
+    }
+  ]
+}

@@ -21,7 +21,7 @@ const SECTIONS: SectionDef[] = [
     href: "/guide",
     slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
       "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
-      "how-long-to-beat", "physical-edition", "demo", "platforms"]),
+      "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition"]),
     category: "Beginner guides",
   },
   {
@@ -64,6 +64,8 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Physical Edition?", href: "/physical-edition" },
     { label: "Is There a Demo?", href: "/demo" },
     { label: "Platforms", href: "/platforms" },
+    { label: "Collector's Edition", href: "/collectors-edition" },
+    { label: "Reviews & Embargo", href: "/reviews" },
   ],
   "Combat & Bosses": [
     { label: "Combat System", href: "/combat" },
