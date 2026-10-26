@@ -3,11 +3,11 @@
   "title": "How Long Is Phantom Blade Zero? (Unconfirmed)",
   "description": "Playtime for Phantom Blade Zero has not been confirmed before release. Here is what is known about the game's structure - the 66-day countdown, four characters, semi-open world - and how to read any hour estimate you see.",
   "keyword": "how long is phantom blade zero",
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-26",
   "facts": [
     {
       "label": "Main story length",
-      "value": "30-40 hours, per the director (October 2026)"
+      "value": "30-40 hours per the director; reviewers report 50-55 hours on their own first runs"
     },
     {
       "label": "Completionist length",
@@ -32,6 +32,10 @@
     {
       "label": "Release date",
       "value": "October 29, 2026"
+    },
+    {
+      "label": "Review playthroughs",
+      "value": "IGN 50 hours, Combo Infinito 55 hours (both 26 October 2026)"
     }
   ],
   "sections": [
@@ -39,6 +43,11 @@
       "id": "honest-answer",
       "title": "The Honest Answer: Nobody Knows Yet",
       "content": "<p><strong>Phantom Blade Zero's playtime has not been announced, and it cannot be measured before the game ships.</strong> There is no public demo, so nobody outside the developer has completed it.</p><p>That means every hour figure currently circulating is one of two things: an estimate extrapolated from the 20 minutes of State of Play footage, or a number copied from another action RPG. Neither is data.</p>"
+    },
+    {
+      "id": "review-hours",
+      "title": "What Reviewers Actually Reported",
+      "content": "<p>When the reviews landed on 25-26 October 2026, two writers put their own run length in the text, and both are above the studio&apos;s published range:</p><ul><li><strong>IGN - 50 hours</strong> (Travis Northup, 9/10). He says the combat &quot;never came even close to feeling old across 50 hours&quot;, which is the strongest evidence yet that the length is endurable rather than merely long.</li><li><strong>Combo Infinito - 55 hours</strong> (95/100), described as a &quot;55-hour adventure&quot; while still criticising level design and PC performance.</li></ul><p><strong>Both are single playthroughs on review builds, not a median.</strong> Neither writer says whether they chased side content, and review copies are normally given the full game rather than a standard progress path. So the honest reading is: S-GAME&apos;s 30-40 hour figure describes a focused story run, and the 50-55 hour figures describe critics who engaged with the optional content, which is what the 50-plus boss count predicts. If you play the way a reviewer plays, budget the upper half of that range or more.</p><p>Full scores and platform-by-platform verdicts are on <a href=\"/reviews\">the reviews page</a>.</p>"
     },
     {
       "id": "why-estimates-fail",

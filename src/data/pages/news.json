@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero News & Official Updates",
   "description": "Dated, sourced Phantom Blade Zero news before the 29 October 2026 release: difficulty modes, weapon totals, demo status, pre-order editions and PC details, with the guide pages each item changed.",
   "keyword": "phantom blade zero news, phantom blade zero updates, pbz announcement, phantom blade zero release news",
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-26",
   "facts": [
     {
       "label": "Game",
@@ -26,11 +26,11 @@
     },
     {
       "label": "Entries tracked",
-      "value": "18"
+      "value": "20"
     },
     {
       "label": "Last news update",
-      "value": "2026-10-22"
+      "value": "2026-10-26"
     }
   ],
   "sections": [
@@ -38,6 +38,16 @@
       "id": "overview",
       "title": "What this page tracks",
       "content": "<p>Official Phantom Blade Zero news, newest first, each entry dated and attributed. Before the game released on 29 October 2026 the useful question was usually what had <em>not</em> been confirmed yet, so every entry is marked confirmed, corrects earlier info on this site, press-reported, not confirmed by the publisher or unconfirmed rather than presented as settled. &quot;Press-reported&quot; means one or more outlets stated it but the publisher has not confirmed it; &quot;Unconfirmed&quot; means we found no source at all.</p><p>Where the guide pages on this site disagreed with newer information, the newer information won and the entry says so. The affected pages are linked at the end of each item.</p><p>Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.</p>"
+    },
+    {
+      "id": "2026-10-26-reviews-are-in-metacritic-88-on-pc-87-on",
+      "title": "2026-10-26 — Reviews are in: Metacritic 88 on PC, 87 on PS5, OpenCritic 91 with 100% recommending",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>The review embargo lifted overnight, three days before release, without S-GAME ever publishing a lift time. Day-one aggregates put the game at 88 (PC) and 87 (PS5) on Metacritic and 91 on OpenCritic, with 30 positive, 1 mixed and 0 negative reviews. Critics agree on the combat and largely do not agree on the story - which is why this site rewrote four pages the same morning.</p><ul><li>Metacritic: 88 PC (31-33 reviews as the page fills in), 87 PS5; 97% positive, 1 mixed (Eurogamer, 6/10), 0 negative</li><li>OpenCritic: 91, 'Mighty', 100% of critics recommend, 100th percentile on the site</li><li>Perfect 100s from PCGamesN, But Why Tho?, The Outerhaven, SteamDeckHQ, Wccftech and Saudi Gamer; 9/10 from IGN, GamesRadar, Screen Rant, Retcon and Game*Spark</li><li>Playtime reported by reviewers: IGN 50 hours, Combo Infinito 55 hours - above the director's 30-40 hour figure, now reconciled on the how-long page</li><li>The consistent praise is combat, weapons variety, bosses and art direction; the consistent criticism is story and characters, then repetitive ordinary enemies</li><li>Performance is not settled: Screen Rant reports PC barely skipping a frame with no specs or frame-time data published, while Combo Infinito lists PC performance as a flaw</li><li>Polygon notes 88 makes it the best-reviewed action game of 2026 so far, above Control Resonant, 007 First Light and Saros</li><li>The 26 October embargo date reported on 20 October from a forum thread turned out effectively correct; Metacritic timestamps the reviews 25 October in US time</li></ul><p class=\"text-sm\">Source: <a href=\"https://www.metacritic.com/game/phantom-blade-zero/critic-reviews/\" rel=\"noopener nofollow\" target=\"_blank\">Metacritic and OpenCritic listings, Polygon roundup, Shane the Gamer, Game*Spark - all read 26 October 2026</a></p><p class=\"text-sm\">Updates: <a href=\"/reviews\">Reviews</a> · <a href=\"/how-long-to-beat\">How Long To Beat</a> · <a href=\"/combat\">Combat</a> · <a href=\"/pc-requirements\">Pc Requirements</a> · <a href=\"/is-phantom-blade-zero-a-soulslike\">Is Phantom Blade Zero A Soulslike</a> · <a href=\"/boss-guide\">Boss Guide</a> · <a href=\"/difficulty-modes\">Difficulty Modes</a></p>"
+    },
+    {
+      "id": "2026-10-25-a-review-leaked-before-the-embargo-then-",
+      "title": "2026-10-25 — A review leaked before the embargo, then was deleted",
+      "content": "<p class=\"text-sm text-amber-400\">Confirmed</p><p>Brazilian outlet Critical Hits published its review ahead of the embargo lift and removed it, and two sites covered the leak. It matters here only as evidence about the embargged builds, not as a score.</p><ul><li>Critical Hits awarded 8.5/10, praising the combat and Sha-Chi management</li><li>Its criticisms - cleared locations feeling empty, repetitive ordinary enemies, overlong boss fights, and no controller remapping in the build provided - were reported before the lift by notebookcheck and vgtimes</li><li>The build reviewed there described smooth visuals in Balanced mode on a base PS5</li><li>A leaked review is a review published against an agreement; the score itself is not more or less valid than a timely one, but it is not evidence about the shipping patch</li></ul><p class=\"text-sm\">Source: <a href=\"https://www.notebookcheck.net/Phantom-Blade-Zero-review-leaks-before-release-date-noting-repetitive-combat.1433675.0.html\" rel=\"noopener nofollow\" target=\"_blank\">notebookcheck and vgtimes, 25 October 2026</a></p><p class=\"text-sm\">Updates: <a href=\"/reviews\">Reviews</a> · <a href=\"/pc-requirements\">Pc Requirements</a></p>"
     },
     {
       "id": "2026-10-21-launch-trailer-ps5-physical-editions-con",

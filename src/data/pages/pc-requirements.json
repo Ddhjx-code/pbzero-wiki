@@ -3,7 +3,7 @@
   "title": "Phantom Blade Zero PC Requirements - What Is Confirmed",
   "description": "System requirements for Phantom Blade Zero on PC have not been published. Here is what is confirmed - Unreal Engine 5, native DLSS 4.5, ray-traced reflections - and how to judge your hardware before the October 29 release.",
   "keyword": "phantom blade zero pc requirements",
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-26",
   "facts": [
     {
       "label": "System requirements",
@@ -40,6 +40,10 @@
     {
       "label": "Path tracing",
       "value": "Supported on PC, on top of ray-traced reflections and shadows"
+    },
+    {
+      "label": "Review performance",
+      "value": "Split: Screen Rant says PC 'barely ever skips a frame'; Combo Infinito lists PC performance as a flaw - neither published specs or frame-time data"
     }
   ],
   "sections": [
@@ -72,6 +76,11 @@
       "id": "what-changed-this-week",
       "title": "What changed this week",
       "content": "<p>Two PC details arrived with the October preview round: the game ships with <strong>Denuvo anti-tamper</strong>, and it supports <strong>path tracing</strong> in addition to the ray-traced reflections already listed. Official system requirements were published alongside that coverage.</p><p>A caution worth carrying into launch week: one preview team reported <em>rare but extreme</em> frame-rate drops even on a high-end PC, and the preview build was PC-only, so PlayStation 5 performance has not been independently seen.</p>"
+    },
+    {
+      "id": "review-performance",
+      "title": "What The Reviews Say About Performance",
+      "content": "<p>Reviews lifted 25-26 October 2026 and the performance picture got closer, not settled:</p><ul><li><strong>Screen Rant (9/10)</strong> reports PC performance that &quot;barely ever skips a frame&quot;. That is one reviewer on one machine, with no hardware list and no frame-time capture published alongside it.</li><li><strong>Combo Infinito (95)</strong> names PC performance as one of the things keeping the game from perfection.</li><li><strong>Critical Hits</strong>, in the review that leaked before the embargo and was deleted, described smooth visuals in Balanced mode on a base PS5 - PlayStation hardware, not PC.</li><li><strong>The October previews</strong> had flagged unstable frame rates during heavy combat, which is part of why the release was pushed from 9 September.</li></ul><p>Two things are missing and you should hold the page to them: measured frame-pacing data, and any testing of the <strong>Denuvo</strong> anti-tamper that ships on the PC release. For a game whose parry windows are its core skill check, average FPS is the wrong statistic - frame-time consistency is the one that matters, and nobody has published it yet. Digital Foundry-style breakdowns normally land on or after the launch date, so check back.</p><p>Meanwhile the published requirements stand: Windows 10/11 64-bit, 16 GB RAM, an <strong>SSD install</strong> (roughly 135 GB, see <a href=\"/release-date\">release date</a>), with the GTX 1660 6 GB / RX 5500 XT 8 GB minimum tier targeting 1080p30 <em>with upscaling</em> rather than without it. Read the minimum line as an upscaling-assisted target.</p>"
     }
   ]
 }

@@ -8,7 +8,7 @@ const ALL_PAGES = [
   { slug: "combat", title: "Combat", description: "Parry, dodge & Sha-chi stances" },
   { slug: "news", title: "News & Updates", description: "Dated official announcements" },
   { slug: "release-date", title: "Release Date", description: "Launch info & platforms" },
-  { slug: "reviews", title: "Reviews & Embargo", description: "No scores yet; when they land" },
+  { slug: "reviews", title: "Reviews", description: "Metacritic 88, OpenCritic 91" },
   { slug: "collectors-edition", title: "Collector's Edition", description: "The ¥1,199 box has no disc" },
   { slug: "locations", title: "Locations", description: "Every named region" },
   { slug: "missable", title: "Missable Content", description: "What you can permanently skip" },

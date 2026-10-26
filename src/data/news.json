@@ -1,7 +1,52 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-26",
   "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
   "entries": [
+    {
+      "date": "2026-10-26",
+      "title": "Reviews are in: Metacritic 88 on PC, 87 on PS5, OpenCritic 91 with 100% recommending",
+      "status": "confirmed",
+      "summary": "The review embargo lifted overnight, three days before release, without S-GAME ever publishing a lift time. Day-one aggregates put the game at 88 (PC) and 87 (PS5) on Metacritic and 91 on OpenCritic, with 30 positive, 1 mixed and 0 negative reviews. Critics agree on the combat and largely do not agree on the story - which is why this site rewrote four pages the same morning.",
+      "facts": [
+        "Metacritic: 88 PC (31-33 reviews as the page fills in), 87 PS5; 97% positive, 1 mixed (Eurogamer, 6/10), 0 negative",
+        "OpenCritic: 91, 'Mighty', 100% of critics recommend, 100th percentile on the site",
+        "Perfect 100s from PCGamesN, But Why Tho?, The Outerhaven, SteamDeckHQ, Wccftech and Saudi Gamer; 9/10 from IGN, GamesRadar, Screen Rant, Retcon and Game*Spark",
+        "Playtime reported by reviewers: IGN 50 hours, Combo Infinito 55 hours - above the director's 30-40 hour figure, now reconciled on the how-long page",
+        "The consistent praise is combat, weapons variety, bosses and art direction; the consistent criticism is story and characters, then repetitive ordinary enemies",
+        "Performance is not settled: Screen Rant reports PC barely skipping a frame with no specs or frame-time data published, while Combo Infinito lists PC performance as a flaw",
+        "Polygon notes 88 makes it the best-reviewed action game of 2026 so far, above Control Resonant, 007 First Light and Saros",
+        "The 26 October embargo date reported on 20 October from a forum thread turned out effectively correct; Metacritic timestamps the reviews 25 October in US time"
+      ],
+      "source": "Metacritic and OpenCritic listings, Polygon roundup, Shane the Gamer, Game*Spark - all read 26 October 2026",
+      "url": "https://www.metacritic.com/game/phantom-blade-zero/critic-reviews/",
+      "affects": [
+        "reviews",
+        "how-long-to-beat",
+        "combat",
+        "pc-requirements",
+        "is-phantom-blade-zero-a-soulslike",
+        "boss-guide",
+        "difficulty-modes"
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "title": "A review leaked before the embargo, then was deleted",
+      "status": "confirmed",
+      "summary": "Brazilian outlet Critical Hits published its review ahead of the embargo lift and removed it, and two sites covered the leak. It matters here only as evidence about the embargged builds, not as a score.",
+      "facts": [
+        "Critical Hits awarded 8.5/10, praising the combat and Sha-Chi management",
+        "Its criticisms - cleared locations feeling empty, repetitive ordinary enemies, overlong boss fights, and no controller remapping in the build provided - were reported before the lift by notebookcheck and vgtimes",
+        "The build reviewed there described smooth visuals in Balanced mode on a base PS5",
+        "A leaked review is a review published against an agreement; the score itself is not more or less valid than a timely one, but it is not evidence about the shipping patch"
+      ],
+      "source": "notebookcheck and vgtimes, 25 October 2026",
+      "url": "https://www.notebookcheck.net/Phantom-Blade-Zero-review-leaks-before-release-date-noting-repetitive-combat.1433675.0.html",
+      "affects": [
+        "reviews",
+        "pc-requirements"
+      ]
+    },
     {
       "date": "2026-10-21",
       "title": "Launch trailer: PS5 physical editions confirmed for 2027, all-platform preload on October 27",
