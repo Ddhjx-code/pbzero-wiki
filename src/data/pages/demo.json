@@ -3,7 +3,7 @@
   "title": "Phantom Blade Zero Demo - Is There a Playable Trial?",
   "description": "There is no public playable demo of Phantom Blade Zero. A demo page briefly appeared on the Chinese PlayStation Store in August 2026 and was never announced, which is the whole story so far.",
   "keyword": "phantom blade zero demo, pbz demo, phantom blade zero playable, is there a phantom blade zero demo",
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-26",
   "facts": [
     {
       "label": "Public demo",
@@ -28,6 +28,10 @@
     {
       "label": "Trial at launch",
       "value": "None announced; no early access in any edition"
+    },
+    {
+      "label": "Offline trial",
+      "value": "Beijing JD MALL, 29 October 12:00-20:30, 20 minutes per person"
     }
   ],
   "sections": [
@@ -50,6 +54,11 @@
       "id": "try-before-buy",
       "title": "What you can do instead",
       "content": "<ul><li>Watch the <strong>20-minute State of Play deep dive</strong>, which is real gameplay rather than a cinematic trailer, and is the closest thing to seeing the combat before buying.</li><li>Read the <a href=\"/is-phantom-blade-zero-a-soulslike\">soulslike question</a> and the <a href=\"/difficulty-modes\">four difficulty modes</a> - the single biggest source of buyer regret for this genre is mismatched difficulty expectations, and this game has an explicit story mode.</li><li>Check <a href=\"/pc-requirements\">PC requirements</a> before purchase. The install is around 135 GB and the preview build was reported to have rare but severe frame drops on high-end hardware.</li><li>Steam refunds apply to games played under two hours within fourteen days, which is the practical safety net in the absence of a demo.</li></ul>"
+    },
+    {
+      "id": "offline-events",
+      "title": "Where You Can Still Play It Before or On Release",
+      "content": "<p>No downloadable demo exists, but two offline events were announced for the launch window, and they are the only ways to touch a build before buying.</p><ul><li><strong>Fusion Game Carnival, Beijing, 24-25 October</strong> - S-GAME's presence there was a <strong>merchandise and prop display</strong> inside the G-GAMES partner booth A09 (Soul's blade, the mask, and the physical lion head from the Lion Dance boss), <strong>not a playable station</strong>. It is listed here because people kept asking whether the show had a demo; the organiser's exhibitor list and the post-event recaps do not put this game among the playable titles.</li><li><strong>Release-day trial, Beijing, 29 October 12:00-20:30</strong> - a public offline event at the JD MALL on 31 Guangqu Road, Chaoyang, co-hosted with Hisense. Sign-up is on site, each session is <strong>20 minutes</strong>, and a streamer-led relay hands the controller to attendees for 15-minute turns through the day. A stage programme runs 14:30-16:30.</li></ul><p>Neither helps if you are outside Beijing. For everyone else the practical options remain the Steam refund window noted above, and watching for a post-launch demo, which S-GAME has not announced.</p>"
     }
   ]
 }

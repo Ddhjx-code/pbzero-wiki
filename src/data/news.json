@@ -48,6 +48,47 @@
       ]
     },
     {
+      "date": "2026-10-24",
+      "title": "Beijing Fusion Festival: collaboration display and props, no playable station",
+      "status": "confirmed",
+      "summary": "Phantom Blade Zero appeared at the 24-25 October Fusion Game Carnival in Beijing (Shougang International Convention Center), but as a merchandise and prop display inside the G-GAMES industrial partner booth A09, not as a demo station. The 10-piece apparel collaboration pre-sold there, with online release set for 29 October alongside the game.",
+      "facts": [
+        "Three development-era props were shown: Soul's signature blade, the mask, and the physical lion head from the Lion Dance boss",
+        "The display space sat on one side of the A09 G-GAMES booth in red and black with thin red-thread accents, a motif from the director's original Rainblood logo",
+        "The 10-item apparel line launched offline first at the show; buying it included a Memory Flower woven badge, and GPASS member discounts explicitly excluded this line",
+        "Online apparel sales open 29 October, the same day as the game",
+        "Phantom Blade Zero was not listed among the show's playable stations in the organiser's exhibitor list or the post-event recaps, which credit other titles with demo queues",
+        "This is a separate event from the July 2025 S-Party at the Shougang blast furnace, which was a 1,000-player hands-on with the Seven Stars side quest"
+      ],
+      "source": "GCORES booth article and GGAMen coverage of the G-GAMES announcement, 10 and 19 October 2026; post-event recap 26 October",
+      "url": "https://www.gcores.com/articles/220994",
+      "affects": [
+        "collectors-edition",
+        "s-game"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "title": "Launch-day offline playtest announced for a Beijing JD MALL, 12:00-20:30 on 29 October",
+      "status": "confirmed",
+      "summary": "S-GAME and JD announced a public offline trial event for release day: 29 October, 12:00-20:30, at the JD MALL on 31 Guangqu Road, Chaoyang District, Beijing, with 20 minutes per person and a streamer-led relay in which each player takes 15 minutes.",
+      "facts": [
+        "Sign-up is on site; each single session is 20 minutes",
+        "A relay segment runs the full day with streamers handing the controller to attendees, 15 minutes each",
+        "Stage programme 14:30-16:30: opening, an arena-style challenge, live martial arts staged against game footage, and a behind-the-scenes talk",
+        "Giveaways include a collaboration controller, keyboard, themed T-shirt and a figure",
+        "Display units were provided by Hisense RGB-MiniLED televisions, co-hosting with JD MALL",
+        "The game has previously run offline demos at gamescom and ChinaJoy; this is the last public trial before release"
+      ],
+      "source": "GAMERSKY, 24 October 2026, citing Hisense TV's official Weibo",
+      "url": "https://www.gamersky.com/news/202610/2234368.shtml",
+      "affects": [
+        "release-date",
+        "demo",
+        "news"
+      ]
+    },
+    {
       "date": "2026-10-21",
       "title": "Launch trailer: PS5 physical editions confirmed for 2027, all-platform preload on October 27",
       "status": "confirmed",
