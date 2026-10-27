@@ -3,6 +3,7 @@ import Link from "next/link";
 const ALL_PAGES = [
   { slug: "guide", title: "Beginner Guide", description: "Combat & 66-day system" },
   { slug: "characters", title: "Characters", description: "All playable characters" },
+  { slug: "boss-list", title: "Boss List", description: "Every boss named so far" },
   { slug: "boss-guide", title: "Boss Guide", description: "Every boss strategy" },
   { slug: "weapons", title: "Weapons", description: "Weapons & Sha-chi upgrade paths" },
   { slug: "combat", title: "Combat", description: "Parry, dodge & Sha-chi stances" },

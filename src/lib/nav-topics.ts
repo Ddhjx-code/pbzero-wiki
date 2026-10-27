@@ -27,6 +27,7 @@ export const TOPICS: NavTopic[] = [
   {
     label: "Bosses",
     pages: [
+      { slug: "boss-list", title: "Boss List" },
       { slug: "xiaokui-guarded-fight", title: "Mu Xiaokui + Escorts" },
       { slug: "changhong-boss", title: "Changhong" },
       { slug: "leidang-boss", title: "Lei Dang" },

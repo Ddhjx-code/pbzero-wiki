@@ -1,0 +1,74 @@
+{
+  "slug": "boss-list",
+  "title": "Phantom Blade Zero Boss List - Every Boss Confirmed Before Launch",
+  "description": "Every Phantom Blade Zero boss confirmed before the 29 October 2026 release: 11 named encounters, where each was shown, and the one official rule about what they drop. The director puts the total at 50 or more.",
+  "keyword": "phantom blade zero bosses, phantom blade zero boss list, all bosses phantom blade zero, phantom blade zero how many bosses, phantom blade zero boss drops",
+  "lastUpdated": "2026-10-27",
+  "facts": [
+    {
+      "label": "Total bosses",
+      "value": "50 or more, per the director (October 2026)"
+    },
+    {
+      "label": "Named and evidenced here",
+      "value": "11 - each tied to a specific trailer, demo or article"
+    },
+    {
+      "label": "Why the list matters",
+      "value": "S-GAME says bosses and weapons are linked: beat a boss, gain its weapon and signature technique"
+    },
+    {
+      "label": "What they drop individually",
+      "value": "No per-boss drop table published"
+    },
+    {
+      "label": "Weaknesses",
+      "value": "None published; no elemental table exists pre-release"
+    },
+    {
+      "label": "Missable bosses",
+      "value": "Not addressed by S-GAME; see the missable page"
+    },
+    {
+      "label": "Reviewer view of boss fights",
+      "value": "The most praised part of the game; the pacing of them is the most cited complaint"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "title": "The Short Answer",
+      "content": "<p>The director stated in October 2026 that Phantom Blade Zero has <strong>at least 50 bosses</strong>. Before release, <strong>11</strong> of them are named or clearly identifiable from footage S-GAME actually published. That gap is the honest shape of this page: a roster of what exists, not a strategy guide for fights nobody has finished under review conditions.</p><p>Two things make a list more useful than a walkthrough here. The first is S-GAME&apos;s own design rule: <strong>beating a boss gives you its weapon and its signature technique</strong>, so the boss list doubles as the weapon list, and the closest thing to a build guide this game has. The second is that the fight itself is the part the reviews agree on - what varies is everything around it, which is what the notes below are for.</p>"
+    },
+    {
+      "id": "roster",
+      "title": "The Named Encounters",
+      "content": "<table><thead><tr><th>Boss</th><th>Shown in</th><th>Where</th><th>First observed trait</th></tr></thead><tbody><tr><td><a href=\"/puppet-boss\">Puppet Boss</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Humanoid puppeteer silhouette</td></tr><tr><td><a href=\"/huangxing-boss\">Huangxing</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Warrior-type, melee-focused</td></tr><tr><td><a href=\"/seven-stars-boss\">Seven Stars</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Named in official promotional material</td></tr><tr><td><a href=\"/lion-dance-boss\">Lion Dance</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Beast-type boss</td></tr><tr><td><a href=\"/drunken-sword-boss\">Drunken Sword (花千笑 / Hua Qianxiao)</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Swordsman-type boss</td></tr><tr><td><a href=\"/double-boss-fight\">Double Boss Fight</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Two bosses fought simultaneously</td></tr><tr><td><a href=\"/commander-cleave\">Commander Cleave</a></td><td>Demo boss</td><td>Tie Sha (demo level)</td><td>Fought after the Tie Sha section of the demo</td></tr><tr><td><a href=\"/the-hunt\">The Hunt</a></td><td>Pre-release footage</td><td>Appears in the opening, fighting Soul atop a moving wagon</td><td>Fights with a pair of one-handed axes joined by a chain, used for rapid strikes followed by dise</td></tr><tr><td><a href=\"/changhong-boss\">Changhong (长鸿)</a></td><td>Pre-release footage</td><td>Boss arena; fight shown in the launch trailer&#x27;s combat reel</td><td>Fights mounted, with the spear charge as the centrepiece</td></tr><tr><td><a href=\"/leidang-boss\">Lei Dang (雷当)</a></td><td>Pre-release footage</td><td>Boss arena; the closing fight of the launch trailer&#x27;s combat section</td><td>Closes the trailer&#x27;s combat montage, which is a placement rather than a difficulty ranking</td></tr><tr><td><a href=\"/xiaokui-guarded-fight\">Mu Xiaokui With Yu Yao and Tie Gui (沐小葵)</a></td><td>Pre-release footage</td><td>Fight shown in the launch trailer; region not stated</td><td>Fist-based stance rather than the sword she is known for in earlier entries</td></tr></tbody></table><p class=\"text-sm text-gray-500\">Each row links to a page recording exactly what has been shown about that fight, with its source and date. &quot;Group&quot; means multiple enemies at once; the launch trailer&apos;s Mu Xiaokui encounter is the only multi-target boss shown so far.</p>"
+    },
+    {
+      "id": "drops",
+      "title": "What Bosses Drop",
+      "content": "<p>The rule, from S-GAME&apos;s own PlayStation Blog deep dive and repeated in the store copy: <strong>defeating powerful foes yields their weapons</strong>, and with them the signature techniques those foes used. The director has said the boss count and the weapon count track each other for that reason.</p><p>What is <strong>not</strong> available: a per-boss drop table. No source states that the Puppet Boss gives a specific blade or that a given Phantom Edge comes from a specific fight, so none is printed here. Any site listing exact drops before launch is filling a table from the rule rather than from data. On launch day this section becomes a real mapping - see <a href=\"/weapons\">weapons</a> and <a href=\"/phantom-edges\">Phantom Edges</a> for the rosters the drops feed into.</p>"
+    },
+    {
+      "id": "numbers",
+      "title": "How Many, How Long",
+      "content": "<ul><li><strong>50 bosses minimum</strong> - the director, October 2026 preview coverage.</li><li><strong>30-plus main weapons and 20-plus Phantom Edges</strong> - official; the same reason the boss list and the weapon list converge.</li><li><strong>50 hours</strong> (IGN) and <strong>55 hours</strong> (Combo Infinito) reported by reviewers on 25-26 October - see <a href=\"/how-long-to-beat\">how long to beat</a>.</li><li><strong>The Hunt</strong> is the only encounter shown both as an opening pursuit and as a standalone fight, which is why it appears here with its own page.</li></ul>"
+    },
+    {
+      "id": "critics",
+      "title": "What The Reviews Say About The Boss Fights",
+      "content": "<p>Reviews lifted 25-26 October 2026, and bosses sit on both sides of the argument:</p><ul><li><strong>Praised almost without exception.</strong> Saudi Gamer&apos;s 100 calls the boss encounters &quot;truly spectacular&quot;; screenactu&apos;s 98 says the combat system &quot;should be taught in every game design school&quot;; Areajugones (95) says the bosses &quot;burst with invention&quot;; Game*Spark (9/10) lists the varied boss fights among its highlights.</li><li><strong>Pacing is the repeated complaint.</strong> Eurogamer&apos;s 6/10 - the only mixed score in the set - describes the shift from expressive crowd fights to boss fights as losing your power, &quot;like you&apos;re waiting your turn to get hits in with a wooden sword&quot;.</li><li><strong>Individual fights can run long.</strong> Critical Hits, whose review leaked before the embargo, said some major boss fights felt overly drawn out.</li><li><strong>The enemies between bosses are the weak link.</strong> GameSpot (8/10) says mowing down crowds that barely resist gets tiring and hides how good the boss fights are.</li></ul><p>Read together: budget more time than a boss count suggests, and expect the fights to be the part you remember. <a href=\"/reviews\">Full scores here</a>.</p>"
+    },
+    {
+      "id": "unknown",
+      "title": "What This Page Still Cannot Answer",
+      "content": "<ul><li><strong>Which bosses are missable.</strong> S-GAME has not said. Community coverage warns some side content cannot be recovered, but no boss is named in that warning - see <a href=\"/missable\">missable content</a>.</li><li><strong>Weaknesses and resistances.</strong> Nothing published. Every boss page here says &quot;not confirmed&quot; rather than guessing from a boss&apos;s appearance.</li><li><strong>Phase counts.</strong> Only two-phase structure is known for a couple of fights from footage; reviewer notes about retrying phase two without replaying phase one suggest the pattern is common, but it is not documented per fight.</li><li><strong>The full roster.</strong> 11 named against a stated 50-plus. The gap is real, and it will close in days rather than weeks.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Verification Status",
+      "content": "<p>Compiled 27 October 2026 from: S-GAME&apos;s PlayStation Blog deep dive (11 August 2026) and the launch trailer (21-22 October 2026) for the encounters, the October 2026 preview coverage for the 50-boss figure, and Metacritic-listed reviews for the criticism. Each boss page carries its own source line. This list updates as footage and then player reports confirm the rest; entries are only added here when a specific source names them.</p>"
+    }
+  ]
+}

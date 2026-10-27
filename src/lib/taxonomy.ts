@@ -27,7 +27,7 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Combat & Bosses",
     href: "/combat",
-    slugs: new Set(["combat", "weapons", "boss-guide", "boss-video-guides", "difficulty-modes",
+    slugs: new Set(["combat", "weapons", "boss-guide", "boss-list", "boss-video-guides", "difficulty-modes",
       "xiaokui-guarded-fight", "changhong-boss", "leidang-boss"]),
     category: "Combat & Bosses",
   },
@@ -71,6 +71,7 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Combat System", href: "/combat" },
     { label: "Weapons", href: "/weapons" },
     { label: "Boss Guide", href: "/boss-guide" },
+    { label: "Boss List", href: "/boss-list" },
     { label: "Boss Video Guides", href: "/boss-video-guides" },
     { label: "Difficulty Modes", href: "/difficulty-modes" },
   ],
