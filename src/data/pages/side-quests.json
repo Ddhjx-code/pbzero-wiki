@@ -1,0 +1,53 @@
+{
+  "slug": "side-quests",
+  "title": "Phantom Blade Zero Side Quests - What Can Open Paths, And What Can Be Missed",
+  "description": "Side quests in Phantom Blade Zero: S-GAME says completing some opens paths through the story, community coverage warns some cannot be recovered, and one evidenced branch changes a boss fight. No quest names exist yet.",
+  "keyword": "phantom blade zero side quests, pbz sidequest, phantom blade zero missable side quests, phantom blade zero quest list, phantom blade zero exploration",
+  "lastUpdated": "2026-10-27",
+  "facts": [
+    { "label": "Do side quests matter?", "value": "Yes - S-GAME states that interacting with people and completing some side quests may open paths through the story" },
+    { "label": "Can any be missed?", "value": "Community coverage says some cannot be recovered once missed; none is named yet" },
+    { "label": "Named side quests", "value": "None published by S-GAME" },
+    { "label": "Quest hub", "value": "Pang Town (庞镇) - the settlement where martial artists from across the Wulin have gathered" },
+    { "label": "Tracking", "value": "The game shows per-map collectible totals, a list of what you have taken, and a completion percentage" },
+    { "label": "Gating", "value": "Some areas need a specific Phantom Edge, and gated spots are marked on the map" },
+    { "label": "One evidenced branch", "value": "In the July 2025 test build, choosing to skip a red-dressed adversary changed the Seven Stars fight from a duel into a paired encounter" }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "title": "The Short Answer",
+      "content": "<p><strong>Side content is load-bearing in this game, and no list of it exists yet.</strong> S-GAME's own State of Play essay says that interacting with people and completing some side quests <em>may open paths through the story</em> - which in a game with a reported eight endings means a skipped quest can plausibly mean an unseen branch. The community wiki goes further and states plainly that some side quests cannot be recovered once missed.</p><p>What nobody has before release: quest names, a quest log layout, counts per region, or which specific quests gate which content. Any site publishing a numbered side-quest list on 27 October is writing fiction, including the ones that look confident and tabulated.</p>"
+    },
+    {
+      "id": "structure",
+      "title": "How Quests Sit Inside The Map Structure",
+      "content": "<p>The world is built as <strong>large handcrafted maps joined seamlessly, filled out with side content</strong> - the studio calls it wide-linear rather than open world, and community coverage describes it as a wide-linear flow with light Metroidvania-style exploration. That shape has three consequences for questing:</p><ul><li><strong>Exploration is the quest delivery.</strong> Regions are populated by bells, challenge locations, collectibles and NPCs rather than by markers on an open map; see <a href=\"/locations\">locations</a> and <a href=\"/collectibles\">collectibles</a>.</li><li><strong>Some areas are locked behind tools.</strong> Reaching certain spots needs a specific <a href=\"/phantom-edges\">Phantom Edge</a>, so a region you can partially walk is not necessarily finished.</li><li><strong>The game tells you what you missed on a map.</strong> Per-map totals, a pickup list and a completion percentage exist, and spots needing a specific Phantom Edge are marked. That percentage is the closest thing to a missable detector available before a quest log is documented.</li></ul>"
+    },
+    {
+      "id": "hub",
+      "title": "Pang Town Is The Hub To Clear First",
+      "content": "<p>Pang Town (庞镇) is the settlement where martial artists from across the Wulin have gathered, described in the deep dive as a trap of rival factions and hidden malice rather than a rest stop. Community coverage ties side quests to its NPCs specifically, which makes it the one place where a &quot;clear it before advancing&quot; rule is worth following even without a named list: hub populations are the usual first casualty of chapter transitions in this genre.</p>"
+    },
+    {
+      "id": "branch",
+      "title": "One Branch Is Actually Documented",
+      "content": "<p>The July 2025 showcase build is the only place a choice with a mechanical consequence has been described, and it is worth reproducing carefully because it shows what the official claim about side content looks like in practice.</p><p>In coverage of that test build, an <strong>encounter with a red-dressed adversary</strong> could be fought on the spot or left alone. Fighting it led to a straight one-on-one at the Seven Stars formation; skipping it produced a <strong>paired boss encounter</strong> instead - coverage describes the second version as considerably harder.</p><p><strong>Three caveats, all of them load-bearing.</strong> It was a demo build with roughly half the area, no skill tree and no weapon upgrades, and with weapon acquisition reordered. The source is a preview write-up, not S-GAME's documentation. And the shipped game may have changed the trigger entirely. So read it as evidence that choice-driven boss difficulty exists in the design, not as a walkthrough step.</p>"
+    },
+    {
+      "id": "avoid-missing",
+      "title": "How Not To Miss Things Without A Quest List",
+      "content": "<ol><li><strong>Follow the map percentage, not the markers.</strong> A map that stops climbing is the signal; the completion screen lists what remains.</li><li><strong>Take every Phantom Edge you find,</strong> even ones you would never equip. They are keys as much as weapons.</li><li><strong>Clear Pang Town NPCs before advancing a chapter,</strong> and talk to anyone who moves.</li><li><strong>Touch every bell.</strong> They reveal fog, restock combat resources and serve as fast travel - see <a href=\"/collectibles\">collectibles</a>.</li><li><strong>Pick a difficulty you can actually finish.</strong> The director moved the death countdown into <a href=\"/difficulty-modes\">66 Days</a> precisely because applying it to a first run was too harsh; that is an explicit invitation to see the story first and the challenge second.</li><li><strong>Plan a second run.</strong> New Game Plus carries weapons and upgrades, and the late-game arsenal was built to be used there.</li></ol><p>The wider risk list, including what permanent failure looks like in 66 Days and how saving works, is on <a href=\"/missable\">missable content</a>.</p>"
+    },
+    {
+      "id": "unknown",
+      "title": "What This Page Fills In At Launch",
+      "content": "<ul><li><strong>Quest names and per-region counts,</strong> which no source has published.</li><li><strong>Which quests gate which ending.</strong> The eight-ending figure is repeated coverage, not confirmation - see <a href=\"/endings\">endings</a>.</li><li><strong>The real missable list,</strong> replacing the current &quot;some exist, none named&quot; statement.</li><li><strong>Whether the red-dress branch survives into the shipping game,</strong> and whether it is the only one of its kind.</li></ul><p>Reviewers finished the game a week early and mostly criticised the story's legibility rather than its structure, so a quest map should exist within days of release. This page is the placeholder that turns into it.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Sources",
+      "content": "<p>Compiled 27 October 2026 from: S-GAME's State of Play deep dive (11 August 2026) for the claim that side quests open story paths; the <a href=\"https://wiki.biligame.com/yingzhiren/\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (fan wiki, unaffiliated with S-GAME, last edited 13 October 2026) for the warning that some side quests cannot be recovered and for the map-structure and bell behaviour; and press coverage of the July 2025 Beijing showcase for the red-dress branch, quoted above with its demo-build caveats attached. Each boss and region claim on this page is cross-linked to the page carrying its own source.</p>"
+    }
+  ]
+}

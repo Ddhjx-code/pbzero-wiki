@@ -1,0 +1,52 @@
+{
+  "slug": "lore",
+  "title": "Phantom Blade Zero Lore - The Wulin, The Order, And The Red Threads",
+  "description": "The background of Phantom Blade Zero explained from official material: the Wulin and its inner side, The Order that framed Soul, the Sha-chi modifications, the Merciful Lady, and why red threads are everywhere.",
+  "keyword": "phantom blade zero lore, phantom blade zero story explained, pbz world, the order phantom blade zero, wulin phantom blade zero, sha-chi phantom blade zero",
+  "lastUpdated": "2026-10-27",
+  "facts": [
+    { "label": "Setting name", "value": "The Wulin 武林 in S-GAME's own writing; the store copy calls it the Phantom World; the Chinese site uses 影境" },
+    { "label": "Premise", "value": "Soul is framed for his master's death, his heart is ruined, and he has 66 days" },
+    { "label": "Faction at the centre", "value": "The Order (组织) - the organisation Soul was raised in and now hunted by" },
+    { "label": "Named lore systems", "value": "Memory Flowers, outer and inner Wulin, Sha-chi modification, the Merciful Lady, void dreams" },
+    { "label": "Genre label", "value": "Kungfupunk - the studio's own term for martial arts fused with machinery" },
+    { "label": "Story reception", "value": "The most common reason reviews deducted points; combat was not" }
+  ],
+  "sections": [
+    {
+      "id": "premise",
+      "title": "The Premise, In The Studio's Own Words",
+      "content": "<p>S-GAME's store copy is unusually direct: <em>&quot;You play as Soul, a warrior with only sixty-six days left to live. Fend off assassins, unravel world-ending conspiracies, and defend your values with your life.&quot;</em> The framing adds the specific wound: Soul is <strong>framed for the death of his master</strong>, and is hunted by the people who raised him.</p><p>Two figures anchor that story and both are now official. <strong>Mó Yuan</strong> is Soul's father, performed through facial and motion capture by Donnie Yen, per the founder's own PlayStation Blog post. <strong>Zuo Shang (左殇)</strong> is the childhood companion turned rival, given a conspiracy scene in the launch trailer - a carriage crossing a wooden bridge into the blood-coloured forest, and a plot discussed with a figure he calls <strong>Lord Huang</strong> in the name of upholding justice. His hair visibly fades from black to white across those shots, which the trailer leaves unexplained.</p>"
+    },
+    {
+      "id": "world",
+      "title": "Three Names For One World",
+      "content": "<p>Expect all three, and know which register each belongs to:</p><ul><li><strong>武林 / the Wulin</strong> - used in S-GAME's own State of Play essay, and the word reviews repeat for the setting.</li><li><strong>Phantom World</strong> - the English store copy's name for the same place.</li><li><strong>影境</strong> - the Chinese site's term, paired with 影境江湖 in its tagline.</li></ul><p>None of them is a translation error: they are the in-fiction, marketing and localised names for one setting. The regions themselves are listed on <a href=\"/locations\">locations</a>.</p>"
+    },
+    {
+      "id": "systems",
+      "title": "The Five Named Lore Systems",
+      "content": "<p>The Chinese PlayStation store page lists the world's mysteries as a string of systems, and each one turns out to be a mechanic as well as a piece of lore. Reading them both ways is the fastest route into the game:</p><ul><li><strong>记忆之花 - Memory Flowers.</strong> On the community wiki these are collectibles that raise maximum health, so the poetic image is also a stat pickup: <a href=\"/collectibles\">collectibles</a>.</li><li><strong>表里武林 - the outer and inner Wulin.</strong> A two-layered world. The inner side is a series concept carried into this game, and the puppet-and-thread imagery in the trailers leans on it.</li><li><strong>杀气改造 - Sha-chi modification.</strong> The resource that governs attacks and guarding (<a href=\"/combat\">combat</a>) doubles as the setting's body horror: people rebuilt by it.</li><li><strong>圣母娘娘 - the Merciful Lady.</strong> Appealed to as a power in the pre-order trailer's dialogue, where the English line reads &quot;the Merciful Lady of the Veil&quot;. Two official sources, one figure.</li><li><strong>虚空梦境 - void dreams.</strong> The least documented of the five. Nothing official explains it, so this page does not guess.</li></ul><p>Official English exists for only some of these, so the glosses translate the Chinese terms literally.</p>"
+    },
+    {
+      "id": "order",
+      "title": "The Order, And Why Being Framed Matters",
+      "content": "<p>Soul is not a drifter caught up in events; he is infrastructure of the organisation that now wants him dead. Series references document The Order's shape - a leader, a council of envoys, operatives and constructed enforcers - and this game's own trailer dialogue repeats the grievance that the people running it stopped caring about the people under them.</p><p>That changes how the story lands in two ways. First, the hunters are former colleagues, which is why so much of the footage reads as duels between people who know each other's style; the Zuo Shang rivalry is the extreme case, and the director has compared the bond openly to a Griffith-and-Guts betrayal. Second, the framing is the engine, not a mystery box - and reviewers who had the finished game still struggled with the telling: GameSpot (8/10) put &quot;the story makes no sense&quot; in its headline, VGC (4/5) called the narrative and characters bland, and Polygon found the writing confounding while praising the combat. Read <a href=\"/reviews\">the reviews</a> before deciding how much the plot should carry your purchase.</p>"
+    },
+    {
+      "id": "threads",
+      "title": "Why Red Threads Are Everywhere",
+      "content": "<p>The motif is not set dressing. The studio's own account of its July 2025 Beijing showcase described the venue hung with something like a quarter of a million metres of red cord, and the director has explained the symbol consistently: the threads are unseen hands controlling everyone in the world, with people tied to their far ends. The image predates this game - it appears in the franchise's earliest logo.</p><p>It also runs through the mechanics. The Seven Stars sword formation is presented as a thread-driven spectacle, the Puppet Boss fights with strings, and one of the returning skills shown in the launch trailer is a sword flourish specifically used to cut thread attacks. If a room full of red lines looks like decoration, it is closer to a diagram of the setting.</p>"
+    },
+    {
+      "id": "kungfupunk",
+      "title": "Kungfupunk, Which Is Not A Gimmick",
+      "content": "<p>The studio coined <em>kungfupunk</em>, and its founder defines it as Chinese martial-arts culture fused with modern pop forms - steam, machinery, cinema - rather than a historical reconstruction. The same interviews reject both shelves people keep reaching for: he calls the game &quot;neither a Soulslike game nor a traditional action game&quot;, and most reviewers landed in the same place once the embargo lifted. The long version of that argument, with the developer's own words and the checkpoints-and-bells counterpoint, is on <a href=\"/is-phantom-blade-zero-a-soulslike\">Is Phantom Blade Zero a soulslike?</a></p>"
+    },
+    {
+      "id": "what-unknown",
+      "title": "What Lore Is Still Not Established",
+      "content": "<ul><li><strong>The full cast.</strong> Character pages cover Soul, Zuo Shang, Mó Yuan, Mu Xiaokui and a handful of named others; <a href=\"/characters\">the roster</a> marks everything else as reported rather than confirmed.</li><li><strong>How the 66 days resolve.</strong> The mechanic is documented; the ending is not, and the reported eight endings stay unverified - see <a href=\"/endings\">endings</a>.</li><li><strong>Spoiler-level plot.</strong> Some reviewers said embargo terms stopped them discussing the parts of the story that worked, so a clean &quot;story explained&quot; is not yet possible from press coverage. This page will not reconstruct it from trailer fragments.</li><li><strong>Series continuity.</strong> This is a reboot of the creator's earlier world, so series lore is context rather than canon. Where this page borrows a series term, it says so in the sentence.</li></ul>"
+    }
+  ]
+}

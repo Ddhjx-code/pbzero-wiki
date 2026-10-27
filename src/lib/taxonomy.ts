@@ -34,13 +34,13 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Story & Characters",
     href: "/characters",
-    slugs: new Set(["characters", "protagonist", "endings"]),
+    slugs: new Set(["characters", "protagonist", "endings", "lore", "easter-eggs"]),
     category: "Characters & Story",
   },
   {
     label: "World & Exploration",
     href: "/locations",
-    slugs: new Set(["locations", "collectibles", "missable", "phantom-edges", "npcs"]),
+    slugs: new Set(["locations", "collectibles", "missable", "side-quests", "phantom-edges", "npcs"]),
     category: "World & Exploration",
   },
   {
@@ -79,9 +79,12 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "All Characters", href: "/characters" },
     { label: "Soul", href: "/protagonist" },
     { label: "Endings", href: "/endings" },
+    { label: "Lore", href: "/lore" },
+    { label: "Easter Eggs", href: "/easter-eggs" },
   ],
   "World & Exploration": [
     { label: "Locations & Regions", href: "/locations" },
+    { label: "Side Quests", href: "/side-quests" },
     { label: "Collectibles", href: "/collectibles" },
     { label: "Missable Content", href: "/missable" },
     { label: "Phantom Edges", href: "/phantom-edges" },

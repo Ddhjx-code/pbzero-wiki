@@ -12,6 +12,7 @@ export const TOPICS: NavTopic[] = [
   {
     label: "World & Exploration",
     pages: [
+      { slug: "side-quests", title: "Side Quests" },
       { slug: "locations", title: "Locations & Regions" },
       { slug: "collectibles", title: "Collectibles" },
       { slug: "missable", title: "Missable Content" },
@@ -74,6 +75,8 @@ export const TOPICS: NavTopic[] = [
   {
     label: "Story & Characters",
     pages: [
+      { slug: "lore", title: "Lore & The World" },
+      { slug: "easter-eggs", title: "Easter Eggs & Callbacks" },
       { slug: "protagonist", title: "Soul (Protagonist)" },
       { slug: "characters", title: "All Characters" },
       { slug: "npcs", title: "NPCs" },
