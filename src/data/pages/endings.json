@@ -2,7 +2,7 @@
   "title": "Phantom Blade Zero Endings - What Is Known Before Launch",
   "description": "Phantom Blade Zero endings explained as far as they can be before release: the confirmed story premise, why a branching conclusion is expected, and what remains unverified until October 29, 2026.",
   "keyword": "phantom blade zero endings",
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-10-27",
   "sections": [
     {
       "id": "status",
@@ -32,7 +32,7 @@
     {
       "id": "sixty-six-ending",
       "title": "饮恨江湖 - The 66 Days Failure Ending",
-      "content": "<p>Community documentation names an ending that the official material has not: <strong>饮恨江湖</strong>, reached when the day counter in <a href=\"/difficulty-modes\">66 Days mode</a> hits zero. The BWIKI wording is explicit - 天数归零则进入&quot;饮恨江湖&quot;结局 - and it matters more than a game-over screen, because it means the permadeath failure state is authored into the ending list rather than sitting outside it.</p><p>Put against the reported total of eight endings, a failure state with its own name implies it is being counted, which in turn implies the counter is part of the ending map rather than a bonus mode bolted onto it. That is inference from two sources, not a statement from either.</p><p><strong>Status: community-sourced, unconfirmed by S-GAME.</strong> No English name has been published. The literal sense is something like &quot;harbouring resentment in the jianghu&quot; - dying with the grudge unspent.</p><p class=\"text-sm text-gray-500\">Source: <a href=\"https://wiki.biligame.com/yingzhiren/index.php?title=%E9%9A%BE%E5%BA%A6%E4%B8%8E%E6%88%90%E5%B0%B1&oldid=2896\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (难度与成就, revision 2896, edited 2026-10-11), a fan wiki run by 影之刃 Tieba moderators, unaffiliated with S-GAME.</p>"
+      "content": "<p>Community documentation names an ending that the official material has not: <strong>饮恨江湖</strong>, reached when the day counter in <a href=\"/difficulty-modes\">66 Days mode</a> hits zero. The BWIKI wording is explicit - 天数归零则进入&quot;饮恨江湖&quot;结局 - and it matters more than a game-over screen, because it means the permadeath failure state is authored into the ending list rather than sitting outside it.</p><p>Put against the reported total of eight endings, a failure state with its own name implies it is being counted, which in turn implies the counter is part of the ending map rather than a bonus mode bolted onto it. That is inference from two sources, not a statement from either.</p><p><strong>Status: community-sourced, unconfirmed by S-GAME.</strong> No English name has been published. The literal sense is something like &quot;harbouring resentment in the jianghu&quot; - dying with the grudge unspent.</p><p class=\"text-sm text-gray-500\">Source: <a href=\"https://wiki.biligame.com/yingzhiren/index.php?title=%E9%9A%BE%E5%BA%A6%E4%B8%8E%E6%88%90%E5%B0%B1&oldid=2896\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (难度与成就, revision 2896, edited 2026-10-11), a fan wiki run by 影之刃 Tieba moderators, unaffiliated with S-GAME.</p><p><strong>26 October update.</strong> The review wave changed nothing here: no outlet has published an ending count or route breakdown, and several praised the combat while calling the story hard to follow - which is exactly the situation where a pre-launch ending list is most likely to be wrong. See <a href=\"/reviews\">the reviews</a> and <a href=\"/boss-list\">the boss list</a> for what is evidenced.</p>"
     }
   ]
 }

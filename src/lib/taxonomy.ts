@@ -27,7 +27,7 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Combat & Bosses",
     href: "/combat",
-    slugs: new Set(["combat", "weapons", "boss-guide", "boss-list", "boss-video-guides", "difficulty-modes",
+    slugs: new Set(["combat", "weapons", "best-build", "boss-guide", "boss-list", "boss-video-guides", "difficulty-modes",
       "xiaokui-guarded-fight", "changhong-boss", "leidang-boss"]),
     category: "Combat & Bosses",
   },

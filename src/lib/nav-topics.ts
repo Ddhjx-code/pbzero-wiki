@@ -63,6 +63,7 @@ export const TOPICS: NavTopic[] = [
   {
     label: "Combat & Bosses",
     pages: [
+      { slug: "best-build", title: "Best Build" },
       { slug: "combat", title: "Combat System" },
       { slug: "weapons", title: "Weapons & Phantom Edges" },
       { slug: "difficulty-modes", title: "Difficulty Modes" },

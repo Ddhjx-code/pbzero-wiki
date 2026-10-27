@@ -1,0 +1,64 @@
+{
+  "slug": "best-build",
+  "title": "Phantom Blade Zero Best Build - What A Build Actually Consists Of",
+  "description": "There is no published tier list for Phantom Blade Zero, and nobody has measured the weapons yet. What is verified: a build is two main weapons, two Phantom Edges, two flasks and six accessories, upgraded with Remnant Dust, and bosses are the source.",
+  "keyword": "phantom blade zero best build, pbz build, phantom blade zero build guide, phantom blade zero loadout, is phantom blade zero a build game",
+  "lastUpdated": "2026-10-27",
+  "facts": [
+    {
+      "label": "Loadout",
+      "value": "2 main weapons, 2 Phantom Edges, 2 flasks, 6 accessories"
+    },
+    {
+      "label": "Upgrade currency",
+      "value": "Remnant Dust, spent on weapon upgrades; 意识尘埃, metal and solvent per community coverage"
+    },
+    {
+      "label": "Upgrade cap",
+      "value": "30 levels per weapon, reset is lossless (community-sourced)"
+    },
+    {
+      "label": "Levelling",
+      "value": "No XP system - growth is kit-based, and defeated enemies do not simply repopulate"
+    },
+    {
+      "label": "Where weapons come from",
+      "value": "Bosses and exploration: beating a foe yields its weapon and technique (official)"
+    },
+    {
+      "label": "Tier list",
+      "value": "None published; no outlet has measured per-weapon performance"
+    },
+    {
+      "label": "Reviewer view",
+      "value": "Weapon variety is a cited strength; crowd fights are the flat part"
+    }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "title": "The Honest Answer About A Best Build",
+      "content": "<p><strong>No tier list exists.</strong> The game is reviewed but not yet played by the public, and no outlet has published per-weapon measurements, so any &quot;best build&quot; table written today is a guess with formatting. What can be stated is what a build is <em>made of</em>, and that is more useful than a ranking: this game has no character levels, so the build is the kit.</p><p>The slot layout, from the community combat write-up this site has cross-checked: <strong>two main weapons, two <a href=\"/phantom-edges\">Phantom Edges</a>, two flasks and six accessories</strong>. Weapons can be swapped mid-combat, which is a defensive tool as well as an offensive one - see <a href=\"/combat\">combat</a>.</p>"
+    },
+    {
+      "id": "structure",
+      "title": "The Five Things That Make Up A Build",
+      "content": "<ol><li><strong>A main weapon pair.</strong> 30-plus exist, grouped one-handed, two-handed and dual-wielded, each with its own attack, guard-break value, special and execution. Length and speed trade against each other - see <a href=\"/weapons\">weapons</a> for the named roster.</li><li><strong>Two Phantom Edges.</strong> 20-plus, consumed from a separate resource that kills feed back into, and several double as traversal keys - the reason skipping an area can lock a build option, see <a href=\"/collectibles\">collectibles</a>.</li><li><strong>Two flasks.</strong> Different flasks restore health, raise attack or speed up refined Sha-chi gain; some change your move set.</li><li><strong>Six accessories.</strong> Pure passives, and the pre-order Treasure Basin is one (reported to raise Remnant Dust drop rate by 10%) - see <a href=\"/pre-order-guide\">pre-order guide</a>.</li><li><strong>Weapon upgrades.</strong> Material-driven, capped at 30 levels, unlocking new moves rather than bigger numbers, and resettable with no loss - so a build is a commitment for a session, not for the save file.</li></ol>"
+    },
+    {
+      "id": "source",
+      "title": "Where The Parts Come From",
+      "content": "<p>From bosses and from the map. S-GAME states that defeating powerful foes yields their weapons and their signature techniques, and the director has said the boss count and the weapon count track each other - which is why <a href=\"/boss-list\">the boss list</a> is the closest thing this site has to a build roadmap. No per-boss drop has been published, so none is claimed here.</p>"
+    },
+    {
+      "id": "reviews",
+      "title": "What The Reviews Say About Building",
+      "content": "<ul><li><strong>Variety is a headline strength.</strong> SteamDeckHQ (100) credits &quot;the variety of weapons and their abilities&quot;; Areajugones (95) says the arsenal &quot;gives every weapon real personality&quot;; Saudi Gamer (100) a &quot;huge selection of weapons&quot;; Gameliner (90) &quot;incredibly smooth, varied&quot; combat.</li><li><strong>No grinding path.</strong> GAMES.CH (85) calls the reduced reliance on repetitive farming a differentiator from traditional soulslikes - consistent with there being no XP system.</li><li><strong>But crowds are flat.</strong> GameSpot (8/10) found mowing down weak enemies tiring, so a group-clear weapon and a boss weapon are different questions.</li><li><strong>50 to 55 hours</strong> of it, per IGN and Combo Infinito - see <a href=\"/how-long-to-beat\">how long to beat</a>.</li></ul><p><strong>What this page will become at launch:</strong> per-weapon notes filled from player measurement rather than speculation, with the source of each claim recorded.</p>"
+    },
+    {
+      "id": "why-here",
+      "title": "Why This Page Exists Now",
+      "content": "<p>Search Console had been serving three impressions of this URL at an average position of 4.0 while no such page existed - a phantom entry inherited from how the site was linked, and a wasted ranking. The page now exists so that position has something to point at, and it deliberately publishes structure instead of a fake ranking. If you came here looking for a tier list: it does not exist yet, and this page says so rather than inventing one.</p>"
+    }
+  ]
+}
