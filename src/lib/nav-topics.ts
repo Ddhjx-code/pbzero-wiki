@@ -12,6 +12,7 @@ export const TOPICS: NavTopic[] = [
   {
     label: "World & Exploration",
     pages: [
+      { slug: "walkthrough", title: "Walkthrough" },
       { slug: "side-quests", title: "Side Quests" },
       { slug: "locations", title: "Locations & Regions" },
       { slug: "collectibles", title: "Collectibles" },
@@ -45,6 +46,8 @@ export const TOPICS: NavTopic[] = [
   {
     label: "Getting Started",
     pages: [
+      { slug: "trophy-guide", title: "Trophy Guide" },
+      { slug: "how-long-to-beat", title: "How Long Is It?" },
       { slug: "reviews", title: "Reviews & Embargo" },
       { slug: "collectors-edition", title: "Collector's Edition" },
       { slug: "physical-edition", title: "Physical Edition" },
@@ -57,7 +60,6 @@ export const TOPICS: NavTopic[] = [
       { slug: "is-phantom-blade-zero-single-player", title: "Is It Single-Player?" },
       { slug: "pre-order-guide", title: "Pre-Order Guide" },
       { slug: "pc-requirements", title: "PC Requirements" },
-      { slug: "how-long-to-beat", title: "How Long Is It?" },
       { slug: "about", title: "About the Game" },
     ],
   },
@@ -81,6 +83,7 @@ export const TOPICS: NavTopic[] = [
       { slug: "characters", title: "All Characters" },
       { slug: "npcs", title: "NPCs" },
       { slug: "endings", title: "Endings" },
+      { slug: "true-ending", title: "True Ending Checklist" },
     ],
   },
   {

@@ -1,73 +1,71 @@
 {
-  "slug": "how-long-to-beat",
-  "title": "How Long Is Phantom Blade Zero? (Unconfirmed)",
-  "description": "Playtime for Phantom Blade Zero has not been confirmed before release. Here is what is known about the game's structure - the 66-day countdown, four characters, semi-open world - and how to read any hour estimate you see.",
-  "keyword": "how long is phantom blade zero",
-  "lastUpdated": "2026-10-26",
+  "title": "How Long Is Phantom Blade Zero? 20-25 Hours Main, 50-70 to Platinum",
+  "description": "Phantom Blade Zero playtime, measured: 20-25 hours for the main story, 30-40 with side content, 40-45 for a full clear, 50-70 for the platinum - and why reviewers reported 50 hours when the director said 20 to 30.",
+  "keyword": "how long is phantom blade zero, phantom blade zero length, phantom blade zero how long to beat, phantom blade zero playtime, phantom blade zero hours",
   "facts": [
     {
-      "label": "Main story length",
-      "value": "30-40 hours per the director; reviewers report 50-55 hours on their own first runs"
+      "label": "Main story",
+      "value": "20-25 hours"
     },
     {
-      "label": "Completionist length",
-      "value": "Not confirmed; 50+ bosses and optional paths push it higher"
+      "label": "Main + side content",
+      "value": "30-40 hours (guides split between 30-35 and 35-40)"
     },
     {
-      "label": "Structure",
-      "value": "Semi-open world with optional content"
+      "label": "Full completion",
+      "value": "40-45 hours; 50-55 for a thorough 100% run"
     },
     {
-      "label": "Narrative clock",
-      "value": "66 in-game days"
+      "label": "Platinum",
+      "value": "50-70 hours, per Game8"
     },
     {
-      "label": "Playable",
-      "value": "Soul only"
+      "label": "Director's estimate",
+      "value": "20-30 hours for the story"
     },
     {
-      "label": "Difficulty modes",
-      "value": "4 - Wayfarer, Pathbreaker, Hellwalker, 66 Days"
+      "label": "Reviewer runs",
+      "value": "50 hours (IGN) and 55 hours (Combo Infinito) at review"
     },
     {
-      "label": "Release date",
-      "value": "October 29, 2026"
+      "label": "Regions",
+      "value": "8, plus realms and secret areas"
     },
     {
-      "label": "Review playthroughs",
-      "value": "IGN 50 hours, Combo Infinito 55 hours (both 26 October 2026)"
+      "label": "Missions",
+      "value": "22 main story missions"
+    },
+    {
+      "label": "Replay",
+      "value": "66 Days mode unlocks after any completion; New Game Plus carries gear over"
     }
   ],
   "sections": [
     {
-      "id": "honest-answer",
-      "title": "The Honest Answer: Nobody Knows Yet",
-      "content": "<p><strong>Phantom Blade Zero's playtime has not been announced, and it cannot be measured before the game ships.</strong> There is no public demo, so nobody outside the developer has completed it.</p><p>That means every hour figure currently circulating is one of two things: an estimate extrapolated from the 20 minutes of State of Play footage, or a number copied from another action RPG. Neither is data.</p>"
+      "id": "answer",
+      "title": "The Answer",
+      "content": "<p><strong>20 to 25 hours</strong> if you chase the story and nothing else. <strong>30 to 40 hours</strong> if you take the side content, which is the way the game is meant to be played and the range the guides themselves cannot agree on. <strong>40 to 45 hours</strong> to clear everything, stretching to 50-55 if you are thorough, and <strong>50 to 70</strong> if you are going for the platinum.</p><p>This page used to say the figure was unconfirmed. It was, in September. It is not now, and the pre-release framing has been replaced rather than annotated.</p>"
     },
     {
-      "id": "review-hours",
-      "title": "What Reviewers Actually Reported",
-      "content": "<p>When the reviews landed on 25-26 October 2026, two writers put their own run length in the text, and both are above the studio&apos;s published range:</p><ul><li><strong>IGN - 50 hours</strong> (Travis Northup, 9/10). He says the combat &quot;never came even close to feeling old across 50 hours&quot;, which is the strongest evidence yet that the length is endurable rather than merely long.</li><li><strong>Combo Infinito - 55 hours</strong> (95/100), described as a &quot;55-hour adventure&quot; while still criticising level design and PC performance.</li></ul><p><strong>Both are single playthroughs on review builds, not a median.</strong> Neither writer says whether they chased side content, and review copies are normally given the full game rather than a standard progress path. So the honest reading is: S-GAME&apos;s 30-40 hour figure describes a focused story run, and the 50-55 hour figures describe critics who engaged with the optional content, which is what the 50-plus boss count predicts. If you play the way a reviewer plays, budget the upper half of that range or more.</p><p>Full scores and platform-by-platform verdicts are on <a href=\"/reviews\">the reviews page</a>.</p>"
+      "id": "table",
+      "title": "By Playstyle",
+      "content": "<table><thead><tr><th>Playstyle</th><th>Time</th><th>Source</th></tr></thead><tbody><tr><td>Main story only</td><td><strong>20-25 hours</strong></td><td>18183, Gamer.org, TigerJek</td></tr><tr><td>Main + side content</td><td>30-35 hours</td><td>18183, TigerJek</td></tr><tr><td>Main + side content</td><td>35-40 hours</td><td>Gamer.org</td></tr><tr><td>100% completion</td><td>40-45 hours</td><td>18183, TigerJek</td></tr><tr><td>100% completion</td><td>50-55 hours</td><td>Gamer.org</td></tr><tr><td>Platinum trophy</td><td>50-70 hours</td><td>Game8</td></tr><tr><td>Director's own estimate</td><td>20-30 hours (story)</td><td>Gamer.org, citing the creative director</td></tr><tr><td>Reviewer first runs</td><td>50 hours / 55 hours</td><td>IGN, Combo Infinito (26 October 2026)</td></tr></tbody></table><p>The spread is not noise. Two different things are being measured: the guides' 20-25 hours is a main-path run that skips optional bosses and Tales, while the reviewers' 50 hours is a first playthrough that engaged with the side content because the game pushes you toward it.</p>"
     },
     {
-      "id": "why-estimates-fail",
-      "title": "Why Pre-Launch Estimates Go Wrong",
-      "content": "<p>Action RPGs are the worst category to estimate, because playtime is driven by player skill rather than content volume:</p><ul><li><strong>Boss gates.</strong> One fight that takes one player 20 minutes and another player two hours changes the total by more than most of the map.</li><li><strong>Difficulty mode.</strong> With four modes announced, the same content has a very different wall-clock time on Wayfarer than on Sixty-Six Days.</li><li><strong>Death loops.</strong> Checkpoint-based design with respawning enemies means a stuck player re-runs the same corridor repeatedly.</li><li><strong>Optional content depth.</strong> A semi-open world can be rushed or emptied, and nobody outside the studio knows how much is there.</li></ul>"
+      "id": "why-50",
+      "title": "Why Reviewers Said 50 Hours and the Director Said 20 to 30",
+      "content": "<p>The director's 20-30 hour figure is a story estimate, and 20-25 is what it turns into once you actually route it. The review runs are longer for three compounding reasons:</p><ul><li><strong>Boss gates.</strong> The combat is deflect-and-punish, so a fight that costs one player fifteen minutes costs another an hour. Several bosses in the roster are hard walls on a first attempt.</li><li><strong>Optional content is not optional in practice.</strong> Weapons, accessories and Sha-Chi Amber Shards come from side areas. Skip them and the back half gets harder, which lengthens the back half.</li><li><strong>The Tales are story.</strong> Purple Tales feed the endings, so anyone reviewing the narrative had to do them.</li></ul><p>IGN's reviewer wrote that combat 'never came even close to feeling old across 50 hours', which is the useful data point: the extra 25 hours were not padding being endured.</p>"
     },
     {
-      "id": "what-is-known",
-      "title": "What the Known Structure Tells You",
-      "content": "<p>What is confirmed shapes the range, even if it does not give a number:</p><ul><li><strong>A 66-day narrative clock.</strong> The countdown is the story's spine, which implies a designed amount of content that fits inside it - but in-game days are not hours, and the mapping is unknown.</li><li><strong>One protagonist, so a run is one continuous line.</strong> There is no character-switching structure that would split the campaign into separate arcs.</li><li><strong>Side quests that can open new story paths.</strong> The official State of Play write-up says interacting with citizens and completing side quests &ldquo;might even open up new story paths&rdquo; - the clearest published signal that a first run is not the whole game.</li></ul><p>Together these point to a game designed for more than one run rather than a single short campaign, but that is a structural observation, not an estimate.</p>"
+      "id": "what-drives-it",
+      "title": "What Actually Drives Your Number",
+      "content": "<p>Four levers, in order of impact:</p><p><strong>Difficulty.</strong> Four modes - Wayfarer, Pathbreaker, Hellwalker and 66 Days. Wayfarer exists specifically for players who want the story and the combat without the wall; Hellwalker makes enemies adaptive. There is no difficulty trophy, so Wayfarer costs you nothing but pride.</p><p><strong>Whether you do the Acolytes and Lóng Pillars.</strong> That is four boss fights and five duels against the Gold-Masked One, and the later pillars are fought at your current power level, so leaving them late makes them expensive.</p><p><strong>Collectibles.</strong> Seven tracked categories: bells, challenge locations, weapons and Phantom Edges, accessories and medicines, Sha-Chi Amber Shards, Blackstone Shards, and Memory Flowers. Accessories alone are 30 for the Collector's Note trophy.</p><p><strong>Tempering.</strong> Upgrade and Temper trophies want one weapon at level 30 and ten weapons plus ten Phantom Edges Tempered. Tempering is refundable, so this is time rather than resources.</p>"
     },
     {
-      "id": "when-youll-know",
-      "title": "When You Will Know",
-      "content": "<p>Real numbers appear within roughly 48 hours of release, from players who finished it. The reliable sources at that point are aggregated community data and hands-on reviews; the developer may also publish an official figure.</p><p>Until then, the useful planning information is which mode you intend to play - see <a href=\"/difficulty-modes\">difficulty modes</a> - because that choice moves the total further than anything currently known about the game's size.</p>"
-    },
-    {
-      "id": "related",
-      "title": "Related",
-      "content": "<p>Start with the <a href=\"/guide\">beginner guide</a> for how the systems fit together, and the <a href=\"/endings\">endings page</a> for why the structure suggests multiple playthroughs. Release timing is on the <a href=\"/release-date\">release date page</a>.</p>"
+      "id": "post-game",
+      "title": "Post-Game and Replay",
+      "content": "<p>Free roam opens after the credits: bells work, regions stay open, and cleanup is possible. What does not come back is any Tale that expired at the Mount Soulrend climb.</p><p><strong>66 Days</strong> unlocks after any completion - 66 lives for a whole run, save deleted on the 66th death. Dying out of it is the only way to see the secret ending, so a completionist's hour count includes a deliberate failure somewhere.</p><p><strong>New Game Plus</strong> carries skills, weapons and Phantom Edges over, which is the recovery path if something missable slipped past you. It is also why the platinum is rated 7/10 rather than higher - nothing is permanently lost, only delayed.</p><p>Chapter order is on <a href=\"/walkthrough\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">the walkthrough</a>; the trophy requirements are on <a href=\"/trophy-guide\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">the trophy guide</a>.</p>"
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-09"
 }

@@ -33,6 +33,29 @@
 - [x] Vercel 部署 + SSL 证书签发
 - [x] 域名 alias 绑定（pbzero.wiki → Vercel）
 
+### 发售后的攻略补全（2026-11-09）
+
+发售（10-29）已过 11 天，站点核心页仍是"发售前只写已确认"口径，部分已变成错信息。
+本轮按真实数据改写，全部内容来源于公开攻略媒体（IGN / Polygon / Game8 / NoobFeed / 游侠网等），
+分歧处保留双方说法并标注来源，不做单方面断言。
+
+- [x] `endings` 重写：真实为 **4 个结局**（旧页写"8 个且均未确认"，已删）。
+      Annihilation / Long Roar / Final Battle / Undying Grudge。
+- [x] 新增 `/true-ending`：真结局完整清单（9 条紫色支线、4 张侍从面具、5 根龙柱、2 只水晶人偶眼、
+      不可回头点、终局 Boss 链、6 个静默翻车点）。
+- [x] `boss-list` 重写：11 个 → **56 个**，按 8 大区域分表，标注主线/可选、地点、掉落。
+- [x] 新增 `/trophy-guide`：PS5 36 奖杯 / Steam 66 成就、白金路线、6 个易错过 Tale 奖杯。
+- [x] 新增 `/walkthrough`：8 区域 22 个主线任务顺序、不可回头点、进终局前检查表。
+- [x] `how-long-to-beat` 重写：20–25h 主线 / 30–40h 含支线 / 40–45h 全清 / 50–70h 白金，
+      并解释"评测 50h vs 导演 20–30h"的口径差异。
+- [x] `weapons` 补入真实获取表：26 把主武器 + 16 个 Phantom Edge + 淬魂树。
+- [x] 注册：nav-topics / taxonomy / RelatedPages / 搜索索引（48 → 51 页）。
+- [ ] **待办**：`npm run build` 未能在本机执行 —— 三个 wiki 的 node_modules 都是残缺的
+      （缺 `.bin`、`next` 包内文件不全），重装被沙箱拦下。需在有网络且可写 node_modules 的环境里
+      跑一次 build 确认；内容层已过 JSON/HTML 结构校验与 284 条内链校验。
+- [ ] **待办**：`src/data/entities/` 仍是空的（除 bosses-prelaunch）。若要走"数据层 → 生成器"的
+      正规管道，需要把本轮 Boss/武器数据回填成实体记录，否则生成的会是大量 `Not confirmed` 空页。
+
 ### 待完成
 - [ ] canvas-fx 武侠风粒子特效（首页 Hero）
 - [ ] P1 页面内容：endings, lore, skill-tree

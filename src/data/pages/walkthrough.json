@@ -1,0 +1,72 @@
+{
+  "title": "Phantom Blade Zero Walkthrough - Chapter Order and What Locks When",
+  "description": "Phantom Blade Zero's main story in order: 8 regions, 22 missions, the point of no return at the Mount Soulrend climb, and which optional Tales expire before you get there.",
+  "keyword": "phantom blade zero walkthrough, phantom blade zero chapters, phantom blade zero mission list, phantom blade zero story order, phantom blade zero point of no return",
+  "facts": [
+    {
+      "label": "Regions",
+      "value": "8 main regions plus realms and secret areas"
+    },
+    {
+      "label": "Main missions",
+      "value": "22 named missions, including two prologue missions"
+    },
+    {
+      "label": "Main story length",
+      "value": "20 to 25 hours"
+    },
+    {
+      "label": "With side content",
+      "value": "30 to 40 hours depending on how much you chase"
+    },
+    {
+      "label": "Point of no return",
+      "value": "The climb to Mount Soulrend after the Mirage Estate"
+    },
+    {
+      "label": "Structure",
+      "value": "Semi-open regions, not open world - you clear an area then move on"
+    },
+    {
+      "label": "Backtracking",
+      "value": "Free after the credits; bells allow fast travel within unlocked regions"
+    },
+    {
+      "label": "Missable window",
+      "value": "Everything before Mirage Estate - Tales expire silently"
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-it-is-structured",
+      "title": "How the Campaign Is Structured",
+      "content": "<p>Eight semi-open regions in a fixed order, each with a story thread and a pile of optional content. The game calls its side content <em>Tales</em>; purple Tales are the ones tied to the true ending.</p><p>This is not an open world. You cannot wander into Pangzhen from the prologue, and the regions unlock in sequence. What you <em>can</em> do is leave a region early - and that is where runs go wrong, because several Tales stop being completable once the story moves past them.</p><p>Fast travel is by bells, one or more per region. Bells do not work inside the Phantom Illusionist Ruins, which is why the Four Guardians' Mirror realm is a one-way trip until you clear it.</p>"
+    },
+    {
+      "id": "mission-order",
+      "title": "The 22 Missions in Order",
+      "content": "<table><thead><tr><th>#</th><th>Region</th><th>Mission</th></tr></thead><tbody><tr><td>P</td><td>Prologue</td><td>Diverging Paths &middot; Reckless Pursuit</td></tr><tr><td>1</td><td>Weeping Creek Valley</td><td>Against the Flow &middot; Steel and Steam &middot; Crimson Manor</td></tr><tr><td>2</td><td>Crimson Forest</td><td>Illusion of Inanis &middot; Snake's Reflection</td></tr><tr><td>3</td><td>Crimson Forest / Village of Lu</td><td>Heartless Remnants</td></tr><tr><td>4</td><td>Pangzhen</td><td>Town of Death &middot; The Heart's Trail &middot; The Four Serpent Houses &middot; The Way Forward</td></tr><tr><td>5</td><td>Mandate Encampment</td><td>Pillars of Kunlun</td></tr><tr><td>6</td><td>Meigu Lake</td><td>Sha-Chi Powered Boat &middot; Secrets at the Heart of the Lake &middot; Allure of Vanity &middot; Illusory Pipa</td></tr><tr><td>7</td><td>Mountain of Imprisonment</td><td>Whence the Weeping</td></tr><tr><td>8</td><td>Mount Soulrend</td><td>The Herald's Illusion &middot; Bloodline Awakening &middot; A Soul's Worth</td></tr></tbody></table><p>Two caveats. Mission-to-region assignment varies between outlets - <em>Heartless Remnants</em> is put in Village of Lu by one list and in Crimson Forest by another, and <em>Pillars of Kunlun</em> moves between Mandate Encampment and Mount Soulrend depending on who is writing. The order of the missions is consistent across sources; the region labels are not. Treat the sequence as reliable and the borders as approximate.</p>"
+    },
+    {
+      "id": "region-notes",
+      "title": "Region Notes, In the Order You Hit Them",
+      "content": "<p><strong>Weeping Creek Valley.</strong> Tutorial-by-stealth: the region exists to teach Sha-Chi. Peng Meng is the first real boss and drops the Dread Axe, your first Phantom Edge. Hua, Deadly Betrothed is optional and sits in the Flesh Lily Fields - fight her here, not later, because her drop (Scarlet Wraithblade) is one of the best early weapons and the fight is scaled for this point.</p><p><strong>Crimson Forest.</strong> Two story bosses that teach the elemental vocabulary: Hua Qianxiao's drinking shield, Jing Ye's horse and blood-draining sword. Bai Chilian closes the region. Everything missable in the Village of Lu window should be resolved before the mirror puzzle.</p><p><strong>Village of Lu.</strong> The densest optional region. Mu Xiaokui's encounter hands out more than one weapon, Yuzan drops the Heartrend Pipa, and four Tales start here. Clear it properly.</p><p><strong>Pangzhen.</strong> The largest region and the widest missable window. Flame, the Lion Dance Grandmaster closes it and drops the Flaming Mane, which you need later to open the way into Pangzhen Slums for Acolyte Lei Ting. Do not leave before the Tales are done.</p><p><strong>Mandate Encampment.</strong> Short. The Seven-Stars Formation is the fight that matters; clear the disciples before the leader or the leader has support.</p><p><strong>Meigu Lake.</strong> Three separate systems converge here - the boat, the mirror realm, and the Blizzard Blademaster. This is where the true-ending checklist either comes together or falls apart.</p><p><strong>Mountain of Imprisonment.</strong> Optional for the story, required for the true ending. The Yin Crystal Puppet Eye is here, and so are Bi Feng and Jade-Face.</p><p><strong>Mount Soulrend.</strong> The endgame. Herald of the Veil, Bloodline Awakening's fifth pillar, Meng Hua, Zuo Shang, and then the hidden fight.</p>"
+    },
+    {
+      "id": "point-of-no-return",
+      "title": "The Point of No Return",
+      "content": "<p>The climb from the Mirage Estate to the peak of Mount Soulrend is the cutoff. The game warns you; the warning is not specific about what you are about to lose. Per 177xz, the warning appears even when every prerequisite is already met, so it is not a diagnostic - do not read it as one.</p><p>What expires: any purple Tale still open, the Acolyte scarecrow fights you have not triggered, the Crimson Manor secret boss, and the optional bosses in regions you have already passed.</p><p>What survives: free roam after the credits, bells, accessories and collectible cleanup, Tempering, and New Game Plus. So a missed item is recoverable; a missed <em>Tale</em> usually is not, because the trigger depends on a story state you cannot go back to.</p>"
+    },
+    {
+      "id": "before-you-commit",
+      "title": "Before You Commit",
+      "content": "<ul><li>Manual save, separate slot, at the Mirage Estate.</li><li>Purple Tales: all done, none open.</li><li>Acolytes: four masks in hand.</li><li>Pillars: four destroyed plus the one in the mirror realm.</li><li>Crystal Puppet Eyes: two, from the Mountain of Imprisonment and the Crimson Manor.</li><li>Illusory Pipa: restored. Puppet's Tongue: used.</li><li>Quick Hand Zhang: all five relics delivered.</li></ul><p>Anything not ticked, tick it now - the <a href=\"/true-ending\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">true ending checklist</a> has the long version. For how much time the run should take, see <a href=\"/how-long-to-beat\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">how long to beat</a>.</p>"
+    },
+    {
+      "id": "sources",
+      "title": "Sources",
+      "content": "<p>Mission names and order: Gamer.org's chapter-and-mission list and TigerJek's chapter list, which agree on the sequence and differ on two region labels. Region structure and the semi-open framing: both, plus 18183's Chinese version. Point-of-no-return behaviour and the warning prompt: 177xz and VGTimes.</p><p>Not asserted here: an exact per-mission hour count. No source breaks the campaign down that finely, and the 20-25 hour figure is for the story as a whole.</p>"
+    }
+  ],
+  "lastUpdated": "2026-11-09"
+}

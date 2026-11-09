@@ -21,7 +21,7 @@ const SECTIONS: SectionDef[] = [
     href: "/guide",
     slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
       "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
-      "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition"]),
+      "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition", "trophy-guide"]),
     category: "Beginner guides",
   },
   {
@@ -34,13 +34,13 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Story & Characters",
     href: "/characters",
-    slugs: new Set(["characters", "protagonist", "endings", "lore", "easter-eggs"]),
+    slugs: new Set(["characters", "protagonist", "endings", "true-ending", "lore", "easter-eggs"]),
     category: "Characters & Story",
   },
   {
     label: "World & Exploration",
     href: "/locations",
-    slugs: new Set(["locations", "collectibles", "missable", "side-quests", "phantom-edges", "npcs"]),
+    slugs: new Set(["locations", "collectibles", "missable", "side-quests", "phantom-edges", "npcs", "walkthrough"]),
     category: "World & Exploration",
   },
   {
@@ -66,6 +66,7 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Platforms", href: "/platforms" },
     { label: "Collector's Edition", href: "/collectors-edition" },
     { label: "Reviews & Embargo", href: "/reviews" },
+    { label: "Trophy Guide", href: "/trophy-guide" },
   ],
   "Combat & Bosses": [
     { label: "Combat System", href: "/combat" },
@@ -79,10 +80,12 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "All Characters", href: "/characters" },
     { label: "Soul", href: "/protagonist" },
     { label: "Endings", href: "/endings" },
+    { label: "True Ending", href: "/true-ending" },
     { label: "Lore", href: "/lore" },
     { label: "Easter Eggs", href: "/easter-eggs" },
   ],
   "World & Exploration": [
+    { label: "Walkthrough", href: "/walkthrough" },
     { label: "Locations & Regions", href: "/locations" },
     { label: "Side Quests", href: "/side-quests" },
     { label: "Collectibles", href: "/collectibles" },
@@ -121,7 +124,7 @@ export function getCategories(slug: string, title: string): Category[] {
   if (section) cats.push({ label: section.category, href: section.href });
 
   if (slug === "boss-guide" || slug === "combat" || slug === "weapons") {
-    cats.push({ label: "Pre-launch coverage", href: "/release-date" });
+    cats.push({ label: "Post-launch guides", href: "/walkthrough" });
   }
   if (slug === "endings") {
     cats.push({ label: "Spoiler territory", href: "/endings" });

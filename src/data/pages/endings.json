@@ -1,38 +1,78 @@
 {
-  "title": "Phantom Blade Zero Endings - What Is Known Before Launch",
-  "description": "Phantom Blade Zero endings explained as far as they can be before release: the confirmed story premise, why a branching conclusion is expected, and what remains unverified until October 29, 2026.",
-  "keyword": "phantom blade zero endings",
-  "lastUpdated": "2026-10-27",
+  "title": "Phantom Blade Zero Endings - All 4 Endings and How to Unlock Them",
+  "description": "Phantom Blade Zero has four endings, not eight. Annihilation, Long Roar, the true ending Final Battle, and the secret Undying Grudge - what each one needs, and which mistake locks you out of the platinum.",
+  "keyword": "phantom blade zero endings, phantom blade zero how many endings, phantom blade zero true ending, phantom blade zero final battle, phantom blade zero undying grudge",
+  "facts": [
+    {
+      "label": "Number of endings",
+      "value": "4 - confirmed post-launch, superseding the '8 endings' figure repeated before release"
+    },
+    {
+      "label": "Default ending",
+      "value": "Annihilation - triggers if no purple Tales are completed"
+    },
+    {
+      "label": "True ending",
+      "value": "Final Battle, called the Perfect Ending internally - needs every purple Tale done before Mount Soulrend"
+    },
+    {
+      "label": "Secret ending",
+      "value": "Undying Grudge - only from failing the 66 Days mode"
+    },
+    {
+      "label": "Second playthrough needed",
+      "value": "Only for Undying Grudge. The other three come from one save"
+    },
+    {
+      "label": "Trophy tie-in",
+      "value": "With Heart and Blood (Gold) needs the true ending; the normal ending has no trophy"
+    },
+    {
+      "label": "Point of no return",
+      "value": "The climb to Mount Soulrend, after the Mirage Estate in Pangzhen"
+    }
+  ],
   "sections": [
     {
-      "id": "status",
-      "title": "Short Answer: The Endings Are Not Officially Detailed Yet",
-      "content": "<div class=\"warning-box\"><p>Phantom Blade Zero has <strong>not been released</strong>. S-GAME has not published an official ending count, ending names, or the conditions that trigger them. Anything you read elsewhere with a specific number of endings is either a guess or taken from an unofficial source.</p></div><p>This page covers what <em>is</em> confirmed about how the story concludes, and marks clearly where verified information stops. It will be expanded once the game is out and the endings can actually be played.</p>"
+      "id": "short-answer",
+      "title": "The Short Answer",
+      "content": "<p>Four endings. <strong>Annihilation</strong> is what you get for playing the story and nothing else. <strong>Long Roar</strong> is the middle tier, unlocked with two specific Tales. <strong>Final Battle</strong> is the true ending and needs essentially all the purple Tales plus five Lóng Pillar trials and four Acolyte masks. <strong>Undying Grudge</strong> is a separate secret, and it does not come from playing well - it comes from wiping out in the 66 Days mode.</p><p>Before release this page listed eight endings as a possibility and said none were detailed. That was wrong. IGN's post-launch ending guide puts the count at four, each with its own cutscene, and the in-game ending names match across IGN, Polygon and GamingBolt. The eight-ending figure was never sourced and has been removed from this site.</p>"
     },
     {
-      "id": "premise",
-      "title": "The Premise That Frames the Ending",
-      "content": "<p>What is confirmed is the setup, and it is unusually tight — which is why an ending that resolves it matters so much.</p><p>You play as <strong>Soul</strong>, an elite assassin serving a powerful and elusive organisation known simply as <strong>The Order</strong>. Soul is framed for the murder of The Order's patriarch and gravely injured during the manhunt that follows. A figure credited as <strong>The Flesh Sculptor</strong> revives him with a tainted heart, and the makeshift cure lasts only 66 days.</p><p>The game's driving objective is therefore explicit: find the mastermind behind the framing before the 66 days run out. That is a premise built to end a specific way — with the countdown reaching zero.</p>"
+      "id": "all-four",
+      "title": "All Four Endings",
+      "content": "<table><thead><tr><th>Ending</th><th>In-game name</th><th>What unlocks it</th><th>Trophy</th></tr></thead><tbody><tr><td><strong>Normal</strong></td><td>Annihilation</td><td>Reach the final boss without completing the purple Tales, especially <em>Secrets at the Heart of the Lake</em></td><td>None</td></tr><tr><td><strong>Middle</strong></td><td>Long Roar</td><td><em>Secrets at the Heart of the Lake</em> plus <em>Bloodline Awakening</em> - all five pillars, Gold-Masked One beaten five times</td><td><span style=\"color:#8a8a99\">Not separately tracked</span></td></tr><tr><td><strong>True</strong></td><td>Final Battle / Perfect Ending</td><td>Every purple Tale, both Crystal Puppet Eyes, the Four Guardians' Mirror realm and all five Lóng Pillars, done before the climb to Mount Soulrend</td><td>With Heart and Blood (Gold)</td></tr><tr><td><strong>Secret</strong></td><td>Undying Grudge (饮恨江湖)</td><td>Unlock 66 Days after any completion, then lose all 66 lives</td><td>None</td></tr></tbody></table><p>Only the true ending is tied to a trophy, so a pure platinum run only has to satisfy one of these four branches. Everything above the true ending row is optional story content, not optional difficulty.</p>"
     },
     {
-      "id": "why-branching",
-      "title": "Why Multiple Endings Are Expected",
-      "content": "<p>There is no official confirmation of branching endings. However, several confirmed design facts make a choice-driven conclusion likely:</p><ul><li>The 66-day countdown creates a natural deadline that a story can resolve in more than one way</li><li>The game is structured as an action RPG with a semi-open world and optional content, which is the structure that usually supports divergent outcomes</li><li>S-GAME has described the story in terms of themes — revenge, hatred and love — rather than a single fixed arc</li></ul><p>That is reasoning, not confirmation. Treat it as expectation, not fact, until the game ships.</p>"
+      "id": "normal-ending",
+      "title": "Annihilation - the Default Ending",
+      "content": "<p>The default. Fight to the last boss and finish, without clearing the purple Tales, and the credits roll on <em>Annihilation</em>. Nothing is locked by choosing it - you can keep exploring after the credits - but the True Ending fight will not trigger, and several side Tales become unfinishable once Mount Soulrend is behind you.</p><p>This is the one ending with no trophy attached. If you are here for the platinum, stopping at Annihilation means a second run for the story content you skipped.</p>"
     },
     {
-      "id": "unverified-claims",
-      "title": "Claims You Should Not Trust Yet",
-      "content": "<p>Because the game has not released, a number of sites publish content that cannot be true. The most common patterns to watch for:</p><table><thead><tr><th>Claim type</th><th>Why it is unverifiable</th></tr></thead><tbody><tr><td>\"All 8 endings\" or any specific count</td><td>No official figure exists; endings cannot be enumerated before release</td></tr><tr><td>\"Unlock requirements\" per ending</td><td>Requires a shipped build that players can complete</td></tr><tr><td>Hands-on impressions and hours played</td><td>The finished game is not available to play</td></tr><tr><td>Full boss lists and stat tables</td><td>Final content is only knowable post-launch</td></tr></tbody></table><p>Some of these pages are written confidently and rank well. Confidence is not evidence — the game's own store pages and S-GAME's announcements are the only sources that count before launch.</p>"
+      "id": "long-roar",
+      "title": "Long Roar - the Two-Tale Ending",
+      "content": "<p>Long Roar sits between the default and the true ending, and it is the one the guides disagree about least. The two requirements IGN and GamingBolt both name:</p><ul><li><strong>Secrets at the Heart of the Lake</strong> - the Meigu Lake mirror Tale. Collect all four Acolyte masks, take a boat to the western edge of the lake, pass through the mirror and clear the realm inside.</li><li><strong>Bloodline Awakening</strong> - find and destroy five Lóng Pillars, each guarded by the Gold-Masked One. The fights get harder as the story advances and you have to win every one.</li></ul><p>Because the pillar fights scale with progress, players who leave this to the endgame face the hardest version of five duels back to back. Polygon's recommendation is to do the pillars as you pass them.</p>"
     },
     {
-      "id": "what-next",
-      "title": "What Happens After October 29",
-      "content": "<p>Once the game launches, this page will be rebuilt with actual information: the real ending count, the decisions that produce each outcome, and how they relate to the 66-day structure.</p><p>In the meantime, the confirmed background is worth reading:</p><ul><li><a href=\"/release-date\">Release date and platform details</a></li><li><a href=\"/protagonist\">Soul and the story premise</a></li><li><a href=\"/s-game\">The studio behind the game</a></li><li><a href=\"/combat\">The Sha-chi combat system</a></li></ul>"
+      "id": "true-ending-summary",
+      "title": "Final Battle - the True Ending",
+      "content": "<p>The true ending is not a choice, it is a checklist. Clear the purple Tales and the item requirements before the point of no return and a second boss fight appears after the regular final boss. Win that, and you get the <strong>With Heart and Blood</strong> trophy.</p><p>The long version - every Tale, every mask, every pillar, and the mistakes that quietly void the whole thing - is on <a href=\"/true-ending\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">the true ending checklist</a>. The short version:</p><ul><li>All purple Tales, including the missable ones in Pangzhen, done before the Mirage Estate</li><li>Both Crystal Puppet Eyes - one from the Mountain of Imprisonment, one from the Crimson Manor secret boss</li><li>Four Acolyte masks from four scarecrow fights, taken to the mirror at Meigu Lake</li><li>Five Lóng Pillars, including the one inside the Four Guardians' Mirror realm</li><li>Quick Hand Zhang's fetch requests, all of them</li></ul>"
     },
     {
-      "id": "sixty-six-ending",
-      "title": "饮恨江湖 - The 66 Days Failure Ending",
-      "content": "<p>Community documentation names an ending that the official material has not: <strong>饮恨江湖</strong>, reached when the day counter in <a href=\"/difficulty-modes\">66 Days mode</a> hits zero. The BWIKI wording is explicit - 天数归零则进入&quot;饮恨江湖&quot;结局 - and it matters more than a game-over screen, because it means the permadeath failure state is authored into the ending list rather than sitting outside it.</p><p>Put against the reported total of eight endings, a failure state with its own name implies it is being counted, which in turn implies the counter is part of the ending map rather than a bonus mode bolted onto it. That is inference from two sources, not a statement from either.</p><p><strong>Status: community-sourced, unconfirmed by S-GAME.</strong> No English name has been published. The literal sense is something like &quot;harbouring resentment in the jianghu&quot; - dying with the grudge unspent.</p><p class=\"text-sm text-gray-500\">Source: <a href=\"https://wiki.biligame.com/yingzhiren/index.php?title=%E9%9A%BE%E5%BA%A6%E4%B8%8E%E6%88%90%E5%B0%B1&oldid=2896\" rel=\"noopener nofollow\" target=\"_blank\">影之刃 WIKI on BWIKI</a> (难度与成就, revision 2896, edited 2026-10-11), a fan wiki run by 影之刃 Tieba moderators, unaffiliated with S-GAME.</p><p><strong>26 October update.</strong> The review wave changed nothing here: no outlet has published an ending count or route breakdown, and several praised the combat while calling the story hard to follow - which is exactly the situation where a pre-launch ending list is most likely to be wrong. See <a href=\"/reviews\">the reviews</a> and <a href=\"/boss-list\">the boss list</a> for what is evidenced.</p>"
+      "id": "secret-ending",
+      "title": "Undying Grudge - the Ending You Get by Losing",
+      "content": "<p>The fourth ending is the strangest thing in the game. Finish the story once at any difficulty and <strong>66 Days</strong> unlocks - a mode that gives you 66 lives for the whole run. Run out and it is a permanent game over: the save is deleted, not reloaded.</p><p>Let that happen and you get <em>Undying Grudge</em>, a unique cutscene that no other route shows. It is the only ending that requires a separate playthrough, and the only one you cannot reach by being good at the game. This site has not seen the cutscene itself and is not going to describe it second-hand - the existence and trigger condition are what IGN and the Chinese guides both confirm.</p>"
+    },
+    {
+      "id": "mistakes",
+      "title": "What Actually Voids the True Ending",
+      "content": "<p>Three failure modes come up repeatedly in the guides, and all three are silent - the game does not tell you that a Tale has expired.</p><table><thead><tr><th>Mistake</th><th>Why it costs you</th></tr></thead><tbody><tr><td>Doing the purple Tales after Mount Soulrend</td><td>Several expire at the point of no return. The endgame warning tells you content will lock - it does not tell you which content.</td></tr><tr><td>Skipping the Mountain of Imprisonment</td><td>The region is optional for the story, which makes it easy to walk past. It holds the Yin Crystal Puppet Eye, and without both eyes the Puppet No. 99 step cannot finish.</td></tr><tr><td>Taking the endgame warning as proof you failed</td><td>The warning appears even when every prerequisite is met. Chinese guide 177xz makes this point explicitly - do not restart a good save because of the prompt.</td></tr></tbody></table><p>One more, less obvious: the pillar inside the Four Guardians' Mirror realm sits where you cannot teleport out with bells. Polygon advises clearing it before advancing, because the alternative is a long walk back.</p>"
+    },
+    {
+      "id": "sources",
+      "title": "Where This Comes From",
+      "content": "<p>Ending names and counts: IGN's <em>All Endings and Requirements</em>, cross-checked against Polygon's true-ending guide, GamingBolt's prerequisites guide and VGTimes. The 66 Days save-deletion behaviour is described the same way by IGN and VGTimes. Chinese-language confirmation of the secret ending's name, 饮恨江湖, comes from the same guides and matches the pre-launch material this site already published.</p><p>Not confirmed: whether Long Roar and Final Battle share a cutscene, how many variants exist within each ending, and whether any ending is difficulty-gated. Nothing found suggests difficulty affects the ending.</p>"
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-09"
 }

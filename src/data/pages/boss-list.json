@@ -1,74 +1,107 @@
 {
-  "slug": "boss-list",
-  "title": "Phantom Blade Zero Boss List - Every Boss Confirmed Before Launch",
-  "description": "Every Phantom Blade Zero boss confirmed before the 29 October 2026 release: 11 named encounters, where each was shown, and the one official rule about what they drop. The director puts the total at 50 or more.",
-  "keyword": "phantom blade zero bosses, phantom blade zero boss list, all bosses phantom blade zero, phantom blade zero how many bosses, phantom blade zero boss drops",
-  "lastUpdated": "2026-10-27",
+  "title": "Phantom Blade Zero Boss List - All 50+ Bosses by Region",
+  "description": "Every Phantom Blade Zero boss by region: 56 named encounters across Weeping Creek Valley, Crimson Forest, Village of Lu, Pangzhen, Mandate Encampment, Meigu Lake, the Mountain of Imprisonment and Mount Soulrend - with locations and what each one drops.",
+  "keyword": "phantom blade zero boss list, all bosses phantom blade zero, phantom blade zero boss count, phantom blade zero boss drops, phantom blade zero optional bosses",
   "facts": [
     {
-      "label": "Total bosses",
-      "value": "50 or more, per the director (October 2026)"
+      "label": "Named on this page",
+      "value": "56 encounters - 31 story, 25 optional or recurring"
     },
     {
-      "label": "Named and evidenced here",
-      "value": "11 - each tied to a specific trailer, demo or article"
+      "label": "Developer figure",
+      "value": "50 or more bosses (director, October 2026)"
     },
     {
-      "label": "Why the list matters",
-      "value": "S-GAME says bosses and weapons are linked: beat a boss, gain its weapon and signature technique"
+      "label": "Regions",
+      "value": "8 - Weeping Creek Valley, Crimson Forest, Village of Lu, Pangzhen, Mandate Encampment, Meigu Lake, Mountain of Imprisonment, Mount Soulrend"
     },
     {
-      "label": "What they drop individually",
-      "value": "No per-boss drop table published"
+      "label": "Final boss",
+      "value": "Zuo Shang, The True Long - then The Last Battle on a true-ending run"
     },
     {
-      "label": "Weaknesses",
-      "value": "None published; no elemental table exists pre-release"
+      "label": "Boss rewards",
+      "value": "Each boss drops its own weapon or Phantom Edge; no shared loot pool"
+    },
+    {
+      "label": "Weakness table",
+      "value": "Not published by any outlet - elemental interactions exist but are per-fight"
+    },
+    {
+      "label": "True-ending gates",
+      "value": "Gold-Masked One x5, Blizzard Blademaster, four Acolytes, Crimson Manor secret boss"
     },
     {
       "label": "Missable bosses",
-      "value": "Not addressed by S-GAME; see the missable page"
-    },
-    {
-      "label": "Reviewer view of boss fights",
-      "value": "The most praised part of the game; the pacing of them is the most cited complaint"
+      "value": "Yes - several optional fights expire at the Mount Soulrend climb"
     }
   ],
   "sections": [
     {
-      "id": "answer",
+      "id": "short-answer",
       "title": "The Short Answer",
-      "content": "<p>The director stated in October 2026 that Phantom Blade Zero has <strong>at least 50 bosses</strong>. Before release, <strong>11</strong> of them are named or clearly identifiable from footage S-GAME actually published. That gap is the honest shape of this page: a roster of what exists, not a strategy guide for fights nobody has finished under review conditions.</p><p>Two things make a list more useful than a walkthrough here. The first is S-GAME&apos;s own design rule: <strong>beating a boss gives you its weapon and its signature technique</strong>, so the boss list doubles as the weapon list, and the closest thing to a build guide this game has. The second is that the fight itself is the part the reviews agree on - what varies is everything around it, which is what the notes below are for.</p>"
+      "content": "<p>The table below names <strong>56 encounters</strong> across eight regions - 31 on the story path and 25 optional or recurring. S-GAME's own figure is <strong>50 or more bosses</strong>, so this list is close to the full roster but not guaranteed to be every optional duel in the game.</p><p>This page replaced an older version that listed 11 bosses and labelled the rest unanswerable. That version was honest for its date - it was written before the 29 October 2026 release, when the only evidence was demos and trailers. The release made the question answerable, so the pre-launch roster is gone rather than kept alongside.</p><p>What is still not documented: elemental weaknesses and resistances for most fights. The game does have elemental interactions - water attacks strip Flame's fire, frost builds on you against the Blizzard Blademaster - but no outlet has published a per-boss weakness table, and this page will not invent one. Strategy per fight lives on <a href=\"/boss-guide\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">the boss guide</a>.</p>"
     },
     {
-      "id": "roster",
-      "title": "The Named Encounters",
-      "content": "<table><thead><tr><th>Boss</th><th>Shown in</th><th>Where</th><th>First observed trait</th></tr></thead><tbody><tr><td><a href=\"/puppet-boss\">Puppet Boss</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Humanoid puppeteer silhouette</td></tr><tr><td><a href=\"/huangxing-boss\">Huangxing</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Warrior-type, melee-focused</td></tr><tr><td><a href=\"/seven-stars-boss\">Seven Stars</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Named in official promotional material</td></tr><tr><td><a href=\"/lion-dance-boss\">Lion Dance</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Beast-type boss</td></tr><tr><td><a href=\"/drunken-sword-boss\">Drunken Sword (花千笑 / Hua Qianxiao)</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Swordsman-type boss</td></tr><tr><td><a href=\"/double-boss-fight\">Double Boss Fight</a></td><td>Pre-launch boss</td><td>Not stated</td><td>Two bosses fought simultaneously</td></tr><tr><td><a href=\"/commander-cleave\">Commander Cleave</a></td><td>Demo boss</td><td>Tie Sha (demo level)</td><td>Fought after the Tie Sha section of the demo</td></tr><tr><td><a href=\"/the-hunt\">The Hunt</a></td><td>Pre-release footage</td><td>Appears in the opening, fighting Soul atop a moving wagon</td><td>Fights with a pair of one-handed axes joined by a chain, used for rapid strikes followed by dise</td></tr><tr><td><a href=\"/changhong-boss\">Changhong (长鸿)</a></td><td>Pre-release footage</td><td>Boss arena; fight shown in the launch trailer&#x27;s combat reel</td><td>Fights mounted, with the spear charge as the centrepiece</td></tr><tr><td><a href=\"/leidang-boss\">Lei Dang (雷当)</a></td><td>Pre-release footage</td><td>Boss arena; the closing fight of the launch trailer&#x27;s combat section</td><td>Closes the trailer&#x27;s combat montage, which is a placement rather than a difficulty ranking</td></tr><tr><td><a href=\"/xiaokui-guarded-fight\">Mu Xiaokui With Yu Yao and Tie Gui (沐小葵)</a></td><td>Pre-release footage</td><td>Fight shown in the launch trailer; region not stated</td><td>Fist-based stance rather than the sword she is known for in earlier entries</td></tr></tbody></table><p class=\"text-sm text-gray-500\">Each row links to a page recording exactly what has been shown about that fight, with its source and date. &quot;Group&quot; means multiple enemies at once; the launch trailer&apos;s Mu Xiaokui encounter is the only multi-target boss shown so far.</p>"
+      "id": "prologue-weeping-creek-valley",
+      "title": "Prologue & Weeping Creek Valley",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Zuo Shang (prologue duel)</strong></td><td>Story (tutorial)</td><td>Opening pursuit sequence</td><td>None - scripted fight</td></tr><tr><td><strong>The Hunt</strong></td><td>Story</td><td>Main road pursuit, returns later</td><td>Hunter's Chain Sickle (Great Waterfall, same region)</td></tr><tr><td><strong>Jagged Steel, the Frenzied Brute</strong></td><td>Story</td><td>Rustblade Pavilion bell</td><td>Jagged Steel</td></tr><tr><td><strong>Peng Meng, the Axemaster (斧老大 彭猛)</strong></td><td>Story</td><td>The Axemaster's Fall</td><td>Dread Axe</td></tr><tr><td><strong>Hua, Deadly Betrothed (新娘阿花)</strong></td><td>Optional</td><td>Flesh Lily Fields</td><td>Scarlet Wraithblade</td></tr><tr><td><strong>Aberrant Three-Faced Puppet</strong></td><td>Optional</td><td>Challenge Rift</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>The Gold-Masked One</strong></td><td>Recurring optional</td><td>Lóng Pillar trials, five times</td><td>None - pillar progress</td></tr></tbody></table>"
+    },
+    {
+      "id": "crimson-manor-crimson-forest",
+      "title": "Crimson Manor & Crimson Forest",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Puppet Scavenger</strong></td><td>Optional</td><td>Crimson Manor</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Acolyte Hansui</strong></td><td>Optional</td><td>Crimson Manor, via scarecrow</td><td>Frost Mask</td></tr><tr><td><strong>Hua Qianxiao, the Sword Fanatic (剑痴 花千笑)</strong></td><td>Story</td><td>Pangzhen Bridge Overlook</td><td>The Fanatic's Broken Blade</td></tr><tr><td><strong>Jing Ye, the Outlaw (亡命徒 荆野)</strong></td><td>Story</td><td>Crimson Forest</td><td>Outlaw Warblade</td></tr><tr><td><strong>Stone Hand Iron Fever (拳痴 铁狂)</strong></td><td>Optional</td><td>Crimson Forest</td><td>Iron Gauntlets</td></tr><tr><td><strong>Bai Chilian, Lady of the Twin Serpents (双蛇夫人 白赤练)</strong></td><td>Story - region finale</td><td>Threadbound Great Tree, after the mirror puzzle</td><td>White Serpent & Crimson Viper</td></tr><tr><td><strong>Jade Dancer and Iron Fiend</strong></td><td>Optional</td><td>Crimson Forest</td><td>Fiend Saws (via the Mu Xiaokui encounter)</td></tr><tr><td><strong>Yucong, the Twisted Puppet (No. 34)</strong></td><td>Optional rematch</td><td>Returns later in the story</td><td>Freezing Chaos</td></tr></tbody></table>"
+    },
+    {
+      "id": "village-of-lu",
+      "title": "Village of Lu",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Zhuo Bi, the Gatekeeper</strong></td><td>Story</td><td>Village of Lu approach</td><td>Bastion</td></tr><tr><td><strong>Master Bi Yuan</strong></td><td>Story</td><td>Puppet Testing Grounds route</td><td>Tianxuan Bronze Sword</td></tr><tr><td><strong>Master Bi Hai</strong></td><td>Story</td><td>Village of Lu</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Yuzan, the Musician Puppet (三号乐偶师 玉瓒)</strong></td><td>Story</td><td>Drop into the puppet well after Bi Yuan and Bi Hai</td><td>Heartrend Pipa</td></tr><tr><td><strong>Dusk, the Puppeteer</strong></td><td>Optional</td><td>Unlocked through Memory Flowers</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Mu Xiaokui, Young Mistress of the Order (沐小葵)</strong></td><td>Story</td><td>Village of Lu, with Yu Yao and Tie Gui</td><td>Wild Oriole Sword</td></tr><tr><td><strong>Acolyte Yanru</strong></td><td>Optional</td><td>Terrace bell, north side, rice field scarecrow</td><td>Blazing Mask</td></tr></tbody></table>"
+    },
+    {
+      "id": "pangzhen",
+      "title": "Pangzhen",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Blaze, Shadow Warden Captain (鬼差队长 火流星)</strong></td><td>Story</td><td>In front of the South Gate bridge bell</td><td>Fire Meteor</td></tr><tr><td><strong>Cavalrybane (鬼差高手 斩骑)</strong></td><td>Optional</td><td>Statue Grounds bell, north of the long bridge</td><td>Armybreaker</td></tr><tr><td><strong>Wu Xuan, the Fallen General (堕落将军 武轩)</strong></td><td>Story</td><td>Back Street Archway bell</td><td>Wolfjaw</td></tr><tr><td><strong>Gu Wanyue (女妖 骨婉约)</strong></td><td>Story</td><td>The Singing Pond bell</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Xie Qiudong, the Divine Healer (神医 谢秋冬)</strong></td><td>Story</td><td>Up from the Three Ships Well</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Chang Hong, the Thunder Spear (长鸿)</strong></td><td>Story</td><td>Pangzhen</td><td>Thunder Spear</td></tr><tr><td><strong>You Loong, Blackwater Crew Leader (游龙)</strong></td><td>Optional</td><td>Green Serpent House, then the water to the west</td><td>You Loong's Deluge / Loong Trident</td></tr><tr><td><strong>Flame, the Lion Dance Grandmaster (舞狮尊主 烈焰)</strong></td><td>Story - region finale</td><td>Second half of Pangzhen, unmissable</td><td>Flaming Mane</td></tr><tr><td><strong>Soulclaimer (勾魂)</strong></td><td>Optional</td><td>Dockside Warehouse, down and right</td><td>Parting Hooks</td></tr><tr><td><strong>Zhu Yuan</strong></td><td>Optional</td><td>Pangzhen</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Acolyte Lei Ting</strong></td><td>Optional</td><td>Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House</td><td>Thunder Mask</td></tr></tbody></table>"
+    },
+    {
+      "id": "mandate-encampment",
+      "title": "Mandate Encampment",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Corpse-Eating Xue</strong></td><td>Story</td><td>Mandate Encampment</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Wan Jun, the Coppermaul</strong></td><td>Story</td><td>Mandate Encampment</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Red, the Mysterious Wraith</strong></td><td>Story</td><td>Mandate Encampment</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Wu Lengshuang, the Soft Sword (柔剑 武林霜)</strong></td><td>Optional</td><td>Path of the Baishan's Fall</td><td>Soft Snake Sword</td></tr><tr><td><strong>Chief Disciple of the Seven-Stars Formation</strong></td><td>Story</td><td>Clear the disciples before the leader</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Yubi, the Swordfighter Puppet (No. 21)</strong></td><td>Optional</td><td>Training Grounds, past the main gate</td><td>Baishan Stormswords</td></tr></tbody></table>"
+    },
+    {
+      "id": "meigu-lake",
+      "title": "Meigu Lake",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Grief-Stricken Jin</strong></td><td>Story</td><td>Meigu Lake</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>One-Eyed Archer (独眼弓客)</strong></td><td>Optional</td><td>Meigu Lake</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Yan Qiansui, the Zither Maiden (烟千岁)</strong></td><td>Optional</td><td>Meigu Lake</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Heartpiercer (穿心者)</strong></td><td>Optional</td><td>White Serpent House</td><td>Sundering Dual Axes</td></tr><tr><td><strong>Blizzard Blademaster (暴雪刀主)</strong></td><td>Optional - true ending gate</td><td>Whiteshadow's Fall bell, inside the Illusion Realm</td><td>Whiteshadow</td></tr><tr><td><strong>Acolyte Guhe</strong></td><td>Optional</td><td>Meigu Village East Dock, scarecrow</td><td>Venom Mask</td></tr></tbody></table>"
+    },
+    {
+      "id": "mountain-of-imprisonment",
+      "title": "Mountain of Imprisonment",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Iron Butcher</strong></td><td>Story</td><td>Mountain of Imprisonment</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Bi Feng, Giant Saber Commander (巨刀统领 白峰)</strong></td><td>Story</td><td>Commander's Platform</td><td>Juggernaut</td></tr><tr><td><strong>Kui Yanyan</strong></td><td>Story</td><td>Mountain of Imprisonment</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Jade-Face</strong></td><td>Optional</td><td>The Lady's Shrine</td><td>Seamless Death</td></tr><tr><td><strong>Yu Ding, No. 12 Crescent Blade Puppet</strong></td><td>Story</td><td>Training Grounds, Mirage Estate</td><td>Crescent Blade</td></tr></tbody></table>"
+    },
+    {
+      "id": "mount-soulrend-endgame",
+      "title": "Mount Soulrend & endgame",
+      "content": "<table><thead><tr><th>Boss</th><th>Type</th><th>Where</th><th>Drop</th></tr></thead><tbody><tr><td><strong>Leng Tu</strong></td><td>Story</td><td>Mount Soulrend ascent</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Herald of the Veil</strong></td><td>Story</td><td>Mount Soulrend</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr><tr><td><strong>Meng Hua, Merciful Lady of the Blossom Veil (莫华)</strong></td><td>Story</td><td>Peak of Mount Soulrend - true ending checkpoint</td><td>The Lady's Fan</td></tr><tr><td><strong>Zuo Shang, The True Long</strong></td><td>Story - final boss</td><td>Peak of Mount Soulrend</td><td>Aureate</td></tr><tr><td><strong>The Last Battle</strong></td><td>True ending only</td><td>Triggers immediately after Zuo Shang if the checklist is complete</td><td>None</td></tr><tr><td><strong>The Saw and the Crusher</strong></td><td>Optional</td><td>Endgame</td><td><span style=\"color:#8a8a99\">Not documented</span></td></tr></tbody></table>"
     },
     {
       "id": "drops",
-      "title": "What Bosses Drop",
-      "content": "<p>The rule is official and it is the reason a boss list doubles as a build guide: S-GAME states that <strong>defeating a powerful foe yields that foe&apos;s weapon and its signature technique</strong>, and the director has said the boss count and the weapon count track each other for that reason. The full weapon rosters are on <a href=\"/weapons\">main weapons</a> and <a href=\"/phantom-edges\">Phantom Edges</a>.</p><h3>The One Drop Chain Actually Described</h3><p>Press coverage of the July 2025 showcase build describes a <strong>giant hammer taken from the first boss</strong>, whose slam breaks floors open to reach new routes - the clearest published example of the rule working as design rather than as a loot table: the weapon is also a traversal key. Treat it as a demo-build observation. That build shipped roughly half the area, no skill tree, no weapon upgrades and a reordered weapon path, and the source is preview coverage rather than S-GAME documentation.</p><h3>What Is Not Available</h3><p>No per-boss drop table exists. Nothing states that the Puppet Boss grants a particular blade or that a named Phantom Edge comes from a named fight, so no such mapping is printed here - which is the single most common way pre-release boss pages end up wrong, since the rule alone invites readers to fill in the gaps.</p><p>What the drop is spent on is documented: weapon upgrades cost materials rather than experience, run to a level cap, unlock new moves at thresholds, and <strong>reset without loss</strong>, so a bad boss weapon is not a wasted slot - see <a href=\"/best-build\">best build</a>.</p>"
+      "title": "What Bosses Drop, and Why It Matters",
+      "content": "<p>Every boss that matters drops its weapon, and the pattern is consistent enough to plan around: the fight teaches the weapon. Beat Hua Qianxiao and you get The Fanatic's Broken Blade, a sword you drink from to make it fly. Beat Hua, Deadly Betrothed and you get the Scarlet Wraithblade, which lets Soul grow spider lilies the way she did. Beat Flame and you get the Flaming Mane, fire against the frost you will meet later.</p><p>That is why this list doubles as a weapon checklist. Five weapons in the roster above are not drops at all - they are found on racks or created by Tempering - and those are marked in the weapon guide instead: <strong>Jagged Steel</strong>, <strong>Bonesaw</strong>, <strong>Tianxuan Bronze Sword</strong>, <strong>Soft Snake Sword</strong> and the four Sanguine transformations.</p><p>Sources disagree on two entries and the tables follow the more specific one: <strong>Freezing Chaos</strong> is listed by one checklist as a drop from Yucong, No. 34 and by another as a Crimson Forest pickup at the Threadbound Great Tree; <strong>The Fanatic's Broken Blade</strong> is listed as Hua Qianxiao's drop and also as a Crimson Forest pickup. In both cases the boss and the region are the same place, so the practical answer does not change.</p>"
     },
     {
-      "id": "numbers",
-      "title": "How Many, How Long",
-      "content": "<ul><li><strong>50 bosses minimum</strong> - the director, October 2026 preview coverage.</li><li><strong>30-plus main weapons and 20-plus Phantom Edges</strong> - official; the same reason the boss list and the weapon list converge.</li><li><strong>50 hours</strong> (IGN) and <strong>55 hours</strong> (Combo Infinito) reported by reviewers on 25-26 October - see <a href=\"/how-long-to-beat\">how long to beat</a>.</li><li><strong>The Hunt</strong> is the only encounter shown both as an opening pursuit and as a standalone fight, which is why it appears here with its own page.</li></ul>"
+      "id": "optional",
+      "title": "The Optional Fights You Should Not Skip",
+      "content": "<p>Four optional bosses are load-bearing for the true ending, which makes 'optional' misleading:</p><ul><li><strong>The Gold-Masked One</strong> - five duels, one per Lóng Pillar. Losing leaves the pillar standing.</li><li><strong>Blizzard Blademaster</strong> - drops Whiteshadow, and sits in the Illusion Realm behind the four-mask gate. Acolyte Guhe's mask is in the same region, so the two steps chain.</li><li><strong>The four Acolytes</strong> - Yanru, Lei Ting, Guhe, Hansui. Their masks are the key to the Meigu Lake mirror.</li><li><strong>Crimson Manor's secret boss</strong> - one of the two Crystal Puppet Eyes.</li></ul><p>The full dependency chain is on <a href=\"/true-ending\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">the true ending checklist</a>. For the fights themselves, the three habits that hold across the whole roster: parry the blue flash, dodge the red flash, and swap weapons to refill Sha-Chi instead of backing off.</p>"
     },
     {
-      "id": "critics",
-      "title": "What The Reviews Say About The Boss Fights",
-      "content": "<p>Reviews lifted 25-26 October 2026, and bosses sit on both sides of the argument:</p><ul><li><strong>Praised almost without exception.</strong> Saudi Gamer&apos;s 100 calls the boss encounters &quot;truly spectacular&quot;; screenactu&apos;s 98 says the combat system &quot;should be taught in every game design school&quot;; Areajugones (95) says the bosses &quot;burst with invention&quot;; Game*Spark (9/10) lists the varied boss fights among its highlights.</li><li><strong>Pacing is the repeated complaint.</strong> Eurogamer&apos;s 6/10 - the only mixed score in the set - describes the shift from expressive crowd fights to boss fights as losing your power, &quot;like you&apos;re waiting your turn to get hits in with a wooden sword&quot;.</li><li><strong>Individual fights can run long.</strong> Critical Hits, whose review leaked before the embargo, said some major boss fights felt overly drawn out.</li><li><strong>The enemies between bosses are the weak link.</strong> GameSpot (8/10) says mowing down crowds that barely resist gets tiring and hides how good the boss fights are.</li></ul><p>Read together: budget more time than a boss count suggests, and expect the fights to be the part you remember. <a href=\"/reviews\">Full scores here</a>.</p>"
+      "id": "count",
+      "title": "How Many Bosses Are There, Really",
+      "content": "<p>Three numbers circulate and they measure different things. S-GAME's director said <strong>50 or more</strong> before release. This page names <strong>56</strong> distinct encounters. Trophy lists imply a fourth count by grouping fights: the <em>The Four Freed</em> trophy covers Yuzan, Yubi, Yuding and Yucong as one entry, <em>Three Wardens Fall</em> covers Cavalrybane, Soulclaimer and Heartpiercer as one, and <em>Master of the Misty Waters</em> groups You Loong, Yan Qiansui and the One-Eyed Archer.</p><p>So the roster is comfortably above 50 once rematches and Challenge Rift variants are counted, and any single published number below that is probably counting trophies rather than fights.</p>"
     },
     {
-      "id": "unknown",
-      "title": "What This Page Still Cannot Answer",
-      "content": "<ul><li><strong>Which bosses are missable.</strong> S-GAME has not said. Community coverage warns some side content cannot be recovered, but no boss is named in that warning - see <a href=\"/missable\">missable content</a>.</li><li><strong>Weaknesses and resistances.</strong> Nothing published. Every boss page here says &quot;not confirmed&quot; rather than guessing from a boss&apos;s appearance.</li><li><strong>Phase counts.</strong> Only two-phase structure is known for a couple of fights from footage; reviewer notes about retrying phase two without replaying phase one suggest the pattern is common, but it is not documented per fight.</li><li><strong>The full roster.</strong> 11 named against a stated 50-plus. The gap is real, and it will close in days rather than weeks.</li></ul>"
-    },
-    {
-      "id": "status",
-      "title": "Verification Status",
-      "content": "<p>Compiled 27 October 2026 from: S-GAME&apos;s PlayStation Blog deep dive (11 August 2026) and the launch trailer (21-22 October 2026) for the encounters, the October 2026 preview coverage for the 50-boss figure, and Metacritic-listed reviews for the criticism. Each boss page carries its own source line. This list updates as footage and then player reports confirm the rest; entries are only added here when a specific source names them.</p>"
+      "id": "sources",
+      "title": "Sources",
+      "content": "<p>Regional roster: NoobFeed's all-bosses guide, which is the only source found that organises the full set by region. Drops: AxeeTech's 51-item weapon checklist, Gamer.org's location guide and Quora Marketing's Pangzhen-specific list. Chinese names: 游侠网's all-boss strategy compilation and OSLink's main-line boss table. Trophy groupings: Game8 and Fextralife.</p><p>Every boss above appears in at least two of those sources except the ones marked <em>Not documented</em> for drops, which appear in the roster but in no loot list.</p>"
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-09"
 }
