@@ -1,0 +1,57 @@
+{
+  "slug": "zuo-shang-the-true-long",
+  "title": "Zuo Shang, The True Long - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Zuo Shang, The True Long in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Zuo Shang, The True Long phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Peak of Mount Soulrend"
+    },
+    {
+      "label": "Appears in",
+      "value": "Mount Soulrend & endgame"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "Aureate"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Zuo Shang, The True Long is a story - final boss encounter in Mount Soulrend & endgame, found at Peak of Mount Soulrend. Beating it yields Aureate.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Zuo Shang, The True Long",
+      "content": "<p><strong>Location:</strong> Peak of Mount Soulrend.</p><p><strong>Appears in:</strong> Mount Soulrend & endgame.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<ul><li>Aureate</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Zuo Shang, The True Long",
+      "content": "<p>The true-ending final boss is a two-phase exam on everything the game has taught. Phase 1 is readable: he telegraphs, and the back-turned stance is a trap rather than an opening. Phase 2 removes the luxury of forcing damage - his poise is high enough that reckless combos get punished, so the fight becomes block, parry, evade until the Sha-Chi bar breaks, then a single committed burst.</p><p>The build that makes it tractable is a freeze into burst swap: Whiteshadow to chill and slow him, Blazing Edge for the damage window once he is frozen or guard-broken, with You Loong's Deluge available to knock him down when the pressure needs resetting.</p><h3>Attacks worth knowing</h3><table><thead><tr><th>Attack</th><th>What it does</th><th>Answer</th></tr></thead><tbody><tr><td>Sword Barrage</td><td>A swarm of swords fills the arena</td><td>Spam dodge - do not try to parry it</td></tr><tr><td>Gathering Winds</td><td>Red flash while wind and leaves gather</td><td>Unblockable - dodge after the flash</td></tr><tr><td>Ephemeral Swords</td><td>Five swords fire in sequence, then a leap</td><td>Parry the sword swing, dodge the grab that follows</td></tr><tr><td>Ephemeral Spears</td><td>Four spears, then a dash</td><td>Unblockable thrust - dodge sideways, not back</td></tr><tr><td>Back-turned stance</td><td>He faces away from you</td><td>Expect a spinning projectile or a counter-parry - hold your swing</td></tr></tbody></table><h3>What works</h3><ul><li>High burst damage is the answer: chill him with Whiteshadow, then swap to Blazing Edge once he is guard-broken or frozen.</li><li>You Loong's Deluge staggers him flat, which is the most reliable way to control the pace of the fight.</li><li>In phase 1, when he turns his back he is either throwing a spinning sword or setting a counter-parry - do not swing blindly.</li><li>Phase 2 is a defensive fight: block and parry the melee, evade the projectiles, and wait for the Sha-Chi break instead of forcing damage.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Zuo Shang, The True Long in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

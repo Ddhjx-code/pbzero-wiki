@@ -1,0 +1,57 @@
+{
+  "slug": "acolyte-lei-ting",
+  "title": "Acolyte Lei Ting - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Acolyte Lei Ting in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Acolyte Lei Ting phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House"
+    },
+    {
+      "label": "Appears in",
+      "value": "Pangzhen"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "Thunder Mask"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Acolyte Lei Ting is a optional encounter in Pangzhen, found at Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House. Beating it yields Thunder Mask.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Acolyte Lei Ting",
+      "content": "<p><strong>Location:</strong> Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House.</p><p><strong>Appears in:</strong> Pangzhen.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<ul><li>Thunder Mask</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Acolyte Lei Ting",
+      "content": "<h3>What works</h3><ul><li>Optional fight reached via the Flaming Mane and the mid-path scarecrow from Old Man Gen's House.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Acolyte Lei Ting in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

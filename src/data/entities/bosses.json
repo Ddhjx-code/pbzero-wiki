@@ -1,0 +1,922 @@
+[
+ {
+  "slug": "zuo-shang",
+  "name": "Zuo Shang (prologue duel)",
+  "kind": "Story (tutorial)",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Opening pursuit sequence",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "Zuo Shang (prologue duel) is a story (tutorial) encounter in Prologue & Weeping Creek Valley, found at Opening pursuit sequence.",
+  "tips": [
+   "The prologue duel is a tutorial: follow the prompts and practise the parry timing rather than trying to win fast.",
+   "Dying here costs nothing, so use it to learn what a red flash feels like before it matters."
+  ]
+ },
+ {
+  "slug": "hunt",
+  "name": "The Hunt",
+  "kind": "Story",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Main road pursuit, returns later",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "The Hunt is a story encounter in Prologue & Weeping Creek Valley, found at Main road pursuit, returns later. Beating it yields Hunter's Chain Sickle (Great Waterfall, same region).",
+  "drops": [
+   "Hunter's Chain Sickle (Great Waterfall, same region)"
+  ],
+  "tips": [
+   "Learn his attack rhythm first; the punish window is after the follow-up, not after the first swing.",
+   "He returns later in the story at a higher level, so the early fight doubles as a rehearsal."
+  ]
+ },
+ {
+  "slug": "jagged-steel-the-frenzied-brute",
+  "name": "Jagged Steel, the Frenzied Brute",
+  "kind": "Story",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Rustblade Pavilion bell",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "Jagged Steel, the Frenzied Brute is a story encounter in Prologue & Weeping Creek Valley, found at Rustblade Pavilion bell. Beating it yields Jagged Steel.",
+  "drops": [
+   "Jagged Steel"
+  ],
+  "tips": [
+   "Stay out of the heavy swing arc and punish the recovery - the weapon is the reward for exactly that.",
+   "Guard breaks land faster than chip damage here; he armours through light hits."
+  ]
+ },
+ {
+  "slug": "peng-meng-the-axemaster",
+  "name": "Peng Meng, the Axemaster (斧老大 彭猛)",
+  "kind": "Story",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "The Axemaster's Fall",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "Peng Meng, the Axemaster (斧老大 彭猛) is a story encounter in Prologue & Weeping Creek Valley, found at The Axemaster's Fall. Beating it yields Dread Axe.",
+  "drops": [
+   "Dread Axe"
+  ],
+  "tips": [
+   "The axe swings are unblockable on the overhead - dodge, do not guard.",
+   "Break his guard with Sha-Chi attacks to take the Dread Axe."
+  ]
+ },
+ {
+  "slug": "hua-deadly-betrothed",
+  "name": "Hua, Deadly Betrothed (新娘阿花)",
+  "kind": "Optional",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Flesh Lily Fields",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "Hua, Deadly Betrothed (新娘阿花) is a optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.",
+  "drops": [
+   "Scarlet Wraithblade"
+  ],
+  "tips": [
+   "Do not stand in the Flesh Lily fields - they explode on a delay and the tell is easy to miss while dodging her.",
+   "Her grab is unblockable; the dodge window is late, after she commits."
+  ]
+ },
+ {
+  "slug": "aberrant-three-faced-puppet",
+  "name": "Aberrant Three-Faced Puppet",
+  "kind": "Optional",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Challenge Rift",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "Aberrant Three-Faced Puppet is a optional encounter in Prologue & Weeping Creek Valley, found at Challenge Rift.",
+  "tips": [
+   "An optional Challenge Rift fight - bring upgraded gear rather than attempting it early.",
+   "Each face changes the attack set, so re-read the silhouette after every phase change."
+  ]
+ },
+ {
+  "slug": "gold-masked-one",
+  "name": "The Gold-Masked One",
+  "kind": "Recurring optional",
+  "region": "Prologue & Weeping Creek Valley",
+  "location": "Lóng Pillar trials, five times",
+  "act": "Prologue & Weeping Creek Valley",
+  "summary": "The Gold-Masked One is a recurring optional encounter in Prologue & Weeping Creek Valley, found at Lóng Pillar trials, five times.",
+  "tips": [
+   "A recurring optional challenger tied to the Long Pillar trials - you meet him five times.",
+   "He escalates each meeting; do not assume the pattern from the previous fight still holds."
+  ]
+ },
+ {
+  "slug": "puppet-scavenger",
+  "name": "Puppet Scavenger",
+  "kind": "Optional",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Crimson Manor",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Puppet Scavenger is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor."
+ },
+ {
+  "slug": "acolyte-hansui",
+  "name": "Acolyte Hansui",
+  "kind": "Optional",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Crimson Manor, via scarecrow",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Acolyte Hansui is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor, via scarecrow. Beating it yields Frost Mask.",
+  "drops": [
+   "Frost Mask"
+  ],
+  "tips": [
+   "Reached through the scarecrow in Crimson Manor - an optional fight, not a story gate."
+  ]
+ },
+ {
+  "slug": "hua-qianxiao-the-sword-fanatic",
+  "name": "Hua Qianxiao, the Sword Fanatic (剑痴 花千笑)",
+  "kind": "Story",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Pangzhen Bridge Overlook",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) is a story encounter in Crimson Manor & Crimson Forest, found at Pangzhen Bridge Overlook. Beating it yields The Fanatic's Broken Blade.",
+  "drops": [
+   "The Fanatic's Broken Blade"
+  ],
+  "tips": [
+   "Let his fast sword string finish before countering; interrupting mid-combo gets you punished.",
+   "He is the boss most likely to teach you that mashing loses to patience."
+  ]
+ },
+ {
+  "slug": "jing-ye-the-outlaw",
+  "name": "Jing Ye, the Outlaw (亡命徒 荆野)",
+  "kind": "Story",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Crimson Forest",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Jing Ye, the Outlaw (亡命徒 荆野) is a story encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Outlaw Warblade.",
+  "drops": [
+   "Outlaw Warblade"
+  ],
+  "tips": [
+   "Dodge the mounted charges rather than trying to block them, and punish between attack sequences."
+  ]
+ },
+ {
+  "slug": "stone-hand-iron-fever",
+  "name": "Stone Hand Iron Fever (拳痴 铁狂)",
+  "kind": "Optional",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Crimson Forest",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Stone Hand Iron Fever (拳痴 铁狂) is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Iron Gauntlets.",
+  "drops": [
+   "Iron Gauntlets"
+  ],
+  "tips": [
+   "Break his guard instead of trading - he is built to outlast chip damage.",
+   "Reward is the Iron Gauntlets, which change how the next few fights feel."
+  ]
+ },
+ {
+  "slug": "bai-chilian-lady-of-the-twin-serpents",
+  "name": "Bai Chilian, Lady of the Twin Serpents (双蛇夫人 白赤练)",
+  "kind": "Story - region finale",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Threadbound Great Tree, after the mirror puzzle",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Bai Chilian, Lady of the Twin Serpents (双蛇夫人 白赤练) is a story - region finale encounter in Crimson Manor & Crimson Forest, found at Threadbound Great Tree, after the mirror puzzle. Beating it yields White Serpent & Crimson Viper.",
+  "drops": [
+   "White Serpent & Crimson Viper"
+  ],
+  "tips": [
+   "Her attack set changes through the fight; avoid committing to long combos.",
+   "Keep one blade's stamina in reserve for the phase change."
+  ]
+ },
+ {
+  "slug": "double-boss-fight",
+  "name": "Jade Dancer and Iron Fiend",
+  "kind": "Optional",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Crimson Forest",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Jade Dancer and Iron Fiend is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Fiend Saws (via the Mu Xiaokui encounter).",
+  "drops": [
+   "Fiend Saws (via the Mu Xiaokui encounter)"
+  ],
+  "tips": [
+   "Two guardians at once - keep both in frame and never let them bracket you.",
+   "Kill order matters more than damage output here."
+  ]
+ },
+ {
+  "slug": "yucong-the-twisted-puppet",
+  "name": "Yucong, the Twisted Puppet (No. 34)",
+  "kind": "Optional rematch",
+  "region": "Crimson Manor & Crimson Forest",
+  "location": "Returns later in the story",
+  "act": "Crimson Manor & Crimson Forest",
+  "summary": "Yucong, the Twisted Puppet (No. 34) is a optional rematch encounter in Crimson Manor & Crimson Forest, found at Returns later in the story. Beating it yields Freezing Chaos.",
+  "drops": [
+   "Freezing Chaos"
+  ],
+  "tips": [
+   "An optional rematch that only opens after later progression."
+  ]
+ },
+ {
+  "slug": "zhuo-bi-the-gatekeeper",
+  "name": "Zhuo Bi, the Gatekeeper",
+  "kind": "Story",
+  "region": "Village of Lu",
+  "location": "Village of Lu approach",
+  "act": "Village of Lu",
+  "summary": "Zhuo Bi, the Gatekeeper is a story encounter in Village of Lu, found at Village of Lu approach. Beating it yields Bastion.",
+  "drops": [
+   "Bastion"
+  ],
+  "tips": [
+   "Strong guard-breaking attacks are the intended answer - chip damage takes too long."
+  ]
+ },
+ {
+  "slug": "master-bi-yuan",
+  "name": "Master Bi Yuan",
+  "kind": "Story",
+  "region": "Village of Lu",
+  "location": "Puppet Testing Grounds route",
+  "act": "Village of Lu",
+  "summary": "Master Bi Yuan is a story encounter in Village of Lu, found at Puppet Testing Grounds route. Beating it yields Tianxuan Bronze Sword.",
+  "drops": [
+   "Tianxuan Bronze Sword"
+  ],
+  "tips": [
+   "Parry his counters and punish the recovery window; he punishes greed harder than aggression."
+  ]
+ },
+ {
+  "slug": "master-bi-hai",
+  "name": "Master Bi Hai",
+  "kind": "Story",
+  "region": "Village of Lu",
+  "location": "Village of Lu",
+  "act": "Village of Lu",
+  "summary": "Master Bi Hai is a story encounter in Village of Lu, found at Village of Lu.",
+  "tips": [
+   "Controlled pressure beats burst here - he resets if you back off too far."
+  ]
+ },
+ {
+  "slug": "yuzan-the-musician-puppet",
+  "name": "Yuzan, the Musician Puppet (三号乐偶师 玉瓒)",
+  "kind": "Story",
+  "region": "Village of Lu",
+  "location": "Drop into the puppet well after Bi Yuan and Bi Hai",
+  "act": "Village of Lu",
+  "summary": "Yuzan, the Musician Puppet (三号乐偶师 玉瓒) is a story encounter in Village of Lu, found at Drop into the puppet well after Bi Yuan and Bi Hai. Beating it yields Heartrend Pipa.",
+  "drops": [
+   "Heartrend Pipa"
+  ],
+  "tips": [
+   "Evade the projectile patterns and hit between them; the pipa volleys have a fixed rhythm.",
+   "Dropped into the puppet well after both Bi fights."
+  ]
+ },
+ {
+  "slug": "dusk-the-puppeteer",
+  "name": "Dusk, the Puppeteer",
+  "kind": "Optional",
+  "region": "Village of Lu",
+  "location": "Unlocked through Memory Flowers",
+  "act": "Village of Lu",
+  "summary": "Dusk, the Puppeteer is a optional encounter in Village of Lu, found at Unlocked through Memory Flowers.",
+  "tips": [
+   "The encounter only opens through the Memory Flowers, so it is easy to walk past.",
+   "Manage the summons first - they will interrupt every opening otherwise."
+  ]
+ },
+ {
+  "slug": "xiaokui-guarded-fight",
+  "name": "Mu Xiaokui, Young Mistress of the Order (沐小葵)",
+  "kind": "Story",
+  "region": "Village of Lu",
+  "location": "Village of Lu, with Yu Yao and Tie Gui",
+  "act": "Village of Lu",
+  "summary": "Mu Xiaokui, Young Mistress of the Order (沐小葵) is a story encounter in Village of Lu, found at Village of Lu, with Yu Yao and Tie Gui. Beating it yields Wild Oriole Sword.",
+  "drops": [
+   "Wild Oriole Sword"
+  ],
+  "tips": [
+   "Learn her combination strings before countering; the optional ribbon objectives pay extra.",
+   "She fights alongside Yu Yao and Tie Gui, so the arena stays crowded."
+  ]
+ },
+ {
+  "slug": "acolyte-yanru",
+  "name": "Acolyte Yanru",
+  "kind": "Optional",
+  "region": "Village of Lu",
+  "location": "Terrace bell, north side, rice field scarecrow",
+  "act": "Village of Lu",
+  "summary": "Acolyte Yanru is a optional encounter in Village of Lu, found at Terrace bell, north side, rice field scarecrow. Beating it yields Blazing Mask.",
+  "drops": [
+   "Blazing Mask"
+  ],
+  "tips": [
+   "An optional encounter near the Terraces, summoned from the rice-field scarecrow."
+  ]
+ },
+ {
+  "slug": "blaze-shadow-warden-captain",
+  "name": "Blaze, Shadow Warden Captain (鬼差队长 火流星)",
+  "kind": "Story",
+  "region": "Pangzhen",
+  "location": "In front of the South Gate bridge bell",
+  "act": "Pangzhen",
+  "summary": "Blaze, Shadow Warden Captain (鬼差队长 火流星) is a story encounter in Pangzhen, found at In front of the South Gate bridge bell. Beating it yields Fire Meteor.",
+  "drops": [
+   "Fire Meteor"
+  ],
+  "tips": [
+   "Avoid the fire attacks and counter during recovery - the arena punishes standing still.",
+   "Bell placement in front of the South Gate marks the fight."
+  ]
+ },
+ {
+  "slug": "cavalrybane",
+  "name": "Cavalrybane (鬼差高手 斩骑)",
+  "kind": "Optional",
+  "region": "Pangzhen",
+  "location": "Statue Grounds bell, north of the long bridge",
+  "act": "Pangzhen",
+  "summary": "Cavalrybane (鬼差高手 斩骑) is a optional encounter in Pangzhen, found at Statue Grounds bell, north of the long bridge. Beating it yields Armybreaker.",
+  "drops": [
+   "Armybreaker"
+  ],
+  "tips": [
+   "His strikes are predictable; parry instead of dodging for the faster punish."
+  ]
+ },
+ {
+  "slug": "wu-xuan-the-fallen-general",
+  "name": "Wu Xuan, the Fallen General (堕落将军 武轩)",
+  "kind": "Story",
+  "region": "Pangzhen",
+  "location": "Back Street Archway bell",
+  "act": "Pangzhen",
+  "summary": "Wu Xuan, the Fallen General (堕落将军 武轩) is a story encounter in Pangzhen, found at Back Street Archway bell. Beating it yields Wolfjaw.",
+  "drops": [
+   "Wolfjaw"
+  ],
+  "tips": [
+   "He hides behind a defensive stance - heavy attacks break it faster than a combo."
+  ]
+ },
+ {
+  "slug": "gu-wanyue",
+  "name": "Gu Wanyue (女妖 骨婉约)",
+  "kind": "Story",
+  "region": "Pangzhen",
+  "location": "The Singing Pond bell",
+  "act": "Pangzhen",
+  "summary": "Gu Wanyue (女妖 骨婉约) is a story encounter in Pangzhen, found at The Singing Pond bell.",
+  "tips": [
+   "She is immune to damage until her Sha-Chi bar breaks; parries and perfect dodges are the only way to drain it.",
+   "Deflect the blue-flash projectile back at her - it marks her and opens the biggest window.",
+   "Dodge every red-flash grab, especially the handstand neck-breaker; a clean dodge removes a large chunk of her bar.",
+   "When the arena goes dark she can attack from any angle: hold block and react to the flash rather than parrying blind."
+  ],
+  "phases": [
+   {
+    "when": "Sleeve swipes",
+    "watch": "Close-to-mid range strings",
+    "answer": "Parry - this is the main Sha-Chi drain"
+   },
+   {
+    "when": "Blue projectile",
+    "watch": "Slow fireball",
+    "answer": "Perfect parry to deflect it back; applies vulnerability"
+   },
+   {
+    "when": "Neck Breaker",
+    "watch": "Handstand leap onto your shoulders, red flash",
+    "answer": "Dodge - removes a large chunk of her bar"
+   },
+   {
+    "when": "Darkness phase",
+    "watch": "Arena fades to black",
+    "answer": "Hold block, react to the flash, do not parry blind"
+   }
+  ],
+  "strategy": [
+   "Gu Wanyue is the fight that teaches the game's defensive loop, because for most of it she cannot be damaged at all: while the smoke effect is on her body, attacks pass through. The only way in is to empty her Sha-Chi bar, and the only way to empty it is to parry and dodge correctly.",
+   "The rhythm is drain, stagger, burst: parry the sleeve strings, deflect the projectile, dodge the grabs, then unload everything the moment she staggers. Back off the instant she recovers and start again. Healing before the arena, not during it, is the difference between a clean attempt and a wipe."
+  ]
+ },
+ {
+  "slug": "xie-qiudong-the-divine-healer",
+  "name": "Xie Qiudong, the Divine Healer (神医 谢秋冬)",
+  "kind": "Story",
+  "region": "Pangzhen",
+  "location": "Up from the Three Ships Well",
+  "act": "Pangzhen",
+  "summary": "Xie Qiudong, the Divine Healer (神医 谢秋冬) is a story encounter in Pangzhen, found at Up from the Three Ships Well.",
+  "tips": [
+   "He heals - sustain pressure instead of backing off, or the fight resets."
+  ]
+ },
+ {
+  "slug": "changhong-boss",
+  "name": "Chang Hong, the Thunder Spear (长鸿)",
+  "kind": "Story",
+  "region": "Pangzhen",
+  "location": "Pangzhen",
+  "act": "Pangzhen",
+  "summary": "Chang Hong, the Thunder Spear (长鸿) is a story encounter in Pangzhen, found at Pangzhen. Beating it yields Thunder Spear.",
+  "drops": [
+   "Thunder Spear"
+  ],
+  "tips": [
+   "Dodge the charges, and expect the mounted phase to change the timing."
+  ]
+ },
+ {
+  "slug": "you-loong-blackwater-crew-leader",
+  "name": "You Loong, Blackwater Crew Leader (游龙)",
+  "kind": "Optional",
+  "region": "Pangzhen",
+  "location": "Green Serpent House, then the water to the west",
+  "act": "Pangzhen",
+  "summary": "You Loong, Blackwater Crew Leader (游龙) is a optional encounter in Pangzhen, found at Green Serpent House, then the water to the west. Beating it yields You Loong's Deluge / Loong Trident.",
+  "drops": [
+   "You Loong's Deluge / Loong Trident"
+  ],
+  "tips": [
+   "Defeating him gives You Loong's Deluge, which is the answer to several fire hazards later.",
+   "Second encounter happens across the water west of Green Serpent House."
+  ]
+ },
+ {
+  "slug": "lion-dance-boss",
+  "name": "Flame, the Lion Dance Grandmaster (舞狮尊主 烈焰)",
+  "kind": "Story - region finale",
+  "region": "Pangzhen",
+  "location": "Second half of Pangzhen, unmissable",
+  "act": "Pangzhen",
+  "summary": "Flame, the Lion Dance Grandmaster (舞狮尊主 烈焰) is a story - region finale encounter in Pangzhen, found at Second half of Pangzhen, unmissable. Beating it yields Flaming Mane.",
+  "drops": [
+   "Flaming Mane"
+  ],
+  "tips": [
+   "Counter the fire attacks with water-based abilities; the fight is unmissable in the second half of Pangzhen."
+  ]
+ },
+ {
+  "slug": "soulclaimer",
+  "name": "Soulclaimer (勾魂)",
+  "kind": "Optional",
+  "region": "Pangzhen",
+  "location": "Dockside Warehouse, down and right",
+  "act": "Pangzhen",
+  "summary": "Soulclaimer (勾魂) is a optional encounter in Pangzhen, found at Dockside Warehouse, down and right. Beating it yields Parting Hooks.",
+  "drops": [
+   "Parting Hooks"
+  ],
+  "tips": [
+   "Break his guard to earn the Parting Hooks; the Dockside Warehouse route is easy to miss."
+  ]
+ },
+ {
+  "slug": "zhu-yuan",
+  "name": "Zhu Yuan",
+  "kind": "Optional",
+  "region": "Pangzhen",
+  "location": "Pangzhen",
+  "act": "Pangzhen",
+  "summary": "Zhu Yuan is a optional encounter in Pangzhen, found at Pangzhen."
+ },
+ {
+  "slug": "acolyte-lei-ting",
+  "name": "Acolyte Lei Ting",
+  "kind": "Optional",
+  "region": "Pangzhen",
+  "location": "Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House",
+  "act": "Pangzhen",
+  "summary": "Acolyte Lei Ting is a optional encounter in Pangzhen, found at Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House. Beating it yields Thunder Mask.",
+  "drops": [
+   "Thunder Mask"
+  ],
+  "tips": [
+   "Optional fight reached via the Flaming Mane and the mid-path scarecrow from Old Man Gen's House."
+  ]
+ },
+ {
+  "slug": "corpse-eating-xue",
+  "name": "Corpse-Eating Xue",
+  "kind": "Story",
+  "region": "Mandate Encampment",
+  "location": "Mandate Encampment",
+  "act": "Mandate Encampment",
+  "summary": "Corpse-Eating Xue is a story encounter in Mandate Encampment, found at Mandate Encampment.",
+  "tips": [
+   "His encounter is part of an associated tale rather than a pure gate."
+  ]
+ },
+ {
+  "slug": "wan-jun-the-coppermaul",
+  "name": "Wan Jun, the Coppermaul",
+  "kind": "Story",
+  "region": "Mandate Encampment",
+  "location": "Mandate Encampment",
+  "act": "Mandate Encampment",
+  "summary": "Wan Jun, the Coppermaul is a story encounter in Mandate Encampment, found at Mandate Encampment.",
+  "tips": [
+   "Slow, heavy strikes - punish the recovery rather than trying to interrupt the wind-up."
+  ]
+ },
+ {
+  "slug": "red-the-mysterious-wraith",
+  "name": "Red, the Mysterious Wraith",
+  "kind": "Story",
+  "region": "Mandate Encampment",
+  "location": "Mandate Encampment",
+  "act": "Mandate Encampment",
+  "summary": "Red, the Mysterious Wraith is a story encounter in Mandate Encampment, found at Mandate Encampment.",
+  "tips": [
+   "Expect sudden attacks; keep defensive timing rather than pre-empting."
+  ]
+ },
+ {
+  "slug": "wu-lengshuang-the-soft-sword",
+  "name": "Wu Lengshuang, the Soft Sword (柔剑 武林霜)",
+  "kind": "Optional",
+  "region": "Mandate Encampment",
+  "location": "Path of the Baishan's Fall",
+  "act": "Mandate Encampment",
+  "summary": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) is a optional encounter in Mandate Encampment, found at Path of the Baishan's Fall. Beating it yields Soft Snake Sword.",
+  "drops": [
+   "Soft Snake Sword"
+  ],
+  "tips": [
+   "Stop attacking the moment the purple flash appears - that is her parry, and a counter is already coming.",
+   "Dodge when the follow-up glints red, parry when it glints blue.",
+   "Her only two-handed swing is always followed by an unblockable spinning slash.",
+   "The acrobatic forward flip slash is parryable and is her main gap closer."
+  ],
+  "phases": [
+   {
+    "when": "Purple flash",
+    "watch": "She parries you mid-string",
+    "answer": "Stop attacking immediately"
+   },
+   {
+    "when": "Counter after purple",
+    "watch": "Red glint = unblockable, blue = parryable",
+    "answer": "Dodge the red, parry the blue"
+   },
+   {
+    "when": "Two-handed swing",
+    "watch": "Only attack she uses two hands for",
+    "answer": "Always followed by an unblockable spin - dodge it"
+   },
+   {
+    "when": "Acrobatic slash",
+    "watch": "Forward flip, wide slash",
+    "answer": "Parryable - this is your Ghoststep opening"
+   }
+  ],
+  "strategy": [
+   "Wu Lengshuang is a parry duel rather than a damage race. She deflects constantly, and every deflection is a purple flash that cancels your damage and leads straight into a counter whose colour tells you what to do: red means dodge, blue means parry, no colour means block or reposition.",
+   "The mistake that loses this fight is pressing through the purple flash. Treat it as a stop signal, react to the counter, and take the acrobatic flip slash as your one reliable Ghoststep opening."
+  ]
+ },
+ {
+  "slug": "seven-stars-boss",
+  "name": "Chief Disciple of the Seven-Stars Formation",
+  "kind": "Story",
+  "region": "Mandate Encampment",
+  "location": "Clear the disciples before the leader",
+  "act": "Mandate Encampment",
+  "summary": "Chief Disciple of the Seven-Stars Formation is a story encounter in Mandate Encampment, found at Clear the disciples before the leader.",
+  "tips": [
+   "Clear the supporting disciples before focusing the leader; the formation buffs them."
+  ]
+ },
+ {
+  "slug": "yubi-the-swordfighter-puppet",
+  "name": "Yubi, the Swordfighter Puppet (No. 21)",
+  "kind": "Optional",
+  "region": "Mandate Encampment",
+  "location": "Training Grounds, past the main gate",
+  "act": "Mandate Encampment",
+  "summary": "Yubi, the Swordfighter Puppet (No. 21) is a optional encounter in Mandate Encampment, found at Training Grounds, past the main gate. Beating it yields Baishan Stormswords.",
+  "drops": [
+   "Baishan Stormswords"
+  ],
+  "tips": [
+   "Break his guard for the Baishan Stormswords; the Training Grounds route is past the main gate."
+  ]
+ },
+ {
+  "slug": "grief-stricken-jin",
+  "name": "Grief-Stricken Jin",
+  "kind": "Story",
+  "region": "Meigu Lake",
+  "location": "Meigu Lake",
+  "act": "Meigu Lake",
+  "summary": "Grief-Stricken Jin is a story encounter in Meigu Lake, found at Meigu Lake.",
+  "tips": [
+   "Clear the nearby threats before committing to the boss - the arena does not stay clear."
+  ]
+ },
+ {
+  "slug": "one-eyed-archer",
+  "name": "One-Eyed Archer (独眼弓客)",
+  "kind": "Optional",
+  "region": "Meigu Lake",
+  "location": "Meigu Lake",
+  "act": "Meigu Lake",
+  "summary": "One-Eyed Archer (独眼弓客) is a optional encounter in Meigu Lake, found at Meigu Lake.",
+  "tips": [
+   "Close the distance carefully; the whole fight is about not eating ranged hits on approach."
+  ]
+ },
+ {
+  "slug": "yan-qiansui-the-zither-maiden",
+  "name": "Yan Qiansui, the Zither Maiden (烟千岁)",
+  "kind": "Optional",
+  "region": "Meigu Lake",
+  "location": "Meigu Lake",
+  "act": "Meigu Lake",
+  "summary": "Yan Qiansui, the Zither Maiden (烟千岁) is a optional encounter in Meigu Lake, found at Meigu Lake.",
+  "tips": [
+   "Dodge the musical projectiles and exploit the pauses between phrases."
+  ]
+ },
+ {
+  "slug": "heartpiercer",
+  "name": "Heartpiercer (穿心者)",
+  "kind": "Optional",
+  "region": "Meigu Lake",
+  "location": "White Serpent House",
+  "act": "Meigu Lake",
+  "summary": "Heartpiercer (穿心者) is a optional encounter in Meigu Lake, found at White Serpent House. Beating it yields Sundering Dual Axes.",
+  "drops": [
+   "Sundering Dual Axes"
+  ],
+  "tips": [
+   "Won as part of the Shadow Warden fight; rewards the Sundering Dual Axes."
+  ]
+ },
+ {
+  "slug": "blizzard-blademaster",
+  "name": "Blizzard Blademaster (暴雪刀主)",
+  "kind": "Optional - true ending gate",
+  "region": "Meigu Lake",
+  "location": "Whiteshadow's Fall bell, inside the Illusion Realm",
+  "act": "Meigu Lake",
+  "summary": "Blizzard Blademaster (暴雪刀主) is a optional - true ending gate encounter in Meigu Lake, found at Whiteshadow's Fall bell, inside the Illusion Realm. Beating it yields Whiteshadow.",
+  "drops": [
+   "Whiteshadow"
+  ],
+  "tips": [
+   "Avoid the Frost attacks; the reward is Whiteshadow, one of the better anti-boss blades."
+  ]
+ },
+ {
+  "slug": "acolyte-guhe",
+  "name": "Acolyte Guhe",
+  "kind": "Optional",
+  "region": "Meigu Lake",
+  "location": "Meigu Village East Dock, scarecrow",
+  "act": "Meigu Lake",
+  "summary": "Acolyte Guhe is a optional encounter in Meigu Lake, found at Meigu Village East Dock, scarecrow. Beating it yields Venom Mask.",
+  "drops": [
+   "Venom Mask"
+  ],
+  "tips": [
+   "Optional encounter at the Meigu Village East Dock scarecrow."
+  ]
+ },
+ {
+  "slug": "iron-butcher",
+  "name": "Iron Butcher",
+  "kind": "Story",
+  "region": "Mountain of Imprisonment",
+  "location": "Mountain of Imprisonment",
+  "act": "Mountain of Imprisonment",
+  "summary": "Iron Butcher is a story encounter in Mountain of Imprisonment, found at Mountain of Imprisonment.",
+  "tips": [
+   "Dodge the heavy strikes, then punish recovery - the same rule as most of the Imprisonment roster."
+  ]
+ },
+ {
+  "slug": "bi-feng-giant-saber-commander",
+  "name": "Bi Feng, Giant Saber Commander (巨刀统领 白峰)",
+  "kind": "Story",
+  "region": "Mountain of Imprisonment",
+  "location": "Commander's Platform",
+  "act": "Mountain of Imprisonment",
+  "summary": "Bi Feng, Giant Saber Commander (巨刀统领 白峰) is a story encounter in Mountain of Imprisonment, found at Commander's Platform. Beating it yields Juggernaut.",
+  "drops": [
+   "Juggernaut"
+  ],
+  "tips": [
+   "Stay outside the sweeping attacks and use guard breaks instead of trades."
+  ]
+ },
+ {
+  "slug": "kui-yanyan",
+  "name": "Kui Yanyan",
+  "kind": "Story",
+  "region": "Mountain of Imprisonment",
+  "location": "Mountain of Imprisonment",
+  "act": "Mountain of Imprisonment",
+  "summary": "Kui Yanyan is a story encounter in Mountain of Imprisonment, found at Mountain of Imprisonment.",
+  "tips": [
+   "Her combinations change; watch a full string before committing to a counter."
+  ]
+ },
+ {
+  "slug": "huangxing-boss",
+  "name": "Jade-Face",
+  "kind": "Optional",
+  "region": "Mountain of Imprisonment",
+  "location": "The Lady's Shrine",
+  "act": "Mountain of Imprisonment",
+  "summary": "Jade-Face is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine. Beating it yields Seamless Death.",
+  "drops": [
+   "Seamless Death"
+  ],
+  "tips": [
+   "Punish the openings rather than forcing them; the reward is Seamless Death."
+  ]
+ },
+ {
+  "slug": "yu-ding-no-12-crescent-blade-puppet",
+  "name": "Yu Ding, No. 12 Crescent Blade Puppet",
+  "kind": "Story",
+  "region": "Mountain of Imprisonment",
+  "location": "Training Grounds, Mirage Estate",
+  "act": "Mountain of Imprisonment",
+  "summary": "Yu Ding, No. 12 Crescent Blade Puppet is a story encounter in Mountain of Imprisonment, found at Training Grounds, Mirage Estate. Beating it yields Crescent Blade.",
+  "drops": [
+   "Crescent Blade"
+  ],
+  "tips": [
+   "Avoid the wide sweeps and strike after the recovery - the Crescent Blade puppet telegraphs heavily."
+  ]
+ },
+ {
+  "slug": "leidang-boss",
+  "name": "Lei Dang",
+  "kind": "Story",
+  "region": "Mirage Estate",
+  "location": "Mirage Estate",
+  "act": "Mirage Estate",
+  "summary": "Lei Dang is a story encounter in Mirage Estate, found at Mirage Estate. Beating it yields Tiger Cannon.",
+  "drops": [
+   "Tiger Cannon"
+  ],
+  "tips": [
+   "Two phases - the second changes his attack set, so spend phase one learning tells rather than racing the bar.",
+   "The Tiger Cannon is the reward, and it is worth the two attempts this fight usually takes."
+  ]
+ },
+ {
+  "slug": "qiu-feng-the-crimson-boneblade",
+  "name": "Qiu Feng, the Crimson Boneblade (赤骨刀 邱风)",
+  "kind": "Story",
+  "region": "Mirage Estate",
+  "location": "Mirage Estate",
+  "act": "Mirage Estate",
+  "summary": "Qiu Feng, the Crimson Boneblade (赤骨刀 邱风) is a story encounter in Mirage Estate, found at Mirage Estate.",
+  "tips": [
+   "Defensive timing matters more than damage here; his strings punish an early counter."
+  ]
+ },
+ {
+  "slug": "mo-yuan",
+  "name": "Mo Yuan (莫渊)",
+  "kind": "Optional",
+  "region": "Mirage Estate",
+  "location": "Mirage Estate",
+  "act": "Mirage Estate",
+  "summary": "Mo Yuan (莫渊) is a optional encounter in Mirage Estate, found at Mirage Estate. Beating it yields Soul Tempering material.",
+  "drops": [
+   "Soul Tempering material"
+  ],
+  "tips": [
+   "Optional, and tied to Soul Tempering materials rather than a weapon - worth doing before the final stretch."
+  ]
+ },
+ {
+  "slug": "leng-tu",
+  "name": "Leng Tu",
+  "kind": "Story",
+  "region": "Mount Soulrend & endgame",
+  "location": "Mount Soulrend ascent",
+  "act": "Mount Soulrend & endgame",
+  "summary": "Leng Tu is a story encounter in Mount Soulrend & endgame, found at Mount Soulrend ascent.",
+  "tips": [
+   "Stay defensive until a safe opening appears; the ascent leaves little room to heal."
+  ]
+ },
+ {
+  "slug": "herald-of-the-veil",
+  "name": "Herald of the Veil",
+  "kind": "Story",
+  "region": "Mount Soulrend & endgame",
+  "location": "Mount Soulrend",
+  "act": "Mount Soulrend & endgame",
+  "summary": "Herald of the Veil is a story encounter in Mount Soulrend & endgame, found at Mount Soulrend.",
+  "tips": [
+   "Fought on the Mount Soulrend ascent, immediately before the endgame stretch."
+  ]
+ },
+ {
+  "slug": "meng-hua-merciful-lady-of-the-blossom-veil",
+  "name": "Meng Hua, Merciful Lady of the Blossom Veil (莫华)",
+  "kind": "Story",
+  "region": "Mount Soulrend & endgame",
+  "location": "Peak of Mount Soulrend - true ending checkpoint",
+  "act": "Mount Soulrend & endgame",
+  "summary": "Meng Hua, Merciful Lady of the Blossom Veil (莫华) is a story encounter in Mount Soulrend & endgame, found at Peak of Mount Soulrend - true ending checkpoint. Beating it yields The Lady's Fan.",
+  "drops": [
+   "The Lady's Fan"
+  ],
+  "tips": [
+   "Normal-ending final boss - attack during the openings rather than trying to out-trade her.",
+   "Her fan attacks cover wide arcs; the safe window is after the sweep, not during it."
+  ]
+ },
+ {
+  "slug": "zuo-shang-the-true-long",
+  "name": "Zuo Shang, The True Long",
+  "kind": "Story - final boss",
+  "region": "Mount Soulrend & endgame",
+  "location": "Peak of Mount Soulrend",
+  "act": "Mount Soulrend & endgame",
+  "summary": "Zuo Shang, The True Long is a story - final boss encounter in Mount Soulrend & endgame, found at Peak of Mount Soulrend. Beating it yields Aureate.",
+  "drops": [
+   "Aureate"
+  ],
+  "tips": [
+   "High burst damage is the answer: chill him with Whiteshadow, then swap to Blazing Edge once he is guard-broken or frozen.",
+   "You Loong's Deluge staggers him flat, which is the most reliable way to control the pace of the fight.",
+   "In phase 1, when he turns his back he is either throwing a spinning sword or setting a counter-parry - do not swing blindly.",
+   "Phase 2 is a defensive fight: block and parry the melee, evade the projectiles, and wait for the Sha-Chi break instead of forcing damage."
+  ],
+  "phases": [
+   {
+    "when": "Sword Barrage",
+    "watch": "A swarm of swords fills the arena",
+    "answer": "Spam dodge - do not try to parry it"
+   },
+   {
+    "when": "Gathering Winds",
+    "watch": "Red flash while wind and leaves gather",
+    "answer": "Unblockable - dodge after the flash"
+   },
+   {
+    "when": "Ephemeral Swords",
+    "watch": "Five swords fire in sequence, then a leap",
+    "answer": "Parry the sword swing, dodge the grab that follows"
+   },
+   {
+    "when": "Ephemeral Spears",
+    "watch": "Four spears, then a dash",
+    "answer": "Unblockable thrust - dodge sideways, not back"
+   },
+   {
+    "when": "Back-turned stance",
+    "watch": "He faces away from you",
+    "answer": "Expect a spinning projectile or a counter-parry - hold your swing"
+   }
+  ],
+  "strategy": [
+   "The true-ending final boss is a two-phase exam on everything the game has taught. Phase 1 is readable: he telegraphs, and the back-turned stance is a trap rather than an opening. Phase 2 removes the luxury of forcing damage - his poise is high enough that reckless combos get punished, so the fight becomes block, parry, evade until the Sha-Chi bar breaks, then a single committed burst.",
+   "The build that makes it tractable is a freeze into burst swap: Whiteshadow to chill and slow him, Blazing Edge for the damage window once he is frozen or guard-broken, with You Loong's Deluge available to knock him down when the pressure needs resetting."
+  ]
+ },
+ {
+  "slug": "last-battle",
+  "name": "The Last Battle",
+  "kind": "True ending only",
+  "region": "Mount Soulrend & endgame",
+  "location": "Triggers immediately after Zuo Shang if the checklist is complete",
+  "act": "Mount Soulrend & endgame",
+  "summary": "The Last Battle is a true ending only encounter in Mount Soulrend & endgame, found at Triggers immediately after Zuo Shang if the checklist is complete.",
+  "tips": [
+   "Triggers immediately after Zuo Shang and only if the true-ending checklist is complete - there is no separate approach."
+  ]
+ },
+ {
+  "slug": "saw-and-the-crusher",
+  "name": "The Saw and the Crusher",
+  "kind": "Optional",
+  "region": "Mount Soulrend & endgame",
+  "location": "Endgame",
+  "act": "Mount Soulrend & endgame",
+  "summary": "The Saw and the Crusher is a optional encounter in Mount Soulrend & endgame, found at Endgame.",
+  "tips": [
+   "Separate the pair where possible; fighting both in the same cone is what kills runs."
+  ]
+ }
+]

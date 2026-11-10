@@ -1,0 +1,53 @@
+{
+  "slug": "grief-stricken-jin",
+  "title": "Grief-Stricken Jin - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Grief-Stricken Jin in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Grief-Stricken Jin phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Meigu Lake"
+    },
+    {
+      "label": "Appears in",
+      "value": "Meigu Lake"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Grief-Stricken Jin is a story encounter in Meigu Lake, found at Meigu Lake.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Grief-Stricken Jin",
+      "content": "<p><strong>Location:</strong> Meigu Lake.</p><p><strong>Appears in:</strong> Meigu Lake.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Not confirmed post-launch. No guide we checked records a drop for this encounter, so none is listed - a guess here would be worse than a blank.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Grief-Stricken Jin",
+      "content": "<h3>What works</h3><ul><li>Clear the nearby threats before committing to the boss - the arena does not stay clear.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Grief-Stricken Jin in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

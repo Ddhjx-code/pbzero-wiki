@@ -1,0 +1,53 @@
+{
+  "slug": "gu-wanyue",
+  "title": "Gu Wanyue (女妖 骨婉约) - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Gu Wanyue (女妖 骨婉约) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Gu Wanyue (女妖 骨婉约) phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "The Singing Pond bell"
+    },
+    {
+      "label": "Appears in",
+      "value": "Pangzhen"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Gu Wanyue (女妖 骨婉约) is a story encounter in Pangzhen, found at The Singing Pond bell.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Gu Wanyue (女妖 骨婉约)",
+      "content": "<p><strong>Location:</strong> The Singing Pond bell.</p><p><strong>Appears in:</strong> Pangzhen.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<p>Not confirmed post-launch. No guide we checked records a drop for this encounter, so none is listed - a guess here would be worse than a blank.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Gu Wanyue (女妖 骨婉约)",
+      "content": "<p>Gu Wanyue is the fight that teaches the game's defensive loop, because for most of it she cannot be damaged at all: while the smoke effect is on her body, attacks pass through. The only way in is to empty her Sha-Chi bar, and the only way to empty it is to parry and dodge correctly.</p><p>The rhythm is drain, stagger, burst: parry the sleeve strings, deflect the projectile, dodge the grabs, then unload everything the moment she staggers. Back off the instant she recovers and start again. Healing before the arena, not during it, is the difference between a clean attempt and a wipe.</p><h3>Attacks worth knowing</h3><table><thead><tr><th>Attack</th><th>What it does</th><th>Answer</th></tr></thead><tbody><tr><td>Sleeve swipes</td><td>Close-to-mid range strings</td><td>Parry - this is the main Sha-Chi drain</td></tr><tr><td>Blue projectile</td><td>Slow fireball</td><td>Perfect parry to deflect it back; applies vulnerability</td></tr><tr><td>Neck Breaker</td><td>Handstand leap onto your shoulders, red flash</td><td>Dodge - removes a large chunk of her bar</td></tr><tr><td>Darkness phase</td><td>Arena fades to black</td><td>Hold block, react to the flash, do not parry blind</td></tr></tbody></table><h3>What works</h3><ul><li>She is immune to damage until her Sha-Chi bar breaks; parries and perfect dodges are the only way to drain it.</li><li>Deflect the blue-flash projectile back at her - it marks her and opens the biggest window.</li><li>Dodge every red-flash grab, especially the handstand neck-breaker; a clean dodge removes a large chunk of her bar.</li><li>When the arena goes dark she can attack from any angle: hold block and react to the flash rather than parrying blind.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Gu Wanyue (女妖 骨婉约) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

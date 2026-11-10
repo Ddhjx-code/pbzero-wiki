@@ -6,7 +6,7 @@ Usage: python3 scripts/gen-entity-pages.py <data-file> --type boss
 Keeps the data layer separate from the rendered page, so adding an entity is
 one record rather than one hand-written page.
 
-Anything a record does not declare renders as "Not confirmed pre-launch" or is
+Anything a record does not declare renders as "Not confirmed post-launch" or is
 left out entirely. The generator has no default item names, no default
 weaknesses and no default rewards, because a template that fills gaps
 invents content.
@@ -16,8 +16,9 @@ import os
 import sys
 
 PAGES = "src/data/pages"
-UNKNOWN = "Not confirmed pre-launch"
+UNKNOWN = "Not confirmed post-launch"
 NOT_CONFIRMED = "__not_confirmed__"
+UPDATED = "2026-11-10"
 
 
 def display(value):
@@ -39,10 +40,15 @@ def affinity_block(rec):
 
     if rec.get("weak") == NOT_CONFIRMED or "weak" not in rec:
         return table + (
-            f"<p>{UNKNOWN}. S-GAME has not published elemental affinities for this "
-            "encounter, and no demo footage shows one being exploited. Nothing here "
-            "is estimated from the boss's appearance - that is exactly how wrong "
-            "weakness tables get written before release.</p>"
+            f"<p>{UNKNOWN}. Phantom Blade Zero does not run an elemental damage system, so "
+            "there is no weakness table to fill in - nothing here is estimated from how a "
+            "boss looks, which is exactly how wrong weakness tables get written.</p>"
+            "<p>What the game does have is a colour language on enemy attacks, and it is the "
+            "single most useful thing to learn: a <strong>red flash</strong> marks an unblockable "
+            "attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that "
+            "should be deflected, and a <strong>purple flash</strong> means the boss has just "
+            "parried <em>you</em> and a counter is coming. See "
+            "<a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
         )
 
     note = f"<p>Bring {rec['weak']} damage.</p>"
@@ -91,7 +97,7 @@ def boss_sections(rec):
     out.append({"id": "how-to-find", "title": f"Where to Find the {name}", "content": find})
 
     out.append(
-        {"id": "weakness", "title": "Weakness & Resistances", "content": affinity_block(rec)}
+        {"id": "weakness", "title": "Weaknesses and Counters", "content": affinity_block(rec)}
     )
 
     drops = rec.get("drops") or []
@@ -99,39 +105,54 @@ def boss_sections(rec):
         rewards = "<ul>" + "".join(f"<li>{d}</li>" for d in drops) + "</ul>"
     else:
         rewards = (
-            f"<p>{UNKNOWN}. Bosses in Phantom Blade Zero are described by S-GAME as "
-            "rewarding unique weapons on defeat, but no drop table has been published "
-            "for this encounter, so none is listed here.</p>"
+            f"<p>{UNKNOWN}. No guide we checked records a drop for this encounter, so none is "
+            "listed - a guess here would be worse than a blank.</p>"
         )
     out.append({"id": "rewards", "title": "Rewards", "content": rewards})
 
-    strategy = observed_block(rec)
+    strategy = ""
+    for para in rec.get("strategy") or []:
+        strategy += f"<p>{para}</p>"
+
+    phases = rec.get("phases") or []
+    if phases:
+        rows = "".join(
+            f"<tr><td>{p['when']}</td><td>{p['watch']}</td><td>{p['answer']}</td></tr>"
+            for p in phases
+            if isinstance(p, dict)
+        )
+        strategy += (
+            "<h3>Attacks worth knowing</h3>"
+            "<table><thead><tr><th>Attack</th><th>What it does</th><th>Answer</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table>"
+        )
+
     tips = rec.get("tips") or []
     if tips:
-        strategy += "<h3>How to approach it</h3><ul>" + "".join(f"<li>{t}</li>" for t in tips) + "</ul>"
-    else:
-        strategy += (
-            "<h3>How to approach it</h3>"
-            "<p>There is no honest strategy section for an encounter nobody outside the "
-            "studio has finished. What can be said comes from the systems rather than from "
-            "the fight: blocking and heavy attacks both spend "
-            "<a href=\"/combat\">Sha-chi</a>, so a defensive player who blocks everything "
-            "runs out of the resource at the worst moment. Unblockable attacks have to be "
-            "dodged, which means reading the animation rather than relying on the guard.</p>"
-            "<p>Real phase data, parry windows and timings land here once the game ships.</p>"
+        strategy += "<h3>What works</h3><ul>" + "".join(f"<li>{t}</li>" for t in tips) + "</ul>"
+
+    if not strategy:
+        strategy = (
+            f"<p>{UNKNOWN}. No fight breakdown has been published for this encounter, so none "
+            "is written here. The general rules still apply: deflect blue flashes, dodge red ones, "
+            "and break the Sha-Chi bar with "
+            "<a href=\"/combat\">guard breaks</a> rather than trading hits.</p>"
         )
+    strategy += observed_block(rec)
     out.append({"id": "strategy", "title": f"How to Beat the {name}", "content": strategy})
 
     out.append(
         {
             "id": "status",
-            "title": "Pre-launch Status",
+            "title": "Status",
             "content": (
-                f"<p>This page tracks the {name} in Phantom Blade Zero, which releases on "
-                "<a href=\"/release-date\">October 29, 2026</a>. It is written from official "
-                "demo and trailer material only. After release it gets updated with verified "
-                "fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster "
-                "and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p>"
+                f"<p>This page tracks the {name} in Phantom Blade Zero, released "
+                "<a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are "
+                "filled from the shipped game and from published fight guides; anything still "
+                f"marked &ldquo;{UNKNOWN.lower()}&rdquo; has not been confirmed by any source we "
+                "could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by "
+                "region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits "
+                "in the campaign.</p>"
             ),
         }
     )
@@ -146,7 +167,7 @@ def boss_facts(rec):
         facts.append(("Appears in", rec["act"]))
     if rec.get("level"):
         facts.append(("Recommended level", rec["level"]))
-    facts.append(("Weak to", display(rec["weak"]) if "weak" in rec else UNKNOWN))
+    facts.append(("Weak to", display(rec["weak"]) if "weak" in rec else "No elemental system - see counters"))
     if rec.get("resists"):
         facts.append(("Resists", rec["resists"]))
     if rec.get("absorbs"):
@@ -458,9 +479,9 @@ def trophy_sections(rec):
             "id": "status",
             "title": "Source Status",
             "content": (
-                f"<p>Trophy lists for Phantom Blade Zero are not published before release. This entry is "
-                f"filled from the shipped game on either platform; PS5 trophy and PC achievement lists "
-                f"are recorded separately where they differ. See "
+                f"<p>This entry is filled from the shipped game on either platform; PS5 trophy and "
+                f"PC achievement lists are recorded separately where they differ. See "
+                f"<a href=\"/trophy-guide\">the trophy guide</a> for the full list and "
                 f"<a href=\"/how-long-to-beat\">how long to beat</a> for run-length context.</p>"
             ),
         }
@@ -474,10 +495,10 @@ META = {
         "facts": boss_facts,
         "keyword": lambda n: f"{n} phantom blade zero boss",
         "desc": lambda n, has: (
-            f"{n} in Phantom Blade Zero - what has been confirmed about the encounter, "
-            "its elemental weakness, rewards and how to approach it."
+            f"{n} in Phantom Blade Zero - where the fight happens, what it drops, and how its "
+            "attack patterns are countered, including the red and blue flash tells."
         ),
-        "subtitle": lambda has: "Location, Weakness & How to Beat" if has else "Everything Confirmed So Far",
+        "subtitle": lambda has: "Location, Tactics & Rewards" if has else "Everything Confirmed",
     },
     "weapon": {
         "sections": weapon_sections,
@@ -533,7 +554,7 @@ def build(rec, kind):
         "title": f"{name} - {meta['subtitle'](has_data)} (Phantom Blade Zero)",
         "description": meta["desc"](name, has_data),
         "keyword": meta["keyword"](name),
-        "lastUpdated": "2026-09-28",
+        "lastUpdated": rec.get("updated") or UPDATED,
         "facts": meta["facts"](rec),
         "sections": meta["sections"](rec),
     }
@@ -552,10 +573,11 @@ def main():
         sys.exit(1)
 
     records = json.load(open(args[0]))
+    overwrite = "--overwrite" in sys.argv
     written = skipped = 0
     for rec in records:
         path = os.path.join(PAGES, f'{rec["slug"]}.json')
-        if os.path.exists(path):
+        if os.path.exists(path) and not overwrite:
             skipped += 1
             continue
         json.dump(build(rec, kind), open(path, "w"), ensure_ascii=False, indent=2)

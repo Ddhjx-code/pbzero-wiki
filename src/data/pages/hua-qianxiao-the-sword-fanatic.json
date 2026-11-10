@@ -1,0 +1,57 @@
+{
+  "slug": "hua-qianxiao-the-sword-fanatic",
+  "title": "Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Pangzhen Bridge Overlook"
+    },
+    {
+      "label": "Appears in",
+      "value": "Crimson Manor & Crimson Forest"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "The Fanatic's Broken Blade"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) is a story encounter in Crimson Manor & Crimson Forest, found at Pangzhen Bridge Overlook. Beating it yields The Fanatic's Broken Blade.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Hua Qianxiao, the Sword Fanatic (剑痴 花千笑)",
+      "content": "<p><strong>Location:</strong> Pangzhen Bridge Overlook.</p><p><strong>Appears in:</strong> Crimson Manor & Crimson Forest.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<ul><li>The Fanatic's Broken Blade</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Hua Qianxiao, the Sword Fanatic (剑痴 花千笑)",
+      "content": "<h3>What works</h3><ul><li>Let his fast sword string finish before countering; interrupting mid-combo gets you punished.</li><li>He is the boss most likely to teach you that mashing loses to patience.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Hua Qianxiao, the Sword Fanatic (剑痴 花千笑) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

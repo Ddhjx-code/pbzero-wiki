@@ -1,0 +1,57 @@
+{
+  "slug": "wu-lengshuang-the-soft-sword",
+  "title": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Path of the Baishan's Fall"
+    },
+    {
+      "label": "Appears in",
+      "value": "Mandate Encampment"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "Soft Snake Sword"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Wu Lengshuang, the Soft Sword (柔剑 武林霜) is a optional encounter in Mandate Encampment, found at Path of the Baishan's Fall. Beating it yields Soft Snake Sword.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Wu Lengshuang, the Soft Sword (柔剑 武林霜)",
+      "content": "<p><strong>Location:</strong> Path of the Baishan's Fall.</p><p><strong>Appears in:</strong> Mandate Encampment.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<ul><li>Soft Snake Sword</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Wu Lengshuang, the Soft Sword (柔剑 武林霜)",
+      "content": "<p>Wu Lengshuang is a parry duel rather than a damage race. She deflects constantly, and every deflection is a purple flash that cancels your damage and leads straight into a counter whose colour tells you what to do: red means dodge, blue means parry, no colour means block or reposition.</p><p>The mistake that loses this fight is pressing through the purple flash. Treat it as a stop signal, react to the counter, and take the acrobatic flip slash as your one reliable Ghoststep opening.</p><h3>Attacks worth knowing</h3><table><thead><tr><th>Attack</th><th>What it does</th><th>Answer</th></tr></thead><tbody><tr><td>Purple flash</td><td>She parries you mid-string</td><td>Stop attacking immediately</td></tr><tr><td>Counter after purple</td><td>Red glint = unblockable, blue = parryable</td><td>Dodge the red, parry the blue</td></tr><tr><td>Two-handed swing</td><td>Only attack she uses two hands for</td><td>Always followed by an unblockable spin - dodge it</td></tr><tr><td>Acrobatic slash</td><td>Forward flip, wide slash</td><td>Parryable - this is your Ghoststep opening</td></tr></tbody></table><h3>What works</h3><ul><li>Stop attacking the moment the purple flash appears - that is her parry, and a counter is already coming.</li><li>Dodge when the follow-up glints red, parry when it glints blue.</li><li>Her only two-handed swing is always followed by an unblockable spinning slash.</li><li>The acrobatic forward flip slash is parryable and is her main gap closer.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Wu Lengshuang, the Soft Sword (柔剑 武林霜) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}

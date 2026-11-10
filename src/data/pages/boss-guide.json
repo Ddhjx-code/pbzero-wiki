@@ -1,68 +1,70 @@
 {
-  "title": "Phantom Blade Zero Boss Guide - All Known Bosses & Strategies",
-  "description": "Complete Phantom Blade Zero boss guide. All confirmed bosses from demos and trailers, with combat tips and strategies for each encounter.",
+  "slug": "boss-guide",
+  "title": "Phantom Blade Zero Boss Guide - Rules, Regions and the Fights That Stop Runs",
+  "description": "How boss fights work in Phantom Blade Zero: the red, blue and purple flash tells, the Sha-Chi loop, and where every one of the 59 documented bosses sits by region.",
   "keyword": "phantom blade zero boss guide",
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Bosses",
+      "value": "59 documented"
+    },
+    {
+      "label": "Story",
+      "value": "33"
+    },
+    {
+      "label": "Optional",
+      "value": "24"
+    },
+    {
+      "label": "Regions",
+      "value": "9"
+    },
+    {
+      "label": "Normal final boss",
+      "value": "Meng Hua"
+    },
+    {
+      "label": "True final boss",
+      "value": "Zuo Shang, The True Long"
+    }
+  ],
   "sections": [
     {
       "id": "overview",
-      "title": "Boss Fights: What Is Established",
-      "content": "<p>This page covers how boss fights work in general. The roster - who the bosses are, where each was shown - lives on <a href=\"/boss-list\">the boss list</a>, and each fight has its own page recording its specific evidence.</p><p>What is established: S-GAME puts the count at <strong>50 or more bosses</strong>, states that <strong>defeating a boss yields its weapon and its signature technique</strong>, and both are large numbers - 30-plus main weapons and 20-plus Phantom Edges - which is why the boss list doubles as the weapon list. Reviewers who finished the game report <strong>50 to 55 hours</strong> for a full run. What is not established for any individual fight: weaknesses, resistances, phase counts and drops.</p>"
+      "title": "The Short Answer",
+      "content": "<p>Phantom Blade Zero has <strong>59 documented boss encounters</strong> across nine regions: 33 on the critical path and 24 optional. Published counts range from 50 to 62 because some lists fold in rematches, so the number you see elsewhere is not wrong so much as counting something different.</p><p>This page is the hub: the rules that apply to every fight, then the route into the <a href=\"/boss-list\">full roster by region</a> and the individual fights worth reading up on before you walk in.</p>"
     },
     {
-      "id": "confirmed-bosses",
-      "title": "All Confirmed Bosses",
-      "content": "<table><thead><tr><th>Boss</th><th>Source</th><th>Type</th><th>Notes</th></tr></thead><tbody><tr><td><strong><a href=\"/puppet-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Puppet Boss</a> (String Puppet)</strong></td><td>Demo (verified)</td><td>Humanoid</td><td>Puppeteer-style boss. Controls strings for ranged attacks.</td></tr><tr><td><a href=\"/commander-cleave\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Commander Cleave</a></td><td>Demo (verified)</td><td>Large, cleaver</td><td>Second boss of the playable demo, reached after Tie Sha. Cleaver attacks break through a guard, so it is timed rather than blocked.</td></tr><tr><td><strong><a href=\"/huangxing-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Huangxing</a></strong></td><td>Demo (verified)</td><td>Warrior</td><td>Featured in 4K Demo footage. Aggressive melee fighter.</td></tr><tr><td><strong><a href=\"/seven-stars-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Seven Stars</a></strong></td><td>Trailer</td><td>Multi-phase</td><td>Named boss from promotional material.</td></tr><tr><td><strong><a href=\"/lion-dance-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Lion Dance</a></strong></td><td>Trailer</td><td>Beast-type</td><td>Chinese lion dance-inspired boss design.</td></tr><tr><td><strong><a href=\"/drunken-sword-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Drunken Sword</a></strong></td><td>Trailer</td><td>Swordsman</td><td>Uses unpredictable drunken-style sword techniques.</td></tr><tr><td><strong><a href=\"/double-boss-fight\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Double Boss Fight</a></strong></td><td>State of Play 2026</td><td>Dual encounter</td><td>New — two bosses simultaneously. Revealed August 2026.</td></tr><tr><td><a href=\"/the-hunt\">The Hunt</a></td><td>IGN footage Oct 2026</td><td>Assassin, dual chain-axes</td><td>Opening pursuit fight on a moving wagon; shown as a full encounter, not a scripted escape.</td></tr><tr><td><a href=\"/xiaokui-guarded-fight\">Mu Xiaokui (沐小葵) + Yu Yao & Tie Gui</a></td><td>Launch trailer Oct 2026</td><td>Group fight, throws</td><td>New from the launch trailer: she fights with two attendants, the only multi-target boss shown so far.</td></tr><tr><td><a href=\"/changhong-boss\">Changhong (长鸿)</a></td><td>Launch trailer Oct 2026</td><td>Mounted spear</td><td>Returning series veteran, fighting from horseback with a charge-based approach.</td></tr><tr><td><a href=\"/leidang-boss\">Lei Dang (雷当)</a></td><td>Launch trailer Oct 2026</td><td>Wide-area attacks</td><td>Closes the trailer's combat reel with the largest area attack shown in any footage.</td></tr></tbody></table>"
-    },
-    {
-      "id": "puppet-boss",
-      "title": "Puppet Boss (String Puppet) - Demo Verified",
-      "content": "<p>The <strong><a href=\"/puppet-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Puppet Boss</a></strong> was the first boss publicly demonstrated. This puppeteer-like opponent uses strings to control attacks from range while delivering swift melee strikes up close.</p><h3>What The Footage Shows</h3><ul><li><strong>String attacks</strong> - Ranged strings that sweep the arena, shown in the 4K demo.</li><li><strong>Puppet summons</strong> - Smaller puppet enemies appear during the encounter; their spawn rules are not documented.</li><li><strong>Close-range combos</strong> - Fast melee sequences at close range, per the same footage.</li></ul><p>No weakness, phase count, drop or timing data has been published for this fight. The mechanics above are what S-GAME chose to show publicly; anything beyond that is inference, and there is a full strategy-free record on the <a href=\"/puppet-boss\">boss page</a>.</p>"
-    },
-    {
-      "id": "huangxing",
-      "title": "Huangxing — Demo Verified",
-      "content": "<p><strong><a href=\"/huangxing-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Huangxing</a></strong> is an aggressive warrior boss featured in the 4K Demo. Known for relentless pressure and powerful sword techniques.</p><p>The director described this boss as somewhat Soulslike at the middle difficulty, which in context means predictable, learnable combos rather than adaptive behaviour. No weakness, phase or drop data is published; details on the <a href=\"/huangxing-boss\">boss page</a>.</p>"
+      "id": "rules",
+      "title": "The Three Colours That Decide Every Fight",
+      "content": "<p>There is no elemental weakness system, so the usual resistance tables do not apply. What the game uses instead is a colour language on enemy attacks, and it is the single most valuable thing to internalise:</p><table><thead><tr><th>Tell</th><th>Meaning</th><th>Answer</th></tr></thead><tbody><tr><td><strong>Red flash</strong></td><td>Unblockable attack</td><td>Dodge — guarding does nothing</td></tr><tr><td><strong>Blue flash</strong></td><td>Parryable attack</td><td>Deflect for the fastest Sha-Chi drain</td></tr><tr><td><strong>Purple flash</strong></td><td>The boss just parried you</td><td>Stop attacking; a counter is coming</td></tr></tbody></table><p>The purple flash is the one that ends runs, because it looks like an opening. See <a href=\"/combat\">the combat system</a> for how Sha-Chi, Ghoststep and guard breaks fit together.</p>"
     },
     {
       "id": "general-tips",
-      "title": "How The Mechanics Apply To Boss Fights",
-      "content": "<p>No move-by-move strategy is published for any boss before release, so this section is limited to what the ported combat data actually supports. Each line links to the page it comes from.</p><ul><li><strong>Draining the enemy&apos;s Sha-chi is the opening.</strong> Normal attacks cannot reduce an enemy&apos;s bar; Sha-chi attacks and making them block can. When a bar empties that side is guard-broken, takes extra damage and cannot block. Details: <a href=\"/combat\">combat</a>.</li><li><strong>Telegraph colours decide the answer, not the boss.</strong> White-glow attacks can be precisely guarded; red-glow attacks cannot be blocked and want a precise dodge; both feed Ghost Step, which moves you behind the enemy where the follow-up cannot be blocked. Black-glow costs an enormous amount of Sha-chi to block. This is why coverage keeps reducing the game to &quot;master parry timing&quot;.</li><li><strong>Switching weapons is a resource reset, not just a damage change.</strong> The community combat write-up describes the swap refilling the Sha-chi bar and clearing guard break, at the cost of a cooldown on the weapon you swapped out. Carrying two <a href=\"/weapons\">main weapons</a> with different profiles is therefore a defensive option as much as an offensive one.</li><li><strong>You cannot grind past a wall.</strong> There is no XP system; growth comes from equipment, found <a href=\"/collectibles\">collectibles</a> and <a href=\"/weapons\">weapon upgrades</a>, and defeated enemies do not simply repopulate when you rest. If a boss stops you, the intended answer is a different loadout, not a detour to level up.</li><li><strong>Bells are the rest point.</strong> They clear map fog, restore combat resources and fast-travel - and in <a href=\"/difficulty-modes\">66 Days</a> they are the only save. Outside that mode, dying does not advance any day counter; the 66-day clock belongs to that mode alone.</li></ul><p>What reviewers say to expect from the fights themselves: the praise is consistent - &quot;truly spectacular&quot; (Saudi Gamer, 100), bosses that &quot;burst with invention&quot; (Areajugones, 95) - and so is one criticism, that boss pacing can feel like taking turns (Eurogamer, 6/10) and that some fights run long (Critical Hits, leaked pre-embargo). Full scores on <a href=\"/reviews\">the reviews page</a>.</p>"
+      "title": "What Works on Almost Everything",
+      "content": "<ul><li>Deflect blue flashes to drain Sha-Chi — it is the fastest way to open a damage window, faster than hitting.</li><li>Dodge red flashes instead of blocking. Every guide that mentions the system says the same thing.</li><li>Break guard with Sha-Chi attacks rather than chipping health through a raised guard.</li><li>Swap weapons mid-fight: switching refills stamina, which is what keeps a combo alive.</li><li>Hold Power Surge for the window you have already created, never to create one.</li><li>When a boss will not take damage at all, look for the smoke or shimmer effect — that is an invulnerability state you have to break, not out-damage.</li></ul>"
     },
     {
-      "id": "what-changed-this-week",
-      "title": "What changed this week",
-      "content": "<p>The director stated in October that the game has <strong>at least 50 bosses</strong>, and that the count tracks the weapon count because defeating a boss is how its weapon is earned. The boss list is therefore the closest thing to a weapon list.</p><p>A boss called <strong><a href=\"/the-hunt\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Hunt</a></strong> was shown in IGN footage on 13 October - the assassin Soul fights on the moving cart in the opening, here as a full encounter. What it drops has not been announced.</p><p><strong>26-27 October:</strong> the review wave arrived, which put the first outside numbers on length (50 and 55 hours) and the first real criticism of boss pacing. The strategy advice above was rewritten at the same time: the previous version told readers to &quot;level up elsewhere&quot; when stuck and warned that death advances a 66-day timer. Both were wrong - there is no XP system, and the day counter exists only in 66 Days mode.</p>"
-    }
-  ],
-  "facts": [
-    {
-      "label": "Status",
-      "value": "Pre-launch - demo and trailer information only"
+      "id": "regions",
+      "title": "Bosses by Region",
+      "content": "<table><thead><tr><th>Region</th><th>Bosses</th><th>Index</th></tr></thead><tbody><tr><td>Prologue & Weeping Creek Valley</td><td>7</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Crimson Manor & Crimson Forest</td><td>8</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Village of Lu</td><td>7</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Pangzhen</td><td>11</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Mandate Encampment</td><td>6</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Meigu Lake</td><td>6</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Mountain of Imprisonment</td><td>5</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Mirage Estate</td><td>3</td><td><a href=\"/boss-list\">roster</a></td></tr><tr><td>Mount Soulrend & endgame</td><td>6</td><td><a href=\"/boss-list\">roster</a></td></tr></tbody></table><p>Full names, story or optional status, location and drops are in the <a href=\"/boss-list\">boss list</a>; every row there links to the individual fight page.</p>"
     },
     {
-      "label": "Confirmed via",
-      "value": "Official demos, trailers, and the August 2026 State of Play"
+      "id": "spikes",
+      "title": "The Fights That Actually Stop People",
+      "content": "<ul><li><a href=\"/gu-wanyue\">Gu Wanyue — immune until the Sha-Chi bar breaks</a></li><li><a href=\"/wu-lengshuang-the-soft-sword\">Wu Lengshuang — a parry duel with a purple-flash counter</a></li><li><a href=\"/bai-chilian-lady-of-the-twin-serpents\">Bai Chilian — the attack set changes mid-fight</a></li><li><a href=\"/bi-feng-giant-saber-commander\">Bi Feng — sweeping attacks and a guard that has to be broken</a></li><li><a href=\"/leidang-boss\">Lei Dang — two phases, and the Tiger Cannon behind them</a></li><li><a href=\"/zuo-shang-the-true-long\">Zuo Shang — the true-ending final boss</a></li></ul><p>Everything else in the roster folds into two habits: read the flash colour, and stop pressing attack when the boss tells you to stop.</p>"
     },
     {
-      "label": "Puppet Boss",
-      "value": "Humanoid puppeteer, string-based ranged attacks (demo verified)"
+      "id": "endings",
+      "title": "Which Boss Ends Which Ending",
+      "content": "<p>The normal ending closes on <strong>Meng Hua</strong>; the true ending continues past her to <strong>Zuo Shang, The True Long</strong>, and the final scripted encounter only fires if the true-ending checklist is complete. The requirements are on the <a href=\"/true-ending\">true ending page</a>, and the four endings themselves are on <a href=\"/endings\">endings</a>.</p>"
     },
     {
-      "label": "Huangxing",
-      "value": "Aggressive warrior, fast multi-hit sword combos (demo verified)"
-    },
-    {
-      "label": "Seven Stars",
-      "value": "Confirmed from trailer footage"
-    },
-    {
-      "label": "Boss rewards",
-      "value": "Unique weapons not available elsewhere"
-    },
-    {
-      "label": "Total bosses",
-      "value": "At least 50, per the director (October 2026)"
+      "id": "status",
+      "title": "Sources",
+      "content": "<p>Roster, locations and drops are compiled from published post-launch guides (NoobFeed, Game8, GamesRadar, 游侠网) and cross-checked against each other; where they disagree the individual fight page says so. Attack patterns and colour tells are only written where a guide describes the fight — the 2 encounters without published notes are marked as unconfirmed rather than filled with filler.</p>"
     }
   ]
 }

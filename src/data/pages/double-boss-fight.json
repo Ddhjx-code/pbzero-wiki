@@ -1,49 +1,57 @@
 {
   "slug": "double-boss-fight",
-  "title": "Double Boss Fight - Everything Confirmed So Far (Phantom Blade Zero)",
-  "description": "Double Boss Fight in Phantom Blade Zero - what has been confirmed about the encounter, its elemental weakness, rewards and how to approach it.",
-  "keyword": "Double Boss Fight phantom blade zero",
-  "lastUpdated": "2026-10-27",
+  "title": "Jade Dancer and Iron Fiend - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Jade Dancer and Iron Fiend in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Jade Dancer and Iron Fiend phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
   "facts": [
     {
-      "label": "Weak to",
-      "value": "Not confirmed pre-launch"
+      "label": "Location",
+      "value": "Crimson Forest"
     },
     {
-      "label": "First shown",
-      "value": "State of Play, August 2026"
+      "label": "Appears in",
+      "value": "Crimson Manor & Crimson Forest"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "Fiend Saws (via the Mu Xiaokui encounter)"
     }
   ],
   "sections": [
     {
       "id": "overview",
       "title": "Overview",
-      "content": "<p>A simultaneous two-boss encounter revealed in the August 2026 State of Play showcase. It is the only major new mechanic revealed at that broadcast, and the one that most changes how the fight system reads - everything about positioning, parry priority and target selection becomes a different problem with two health bars at once.</p>"
+      "content": "<p>Jade Dancer and Iron Fiend is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Fiend Saws (via the Mu Xiaokui encounter).</p>"
     },
     {
       "id": "how-to-find",
-      "title": "Where to Find the Double Boss Fight",
-      "content": "<p><strong>First shown:</strong> State of Play, August 2026.</p>"
+      "title": "Where to Find the Jade Dancer and Iron Fiend",
+      "content": "<p><strong>Location:</strong> Crimson Forest.</p><p><strong>Appears in:</strong> Crimson Manor & Crimson Forest.</p>"
     },
     {
       "id": "weakness",
-      "title": "Weakness & Resistances",
-      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed pre-launch</td></tr><tr><td>Resists</td><td>Not confirmed pre-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed pre-launch</td></tr><tr><td>Immune</td><td>Not confirmed pre-launch</td></tr></tbody></table><p>Not confirmed pre-launch. S-GAME has not published elemental affinities for this encounter, and no demo footage shows one being exploited. Nothing here is estimated from the boss's appearance - that is exactly how wrong weakness tables get written before release.</p>"
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
     },
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<p>Not confirmed pre-launch. Bosses in Phantom Blade Zero are described by S-GAME as rewarding unique weapons on defeat, but no drop table has been published for this encounter, so none is listed here.</p>"
+      "content": "<ul><li>Fiend Saws (via the Mu Xiaokui encounter)</li></ul>"
     },
     {
       "id": "strategy",
-      "title": "How to Beat the Double Boss Fight",
-      "content": "<h3>What has actually been shown</h3><ul><li>Two bosses fought simultaneously</li><li>Revealed August 2026 at the State of Play deep dive</li><li>No individual boss names released for the pairing</li></ul><p>Everything above comes from footage S-GAME released. Anything not listed has not been shown, however confident a write-up elsewhere looks.</p><h3>How to approach it</h3><p>There is no honest strategy section for an encounter nobody outside the studio has finished. What can be said comes from the systems rather than from the fight: blocking and heavy attacks both spend <a href=\"/combat\">Sha-chi</a>, so a defensive player who blocks everything runs out of the resource at the worst moment. Unblockable attacks have to be dodged, which means reading the animation rather than relying on the guard.</p><p>Real phase data, parry windows and timings land here once the game ships.</p>"
+      "title": "How to Beat the Jade Dancer and Iron Fiend",
+      "content": "<h3>What works</h3><ul><li>Two guardians at once - keep both in frame and never let them bracket you.</li><li>Kill order matters more than damage output here.</li></ul>"
     },
     {
       "id": "status",
-      "title": "Pre-launch Status",
-      "content": "<p>This page tracks the Double Boss Fight in Phantom Blade Zero, which releases on <a href=\"/release-date\">October 29, 2026</a>. It is written from official demo and trailer material only. After release it gets updated with verified fight data; see the <a href=\"/boss-guide\">boss guide</a> for the full roster and the <a href=\"/boss-video-guides\">video guide index</a> for walkthroughs.</p><p>Part of the <a href=\"/boss-list\">full boss list</a> - 11 named encounters against the 50-plus the director states.</p>"
+      "title": "Status",
+      "content": "<p>This page tracks the Jade Dancer and Iron Fiend in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
     }
   ]
 }

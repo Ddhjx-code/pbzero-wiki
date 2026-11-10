@@ -4,6 +4,21 @@
       "source": "/blades",
       "destination": "/weapons",
       "permanent": true
+    },
+    {
+      "source": "/puppet-boss",
+      "destination": "/boss-list",
+      "permanent": true
+    },
+    {
+      "source": "/commander-cleave",
+      "destination": "/boss-list",
+      "permanent": true
+    },
+    {
+      "source": "/drunken-sword-boss",
+      "destination": "/boss-list",
+      "permanent": true
     }
   ]
 }

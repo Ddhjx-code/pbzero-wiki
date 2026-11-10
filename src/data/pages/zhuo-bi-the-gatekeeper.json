@@ -1,0 +1,57 @@
+{
+  "slug": "zhuo-bi-the-gatekeeper",
+  "title": "Zhuo Bi, the Gatekeeper - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Zhuo Bi, the Gatekeeper in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Zhuo Bi, the Gatekeeper phantom blade zero boss",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Location",
+      "value": "Village of Lu approach"
+    },
+    {
+      "label": "Appears in",
+      "value": "Village of Lu"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - see counters"
+    },
+    {
+      "label": "Drops",
+      "value": "Bastion"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Zhuo Bi, the Gatekeeper is a story encounter in Village of Lu, found at Village of Lu approach. Beating it yields Bastion.</p>"
+    },
+    {
+      "id": "how-to-find",
+      "title": "Where to Find the Zhuo Bi, the Gatekeeper",
+      "content": "<p><strong>Location:</strong> Village of Lu approach.</p><p><strong>Appears in:</strong> Village of Lu.</p>"
+    },
+    {
+      "id": "weakness",
+      "title": "Weaknesses and Counters",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    },
+    {
+      "id": "rewards",
+      "title": "Rewards",
+      "content": "<ul><li>Bastion</li></ul>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat the Zhuo Bi, the Gatekeeper",
+      "content": "<h3>What works</h3><ul><li>Strong guard-breaking attacks are the intended answer - chip damage takes too long.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "Status",
+      "content": "<p>This page tracks the Zhuo Bi, the Gatekeeper in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+    }
+  ]
+}
