@@ -38,3 +38,9 @@ next-env.d.ts
 
 # local scratch (package tarballs / npm cache, never commit)
 /.tmppkg/
+
+# service-account keys and report output (this repo is public)
+/.secrets/
+/reports/
+*-service-account*.json
+gcp-sa*.json
