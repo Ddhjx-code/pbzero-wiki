@@ -182,7 +182,13 @@ TIPS = {
         "Her combinations change; watch a full string before committing to a counter.",
     ],
     "Jade-Face": [
+        "He fights with two clones, so the arena holds three enemies at once - turn lock-on off and kill a clone first.",
+        "His teleport strings end in a parryable overhead or a two-handed slash; the blue flash on the final hit is the tell.",
         "Punish the openings rather than forcing them; the reward is Seamless Death.",
+    ],
+    "Huangxing, the Kunlun Renegade": [
+        "Optional boss at the end of the Mountain of Imprisonment; the Crossroads of Blood trophy is the only thing pointing at him.",
+        "The fight shares a bell with Jade-Face but not a reward table - Huangxing drops the Flying Guillotine and the Void Bloom Fan.",
     ],
     "Yu Ding": [
         "Avoid the wide sweeps and strike after the recovery - the Crescent Blade puppet telegraphs heavily.",
@@ -284,7 +290,7 @@ OVERRIDE_SLUGS = {
     "Chief Disciple of the Seven-Stars Formation": "seven-stars-boss",
     "Flame, the Lion Dance Grandmaster (舞狮尊主 烈焰)": "lion-dance-boss",
     "Mu Xiaokui, Young Mistress of the Order (沐小葵)": "xiaokui-guarded-fight",
-    "Jade-Face": "huangxing-boss",
+    "Huangxing, the Kunlun Renegade": "huangxing-boss",
     "Jade Dancer and Iron Fiend": "double-boss-fight",
 }
 
@@ -325,7 +331,8 @@ def main():
     out = []
     for row in rows:
         name = row["name"]
-        slug = OVERRIDE_SLUGS.get(name) or slugify(name)
+        stem = re.sub(r"\s*\([^)]*\)", "", name).strip()
+        slug = OVERRIDE_SLUGS.get(name) or OVERRIDE_SLUGS.get(stem) or slugify(name)
         if slug in seen:
             seen[slug] += 1
             slug = f"{slug}-{seen[slug]}"

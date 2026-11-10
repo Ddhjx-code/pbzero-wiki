@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Baishan Stormswords</li></ul>"
+      "content": "<ul><li><a href=\"/baishan-stormswords\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Baishan Stormswords</a></li></ul>"
     },
     {
       "id": "strategy",

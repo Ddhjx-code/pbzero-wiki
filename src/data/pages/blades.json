@@ -1,0 +1,67 @@
+{
+  "slug": "blades",
+  "title": "Blades in Phantom Blade Zero - the 26 With a Recorded Location",
+  "description": "All 26 blades in Phantom Blade Zero, grouped by one-handed, dual-wield and two-handed, with where each one is found and what its property does. Every entry links to its own page.",
+  "keyword": "phantom blade zero blades, primary weapons phantom blade zero, all weapons list",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Primary"
+    },
+    {
+      "label": "Carried at once",
+      "value": "2"
+    },
+    {
+      "label": "Records with a location",
+      "value": "26"
+    },
+    {
+      "label": "Official total",
+      "value": "More than 30 (August 2026 deep dive)"
+    },
+    {
+      "label": "Counterpart",
+      "value": "Phantom Edges"
+    },
+    {
+      "label": "Swap effect",
+      "value": "Refills stamina"
+    }
+  ],
+  "section_order": [
+    "overview",
+    "list",
+    "swap",
+    "acquisition",
+    "status"
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "What Blades Are",
+      "content": "<p>Blades are the <strong>primary</strong> weapon class in Phantom Blade Zero. Soul carries <strong>two of them at the same time</strong>, alongside two <a href=\"/phantom-edges\">Phantom Edges</a> in the secondary slots - a 2 + 2 loadout rather than one weapon plus an off-hand.</p><p>This page lists the <strong>26 blades</strong> that have a recorded acquisition point, split across three families: one-handed, dual-wield and two-handed. S-GAME put the shipped total at more than 30, so this is not the whole roster - it is the part a source ties to a location, which is the only part you can act on.</p><p>The family split is the actual choice, because reach, speed and guard-break trade against each other through the weapon rather than through a stat line.</p>"
+    },
+    {
+      "id": "list",
+      "title": "The 26 Recorded Blades",
+      "content": "<h3>One-handed (10)</h3><table><thead><tr><th>Blade</th><th>How to obtain</th><th>Property</th></tr></thead><tbody><tr><td><a href=\"/aureate\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Aureate</a></td><td>Defeat Zuo Shang at Mount Soulrend</td><td>Mimics Zuo Shang's Golden Sword Energy</td></tr><tr><td><a href=\"/freezing-chaos\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Freezing Chaos</a></td><td>Crimson Forest, Threadbound Great Tree (one checklist attributes it to Yucong, No. 34)</td><td>-</td></tr><tr><td><a href=\"/infernal-rouge\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Infernal Rouge (炼狱红妆)</a></td><td>Temper Sanguine at level 5 (grants Bloodline Rebirth)</td><td>-</td></tr><tr><td><a href=\"/jagged-steel\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Jagged Steel (残钢)</a></td><td>Weeping Creek Valley, Rustblade Pavilion bell</td><td>Slashes cause Bleeding</td></tr><tr><td><a href=\"/sanguine\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Sanguine (血刃)</a></td><td>Story reward - the starting blade</td><td>Tempers into Infernal Rouge at level 5</td></tr><tr><td><a href=\"/soft-snake-sword\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Soft Snake Sword (灵蛇软剑)</a></td><td>Mandate Encampment, Path of the Baishan's Fall</td><td>Deflects attacks and cuts threads</td></tr><tr><td><a href=\"/the-fanatics-broken-blade\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Fanatic's Broken Blade</a></td><td>Crimson Forest, Pangzhen Bridge Overlook</td><td>Drinking lets the blade be thrown</td></tr><tr><td><a href=\"/tianxuan-bronze-sword\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Tianxuan Bronze Sword</a></td><td>Village of Lu, The Lady Grounds bell</td><td>High shield-break</td></tr><tr><td><a href=\"/wild-oriole-sword\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Wild Oriole Sword</a></td><td>Village of Lu, Puppet Testing Grounds (Mu Xiaokui's blade)</td><td>-</td></tr><tr><td><a href=\"/wooden-sanguine\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Wooden Sanguine</a></td><td>Story reward - Soul's childhood blade</td><td>-</td></tr></tbody></table><h3>Dual-wield (8)</h3><table><thead><tr><th>Blade</th><th>How to obtain</th><th>Property</th></tr></thead><tbody><tr><td><a href=\"/baishan-stormswords\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Baishan Stormswords</a></td><td>Mandate Encampment, Training Grounds - defeat Yubi, No. 21</td><td>-</td></tr><tr><td><a href=\"/fiend-saws\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Fiend Saws</a></td><td>Village of Lu, Puppet Testing Grounds (Jade Dancer's leg-mounted saws)</td><td>-</td></tr><tr><td><a href=\"/parting-hooks\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Parting Hooks (离别钩)</a></td><td>Pangzhen, Dockside Warehouse</td><td>Guard stance counters melee</td></tr><tr><td><a href=\"/sanguine-twin\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Sanguine Twin (血刃双刀)</a></td><td>Weeping Creek Valley, First Meeting with Yu'er bell</td><td>-</td></tr><tr><td><a href=\"/seamless-death\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Seamless Death (无间死环)</a></td><td>Mountain of Imprisonment, The Lady's Shrine</td><td>Ring blades can be hurled</td></tr><tr><td><a href=\"/sundering-dual-axes\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Sundering Dual Axes (裂空双斧)</a></td><td>Meigu Lake, White Serpent House - defeat Heartpiercer</td><td>-</td></tr><tr><td><a href=\"/the-ladys-fan\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Lady's Fan (仕女扇)</a></td><td>Mount Soulrend, The Fallen Dream - defeat Meng Hua</td><td>-</td></tr><tr><td><a href=\"/white-serpent-and-crimson-viper\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">White Serpent & Crimson Viper</a></td><td>Defeat Bai Chilian, Lady of the Twin Serpents</td><td>-</td></tr></tbody></table><h3>Two-handed (8)</h3><table><thead><tr><th>Blade</th><th>How to obtain</th><th>Property</th></tr></thead><tbody><tr><td><a href=\"/armybreaker\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Armybreaker (破军)</a></td><td>Pangzhen, Marketplace - defeat Cavalrybane</td><td>-</td></tr><tr><td><a href=\"/blazing-edge\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Blazing Edge (炽刃)</a></td><td>Temper Sanguine Reach with Scorched Flame shards</td><td>-</td></tr><tr><td><a href=\"/bonesaw\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Bonesaw</a></td><td>Mount Soulrend, Giant's Lair bell</td><td>-</td></tr><tr><td><a href=\"/crescent-blade\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Crescent Blade</a></td><td>Mirage Estate, Training Grounds - defeat Yuding, No. 12</td><td>-</td></tr><tr><td><a href=\"/juggernaut\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Juggernaut (巨神兵)</a></td><td>Mountain of Imprisonment, Commander's Platform - defeat Bi Feng</td><td>-</td></tr><tr><td><a href=\"/sanguine-reach\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Sanguine Reach</a></td><td>Weeping Creek Valley</td><td>Tempers into Blazing Edge</td></tr><tr><td><a href=\"/shadowless-edge\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Shadowless Edge (无影风)</a></td><td>Temper Sanguine Twin (listed by one checklist; not independently verified)</td><td>-</td></tr><tr><td><a href=\"/whiteshadow\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Whiteshadow (白影)</a></td><td>Meigu Lake, Whiteshadow's Fall (four masks + Blizzard Blademaster)</td><td>-</td></tr></tbody></table>"
+    },
+    {
+      "id": "swap",
+      "title": "Why Switching Matters More Than Which Blade",
+      "content": "<p>Switching weapons <strong>refills stamina immediately</strong> and lets a combo continue. That single mechanic is why the combat reads closer to <em>Ninja Gaiden</em> than to a FromSoftware fight: the aggressive line is sustainable because the resource comes back on the swap.</p><p><a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and on blocking. Because both spend it, blocking everything runs the resource dry at the worst moment.</p>"
+    },
+    {
+      "id": "acquisition",
+      "title": "How Blades Are Obtained",
+      "content": "<p>Three routes cover almost the whole list. <strong>Boss drops</strong> are the largest group - the game gives you the weapon of the thing that killed you. <strong>World pickups</strong> hang off bells and outposts and are the ones people walk past. <strong>Tempering</strong> converts Sanguine and Sanguine Reach into their upgraded forms, which is why the starting blade is not a throwaway.</p><p>The weapon-by-weapon table is on <a href=\"/weapons\">the weapons hub</a>.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This is a tier-2 index: it aggregates the blade entries generated from <code>src/data/entities/weapons.json</code>. See <a href=\"/weapons\">the weapons hub</a> for the system as a whole and <a href=\"/phantom-edges\">Phantom Edges</a> for the secondary slot.</p>"
+    }
+  ]
+}

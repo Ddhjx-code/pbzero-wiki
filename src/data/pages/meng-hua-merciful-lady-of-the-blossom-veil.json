@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>The Lady's Fan</li></ul>"
+      "content": "<ul><li><a href=\"/the-ladys-fan\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Lady's Fan</a></li></ul>"
     },
     {
       "id": "strategy",

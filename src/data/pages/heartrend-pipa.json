@@ -1,0 +1,65 @@
+{
+  "slug": "heartrend-pipa",
+  "title": "Heartrend Pipa - Stats, Combo & How to Get (Phantom Blade Zero)",
+  "description": "Heartrend Pipa in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
+  "keyword": "Heartrend Pipa phantom blade zero",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Secondary (Phantom Edge)"
+    },
+    {
+      "label": "Class",
+      "value": "Instrument"
+    },
+    {
+      "label": "Damage",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Scaling",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Special property",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "How to obtain",
+      "value": "Village of Lu, Puppet Testing Grounds - defeat Yuzan"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Heartrend Pipa is a instrument in Phantom Blade Zero's secondary weapon set. Yuzan's instrument - one of the Four Freed, so it is on the platinum path.</p>"
+    },
+    {
+      "id": "classification",
+      "title": "Weapon Class and Slot",
+      "content": "<p>Heartrend Pipa occupies the <strong>Secondary (Phantom Edge)</strong> slot, and it is classed as <strong>Instrument</strong>. Soul carries two primary blades and two secondary <a href=\"/phantom-edges\">Phantom Edges</a> at once, and switching between the four refills stamina rather than costing it - which is what keeps a combo chain running. <a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks. The full class lists are on the <a href=\"/phantom-edges\">Phantom Edge index</a>.</p>"
+    },
+    {
+      "id": "stats",
+      "title": "Stats and Effects",
+      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+    },
+    {
+      "id": "combo",
+      "title": "How It Plays",
+      "content": "<p>Not confirmed post-launch. No verified note on how this weapon behaves inside a combo has been published, so nothing is written here.</p>"
+    },
+    {
+      "id": "acquisition",
+      "title": "How to Obtain",
+      "content": "<p><strong>Village of Lu, Puppet Testing Grounds - defeat Yuzan.</strong></p><p>Dropped by <a href=\"/yuzan-the-musician-puppet\">Yuzan, the Musician Puppet</a> - see that page for the fight itself, and <a href=\"/boss-drops\">boss drops</a> for the reverse list.</p><p>Acquisition points are taken from the acquisition table on <a href=\"/weapons\">the weapons hub</a>, which is kept in step with this page - if a route is corrected there, it is corrected here.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This page tracks Heartrend Pipa in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+    }
+  ]
+}

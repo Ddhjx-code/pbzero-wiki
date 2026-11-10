@@ -1,13 +1,13 @@
 {
   "redirects": [
     {
-      "source": "/blades",
-      "destination": "/weapons",
+      "source": "/the-hunt",
+      "destination": "/hunt",
       "permanent": true
     },
     {
       "source": "/puppet-boss",
-      "destination": "/boss-list",
+      "destination": "/puppet-scavenger",
       "permanent": true
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "source": "/drunken-sword-boss",
-      "destination": "/boss-list",
+      "destination": "/hua-qianxiao-the-sword-fanatic",
       "permanent": true
     }
   ]

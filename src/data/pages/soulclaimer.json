@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Parting Hooks</li></ul>"
+      "content": "<ul><li><a href=\"/parting-hooks\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Parting Hooks</a></li></ul>"
     },
     {
       "id": "strategy",

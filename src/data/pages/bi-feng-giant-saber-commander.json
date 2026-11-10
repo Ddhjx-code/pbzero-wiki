@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Juggernaut</li></ul>"
+      "content": "<ul><li><a href=\"/juggernaut\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Juggernaut</a></li></ul>"
     },
     {
       "id": "strategy",

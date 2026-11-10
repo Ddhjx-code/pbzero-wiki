@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Sundering Dual Axes</li></ul>"
+      "content": "<ul><li><a href=\"/sundering-dual-axes\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Sundering Dual Axes</a></li></ul>"
     },
     {
       "id": "strategy",

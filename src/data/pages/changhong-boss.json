@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Thunder Spear</li></ul>"
+      "content": "<ul><li><a href=\"/thunder-spear\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Thunder Spear</a></li></ul>"
     },
     {
       "id": "strategy",

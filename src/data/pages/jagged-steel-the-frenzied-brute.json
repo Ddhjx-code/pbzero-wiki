@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Jagged Steel</li></ul>"
+      "content": "<ul><li><a href=\"/jagged-steel\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Jagged Steel</a></li></ul>"
     },
     {
       "id": "strategy",

@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Fiend Saws (via the Mu Xiaokui encounter)</li></ul>"
+      "content": "<ul><li><a href=\"/fiend-saws\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Fiend Saws (via the Mu Xiaokui encounter)</a></li></ul>"
     },
     {
       "id": "strategy",

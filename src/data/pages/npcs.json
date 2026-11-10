@@ -1,17 +1,17 @@
 {
   "slug": "npcs",
   "title": "Phantom Blade Zero NPCs - Non-Playable Characters",
-  "description": "Every confirmed non-playable character in Phantom Blade Zero. The game is single-player and Soul is the only character you control, so the rest of the cast are NPCs.",
+  "description": "Every recorded non-playable character in Phantom Blade Zero. The game is single-player and Soul is the only character you control, so the rest of the cast are NPCs.",
   "keyword": "phantom blade zero npcs, phantom blade zero characters list",
-  "lastUpdated": "2026-10-10",
+  "lastUpdated": "2026-11-10",
   "facts": [
     {
       "label": "Playable characters",
       "value": "1 - Soul only"
     },
     {
-      "label": "Confirmed NPCs",
-      "value": "Not confirmed pre-launch"
+      "label": "Recorded NPCs",
+      "value": "0"
     },
     {
       "label": "Mode",
@@ -32,8 +32,8 @@
     },
     {
       "id": "list",
-      "title": "Confirmed NPCs",
-      "content": "<p>No entries have been confirmed yet. This table is generated from <code>src/data/entities/</code>, so it fills itself as each entity is verified against the shipped game - nothing here is hand-typed and nothing is estimated.</p>"
+      "title": "Recorded NPCs",
+      "content": "<p>No entries have been recorded yet. This table is generated from <code>src/data/entities/</code>, so it fills itself as each entity is verified against the shipped game - nothing here is hand-typed and nothing is estimated.</p>"
     },
     {
       "id": "confusion",
@@ -43,7 +43,7 @@
     {
       "id": "status",
       "title": "Source Status",
-      "content": "<p>Tier-2 index generated from <code>src/data/entities/characters.json</code>. The narrative cast is described on <a href=\"/characters\">characters</a>; the protagonist has his own page at <a href=\"/protagonist\">Soul</a>.</p>"
+      "content": "<p>Tier-2 index generated from <code>src/data/entities/characters.json</code>. The narrative cast is described on <a href=\"/characters\">characters</a>; the protagonist has his own page at <a href=\"/protagonist\">Soul</a>. The boss cast lives on <a href=\"/boss-list\">the boss list</a>, because they are fights rather than NPCs.</p>"
     }
   ]
 }

@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Tiger Cannon</li></ul>"
+      "content": "<ul><li><a href=\"/tiger-cannon\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Tiger Cannon</a></li></ul>"
     },
     {
       "id": "strategy",

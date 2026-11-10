@@ -1,13 +1,13 @@
 {
   "slug": "huangxing-boss",
-  "title": "Jade-Face - Location, Tactics & Rewards (Phantom Blade Zero)",
-  "description": "Jade-Face in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
-  "keyword": "Jade-Face phantom blade zero boss",
+  "title": "Huangxing, the Kunlun Renegade (荒行子) - Location, Tactics & Rewards (Phantom Blade Zero)",
+  "description": "Huangxing, the Kunlun Renegade (荒行子) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "keyword": "Huangxing, the Kunlun Renegade (荒行子) phantom blade zero boss",
   "lastUpdated": "2026-11-10",
   "facts": [
     {
       "label": "Location",
-      "value": "The Lady's Shrine"
+      "value": "The Lady's Shrine - end of the region"
     },
     {
       "label": "Appears in",
@@ -19,19 +19,19 @@
     },
     {
       "label": "Drops",
-      "value": "Seamless Death"
+      "value": "Flying Guillotine, Void Bloom Fan"
     }
   ],
   "sections": [
     {
       "id": "overview",
       "title": "Overview",
-      "content": "<p>Jade-Face is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine. Beating it yields Seamless Death.</p>"
+      "content": "<p>Huangxing, the Kunlun Renegade (荒行子) is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - end of the region. Beating it yields Flying Guillotine, Void Bloom Fan.</p>"
     },
     {
       "id": "how-to-find",
-      "title": "Where to Find the Jade-Face",
-      "content": "<p><strong>Location:</strong> The Lady's Shrine.</p><p><strong>Appears in:</strong> Mountain of Imprisonment.</p>"
+      "title": "Where to Find the Huangxing, the Kunlun Renegade (荒行子)",
+      "content": "<p><strong>Location:</strong> The Lady's Shrine - end of the region.</p><p><strong>Appears in:</strong> Mountain of Imprisonment.</p>"
     },
     {
       "id": "weakness",
@@ -41,17 +41,17 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Seamless Death</li></ul>"
+      "content": "<ul><li>Flying Guillotine, Void Bloom Fan</li></ul>"
     },
     {
       "id": "strategy",
-      "title": "How to Beat the Jade-Face",
-      "content": "<h3>What works</h3><ul><li>Punish the openings rather than forcing them; the reward is Seamless Death.</li></ul>"
+      "title": "How to Beat the Huangxing, the Kunlun Renegade (荒行子)",
+      "content": "<h3>What works</h3><ul><li>Optional boss at the end of the Mountain of Imprisonment; the Crossroads of Blood trophy is the only thing pointing at him.</li><li>The fight shares a bell with Jade-Face but not a reward table - Huangxing drops the Flying Guillotine and the Void Bloom Fan.</li></ul>"
     },
     {
       "id": "status",
       "title": "Status",
-      "content": "<p>This page tracks the Jade-Face in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+      "content": "<p>This page tracks the Huangxing, the Kunlun Renegade (荒行子) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
     }
   ]
 }

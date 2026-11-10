@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Fire Meteor</li></ul>"
+      "content": "<ul><li><a href=\"/fire-meteor\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Fire Meteor</a></li></ul>"
     },
     {
       "id": "strategy",

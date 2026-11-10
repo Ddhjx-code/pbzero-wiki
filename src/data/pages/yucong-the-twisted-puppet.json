@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Freezing Chaos</li></ul>"
+      "content": "<ul><li><a href=\"/freezing-chaos\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Freezing Chaos</a></li></ul>"
     },
     {
       "id": "strategy",

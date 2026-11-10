@@ -1,0 +1,43 @@
+{
+  "slug": "sword-against-the-seven-stars",
+  "title": "Sword Against the Seven-Stars - How to Earn & Missable Status (Phantom Blade Zero)",
+  "description": "Sword Against the Seven-Stars trophy in Phantom Blade Zero - how to earn it, whether it is missable, and rarity once the list is public.",
+  "keyword": "Sword Against the Seven-Stars phantom blade zero trophy",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Rarity",
+      "value": "Silver"
+    },
+    {
+      "label": "Hidden",
+      "value": "Yes"
+    },
+    {
+      "label": "Missable",
+      "value": "No"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>The Seven-Stars are a formation rather than a single enemy, so the fight is about reading several attackers at once. See the disambiguation page for what the name refers to in each context.</p>"
+    },
+    {
+      "id": "how",
+      "title": "How to Earn",
+      "content": "<p>Defeat the Chief Disciple of the Seven-Stars.</p>"
+    },
+    {
+      "id": "details",
+      "title": "Trophy Details",
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Rarity</td><td>Silver</td></tr><tr><td>Missable</td><td>No</td></tr><tr><td>Hidden</td><td>Yes</td></tr><tr><td>Glitchable</td><td>Not confirmed post-launch</td></tr></tbody></table>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This entry is filled from the shipped game on either platform; PS5 trophy and PC achievement lists are recorded separately where they differ. See <a href=\"/trophy-guide\">the trophy guide</a> for the full list and <a href=\"/how-long-to-beat\">how long to beat</a> for run-length context.</p>"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "seven-stars",
+  "title": "Seven-Stars in Phantom Blade Zero - What the Name Refers To",
+  "description": "Three different things in Phantom Blade Zero carry the Seven-Stars name: the formation, the Chief Disciple who leads it, and the trophy for beating him. This page routes you to the right one.",
+  "keyword": "phantom blade zero seven stars, seven-stars formation, sword against the seven-stars, chief disciple",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    { "label": "Type", "value": "Disambiguation" },
+    { "label": "Boss page", "value": "Chief Disciple of the Seven-Stars" },
+    { "label": "Trophy", "value": "Sword Against the Seven-Stars (Silver)" },
+    { "label": "Region", "value": "Mandate Encampment" }
+  ],
+  "sections": [
+    {
+      "id": "answer",
+      "title": "The Short Answer",
+      "content": "<p>If you searched for &ldquo;Seven-Stars&rdquo; you probably want one of three things, and they are not the same page:</p><ul><li><strong>The fight</strong> - <a href=\"/seven-stars-boss\">Chief Disciple of the Seven-Stars Formation</a>. The boss itself, in the Mandate Encampment.</li><li><strong>The trophy</strong> - <a href=\"/sword-against-the-seven-stars\">Sword Against the Seven-Stars</a>. Silver, awarded for that kill.</li><li><strong>The formation</strong> - the group the Disciple leads. There is no separate page for it, because it is not a separate encounter: the formation is the fight.</li></ul>"
+    },
+    {
+      "id": "boss",
+      "title": "The Boss",
+      "content": "<p><a href=\"/seven-stars-boss\">The Chief Disciple of the Seven-Stars</a> is an optional boss in the Mandate Encampment, found mid-region rather than at its end. Guides that place him at a region finale are describing the encampment's story beats, not this fight.</p><p>The reason the name reads like a group is that the Seven-Stars are a formation rather than a person, so the encounter is about reading several attackers instead of one. That is the same problem the paired fights pose, and the answer is the same: stay mobile enough that only one of them is ever in range.</p><p>Full detail, including the colour tells and the drop, is on <a href=\"/seven-stars-boss\">the boss page</a>.</p>"
+    },
+    {
+      "id": "trophy",
+      "title": "The Trophy",
+      "content": "<p><a href=\"/sword-against-the-seven-stars\">Sword Against the Seven-Stars</a> is a silver trophy, one of the seventeen that come from a boss kill. It is not missable in the way the side-quest trophies are - the fight stays available - but it is easy to skip entirely on a first run because the boss is optional.</p><p>Tier is one of the disputed items on the list: sources agree it is silver and disagree about several of the other boss trophies. See <a href=\"/trophy-guide\">the trophy guide</a> for how that is handled, and <a href=\"/trophy-list\">the full trophy list</a> for the tier split.</p>"
+    },
+    {
+      "id": "other",
+      "title": "Other Names That Get Confused With It",
+      "content": "<p>Two near-misses turn up in the same search results, because both are group-named encounters with a single trophy:</p><ul><li><strong>The Four Great Puppets</strong> - four separate fights scattered across regions, one gold trophy. See <a href=\"/the-four-freed\">The Four Freed</a>.</li><li><strong>The Shadow Wardens</strong> - three fights, one bronze trophy, and the same &ldquo;which one am I missing&rdquo; problem. See <a href=\"/three-wardens-fall\">Three Wardens Fall</a>.</li></ul>"
+    },
+    {
+      "id": "status",
+      "title": "What This Page Is For",
+      "content": "<p>A disambiguation page exists so that three topics do not compete for one URL. Each target above is a normal page with its own content; this one only routes.</p><p>If you arrived here looking for the region rather than the boss, <a href=\"/boss-list\">the boss list</a> groups every encounter by region, and <a href=\"/bosses-by-class\">bosses by class</a> splits them into story and optional.</p>"
+    }
+  ]
+}

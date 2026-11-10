@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Dread Axe</li></ul>"
+      "content": "<ul><li><a href=\"/dread-axe\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Dread Axe</a></li></ul>"
     },
     {
       "id": "strategy",

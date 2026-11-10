@@ -1,1 +1,310 @@
-[]
+[
+ {
+  "slug": "defy-destiny",
+  "name": "Defy Destiny",
+  "rarity": "Platinum",
+  "how": "Earn every other trophy in the list.",
+  "summary": "The platinum is automatic once the other 35 are done - nothing extra is required, and no difficulty setting gates it. That single fact is why the whole set can be finished in one run.",
+  "missable": "No"
+ },
+ {
+  "slug": "the-hearts-journey",
+  "name": "The Heart's Journey",
+  "rarity": "Bronze",
+  "how": "Complete the Prologue - escape the pursuers on the Main Road.",
+  "summary": "The first trophy in the game and the one nobody can miss. It doubles as the moment the red and blue attack flashes are taught.",
+  "missable": "No"
+ },
+ {
+  "slug": "with-heart-and-blood",
+  "name": "With Heart and Blood",
+  "rarity": "Gold",
+  "how": "Reach the All Comes to Light ending - the true ending.",
+  "summary": "This is the gold that makes the true ending compulsory for the platinum. The prerequisite checklist is on the true ending page: nine purple side quests, four retainer masks, five dragon pillars and both crystal puppet eyes.",
+  "missable": "No",
+  "hidden": true,
+  "steps": [
+   "Finish all nine purple-marked side quests before climbing Mount Soulrend.",
+   "Collect the four retainer masks.",
+   "Light all five dragon pillars.",
+   "Obtain both crystal puppet eyes.",
+   "Complete the final boss chain without leaving the area."
+  ]
+ },
+ {
+  "slug": "all-dreams-must-end",
+  "name": "All Dreams Must End",
+  "rarity": "Gold",
+  "how": "Reach the ending where all schemes come to nothing - the Meng Hua route.",
+  "summary": "The ordinary ending rather than the true one, which means it is easy to reach by accident on a first run and impossible to skip if you are chasing the platinum anyway.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "the-four-freed",
+  "name": "The Four Freed",
+  "rarity": "Gold",
+  "how": "Defeat all four Great Puppets: Yuzan, Yubi, Yuding and Yucong.",
+  "summary": "One trophy hiding four fights, and the one that forces a detour into the Puppet Testing Grounds and the Mirage Estate. All four are named bosses with their own entity pages.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "the-hunt-trophy",
+  "name": "The Hunt",
+  "rarity": "Silver",
+  "how": "Defeat the Hunt, Hunter of the Order.",
+  "summary": "A named story boss. The fight is the first real test of the parry window rather than the dodge.",
+  "missable": "No"
+ },
+ {
+  "slug": "the-shattered-mirror",
+  "name": "The Shattered Mirror",
+  "rarity": "Silver",
+  "how": "Defeat Bai Chilian, Lady of the Twin Serpents.",
+  "summary": "Drops the White Serpent and Crimson Viper paired blades, so the reward is a loadout change rather than a stat bump.",
+  "missable": "No"
+ },
+ {
+  "slug": "will-we-meet-again",
+  "name": "Will We Meet Again?",
+  "rarity": "Silver",
+  "how": "Defeat Mu Xiaokui, the Young Mistress of the Order.",
+  "summary": "Beating her unlocks the third phase of the encounter, so a first attempt that ends early is not the same fight as the one the trophy is named after.",
+  "missable": "No"
+ },
+ {
+  "slug": "the-lions-spirit-lives-on",
+  "name": "The Lion's Spirit Lives On",
+  "rarity": "Silver",
+  "how": "Defeat Flame, the Lion Dance Grandmaster.",
+  "summary": "A hidden boss tied to the Memory Flower count, which is why flower collection is not optional on a completionist run.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "sword-against-the-seven-stars",
+  "name": "Sword Against the Seven-Stars",
+  "rarity": "Silver",
+  "how": "Defeat the Chief Disciple of the Seven-Stars.",
+  "summary": "The Seven-Stars are a formation rather than a single enemy, so the fight is about reading several attackers at once. See the disambiguation page for what the name refers to in each context.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "crossroads-of-blood",
+  "name": "Crossroads of Blood",
+  "rarity": "Silver",
+  "how": "Defeat Huangxing, the Kunlun Renegade.",
+  "summary": "One of the optional region bosses that is easy to walk past if you take the main road through.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "nothing-goes-to-waste",
+  "name": "Nothing Goes to Waste",
+  "rarity": "Silver",
+  "how": "Defeat the Puppet Scavenger.",
+  "summary": "Sits in the same area as Acolyte Hansui, which is why guides usually cover the two together.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "all-return-to-dust",
+  "name": "All Return to Dust",
+  "rarity": "Silver",
+  "how": "Defeat Lei Dang, the Order's Envoy.",
+  "summary": "A Mirage Estate encounter. The region was missing from the first version of the boss roster entirely, so check the Mirage Estate section if you cannot find the fight.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "the-white-shadow",
+  "name": "The White Shadow",
+  "rarity": "Silver",
+  "how": "Defeat the Blizzard Blademaster.",
+  "summary": "The same encounter that gates the Whiteshadow weapon, which needs four retainer masks on top of the kill.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "saw-it-through",
+  "name": "Saw It Through",
+  "rarity": "Silver",
+  "how": "Defeat the Saw and the Crusher.",
+  "summary": "A paired fight - one fast, one heavy. Fighting both inside the same cone is what ends runs, so separate them first.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "collectors-notes",
+  "name": "Collector's Notes",
+  "rarity": "Silver",
+  "how": "Collect 30 accessories.",
+  "summary": "Game8 lists a different silver in this slot - Unsung Legend, for completing the Enemy Journal - and does not list this one at all. Four other lists carry Collector's Notes with the 30-accessory requirement, so that is the version recorded here. If your list shows Unsung Legend instead, the collectible trophy on your platform is the journal rather than the accessories.",
+  "missable": "No"
+ },
+ {
+  "slug": "forbidden-arts-beneath-the-lake",
+  "name": "Forbidden Arts Beneath the Lake",
+  "rarity": "Silver",
+  "how": "Complete the side quest Secrets at the Heart of the Lake.",
+  "summary": "Missable. One of the nine purple side quests, and one of the two that also carries a silver rather than a bronze.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "phantom-and-blade",
+  "name": "Phantom and Blade",
+  "rarity": "Silver",
+  "how": "Complete the side quest Bloodline Awakening.",
+  "summary": "Missable. Tied to the dragon pillar chain - the pillars are the quest's collectible, so this and the true ending share a checklist item.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "even-trees-know-sorrow",
+  "name": "Even Trees Know Sorrow",
+  "rarity": "Silver",
+  "how": "Complete the side quest Heart of the Banyan.",
+  "summary": "Missable. The third of the three silver quest trophies and the easiest to leave until too late, because the Banyan area stops being reachable.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "the-last-of-baishan",
+  "name": "The Last of Baishan",
+  "rarity": "Bronze",
+  "how": "Complete the side quest Secrets of the Baishan Sect.",
+  "summary": "Missable. It has to be accepted before the Bai Chilian fight, not after - accepting it late is the single most common way this one is lost.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "together-till-the-end",
+  "name": "Together Till the End",
+  "rarity": "Bronze",
+  "how": "Complete the side quest The Journey Home.",
+  "summary": "Missable. Old Man Gen's request, and the window closes on entering Pangzhen.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "a-wanderers-honor",
+  "name": "A Wanderer's Honor",
+  "rarity": "Bronze",
+  "how": "Complete the side quest Young Master Lan.",
+  "summary": "Missable. Same window as The Journey Home - both start in the Village of Lu, so both should be finished before moving on.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "spectral-blade",
+  "name": "Spectral Blade",
+  "rarity": "Bronze",
+  "how": "Complete the side quest A Severed Mindseal.",
+  "summary": "Missable. The quest is also the source of the Soft Snake Sword's thread-cutting utility, so finishing it early pays for itself.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "the-healers-legacy",
+  "name": "The Healer's Legacy",
+  "rarity": "Bronze",
+  "how": "Complete Flesh Lily, Apprentice Healer and A Healer's Mercy.",
+  "summary": "Missable, and the one trophy people assume is three quests or one. It is three, and delivering a single flower is not enough.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "lost-and-found",
+  "name": "Lost and Found",
+  "rarity": "Bronze",
+  "how": "Complete every one of Quick Hand's requests.",
+  "summary": "Missable. The final reward is the Goldblaze Phantom Edge, so the trophy and a weapon sit behind the same chain.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "a-tempered-ten",
+  "name": "A Tempered Ten",
+  "rarity": "Bronze",
+  "how": "Perform Tempering on 10 weapons.",
+  "summary": "Counting, not difficulty. Temper the cheap Sanguine-family blades first - each transformation counts separately.",
+  "missable": "No"
+ },
+ {
+  "slug": "overwhelming-force",
+  "name": "Overwhelming Force",
+  "rarity": "Bronze",
+  "how": "Upgrade a single weapon to level 30.",
+  "summary": "One weapon only. The cap is 30 for every weapon, so this is a materials question rather than a choice about which blade.",
+  "missable": "No"
+ },
+ {
+  "slug": "listen-to-every-flower",
+  "name": "Listen to Every Flower",
+  "rarity": "Bronze",
+  "how": "Collect 10 Memory Flowers.",
+  "summary": "Memory Flowers also gate the Dusk encounter and the Lion Dance Grandmaster, so this one doubles as progress rather than being a detour.",
+  "missable": "No"
+ },
+ {
+  "slug": "phantom-arsenal",
+  "name": "Phantom Arsenal",
+  "rarity": "Bronze",
+  "how": "Perform Tempering on 10 Phantom Edges.",
+  "summary": "Tempering is refundable, so materials spent here are not lost - the only cost is the run back to the forge.",
+  "missable": "No"
+ },
+ {
+  "slug": "skill-over-strength",
+  "name": "Skill Over Strength",
+  "rarity": "Bronze",
+  "how": "Upgrade a single Phantom Edge to level 30.",
+  "summary": "The secondary-slot twin of Overwhelming Force. Same cap, different slot.",
+  "missable": "No"
+ },
+ {
+  "slug": "the-axes-grudge",
+  "name": "The Axe's Grudge",
+  "rarity": "Bronze",
+  "how": "Defeat Axemaster Peng Meng.",
+  "summary": "Drops the Dread Axe. A straight fight with a long wind-up, so it is the cleanest place to practise parrying a heavy.",
+  "missable": "No"
+ },
+ {
+  "slug": "scarlet-wraithblade",
+  "name": "Scarlet Wraithblade",
+  "rarity": "Bronze",
+  "how": "Defeat Hua, the Bride.",
+  "summary": "Missable, because she is optional. Kill her before leaving the opening region - the roadmap's first warning is exactly this fight.",
+  "missable": "Yes"
+ },
+ {
+  "slug": "a-thousand-cups-drained",
+  "name": "A Thousand Cups Drained",
+  "rarity": "Bronze",
+  "how": "Defeat Hua Qianxiao, the Sword Fanatic.",
+  "summary": "The drunk boss. His timing is deliberately irregular, which makes parrying by rhythm fail - read the flash colour instead.",
+  "missable": "No"
+ },
+ {
+  "slug": "master-of-the-misty-waters",
+  "name": "Master of the Misty Waters",
+  "rarity": "Bronze",
+  "how": "Defeat Blackwater Leader You Loong, Zither Maiden Yan Qiansui and the One-Eyed Archer.",
+  "summary": "One trophy, three fights, all in the Meigu Lake region. Drops include the Loong Trident.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "the-two-blade-masters",
+  "name": "The Two Blade Masters",
+  "rarity": "Bronze",
+  "how": "Defeat Zhu Yuan and Commander Bi Feng.",
+  "summary": "Two separate encounters in different regions, so this is a checklist item rather than a single set piece.",
+  "missable": "No",
+  "hidden": true
+ },
+ {
+  "slug": "three-wardens-fall",
+  "name": "Three Wardens Fall",
+  "rarity": "Bronze",
+  "how": "Defeat the three Shadow Wardens: Cavalrybane, Soulclaimer and Heartpiercer.",
+  "summary": "Three fights, and Heartpiercer drops the Sundering Dual Axes, which is why many builds end up finishing this one first.",
+  "missable": "No",
+  "hidden": true
+ }
+]

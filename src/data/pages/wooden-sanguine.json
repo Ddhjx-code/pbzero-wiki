@@ -1,0 +1,65 @@
+{
+  "slug": "wooden-sanguine",
+  "title": "Wooden Sanguine - Stats, Combo & How to Get (Phantom Blade Zero)",
+  "description": "Wooden Sanguine in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
+  "keyword": "Wooden Sanguine phantom blade zero",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Primary"
+    },
+    {
+      "label": "Class",
+      "value": "One-handed"
+    },
+    {
+      "label": "Damage",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Scaling",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Special property",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "How to obtain",
+      "value": "Story reward - Soul's childhood blade"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Wooden Sanguine is a one-handed blade in Phantom Blade Zero's primary weapon set. Soul's childhood blade. It is the tutorial weapon and the one the story opens with, not a placeholder to be thrown away.</p>"
+    },
+    {
+      "id": "classification",
+      "title": "Weapon Class and Slot",
+      "content": "<p>Wooden Sanguine occupies the <strong>Primary</strong> slot, and it is classed as <strong>One-handed</strong>. Soul carries two primary blades and two secondary <a href=\"/phantom-edges\">Phantom Edges</a> at once, and switching between the four refills stamina rather than costing it - which is what keeps a combo chain running. <a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks. The full class lists are on the <a href=\"/blades\">blade index</a>.</p>"
+    },
+    {
+      "id": "stats",
+      "title": "Stats and Effects",
+      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+    },
+    {
+      "id": "combo",
+      "title": "How It Plays",
+      "content": "<p>Not confirmed post-launch. No verified note on how this weapon behaves inside a combo has been published, so nothing is written here.</p>"
+    },
+    {
+      "id": "acquisition",
+      "title": "How to Obtain",
+      "content": "<p><strong>Story reward - Soul's childhood blade.</strong></p><p>Acquisition points are taken from the acquisition table on <a href=\"/weapons\">the weapons hub</a>, which is kept in step with this page - if a route is corrected there, it is corrected here.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This page tracks Wooden Sanguine in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+    }
+  ]
+}

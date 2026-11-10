@@ -1,0 +1,65 @@
+{
+  "slug": "flaming-mane",
+  "title": "Flaming Mane - Stats, Combo & How to Get (Phantom Blade Zero)",
+  "description": "Flaming Mane in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
+  "keyword": "Flaming Mane phantom blade zero",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Secondary (Phantom Edge)"
+    },
+    {
+      "label": "Class",
+      "value": "Not stated in the source list"
+    },
+    {
+      "label": "Damage",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Scaling",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Special property",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "How to obtain",
+      "value": "Repaired through the story (needed to open the way into Pangzhen Slums)"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Flaming Mane is a not stated in the source list in Phantom Blade Zero's secondary weapon set. Repaired through the story rather than found - it is required to open the way into Pangzhen Slums, so it cannot be missed.</p>"
+    },
+    {
+      "id": "classification",
+      "title": "Weapon Class and Slot",
+      "content": "<p>Flaming Mane occupies the <strong>Secondary (Phantom Edge)</strong> slot, and it is classed as <strong>Not stated in the source list</strong>. Soul carries two primary blades and two secondary <a href=\"/phantom-edges\">Phantom Edges</a> at once, and switching between the four refills stamina rather than costing it - which is what keeps a combo chain running. <a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks. The full class lists are on the <a href=\"/phantom-edges\">Phantom Edge index</a>.</p>"
+    },
+    {
+      "id": "stats",
+      "title": "Stats and Effects",
+      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+    },
+    {
+      "id": "combo",
+      "title": "How It Plays",
+      "content": "<p>Not confirmed post-launch. No verified note on how this weapon behaves inside a combo has been published, so nothing is written here.</p>"
+    },
+    {
+      "id": "acquisition",
+      "title": "How to Obtain",
+      "content": "<p><strong>Repaired through the story (needed to open the way into Pangzhen Slums).</strong></p><p>Dropped by <a href=\"/red-the-mysterious-wraith\">Red, the Mysterious Wraith</a> - see that page for the fight itself, and <a href=\"/boss-drops\">boss drops</a> for the reverse list.</p><p>Acquisition points are taken from the acquisition table on <a href=\"/weapons\">the weapons hub</a>, which is kept in step with this page - if a route is corrected there, it is corrected here.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This page tracks Flaming Mane in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+    }
+  ]
+}

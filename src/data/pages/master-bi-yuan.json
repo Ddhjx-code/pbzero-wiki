@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Tianxuan Bronze Sword</li></ul>"
+      "content": "<ul><li><a href=\"/tianxuan-bronze-sword\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Tianxuan Bronze Sword</a></li></ul>"
     },
     {
       "id": "strategy",

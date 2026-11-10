@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>White Serpent & Crimson Viper</li></ul>"
+      "content": "<ul><li><a href=\"/white-serpent-and-crimson-viper\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">White Serpent & Crimson Viper</a></li></ul>"
     },
     {
       "id": "strategy",

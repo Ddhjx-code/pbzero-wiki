@@ -1,0 +1,65 @@
+{
+  "slug": "tianxuan-bronze-sword",
+  "title": "Tianxuan Bronze Sword - Stats, Combo & How to Get (Phantom Blade Zero)",
+  "description": "Tianxuan Bronze Sword in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
+  "keyword": "Tianxuan Bronze Sword phantom blade zero",
+  "lastUpdated": "2026-11-10",
+  "facts": [
+    {
+      "label": "Slot",
+      "value": "Primary"
+    },
+    {
+      "label": "Class",
+      "value": "One-handed"
+    },
+    {
+      "label": "Damage",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Scaling",
+      "value": "Not confirmed post-launch"
+    },
+    {
+      "label": "Special property",
+      "value": "High shield-break"
+    },
+    {
+      "label": "How to obtain",
+      "value": "Village of Lu, The Lady Grounds bell"
+    }
+  ],
+  "sections": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "content": "<p>Tianxuan Bronze Sword is a one-handed blade in Phantom Blade Zero's primary weapon set. High shield-break - it is the answer to guards rather than to health bars, and guard breaks are what drain the Sha-Chi bar.</p>"
+    },
+    {
+      "id": "classification",
+      "title": "Weapon Class and Slot",
+      "content": "<p>Tianxuan Bronze Sword occupies the <strong>Primary</strong> slot, and it is classed as <strong>One-handed</strong>. Soul carries two primary blades and two secondary <a href=\"/phantom-edges\">Phantom Edges</a> at once, and switching between the four refills stamina rather than costing it - which is what keeps a combo chain running. <a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks. The full class lists are on the <a href=\"/blades\">blade index</a>.</p>"
+    },
+    {
+      "id": "stats",
+      "title": "Stats and Effects",
+      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+    },
+    {
+      "id": "combo",
+      "title": "How It Plays",
+      "content": "<p>The reason to carry it is its property rather than a damage number: High shield-break.</p><p>Switching to it mid-combo refills stamina, so its practical job is to extend a chain past the point where the blade you were using runs dry. See <a href=\"/combat\">the combat system</a> for how the swap window works.</p>"
+    },
+    {
+      "id": "acquisition",
+      "title": "How to Obtain",
+      "content": "<p><strong>Village of Lu, The Lady Grounds bell.</strong></p><p>Acquisition points are taken from the acquisition table on <a href=\"/weapons\">the weapons hub</a>, which is kept in step with this page - if a route is corrected there, it is corrected here.</p>"
+    },
+    {
+      "id": "status",
+      "title": "Source Status",
+      "content": "<p>This page tracks Tianxuan Bronze Sword in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+    }
+  ]
+}

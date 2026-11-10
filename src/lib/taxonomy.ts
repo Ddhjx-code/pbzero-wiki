@@ -21,14 +21,15 @@ const SECTIONS: SectionDef[] = [
     href: "/guide",
     slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
       "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
-      "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition", "trophy-guide"]),
+      "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition", "trophy-guide",
+      "trophy-list"]),
     category: "Beginner guides",
   },
   {
     label: "Combat & Bosses",
     href: "/combat",
-    slugs: new Set(["combat", "weapons", "best-build", "boss-guide", "boss-list", "boss-video-guides", "difficulty-modes",
-      "xiaokui-guarded-fight", "changhong-boss", "leidang-boss"]),
+    slugs: new Set(["combat", "weapons", "blades", "best-build", "boss-guide", "boss-list",
+      "boss-video-guides", "bosses-by-class", "boss-drops", "difficulty-modes", "seven-stars"]),
     category: "Combat & Bosses",
   },
   {

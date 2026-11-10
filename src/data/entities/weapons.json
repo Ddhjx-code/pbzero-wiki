@@ -1,1 +1,381 @@
-[]
+[
+ {
+  "slug": "wooden-sanguine",
+  "name": "Wooden Sanguine",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Story reward - Soul's childhood blade",
+  "property": "",
+  "summary": "Wooden Sanguine is a one-handed blade in Phantom Blade Zero's primary weapon set. Soul's childhood blade. It is the tutorial weapon and the one the story opens with, not a placeholder to be thrown away."
+ },
+ {
+  "slug": "sanguine",
+  "name": "Sanguine (血刃)",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Story reward - the starting blade",
+  "property": "Tempers into Infernal Rouge at level 5",
+  "summary": "Sanguine (血刃) is a one-handed blade in Phantom Blade Zero's primary weapon set. The starting blade and the root of the Tempering tree - every Sanguine-family transformation is built from it, which is why the starting weapon stays relevant."
+ },
+ {
+  "slug": "jagged-steel",
+  "name": "Jagged Steel (残钢)",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Weeping Creek Valley, Rustblade Pavilion bell",
+  "property": "Slashes cause Bleeding",
+  "summary": "Jagged Steel (残钢) is a one-handed blade in Phantom Blade Zero's primary weapon set. Slashes apply Bleeding, so its value is damage that keeps ticking after you disengage rather than burst on the swing."
+ },
+ {
+  "slug": "the-fanatics-broken-blade",
+  "name": "The Fanatic's Broken Blade",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Crimson Forest, Pangzhen Bridge Overlook",
+  "property": "Drinking lets the blade be thrown",
+  "summary": "The Fanatic's Broken Blade is a one-handed blade in Phantom Blade Zero's primary weapon set. The 'drink to make it fly' input is the reason to carry it: the blade leaves the hand, which turns a melee slot into a short-range projectile."
+ },
+ {
+  "slug": "tianxuan-bronze-sword",
+  "name": "Tianxuan Bronze Sword",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Village of Lu, The Lady Grounds bell",
+  "property": "High shield-break",
+  "summary": "Tianxuan Bronze Sword is a one-handed blade in Phantom Blade Zero's primary weapon set. High shield-break - it is the answer to guards rather than to health bars, and guard breaks are what drain the Sha-Chi bar."
+ },
+ {
+  "slug": "soft-snake-sword",
+  "name": "Soft Snake Sword (灵蛇软剑)",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Mandate Encampment, Path of the Baishan's Fall",
+  "property": "Deflects attacks and cuts threads",
+  "summary": "Soft Snake Sword (灵蛇软剑) is a one-handed blade in Phantom Blade Zero's primary weapon set. Deflects and cuts threads. Threads are a recurring obstacle type, so this is a utility slot rather than a damage slot."
+ },
+ {
+  "slug": "freezing-chaos",
+  "name": "Freezing Chaos",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Crimson Forest, Threadbound Great Tree (one checklist attributes it to Yucong, No. 34)",
+  "property": "",
+  "summary": "Freezing Chaos is a one-handed blade in Phantom Blade Zero's primary weapon set. One checklist attributes it to Yucong, No. 34, rather than to the tree itself; both routes are recorded because sources disagree."
+ },
+ {
+  "slug": "aureate",
+  "name": "Aureate",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Defeat Zuo Shang at Mount Soulrend",
+  "property": "Mimics Zuo Shang's Golden Sword Energy",
+  "summary": "Aureate is a one-handed blade in Phantom Blade Zero's primary weapon set. Mimics Zuo Shang's Golden Sword Energy, which makes it the one weapon on the list that copies a boss moveset instead of a damage type."
+ },
+ {
+  "slug": "wild-oriole-sword",
+  "name": "Wild Oriole Sword",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Village of Lu, Puppet Testing Grounds (Mu Xiaokui's blade)",
+  "property": "",
+  "summary": "Wild Oriole Sword is a one-handed blade in Phantom Blade Zero's primary weapon set. Mu Xiaokui's own blade. Picking it up is also how the game signals that the fight is over rather than merely survived."
+ },
+ {
+  "slug": "infernal-rouge",
+  "name": "Infernal Rouge (炼狱红妆)",
+  "slot": "Primary",
+  "category": "One-handed",
+  "obtained": "Temper Sanguine at level 5 (grants Bloodline Rebirth)",
+  "property": "",
+  "summary": "Infernal Rouge (炼狱红妆) is a one-handed blade in Phantom Blade Zero's primary weapon set. The first Tempering endpoint: Sanguine at level 5 becomes this and grants Bloodline Rebirth."
+ },
+ {
+  "slug": "sanguine-twin",
+  "name": "Sanguine Twin (血刃双刀)",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Weeping Creek Valley, First Meeting with Yu'er bell",
+  "property": "",
+  "summary": "Sanguine Twin (血刃双刀) is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Dual-wield branch of the Sanguine family, taken from the First Meeting with Yu'er beat in Weeping Creek Valley."
+ },
+ {
+  "slug": "white-serpent-and-crimson-viper",
+  "name": "White Serpent & Crimson Viper",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Defeat Bai Chilian, Lady of the Twin Serpents",
+  "property": "",
+  "summary": "White Serpent & Crimson Viper is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Bai Chilian's paired blades - two elements in one loadout, which is unusual on a list where most entries are a single weapon."
+ },
+ {
+  "slug": "parting-hooks",
+  "name": "Parting Hooks (离别钩)",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Pangzhen, Dockside Warehouse",
+  "property": "Guard stance counters melee",
+  "summary": "Parting Hooks (离别钩) is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Guard stance counters melee, so it is a defensive pick that punishes commitment rather than a damage pick."
+ },
+ {
+  "slug": "sundering-dual-axes",
+  "name": "Sundering Dual Axes (裂空双斧)",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Meigu Lake, White Serpent House - defeat Heartpiercer",
+  "property": "",
+  "summary": "Sundering Dual Axes (裂空双斧) is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Heartpiercer's axes. Slow, wide, and the reason the Three Wardens Fall trophy can be finished without a second build."
+ },
+ {
+  "slug": "baishan-stormswords",
+  "name": "Baishan Stormswords",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Mandate Encampment, Training Grounds - defeat Yubi, No. 21",
+  "property": "",
+  "summary": "Baishan Stormswords is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Taken from Yubi, No. 21, in the Mandate Encampment training grounds."
+ },
+ {
+  "slug": "seamless-death",
+  "name": "Seamless Death (无间死环)",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Mountain of Imprisonment, The Lady's Shrine",
+  "property": "Ring blades can be hurled",
+  "summary": "Seamless Death (无间死环) is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Hurlable ring blades - the only dual-wield entry whose ranged option is the weapon itself rather than a Phantom Edge."
+ },
+ {
+  "slug": "fiend-saws",
+  "name": "Fiend Saws",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Village of Lu, Puppet Testing Grounds (Jade Dancer's leg-mounted saws)",
+  "property": "",
+  "summary": "Fiend Saws is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Leg-mounted saws taken from the Jade Dancer, so the moveset is a kick rather than a swing."
+ },
+ {
+  "slug": "the-ladys-fan",
+  "name": "The Lady's Fan (仕女扇)",
+  "slot": "Primary",
+  "category": "Dual-wield",
+  "obtained": "Mount Soulrend, The Fallen Dream - defeat Meng Hua",
+  "property": "",
+  "summary": "The Lady's Fan (仕女扇) is a dual-wielded blade pair in Phantom Blade Zero's primary weapon set. Meng Hua's fan. It sits on the All Dreams Must End gold trophy, which makes it hard to miss on a full run."
+ },
+ {
+  "slug": "sanguine-reach",
+  "name": "Sanguine Reach",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Weeping Creek Valley",
+  "property": "Tempers into Blazing Edge",
+  "summary": "Sanguine Reach is a two-handed blade in Phantom Blade Zero's primary weapon set. Two-handed root of the Tempering tree; it becomes Blazing Edge."
+ },
+ {
+  "slug": "armybreaker",
+  "name": "Armybreaker (破军)",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Pangzhen, Marketplace - defeat Cavalrybane",
+  "property": "",
+  "summary": "Armybreaker (破军) is a two-handed blade in Phantom Blade Zero's primary weapon set. Cavalrybane's two-hander. Named for the counter it performs: it breaks horses and guards with the same swing."
+ },
+ {
+  "slug": "crescent-blade",
+  "name": "Crescent Blade",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Mirage Estate, Training Grounds - defeat Yuding, No. 12",
+  "property": "",
+  "summary": "Crescent Blade is a two-handed blade in Phantom Blade Zero's primary weapon set. Yuding, No. 12's weapon from the Mirage Estate training grounds."
+ },
+ {
+  "slug": "juggernaut",
+  "name": "Juggernaut (巨神兵)",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Mountain of Imprisonment, Commander's Platform - defeat Bi Feng",
+  "property": "",
+  "summary": "Juggernaut (巨神兵) is a two-handed blade in Phantom Blade Zero's primary weapon set. Bi Feng's weapon - one of the Two Blade Masters trophies."
+ },
+ {
+  "slug": "bonesaw",
+  "name": "Bonesaw",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Mount Soulrend, Giant's Lair bell",
+  "property": "",
+  "summary": "Bonesaw is a two-handed blade in Phantom Blade Zero's primary weapon set. Found at the Giant's Lair bell rather than dropped by a boss, which makes it one of the few two-handers you can walk to."
+ },
+ {
+  "slug": "whiteshadow",
+  "name": "Whiteshadow (白影)",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Meigu Lake, Whiteshadow's Fall (four masks + Blizzard Blademaster)",
+  "property": "",
+  "requirement": "Four retainer masks plus the Blizzard Blademaster",
+  "summary": "Whiteshadow (白影) is a two-handed blade in Phantom Blade Zero's primary weapon set. Requires four masks plus the Blizzard Blademaster, so it is the most gated weapon on the list and ties directly into the true ending checklist."
+ },
+ {
+  "slug": "blazing-edge",
+  "name": "Blazing Edge (炽刃)",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Temper Sanguine Reach with Scorched Flame shards",
+  "property": "",
+  "summary": "Blazing Edge (炽刃) is a two-handed blade in Phantom Blade Zero's primary weapon set. Second Tempering endpoint: Sanguine Reach plus Scorched Flame shards."
+ },
+ {
+  "slug": "shadowless-edge",
+  "name": "Shadowless Edge (无影风)",
+  "slot": "Primary",
+  "category": "Two-handed",
+  "obtained": "Temper Sanguine Twin (listed by one checklist; not independently verified)",
+  "property": "",
+  "summary": "Shadowless Edge (无影风) is a two-handed blade in Phantom Blade Zero's primary weapon set. Listed by one checklist as a Tempering result from Sanguine Twin; not independently verified, so treat the route as unconfirmed."
+ },
+ {
+  "slug": "bashpole",
+  "name": "Bashpole",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Polearm",
+  "obtained": "Mandate Encampment, Main Encampment Gate",
+  "property": "",
+  "summary": "Bashpole is a polearm in Phantom Blade Zero's secondary weapon set. Found at the Main Encampment Gate in the Mandate Encampment - a pickup, not a drop."
+ },
+ {
+  "slug": "bastion",
+  "name": "Bastion",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Shield",
+  "obtained": "Village of Lu, Old Man Gen's Hideout",
+  "property": "",
+  "summary": "Bastion is a shield in Phantom Blade Zero's secondary weapon set. Old Man Gen's Hideout in the Village of Lu. The name is the job description."
+ },
+ {
+  "slug": "dread-axe",
+  "name": "Dread Axe",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Axe",
+  "obtained": "Weeping Creek Valley, The Axemaster's Fall - defeat Peng Meng",
+  "property": "",
+  "summary": "Dread Axe is a axe in Phantom Blade Zero's secondary weapon set. Peng Meng's axe, from The Axemaster's Fall."
+ },
+ {
+  "slug": "feather-bow",
+  "name": "Feather Bow",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Bow",
+  "obtained": "Weeping Creek Valley, Outpost",
+  "property": "",
+  "summary": "Feather Bow is a bow in Phantom Blade Zero's secondary weapon set. An outpost pickup in Weeping Creek Valley, and the earliest ranged option most players will find."
+ },
+ {
+  "slug": "fire-meteor",
+  "name": "Fire Meteor",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Ranged (fire)",
+  "obtained": "Pangzhen, Jingyang Hall - defeat Blaze, Shadow Warden Captain",
+  "property": "",
+  "summary": "Fire Meteor is a ranged (fire) in Phantom Blade Zero's secondary weapon set. Blaze, Shadow Warden Captain's weapon, from Jingyang Hall in Pangzhen."
+ },
+ {
+  "slug": "flying-dagger",
+  "name": "Flying Dagger",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Throwing blade",
+  "obtained": "Crimson Forest, Thieves' Camp",
+  "property": "",
+  "summary": "Flying Dagger is a throwing blade in Phantom Blade Zero's secondary weapon set. Thieves' Camp in Crimson Forest. Cheap to get and easy to forget to equip."
+ },
+ {
+  "slug": "flying-guillotine",
+  "name": "Flying Guillotine",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Throwing blade",
+  "obtained": "Mountain of Imprisonment, The Lady's Shrine",
+  "property": "",
+  "summary": "Flying Guillotine is a throwing blade in Phantom Blade Zero's secondary weapon set. The Lady's Shrine on the Mountain of Imprisonment."
+ },
+ {
+  "slug": "heartrend-pipa",
+  "name": "Heartrend Pipa",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Instrument",
+  "obtained": "Village of Lu, Puppet Testing Grounds - defeat Yuzan",
+  "property": "",
+  "summary": "Heartrend Pipa is a instrument in Phantom Blade Zero's secondary weapon set. Yuzan's instrument - one of the Four Freed, so it is on the platinum path."
+ },
+ {
+  "slug": "hunters-chain-sickle",
+  "name": "Hunter's Chain Sickle",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Chain sickle",
+  "obtained": "Weeping Creek Valley, Great Waterfall",
+  "property": "",
+  "summary": "Hunter's Chain Sickle is a chain sickle in Phantom Blade Zero's secondary weapon set. Great Waterfall in Weeping Creek Valley."
+ },
+ {
+  "slug": "iron-gauntlets",
+  "name": "Iron Gauntlets",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Gauntlets",
+  "obtained": "Defeat Stone Hand Iron Fever",
+  "property": "",
+  "summary": "Iron Gauntlets is a gauntlets in Phantom Blade Zero's secondary weapon set. Dropped by Stone Hand Iron Fever."
+ },
+ {
+  "slug": "loong-trident",
+  "name": "Loong Trident",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Trident",
+  "obtained": "Meigu Lake, Blackwater Crew Dock - defeat You Loong",
+  "property": "",
+  "summary": "Loong Trident is a trident in Phantom Blade Zero's secondary weapon set. You Loong's trident from the Blackwater Crew Dock, on the Master of the Misty Waters trophy."
+ },
+ {
+  "slug": "thunder-spear",
+  "name": "Thunder Spear",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Spear",
+  "obtained": "Pangzhen, Ancestral Shrine Square - defeat Chang Hong",
+  "property": "",
+  "summary": "Thunder Spear is a spear in Phantom Blade Zero's secondary weapon set. Chang Hong's spear, from the Ancestral Shrine Square in Pangzhen. The Chinese name printed beside it in the source table is 雷当, which is the boss rather than the weapon."
+ },
+ {
+  "slug": "tiger-cannon",
+  "name": "Tiger Cannon",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Cannon",
+  "obtained": "Defeat Lei Dang at Mirage Estate",
+  "property": "",
+  "summary": "Tiger Cannon is a cannon in Phantom Blade Zero's secondary weapon set. Lei Dang's cannon from Mirage Estate, and the reason that region cannot be skipped on a completionist run."
+ },
+ {
+  "slug": "wolfjaw",
+  "name": "Wolfjaw",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Not stated in the source list",
+  "obtained": "Defeat Wu Xuan, the Fallen General",
+  "property": "",
+  "summary": "Wolfjaw is a not stated in the source list in Phantom Blade Zero's secondary weapon set. Dropped by Wu Xuan, the Fallen General."
+ },
+ {
+  "slug": "flaming-mane",
+  "name": "Flaming Mane",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Not stated in the source list",
+  "obtained": "Repaired through the story (needed to open the way into Pangzhen Slums)",
+  "property": "",
+  "summary": "Flaming Mane is a not stated in the source list in Phantom Blade Zero's secondary weapon set. Repaired through the story rather than found - it is required to open the way into Pangzhen Slums, so it cannot be missed."
+ },
+ {
+  "slug": "goldblaze",
+  "name": "Goldblaze",
+  "slot": "Secondary (Phantom Edge)",
+  "category": "Not stated in the source list",
+  "obtained": "Pangzhen, Zhang's Hideout - reward for Quick Hand's Request",
+  "property": "",
+  "summary": "Goldblaze is a not stated in the source list in Phantom Blade Zero's secondary weapon set. Reward for Quick Hand's Request at Zhang's Hideout in Pangzhen, which means it is tied to the Lost and Found trophy."
+ }
+]

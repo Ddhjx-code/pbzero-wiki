@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>The Fanatic's Broken Blade</li></ul>"
+      "content": "<ul><li><a href=\"/the-fanatics-broken-blade\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Fanatic's Broken Blade</a></li></ul>"
     },
     {
       "id": "strategy",

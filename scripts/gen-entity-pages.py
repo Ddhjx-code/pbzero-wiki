@@ -188,6 +188,8 @@ def weapon_facts(rec):
     facts.append(("Damage", display(rec.get("damage"))))
     facts.append(("Scaling", display(rec.get("scaling"))))
     facts.append(("Special property", display(rec.get("property"))))
+    if rec.get("requirement"):
+        facts.append(("Requirement", rec["requirement"]))
     if rec.get("obtained"):
         facts.append(("How to obtain", rec["obtained"]))
     if rec.get("source"):
@@ -238,11 +240,19 @@ def weapon_sections(rec):
 
     slot = rec.get("slot")
     if slot:
+        secondary = "secondar" in slot.lower() or "phantom" in str(rec.get("category", "")).lower()
+        index = (
+            '<a href="/phantom-edges">Phantom Edge index</a>'
+            if secondary
+            else '<a href="/blades">blade index</a>'
+        )
         slot_text = (
-            f"<p>{name} occupies the <strong>{slot}</strong> slot. Soul carries two primary blades and "
-            "two secondary <a href=\"/weapons\">Phantom Edges</a> at once, and switching between the four "
-            "refills stamina rather than costing it - which is what keeps a combo chain running. "
-            "<a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and blocks.</p>"
+            f"<p>{name} occupies the <strong>{slot}</strong> slot, and it is classed as "
+            f"<strong>{display(rec.get('category'))}</strong>. Soul carries two primary blades and "
+            "two secondary <a href=\"/phantom-edges\">Phantom Edges</a> at once, and switching between "
+            "the four refills stamina rather than costing it - which is what keeps a combo chain "
+            "running. <a href=\"/combat\">Sha-chi</a> is a separate pool, spent on heavy attacks and "
+            f"blocks. The full class lists are on the {index}.</p>"
         )
     else:
         slot_text = f"<p>{UNKNOWN} which slot this weapon uses.</p>"
@@ -251,45 +261,64 @@ def weapon_sections(rec):
     stats = [
         ("Damage", rec.get("damage")),
         ("Scaling", rec.get("scaling")),
-        ("Special property", rec.get("property")),
         ("Attack speed", rec.get("speed")),
         ("Range", rec.get("range")),
     ]
-    rows = "".join(
-        f"<tr><td>{label}</td><td>{display(value)}</td></tr>" for label, value in stats
-    )
-    body = (
-        "<table><thead><tr><th>Stat</th><th>Value</th></tr></thead>"
-        f"<tbody>{rows}</tbody></table>"
-    )
-    if not any(v for _, v in stats):
-        body += (
-            f"<p>{UNKNOWN}. Numbers are filled in only after they have been measured in the "
-            "shipped game - no value on this table is inferred from the weapon's appearance or name.</p>"
+    known = [(label, value) for label, value in stats if value]
+    if known:
+        rows = "".join(f"<tr><td>{label}</td><td>{value}</td></tr>" for label, value in known)
+        body = (
+            "<table><thead><tr><th>Property</th><th>Value</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table>"
+        )
+        missing = [label for label, value in stats if not value]
+        if missing:
+            body += (
+                f"<p>No published figure exists for {', '.join(m.lower() for m in missing)}, so "
+                "those rows are left out rather than filled with a plausible number.</p>"
+            )
+    else:
+        body = (
+            f"<p>{UNKNOWN}. Phantom Blade Zero does not publish a numeric stat sheet for individual "
+            "weapons, and no measurement of this one has been recorded, so no damage, scaling or "
+            "speed figure is given here. A number invented from how the weapon looks is exactly the "
+            "kind of filler this page exists to avoid.</p>"
         )
     out.append({"id": "stats", "title": "Stats and Effects", "content": body})
 
-    if rec.get("moveset"):
-        moves = "".join(f"<li>{m}</li>" for m in rec["moveset"])
-        combo = f"<ul>{moves}</ul>"
+    moves = rec.get("moveset") or []
+    if moves:
+        combo = "<ul>" + "".join(f"<li>{m}</li>" for m in moves) + "</ul>"
+    elif rec.get("property"):
+        combo = (
+            f"<p>The reason to carry it is its property rather than a damage number: "
+            f"{rec['property'].rstrip('.')}.</p>"
+            "<p>Switching to it mid-combo refills stamina, so its practical job is to extend a chain "
+            "past the point where the blade you were using runs dry. See "
+            "<a href=\"/combat\">the combat system</a> for how the swap window works.</p>"
+        )
     else:
         combo = (
-            f"<p>{UNKNOWN}. Individual weapon movesets have not been catalogued in material we could "
-            "verify, so nothing is listed here.</p>"
+            f"<p>{UNKNOWN}. No verified note on how this weapon behaves inside a combo has been "
+            "published, so nothing is written here.</p>"
         )
-    out.append({"id": "combo", "title": "Combo Contribution", "content": combo})
+    out.append({"id": "combo", "title": "How It Plays", "content": combo})
 
-    out.append(
-        {
-            "id": "acquisition",
-            "title": "How to Obtain",
-            "content": (
-                f"<p>{rec['obtained'] if rec.get('obtained') else UNKNOWN}</p>"
-                "<p>Boss kills are described by S-GAME as rewarding unique weapons, but no drop table "
-                "has been published, so acquisition is recorded only once it has been confirmed.</p>"
-            ),
-        }
-    )
+    source = rec.get("obtained")
+    if source:
+        acquisition = f"<p><strong>{source}.</strong></p>"
+        if rec.get("requirement"):
+            acquisition += f"<p>Gated behind: {rec['requirement']}.</p>"
+        acquisition += (
+            "<p>Acquisition points are taken from the acquisition table on "
+            "<a href=\"/weapons\">the weapons hub</a>, which is kept in step with this page - if a "
+            "route is corrected there, it is corrected here.</p>"
+        )
+    else:
+        acquisition = (
+            f"<p>{UNKNOWN}. No acquisition route has been recorded for this weapon.</p>"
+        )
+    out.append({"id": "acquisition", "title": "How to Obtain", "content": acquisition})
     out.append(
         {
             "id": "status",

@@ -734,18 +734,36 @@
   ]
  },
  {
-  "slug": "huangxing-boss",
-  "name": "Jade-Face",
+  "slug": "jade-face",
+  "name": "Jade-Face (玉面郎君)",
   "kind": "Optional",
   "region": "Mountain of Imprisonment",
-  "location": "The Lady's Shrine",
+  "location": "The Lady's Shrine - temple ruins, north-west",
   "act": "Mountain of Imprisonment",
-  "summary": "Jade-Face is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine. Beating it yields Seamless Death.",
+  "summary": "Jade-Face (玉面郎君) is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - temple ruins, north-west. Beating it yields Seamless Death.",
   "drops": [
    "Seamless Death"
   ],
   "tips": [
+   "He fights with two clones, so the arena holds three enemies at once - turn lock-on off and kill a clone first.",
+   "His teleport strings end in a parryable overhead or a two-handed slash; the blue flash on the final hit is the tell.",
    "Punish the openings rather than forcing them; the reward is Seamless Death."
+  ]
+ },
+ {
+  "slug": "huangxing-boss",
+  "name": "Huangxing, the Kunlun Renegade (荒行子)",
+  "kind": "Optional",
+  "region": "Mountain of Imprisonment",
+  "location": "The Lady's Shrine - end of the region",
+  "act": "Mountain of Imprisonment",
+  "summary": "Huangxing, the Kunlun Renegade (荒行子) is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - end of the region. Beating it yields Flying Guillotine, Void Bloom Fan.",
+  "drops": [
+   "Flying Guillotine, Void Bloom Fan"
+  ],
+  "tips": [
+   "Optional boss at the end of the Mountain of Imprisonment; the Crossroads of Blood trophy is the only thing pointing at him.",
+   "The fight shares a bell with Jade-Face but not a reward table - Huangxing drops the Flying Guillotine and the Void Bloom Fan."
   ]
  },
  {

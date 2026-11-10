@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Flaming Mane</li></ul>"
+      "content": "<ul><li><a href=\"/flaming-mane\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Flaming Mane</a></li></ul>"
     },
     {
       "id": "strategy",

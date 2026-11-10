@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Whiteshadow</li></ul>"
+      "content": "<ul><li><a href=\"/whiteshadow\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Whiteshadow</a></li></ul>"
     },
     {
       "id": "strategy",
