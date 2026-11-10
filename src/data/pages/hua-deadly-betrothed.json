@@ -26,7 +26,7 @@
     {
       "id": "overview",
       "title": "Overview",
-      "content": "<p>Hua, Deadly Betrothed (新娘阿花) is a optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.</p>"
+      "content": "<p>Hua, Deadly Betrothed (新娘阿花) is an optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.</p>"
     },
     {
       "id": "how-to-find",
@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Scarlet Wraithblade</li></ul>"
+      "content": "<ul><li><a href=\"/scarlet-wraithblade\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Scarlet Wraithblade</a></li></ul>"
     },
     {
       "id": "strategy",

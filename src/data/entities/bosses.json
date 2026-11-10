@@ -67,7 +67,7 @@
   "region": "Prologue & Weeping Creek Valley",
   "location": "Flesh Lily Fields",
   "act": "Prologue & Weeping Creek Valley",
-  "summary": "Hua, Deadly Betrothed (新娘阿花) is a optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.",
+  "summary": "Hua, Deadly Betrothed (新娘阿花) is an optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.",
   "drops": [
    "Scarlet Wraithblade"
   ],
@@ -83,7 +83,7 @@
   "region": "Prologue & Weeping Creek Valley",
   "location": "Challenge Rift",
   "act": "Prologue & Weeping Creek Valley",
-  "summary": "Aberrant Three-Faced Puppet is a optional encounter in Prologue & Weeping Creek Valley, found at Challenge Rift.",
+  "summary": "Aberrant Three-Faced Puppet is an optional encounter in Prologue & Weeping Creek Valley, found at Challenge Rift.",
   "tips": [
    "An optional Challenge Rift fight - bring upgraded gear rather than attempting it early.",
    "Each face changes the attack set, so re-read the silhouette after every phase change."
@@ -109,7 +109,7 @@
   "region": "Crimson Manor & Crimson Forest",
   "location": "Crimson Manor",
   "act": "Crimson Manor & Crimson Forest",
-  "summary": "Puppet Scavenger is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor."
+  "summary": "Puppet Scavenger is an optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor."
  },
  {
   "slug": "acolyte-hansui",
@@ -118,7 +118,7 @@
   "region": "Crimson Manor & Crimson Forest",
   "location": "Crimson Manor, via scarecrow",
   "act": "Crimson Manor & Crimson Forest",
-  "summary": "Acolyte Hansui is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor, via scarecrow. Beating it yields Frost Mask.",
+  "summary": "Acolyte Hansui is an optional encounter in Crimson Manor & Crimson Forest, found at Crimson Manor, via scarecrow. Beating it yields Frost Mask.",
   "drops": [
    "Frost Mask"
   ],
@@ -164,7 +164,7 @@
   "region": "Crimson Manor & Crimson Forest",
   "location": "Crimson Forest",
   "act": "Crimson Manor & Crimson Forest",
-  "summary": "Stone Hand Iron Fever (拳痴 铁狂) is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Iron Gauntlets.",
+  "summary": "Stone Hand Iron Fever (拳痴 铁狂) is an optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Iron Gauntlets.",
   "drops": [
    "Iron Gauntlets"
   ],
@@ -196,7 +196,7 @@
   "region": "Crimson Manor & Crimson Forest",
   "location": "Crimson Forest",
   "act": "Crimson Manor & Crimson Forest",
-  "summary": "Jade Dancer and Iron Fiend is a optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Fiend Saws (via the Mu Xiaokui encounter).",
+  "summary": "Jade Dancer and Iron Fiend is an optional encounter in Crimson Manor & Crimson Forest, found at Crimson Forest. Beating it yields Fiend Saws (via the Mu Xiaokui encounter).",
   "drops": [
    "Fiend Saws (via the Mu Xiaokui encounter)"
   ],
@@ -212,7 +212,7 @@
   "region": "Crimson Manor & Crimson Forest",
   "location": "Returns later in the story",
   "act": "Crimson Manor & Crimson Forest",
-  "summary": "Yucong, the Twisted Puppet (No. 34) is a optional rematch encounter in Crimson Manor & Crimson Forest, found at Returns later in the story. Beating it yields Freezing Chaos.",
+  "summary": "Yucong, the Twisted Puppet (No. 34) is an optional rematch encounter in Crimson Manor & Crimson Forest, found at Returns later in the story. Beating it yields Freezing Chaos.",
   "drops": [
    "Freezing Chaos"
   ],
@@ -285,7 +285,7 @@
   "region": "Village of Lu",
   "location": "Unlocked through Memory Flowers",
   "act": "Village of Lu",
-  "summary": "Dusk, the Puppeteer is a optional encounter in Village of Lu, found at Unlocked through Memory Flowers.",
+  "summary": "Dusk, the Puppeteer is an optional encounter in Village of Lu, found at Unlocked through Memory Flowers.",
   "tips": [
    "The encounter only opens through the Memory Flowers, so it is easy to walk past.",
    "Manage the summons first - they will interrupt every opening otherwise."
@@ -314,7 +314,7 @@
   "region": "Village of Lu",
   "location": "Terrace bell, north side, rice field scarecrow",
   "act": "Village of Lu",
-  "summary": "Acolyte Yanru is a optional encounter in Village of Lu, found at Terrace bell, north side, rice field scarecrow. Beating it yields Blazing Mask.",
+  "summary": "Acolyte Yanru is an optional encounter in Village of Lu, found at Terrace bell, north side, rice field scarecrow. Beating it yields Blazing Mask.",
   "drops": [
    "Blazing Mask"
   ],
@@ -345,7 +345,7 @@
   "region": "Pangzhen",
   "location": "Statue Grounds bell, north of the long bridge",
   "act": "Pangzhen",
-  "summary": "Cavalrybane (鬼差高手 斩骑) is a optional encounter in Pangzhen, found at Statue Grounds bell, north of the long bridge. Beating it yields Armybreaker.",
+  "summary": "Cavalrybane (鬼差高手 斩骑) is an optional encounter in Pangzhen, found at Statue Grounds bell, north of the long bridge. Beating it yields Armybreaker.",
   "drops": [
    "Armybreaker"
   ],
@@ -443,7 +443,7 @@
   "region": "Pangzhen",
   "location": "Green Serpent House, then the water to the west",
   "act": "Pangzhen",
-  "summary": "You Loong, Blackwater Crew Leader (游龙) is a optional encounter in Pangzhen, found at Green Serpent House, then the water to the west. Beating it yields You Loong's Deluge / Loong Trident.",
+  "summary": "You Loong, Blackwater Crew Leader (游龙) is an optional encounter in Pangzhen, found at Green Serpent House, then the water to the west. Beating it yields You Loong's Deluge / Loong Trident.",
   "drops": [
    "You Loong's Deluge / Loong Trident"
   ],
@@ -474,7 +474,7 @@
   "region": "Pangzhen",
   "location": "Dockside Warehouse, down and right",
   "act": "Pangzhen",
-  "summary": "Soulclaimer (勾魂) is a optional encounter in Pangzhen, found at Dockside Warehouse, down and right. Beating it yields Parting Hooks.",
+  "summary": "Soulclaimer (勾魂) is an optional encounter in Pangzhen, found at Dockside Warehouse, down and right. Beating it yields Parting Hooks.",
   "drops": [
    "Parting Hooks"
   ],
@@ -489,7 +489,7 @@
   "region": "Pangzhen",
   "location": "Pangzhen",
   "act": "Pangzhen",
-  "summary": "Zhu Yuan is a optional encounter in Pangzhen, found at Pangzhen."
+  "summary": "Zhu Yuan is an optional encounter in Pangzhen, found at Pangzhen."
  },
  {
   "slug": "acolyte-lei-ting",
@@ -498,7 +498,7 @@
   "region": "Pangzhen",
   "location": "Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House",
   "act": "Pangzhen",
-  "summary": "Acolyte Lei Ting is a optional encounter in Pangzhen, found at Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House. Beating it yields Thunder Mask.",
+  "summary": "Acolyte Lei Ting is an optional encounter in Pangzhen, found at Pangzhen Slums via the Flaming Mane; scarecrow mid-path from Old Man Gen's House. Beating it yields Thunder Mask.",
   "drops": [
    "Thunder Mask"
   ],
@@ -549,7 +549,7 @@
   "region": "Mandate Encampment",
   "location": "Path of the Baishan's Fall",
   "act": "Mandate Encampment",
-  "summary": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) is a optional encounter in Mandate Encampment, found at Path of the Baishan's Fall. Beating it yields Soft Snake Sword.",
+  "summary": "Wu Lengshuang, the Soft Sword (柔剑 武林霜) is an optional encounter in Mandate Encampment, found at Path of the Baishan's Fall. Beating it yields Soft Snake Sword.",
   "drops": [
    "Soft Snake Sword"
   ],
@@ -605,7 +605,7 @@
   "region": "Mandate Encampment",
   "location": "Training Grounds, past the main gate",
   "act": "Mandate Encampment",
-  "summary": "Yubi, the Swordfighter Puppet (No. 21) is a optional encounter in Mandate Encampment, found at Training Grounds, past the main gate. Beating it yields Baishan Stormswords.",
+  "summary": "Yubi, the Swordfighter Puppet (No. 21) is an optional encounter in Mandate Encampment, found at Training Grounds, past the main gate. Beating it yields Baishan Stormswords.",
   "drops": [
    "Baishan Stormswords"
   ],
@@ -632,7 +632,7 @@
   "region": "Meigu Lake",
   "location": "Meigu Lake",
   "act": "Meigu Lake",
-  "summary": "One-Eyed Archer (独眼弓客) is a optional encounter in Meigu Lake, found at Meigu Lake.",
+  "summary": "One-Eyed Archer (独眼弓客) is an optional encounter in Meigu Lake, found at Meigu Lake.",
   "tips": [
    "Close the distance carefully; the whole fight is about not eating ranged hits on approach."
   ]
@@ -644,7 +644,7 @@
   "region": "Meigu Lake",
   "location": "Meigu Lake",
   "act": "Meigu Lake",
-  "summary": "Yan Qiansui, the Zither Maiden (烟千岁) is a optional encounter in Meigu Lake, found at Meigu Lake.",
+  "summary": "Yan Qiansui, the Zither Maiden (烟千岁) is an optional encounter in Meigu Lake, found at Meigu Lake.",
   "tips": [
    "Dodge the musical projectiles and exploit the pauses between phrases."
   ]
@@ -656,7 +656,7 @@
   "region": "Meigu Lake",
   "location": "White Serpent House",
   "act": "Meigu Lake",
-  "summary": "Heartpiercer (穿心者) is a optional encounter in Meigu Lake, found at White Serpent House. Beating it yields Sundering Dual Axes.",
+  "summary": "Heartpiercer (穿心者) is an optional encounter in Meigu Lake, found at White Serpent House. Beating it yields Sundering Dual Axes.",
   "drops": [
    "Sundering Dual Axes"
   ],
@@ -671,7 +671,7 @@
   "region": "Meigu Lake",
   "location": "Whiteshadow's Fall bell, inside the Illusion Realm",
   "act": "Meigu Lake",
-  "summary": "Blizzard Blademaster (暴雪刀主) is a optional - true ending gate encounter in Meigu Lake, found at Whiteshadow's Fall bell, inside the Illusion Realm. Beating it yields Whiteshadow.",
+  "summary": "Blizzard Blademaster (暴雪刀主) is an optional - true ending gate encounter in Meigu Lake, found at Whiteshadow's Fall bell, inside the Illusion Realm. Beating it yields Whiteshadow.",
   "drops": [
    "Whiteshadow"
   ],
@@ -686,7 +686,7 @@
   "region": "Meigu Lake",
   "location": "Meigu Village East Dock, scarecrow",
   "act": "Meigu Lake",
-  "summary": "Acolyte Guhe is a optional encounter in Meigu Lake, found at Meigu Village East Dock, scarecrow. Beating it yields Venom Mask.",
+  "summary": "Acolyte Guhe is an optional encounter in Meigu Lake, found at Meigu Village East Dock, scarecrow. Beating it yields Venom Mask.",
   "drops": [
    "Venom Mask"
   ],
@@ -740,7 +740,7 @@
   "region": "Mountain of Imprisonment",
   "location": "The Lady's Shrine - temple ruins, north-west",
   "act": "Mountain of Imprisonment",
-  "summary": "Jade-Face (玉面郎君) is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - temple ruins, north-west. Beating it yields Seamless Death.",
+  "summary": "Jade-Face (玉面郎君) is an optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - temple ruins, north-west. Beating it yields Seamless Death.",
   "drops": [
    "Seamless Death"
   ],
@@ -757,7 +757,7 @@
   "region": "Mountain of Imprisonment",
   "location": "The Lady's Shrine - end of the region",
   "act": "Mountain of Imprisonment",
-  "summary": "Huangxing, the Kunlun Renegade (荒行子) is a optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - end of the region. Beating it yields Flying Guillotine, Void Bloom Fan.",
+  "summary": "Huangxing, the Kunlun Renegade (荒行子) is an optional encounter in Mountain of Imprisonment, found at The Lady's Shrine - end of the region. Beating it yields Flying Guillotine, Void Bloom Fan.",
   "drops": [
    "Flying Guillotine, Void Bloom Fan"
   ],
@@ -816,7 +816,7 @@
   "region": "Mirage Estate",
   "location": "Mirage Estate",
   "act": "Mirage Estate",
-  "summary": "Mo Yuan (莫渊) is a optional encounter in Mirage Estate, found at Mirage Estate. Beating it yields Soul Tempering material.",
+  "summary": "Mo Yuan (莫渊) is an optional encounter in Mirage Estate, found at Mirage Estate. Beating it yields Soul Tempering material.",
   "drops": [
    "Soul Tempering material"
   ],
@@ -932,7 +932,7 @@
   "region": "Mount Soulrend & endgame",
   "location": "Endgame",
   "act": "Mount Soulrend & endgame",
-  "summary": "The Saw and the Crusher is a optional encounter in Mount Soulrend & endgame, found at Endgame.",
+  "summary": "The Saw and the Crusher is an optional encounter in Mount Soulrend & endgame, found at Endgame.",
   "tips": [
    "Separate the pair where possible; fighting both in the same cone is what kills runs."
   ]

@@ -252,8 +252,17 @@ def build_records():
         if key in OBTAINED_OVERRIDE:
             rec["obtained"] = OBTAINED_OVERRIDE[key]
         slot_word = "primary" if rec["slot"] == "Primary" else "secondary"
-        noun = CATEGORY_NOUN.get(rec["category"], rec["category"].lower())
-        lead = f"{rec['name']} is a {noun} in Phantom Blade Zero's {slot_word} weapon set."
+        category = rec["category"]
+        if category in (None, "", "Not stated in the source list"):
+            # Printing the missing-data marker inside a sentence produced
+            # "is a not stated in the source list in Phantom Blade Zero's ...".
+            lead = f"{rec['name']} is a {slot_word} weapon in Phantom Blade Zero."
+        else:
+            noun = CATEGORY_NOUN.get(category, category.lower())
+            # "a axe" / "a instrument" - but "a one-handed blade" stays, since
+            # "one" is pronounced with a consonant.
+            article = "an" if noun[0] in "aeiou" and not noun.startswith("one-") else "a"
+            lead = f"{rec['name']} is {article} {noun} in Phantom Blade Zero's {slot_word} weapon set."
         rec["summary"] = f"{lead} {rec['summary']}".strip() if rec["summary"] else (
             f"{lead} It is obtained at {rec['obtained']}."
         )

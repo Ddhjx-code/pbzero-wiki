@@ -13,6 +13,7 @@ invents content.
 """
 import json
 import os
+import re
 import sys
 
 PAGES = "src/data/pages"
@@ -23,6 +24,35 @@ UPDATED = "2026-11-10"
 
 def display(value):
     return UNKNOWN if value in (None, "", NOT_CONFIRMED) else value
+
+
+ANCHOR_STYLE = "color:var(--accent);text-decoration:underline;text-underline-offset:2px"
+_SLUGS = None
+
+
+def item_slug(text):
+    """Same shape the weapon and trophy builders use, so a drop resolves to the
+    page that already exists for that item."""
+    base = re.sub(r"\s*\([^)]*\)", "", text).strip()
+    base = base.replace("&", " and ").replace("'", "").replace("\u2019", "")
+    base = base.lower()
+    return re.sub(r"[^a-z0-9]+", "-", base).strip("-")
+
+
+def page_slugs():
+    global _SLUGS
+    if _SLUGS is None:
+        _SLUGS = {f[:-5] for f in os.listdir(PAGES) if f.endswith(".json")}
+    return _SLUGS
+
+
+def link_drop(text):
+    """Link a drop only when its page exists on disk. A dead internal link is
+    worse than plain text, so the slug is checked rather than assumed."""
+    slug = item_slug(text)
+    if slug and slug in page_slugs():
+        return f'<a href="/{slug}" style="{ANCHOR_STYLE}">{text}</a>'
+    return text
 
 
 def affinity_block(rec):
@@ -102,7 +132,7 @@ def boss_sections(rec):
 
     drops = rec.get("drops") or []
     if drops:
-        rewards = "<ul>" + "".join(f"<li>{d}</li>" for d in drops) + "</ul>"
+        rewards = "<ul>" + "".join(f"<li>{link_drop(d)}</li>" for d in drops) + "</ul>"
     else:
         rewards = (
             f"<p>{UNKNOWN}. No guide we checked records a drop for this encounter, so none is "

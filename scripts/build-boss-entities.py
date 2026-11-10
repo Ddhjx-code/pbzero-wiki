@@ -343,8 +343,13 @@ def main():
         drop = row["drop"]
         drops = [] if drop.lower().startswith(("not documented", "none")) else [drop]
 
+        # "is a optional encounter" is the giveaway that a template wrote the
+        # sentence. Pick the article from the first word of the kind instead.
+        kind_lower = kind.lower()
+        article = "an" if kind_lower[0] in "aeiou" else "a"
         summary = (
-            f"{name} is a {kind.lower()} encounter in {row['region']}, found at {row['where'].rstrip('.')}."
+            f"{name} is {article} {kind_lower} encounter in {row['region']}, "
+            f"found at {row['where'].rstrip('.')}."
         )
         if drops:
             summary += f" Beating it yields {drops[0]}."

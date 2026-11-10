@@ -41,7 +41,7 @@
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li>Hunter's Chain Sickle (Great Waterfall, same region)</li></ul>"
+      "content": "<ul><li><a href=\"/hunters-chain-sickle\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Hunter's Chain Sickle (Great Waterfall, same region)</a></li></ul>"
     },
     {
       "id": "strategy",
