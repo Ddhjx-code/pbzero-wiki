@@ -16,9 +16,11 @@ import base64
 import datetime as dt
 import json
 import os
+import re
 import subprocess
 import sys
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -38,7 +40,9 @@ def b64u(raw):
     return base64.urlsafe_b64encode(raw).rstrip(b"=").decode()
 
 
-def http_json(url, token=None, payload=None, method=None):
+def http_json(url, token=None, payload=None, method=None, retries=3):
+    """JSON request with retries. The link to Google gets reset often enough
+    that a single URLError should not abort a 184-URL audit."""
     data = None
     headers = {"Accept": "application/json"}
     if payload is not None:
@@ -46,13 +50,27 @@ def http_json(url, token=None, payload=None, method=None):
         headers["Content-Type"] = "application/json"
     if token:
         headers["Authorization"] = f"Bearer {token}"
-    req = urllib.request.Request(url, data=data, headers=headers, method=method or ("POST" if data else "GET"))
-    try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
-            return json.loads(resp.read().decode())
-    except urllib.error.HTTPError as exc:
-        body = exc.read().decode(errors="replace")[:600]
-        raise RuntimeError(f"HTTP {exc.code} {url}\n{body}") from None
+
+    last = None
+    for attempt in range(retries):
+        req = urllib.request.Request(
+            url, data=data, headers=headers, method=method or ("POST" if data else "GET")
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=90) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as exc:
+            body = exc.read().decode(errors="replace")[:600]
+            if exc.code in (429, 500, 502, 503, 504) and attempt + 1 < retries:
+                time.sleep(2 + 2 * attempt)
+                continue
+            raise RuntimeError(f"HTTP {exc.code} {url}\n{body}") from None
+        except Exception as exc:
+            last = exc
+            if attempt + 1 < retries:
+                time.sleep(2 + 2 * attempt)
+                continue
+    raise RuntimeError(f"network error on {url}: {type(last).__name__} {last}") from None
 
 
 def access_token(sa):
@@ -92,17 +110,24 @@ def access_token(sa):
             "assertion": f"{unsigned}.{b64u(signature)}",
         }
     ).encode()
-    req = urllib.request.Request(
-        sa.get("token_uri", TOKEN_URI),
-        data=body,
-        headers={"Content-Type": "application/x-www-form-urlencoded"},
-    )
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            return json.loads(resp.read().decode())["access_token"]
-    except urllib.error.HTTPError as exc:
-        detail = exc.read().decode(errors="replace")[:600]
-        raise RuntimeError(f"token exchange failed (HTTP {exc.code}): {detail}") from None
+    last = None
+    for attempt in range(4):
+        req = urllib.request.Request(
+            sa.get("token_uri", TOKEN_URI),
+            data=body,
+            headers={"Content-Type": "application/x-www-form-urlencoded"},
+        )
+        try:
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                return json.loads(resp.read().decode())["access_token"]
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode(errors="replace")[:600]
+            raise RuntimeError(f"token exchange failed (HTTP {exc.code}): {detail}") from None
+        except Exception as exc:
+            last = exc
+            if attempt + 1 < 4:
+                time.sleep(2 + 2 * attempt)
+    raise RuntimeError(f"token exchange failed on network: {type(last).__name__} {last}") from None
 
 
 def find_property(token):
@@ -174,14 +199,59 @@ def table(headers, rows, numeric_from=1):
     return "\n".join(out) + "\n"
 
 
+def index_audit(token, site, urls):
+    """Ask Search Console about every URL in the sitemap.
+
+    Coverage state is the only honest answer to "is this page in Google" -
+    the sitemap submitted/indexed counters are legacy and go stale.
+    """
+    out = []
+    for url in urls:
+        try:
+            resp = http_json(
+                "https://searchconsole.googleapis.com/v1/urlInspection/index:inspect",
+                token,
+                {"inspectionUrl": url, "siteUrl": site, "languageCode": "en"},
+            )
+            res = resp.get("inspectionResult", {}).get("indexStatusResult", {})
+            out.append((url, res.get("coverageState", "-"), (res.get("lastCrawlTime") or "")[:10]))
+        except RuntimeError as exc:
+            out.append((url, f"inspect failed: {str(exc)[:60]}", ""))
+    return out
+
+
+def sitemap_urls(site_hint):
+    host = site_hint.replace("sc-domain:", "https://").rstrip("/")
+    try:
+        # Cloudflare answers 403 to the bare python-urllib user agent.
+        req = urllib.request.Request(
+            f"{host}/sitemap.xml",
+            headers={"User-Agent": "Mozilla/5.0 (compatible; pbzero-wiki-report/1.0)"},
+        )
+        raw = urllib.request.urlopen(req, timeout=60).read().decode()
+    except Exception:
+        raw = ""
+    if not raw:
+        # Direct HTTPS to the site is flaky from some networks (Cloudflare
+        # resets the TLS handshake), so fall back to the repo's page list.
+        if os.path.isdir(PAGES):
+            slugs = sorted(f[:-5] for f in os.listdir(PAGES) if f.endswith(".json"))
+            return [f"https://pbzero.wiki/{s}" for s in slugs]
+        return []
+    return re.findall(r"<loc>([^<]+)</loc>", raw)
+
+
 def main():
     if not os.path.exists(SA_PATH):
         raise SystemExit(f"missing service-account key: {SA_PATH}")
 
+    audit = "--index-audit" in sys.argv
+    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+
     today = dt.date.today()
-    if len(sys.argv) >= 3:
-        start = dt.date.fromisoformat(sys.argv[1])
-        end = dt.date.fromisoformat(sys.argv[2])
+    if len(args) >= 2:
+        start = dt.date.fromisoformat(args[0])
+        end = dt.date.fromisoformat(args[1])
     else:
         end = today - dt.timedelta(days=1)
         start = end - dt.timedelta(days=27)
@@ -300,6 +370,31 @@ def main():
         except RuntimeError as exc:
             lines.append(f"_(query failed: {str(exc)[:200]})_")
             lines.append("")
+
+    if audit:
+        urls = sitemap_urls(GSC_SITES[0])
+        lines.append("## Index coverage (sitemap URLs)")
+        lines.append("")
+        if not urls:
+            lines.append("_(could not read sitemap.xml)_")
+            lines.append("")
+        else:
+            print(f"inspecting {len(urls)} URLs...")
+            results = index_audit(token, GSC_SITES[0], urls)
+            tally = {}
+            for _, state, _ in results:
+                tally[state] = tally.get(state, 0) + 1
+            lines.append(table(
+                ["coverage state", "urls"],
+                [[k, v] for k, v in sorted(tally.items(), key=lambda kv: -kv[1])],
+                1,
+            ))
+            unknown = [u.replace("https://pbzero.wiki", "") for u, s, _ in results if "unknown" in s.lower()]
+            if unknown:
+                lines.append(f"\nNot yet known to Google ({len(unknown)}): {', '.join(unknown[:40])}")
+                if len(unknown) > 40:
+                    lines.append(f"... and {len(unknown) - 40} more")
+                lines.append("")
 
     report = "\n".join(lines)
     os.makedirs(OUT_DIR, exist_ok=True)
