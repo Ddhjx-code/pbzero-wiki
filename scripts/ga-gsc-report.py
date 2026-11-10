@@ -27,6 +27,9 @@ import urllib.request
 
 SA_PATH = os.environ.get("GOOGLE_SA", ".secrets/gcp-sa.json")
 MEASUREMENT_ID = "G-W9Y62B3DBM"
+# GA4 property 549933418 hosts several web streams (pbzero.wiki and
+# expedition33.wiki), so reports must be filtered down to this host.
+SITE_HOST = "pbzero.wiki"
 SCOPES = (
     "https://www.googleapis.com/auth/analytics.readonly "
     "https://www.googleapis.com/auth/webmasters.readonly"
@@ -158,6 +161,15 @@ def ga4(token, prop, start, end, dims, mets, limit=15):
         "dateRanges": [{"startDate": start, "endDate": end}],
         "metrics": [{"name": m} for m in mets],
         "limit": limit,
+        # The property also carries other sites (expedition33.wiki shares it),
+        # so every report has to be pinned to our own host or the totals are
+        # a blend of two unrelated wikis.
+        "dimensionFilter": {
+            "filter": {
+                "fieldName": "hostName",
+                "stringFilter": {"matchType": "EXACT", "value": SITE_HOST},
+            }
+        },
     }
     if dims:
         payload["dimensions"] = [{"name": d} for d in dims]
@@ -280,25 +292,44 @@ def main():
         lines.append("")
         cur = ga4(token, prop, start.isoformat(), end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews", "engagementRate"])
         prev = ga4(token, prop, prev_start.isoformat(), prev_end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews"])
-        cvals = [int(m["value"]) for m in cur.get("rows", [{}])[0].get("metricValues", [])] if cur.get("rows") else [0, 0, 0, 0]
-        pvals = [int(m["value"]) for m in prev.get("rows", [{}])[0].get("metricValues", [])] if prev.get("rows") else [0, 0, 0, 0]
+        cvals = [float(m["value"]) for m in cur.get("rows", [{}])[0].get("metricValues", [])] if cur.get("rows") else [0, 0, 0, 0]
+        pvals = [float(m["value"]) for m in prev.get("rows", [{}])[0].get("metricValues", [])] if prev.get("rows") else [0, 0, 0, 0]
 
         def delta(a, b):
+            a, b = int(a), int(b)
             return f"{a} ({(a - b):+d})" if b else str(a)
 
         lines.append(table(
             ["metric", "current", "previous"],
             [
-                ["active users", delta(cvals[0], pvals[0]), pvals[0]],
-                ["sessions", delta(cvals[1], pvals[1]), pvals[1]],
-                ["page views", delta(cvals[2], pvals[2]), pvals[2]],
+                ["active users", delta(cvals[0], pvals[0]), int(pvals[0])],
+                ["sessions", delta(cvals[1], pvals[1]), int(pvals[1])],
+                ["page views", delta(cvals[2], pvals[2]), int(pvals[2])],
                 ["engagement rate", f"{cvals[3] * 100:.1f}%" if len(cvals) > 3 else "-", "-"],
             ],
             1,
         ))
 
+        try:
+            resp = ga4(
+                token, prop, start.isoformat(), end.isoformat(),
+                ["date"], ["activeUsers", "sessions"], limit=span + 5,
+            )
+            drows = []
+            for _, _, vals, nums in ga4_rows(resp):
+                d = vals[0]
+                drows.append([f"{d[:4]}-{d[4:6]}-{d[6:]}", *[f"{float(n):,.0f}" for n in nums]])
+            drows.sort(key=lambda r: r[0])
+            lines.append("### Daily")
+            lines.append("")
+            lines.append(table(["date", "activeUsers", "sessions"], drows))
+        except RuntimeError as exc:
+            lines.append(f"_(daily failed: {str(exc)[:160]})_")
+            lines.append("")
+
         for title, dim, mets in [
             ("Channels", "sessionDefaultChannelGroup", ["sessions", "activeUsers"]),
+            ("Sources", "sessionSourceMedium", ["sessions"]),
             ("Landing pages", "landingPagePlusQueryString", ["sessions", "screenPageViews"]),
             ("Top pages", "pagePath", ["screenPageViews", "activeUsers"]),
             ("Countries", "country", ["activeUsers"]),
@@ -306,7 +337,7 @@ def main():
             try:
                 resp = ga4(token, prop, start.isoformat(), end.isoformat(), [dim], mets, limit=15)
                 rows = [
-                    [vals[0], *[int(n) for n in nums]]
+                    [vals[0], *[f"{float(n):,.0f}" if float(n) == int(float(n)) else f"{float(n):,.2f}" for n in nums]]
                     for _, _, vals, nums in ga4_rows(resp)
                 ]
                 lines.append(f"### {title}")
