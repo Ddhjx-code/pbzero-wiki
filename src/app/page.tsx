@@ -8,11 +8,24 @@ const QUICK_LINKS = [
   { href: "/weapons", emoji: "🗡️", title: "Weapons", desc: "Weapons & Sha-chi upgrade paths" },
 ];
 
+// The databases are the tier-2 indexes. They were only reachable through
+// /weapons and /boss-guide, which Google has not crawled, so the entity pages
+// below them were never discovered. Linking them from the home page puts them
+// one hop from the only reliably indexed URL on the site.
+const DATABASES = [
+  { href: "/boss-list", emoji: "📋", title: "All 60 Bosses", desc: "Every region, in fight order" },
+  { href: "/blades", emoji: "🗡️", title: "Blades", desc: "26 with a recorded location" },
+  { href: "/phantom-edges", emoji: "🌀", title: "Phantom Edges", desc: "16 secondary arms" },
+  { href: "/boss-drops", emoji: "🎁", title: "Boss Drops", desc: "Who drops what" },
+  { href: "/bosses-by-class", emoji: "🏷️", title: "Bosses by Class", desc: "Story, optional, rematch" },
+  { href: "/trophy-list", emoji: "🏆", title: "Trophy List", desc: "All 36 PS5 trophies" },
+];
+
 const STATS = [
   { value: "1", label: "Playable character - Soul" },
-  { value: "2 + 2", label: "Blades and Phantom Edges" },
+  { value: "42", label: "Weapons & Phantom Edges documented" },
+  { value: "60", label: "Bosses with a recorded fight" },
   { value: "66", label: "Days to live" },
-  { value: "UE5", label: "Unreal Engine 5" },
 ];
 
 export default function HomePage() {
@@ -57,7 +70,7 @@ export default function HomePage() {
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
-            Releases October 29, 2026
+            Released October 29, 2026
           </p>
           <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
             Phantom Blade Zero Wiki
@@ -126,6 +139,33 @@ export default function HomePage() {
                 <span className="mt-4 inline-flex items-center text-sm font-medium text-accent opacity-0 transition-opacity group-hover:opacity-100">
                   Read more →
                 </span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Databases - tier-2 indexes, one hop from the home page on purpose */}
+      <section className="pb-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-foreground sm:text-3xl">
+            Databases
+          </h2>
+          <p className="mt-2 text-muted-foreground">
+            Every boss, blade and trophy we have a recorded location for - each entry links to its own page.
+          </p>
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {DATABASES.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="group relative rounded-xl border border-border bg-card p-5 transition-all hover:border-accent hover:shadow-md"
+              >
+                <span className="text-xl">{link.emoji}</span>
+                <h3 className="mt-2 text-base font-semibold text-card-foreground group-hover:text-accent transition-colors">
+                  {link.title}
+                </h3>
+                <p className="mt-1 text-sm text-muted-foreground">{link.desc}</p>
               </Link>
             ))}
           </div>

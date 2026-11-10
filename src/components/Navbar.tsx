@@ -3,12 +3,16 @@ import { useState } from "react";
 import Link from "next/link";
 import SearchDialog from "./SearchDialog";
 
+// Bosses and Weapons point at the tier-2 databases rather than the strategy
+// hubs: the database pages are what link out to all 60 boss pages and the
+// blade/edge pages, so putting them in the sitewide nav gives every entity
+// page at least one inbound link from every other page on the site.
 const NAV_LINKS = [
   { href: "/news", label: "News" },
   { href: "/guide", label: "Guide" },
   { href: "/characters", label: "Characters" },
-  { href: "/boss-guide", label: "Bosses" },
-  { href: "/weapons", label: "Weapons" },
+  { href: "/boss-list", label: "Bosses" },
+  { href: "/blades", label: "Weapons" },
   { href: "/endings", label: "Story" },
 ];
 
