@@ -66,18 +66,27 @@ def ga4_block(token, site, start, end, prev_start, prev_end, lines):
     totals = {}
     try:
         cur = rep.ga4(
-            token, prop, start.isoformat(), end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews", "engagementRate"]
+            token, prop, start.isoformat(), end.isoformat(), [],
+            ["activeUsers", "sessions", "screenPageViews", "engagementRate", "engagedSessions", "averageSessionDuration"],
         )
         prev = rep.ga4(
             token, prop, prev_start.isoformat(), prev_end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews"]
         )
-        cvals = [float(m["value"]) for m in cur["rows"][0]["metricValues"]] if cur.get("rows") else [0, 0, 0, 0]
+        cvals = [float(m["value"]) for m in cur["rows"][0]["metricValues"]] if cur.get("rows") else [0] * 6
         pvals = [float(m["value"]) for m in prev["rows"][0]["metricValues"]] if prev.get("rows") else [0, 0, 0]
     except (RuntimeError, KeyError, IndexError) as exc:
         lines += ["### GA4", "", f"_(failed: {str(exc)[:200]})_", ""]
         return None
 
-    totals = {"users": cvals[0], "sessions": cvals[1], "views": cvals[2], "eng": cvals[3] if len(cvals) > 3 else 0}
+    totals = {
+        "users": cvals[0],
+        "sessions": cvals[1],
+        "views": cvals[2],
+        "eng": cvals[3] if len(cvals) > 3 else 0,
+        "engaged": cvals[4] if len(cvals) > 4 else 0,
+        "duration": cvals[5] if len(cvals) > 5 else 0,
+        "days": (end - start).days + 1,
+    }
 
     def d(a, b):
         return f"{int(a)} ({(int(a) - int(b)):+d})" if b else str(int(a))
@@ -87,6 +96,10 @@ def ga4_block(token, site, start, end, prev_start, prev_end, lines):
         ["sessions", d(cvals[1], pvals[1]), int(pvals[1]) if len(pvals) > 1 else 0],
         ["page views", d(cvals[2], pvals[2]), int(pvals[2]) if len(pvals) > 2 else 0],
         ["engagement rate", f"{totals['eng'] * 100:.1f}%", "-"],
+        ["engaged sessions", f"{int(totals['engaged'])}", "-"],
+        ["avg session duration", f"{totals['duration']:.0f}s", "-"],
+        ["**sessions / day**", f"**{totals['sessions'] / totals['days']:.1f}**", "-"],
+        ["**engaged sessions / day**", f"**{totals['engaged'] / totals['days']:.1f}**", "-"],
     ]
     lines += [
         f"### GA4 (property {prop}, hostName={site['host']})",
@@ -94,15 +107,24 @@ def ga4_block(token, site, start, end, prev_start, prev_end, lines):
         rep.table(["metric", "current", "previous"], rows, 1),
     ]
 
+    def fmt(metric, value):
+        if metric == "engagementRate":
+            return f"{float(value) * 100:.1f}%"
+        if metric == "averageSessionDuration":
+            return f"{float(value):.0f}s"
+        return num(value)
+
     for title, dim, mets in [
-        ("Channels", "sessionDefaultChannelGroup", ["sessions", "activeUsers"]),
+        ("Channels (with engaged sessions)", "sessionDefaultChannelGroup",
+         ["sessions", "engagedSessions", "engagementRate", "averageSessionDuration"]),
         ("Sources", "sessionSourceMedium", ["sessions"]),
+        ("Devices", "deviceCategory", ["sessions", "engagedSessions"]),
         ("Top pages", "pagePath", ["screenPageViews", "activeUsers"]),
         ("Countries", "country", ["activeUsers"]),
     ]:
         try:
             resp = rep.ga4(token, prop, start.isoformat(), end.isoformat(), [dim], mets, limit=TOP_N)
-            rows = [[v[0], *[num(n) for n in nums]] for _, _, v, nums in rep.ga4_rows(resp)]
+            rows = [[v[0], *[fmt(met, n) for met, n in zip(mets, nums)]] for _, _, v, nums in rep.ga4_rows(resp)]
         except RuntimeError as exc:
             lines += [f"#### {title}", "", f"_(failed: {str(exc)[:160]})_", ""]
             continue
@@ -216,6 +238,9 @@ def main():
                 host,
                 num(ga["users"]) if ga else "-",
                 num(ga["sessions"]) if ga else "-",
+                f"**{ga['sessions'] / ga['days']:.1f}**" if ga else "-",
+                num(ga["engaged"]) if ga else "-",
+                f"**{ga['engaged'] / ga['days']:.1f}**" if ga else "-",
                 f"{ga['eng'] * 100:.0f}%" if ga else "-",
                 str(sc["clicks"]) if sc else "-",
                 str(sc["impressions"]) if sc else "-",
@@ -223,7 +248,17 @@ def main():
             ]
         )
     out += [
-        rep.table(["site", "GA4 users", "GA4 sessions", "engagement", "GSC clicks", "GSC impressions", "avg position"], rows),
+        rep.table(
+            [
+                "site", "GA4 users", "sessions", "sessions/day",
+                "engaged", "engaged/day", "engagement",
+                "GSC clicks", "impressions", "avg position",
+            ],
+            rows,
+        ),
+        "",
+        "> sessions 含未知爬虫与预渲染；engaged sessions 是 GA4 认定的互动会话"
+        "（≥10 秒、或 ≥2 次浏览、或触发关键事件），更接近真实读者。",
         "",
         "---",
         "",
