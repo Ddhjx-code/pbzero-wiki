@@ -38,10 +38,14 @@ def main():
     # name fragment -> boss slug, for "defeat X" acquisition cells
     def boss_for(text):
         low = text.lower()
+        squash = low.replace(" ", "")
         for b in bosses:
             stem = bare(b["name"]).lower()
             head = stem.split(",")[0].strip()
-            if head and head in low:
+            if not head:
+                continue
+            # "Yuding" in the acquisition cell vs "Yu Ding" in the roster.
+            if head in low or head.replace(" ", "") in squash:
                 return b
         return None
 
