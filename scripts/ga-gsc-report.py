@@ -288,7 +288,7 @@ def main():
 
     prop, note = find_property(token)
     if prop:
-        lines.append(f"## GA4 (property {prop}{', ' + note if note else ''})")
+        lines.append(f"## GA4 (property {prop}, hostName={SITE_HOST}{', ' + note if note else ''})")
         lines.append("")
         cur = ga4(token, prop, start.isoformat(), end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews", "engagementRate"])
         prev = ga4(token, prop, prev_start.isoformat(), prev_end.isoformat(), [], ["activeUsers", "sessions", "screenPageViews"])
