@@ -1,88 +1,75 @@
 {
-  "title": "Phantom Blade Zero Release Date - October 29, 2026 (PS5 & PC)",
-  "description": "Phantom Blade Zero releases October 29, 2026 on PS5 and PC. The confirmed date, platforms, and the full history of the September 9 delay explained.",
-  "keyword": "phantom blade zero release date",
-  "lastUpdated": "2026-10-22",
-  "sections": [
-    {
-      "id": "confirmed-date",
-      "title": "Confirmed Release Date: October 29, 2026",
-      "content": "<div class=\"highlight-box\"><p><strong>Phantom Blade Zero launches on October 29, 2026</strong> for PlayStation 5 and PC (Steam and Epic Games Store). This date comes directly from S-GAME's own published game information.</p></div><p>Note that many third-party sites still list <strong>September 9, 2026</strong>. That was the original date, and it is now out of date — the game was moved to October 29 in June 2026. If you see a page claiming a September 9 release, it has not been updated since the delay.</p><p>For the short answers to everything else, see the <a href=\"/faq\">FAQ</a>.</p><p><strong>Preload and storage.</strong> Store backend data surfaced on 16 October puts the PS5 download at <strong>134.857 GB</strong> with preload opening <strong>at 10:00 China time on October 27</strong> across all platforms, two days before release. Treat the size as pre-patch. The listing is digital-only, which it still is: the PS5 boxed editions announced in the launch trailer are slated for 2027, not for this release - see <a href=\"/physical-edition\">the physical edition page</a>. On a base PS5 with a 1 TB drive this is large enough that you will be choosing what else to delete, so clearing space early is the single most useful pre-launch task.</p>"
-    },
-    {
-      "id": "platforms",
-      "title": "Platforms and Editions",
-      "content": "<table><thead><tr><th>Platform</th><th>Status</th><th>Storefront</th></tr></thead><tbody><tr><td>PlayStation 5</td><td>Confirmed</td><td>PlayStation Store</td></tr><tr><td>Windows PC</td><td>Confirmed</td><td>Steam, Epic Games Store</td></tr></tbody></table><p>S-GAME has announced the game for PlayStation 5 and PC. No Xbox version has been announced. The game is a single-player action RPG with no multiplayer component announced.</p><p>PC owners waiting on hardware numbers should watch the <a href=\"/pc-requirements\">PC requirements page</a>; the decision on buying early is covered in the <a href=\"/pre-order-guide\">pre-order guide</a>.</p>"
-    },
-    {
-      "id": "delay-history",
-      "title": "Why the Date Moved from September 9 to October 29",
-      "content": "<p>The September 9 date was not arbitrary. According to S-GAME, the <strong>9/9 symbolism</strong> was deliberate: it represents a reversal of fate and the overturning of heaven's order, echoing the game's central 66-day premise. It was announced on stage at The Game Awards in December 2025.</p><p>In June 2026, S-GAME announced the move to <strong>October 29, 2026</strong>. The stated reason was to allow additional time to further improve the quality of the product.</p><h3>Timeline</h3><table><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody><tr><td>24 May 2023</td><td>Revealed at the PlayStation Showcase with a debut trailer</td></tr><tr><td>January 2025</td><td>A trailer confirms a release date will be announced during 2025</td></tr><tr><td>December 2025</td><td>Release date announced at The Game Awards: September 9, 2026</td></tr><tr><td>June 2026</td><td>Release moved to October 29, 2026 for additional polish</td></tr><tr><td>29 October 2026</td><td>Planned launch on PS5 and PC</td></tr></tbody></table>"
-    },
-    {
-      "id": "pre-release-status",
-      "title": "What Is Actually Known Before Launch",
-      "content": "<p>Because the game has not shipped, it is worth being precise about what is confirmed and what is not. A number of sites publish detailed boss strategies, weapon stat tables, and \"hands-on impressions\" for Phantom Blade Zero. Treat those with scepticism — the game is not out, so nobody has played the finished release.</p><div class=\"warning-box\"><p><strong>Confirmed by S-GAME and reputable press:</strong> the release date, platforms, protagonist and story premise, the Sha-chi combat resource, the blade and Phantom Edge weapon structure, the Kenji Tanigaki action direction, and the studio's own background.</p></div><div class=\"info-box\"><p><strong>Not confirmed:</strong> exact weapon counts, exact boss counts, full ending count and ending conditions, stat tables, and any \"best build\" ranking. These depend on the shipped build and can only be verified after October 29.</p></div><p>This page and the rest of this site stick to the first category, and label anything in the second as unconfirmed rather than presenting it as tested fact.</p><p>Playtime has not been announced; see <a href=\"/how-long-to-beat\">how long Phantom Blade Zero is</a> and why pre-launch estimates are unreliable here.</p>"
-    },
-    {
-      "id": "what-to-do-now",
-      "title": "What to Do Before October 29",
-      "content": "<p>If you are waiting for the game, there is a reasonable amount of official material to work through in the meantime:</p><ul><li>Read the <a href=\"/protagonist\">protagonist and story premise</a> — the 66-day setup is the core of the game and shapes everything</li><li>Understand the <a href=\"/combat\">Sha-chi combat system</a> before launch so the mechanics are not new to you on day one</li><li>Look at the <a href=\"/s-game\">studio background</a> — S-GAME's history explains why the game looks the way it does</li><li>Wishlist on Steam or the PlayStation Store so you get notified at launch</li></ul><p><strong>Unlock times by region</strong>, from the store listing: Pacific 7:00 p.m. October 28, Central 9:00 p.m., Eastern 10:00 p.m.; GMT 2:00 a.m. October 29, Central European 3:00 a.m., India 7:30 a.m., China 10:00 a.m., Japan and Korea 11:00 a.m., eastern Australia 1:00 p.m., New Zealand 3:00 p.m. Neither edition grants early access, so buying the more expensive version does not get you in sooner.</p>"
-    },
-    {
-      "id": "what-changed-this-week",
-      "title": "What changed this week",
-      "content": "<p>The unlock time is now known from the PlayStation Store listing: <strong>02:00 UTC on 29 October</strong>, which lands as the evening of 28 October in the US. That is why some pages say October 28 and some October 29 - both are right for their region.</p><p>Still not announced as of 16 October: the review embargo, the preload window and the install size. Anyone publishing a download size before S-Game or the stores do is guessing.</p>"
-    }
-  ],
+  "slug": "release-date",
+  "title": "Phantom Blade Zero Release Date - Out Now on PS5 and PC",
+  "description": "Phantom Blade Zero released on October 29, 2026 for PS5 and PC and is out now. Launch sales, the Steam peak, the first patch, and why some pages still list September 9.",
+  "keyword": "phantom blade zero release date, when does phantom blade zero come out, is phantom blade zero out, phantom blade zero release",
+  "lastUpdated": "2026-11-11",
   "facts": [
     {
-      "label": "Release date",
-      "value": "October 29, 2026"
+      "label": "Released",
+      "value": "October 29, 2026 - out now"
     },
     {
-      "label": "PlayStation 5",
-      "value": "Confirmed - PlayStation Store"
+      "label": "Platforms",
+      "value": "PlayStation 5, Windows PC (Steam, Epic)"
     },
     {
-      "label": "Windows PC",
-      "value": "Confirmed - Steam, Epic Games Store"
+      "label": "Copies sold",
+      "value": "4 million in 72 hours"
     },
     {
-      "label": "Xbox / Switch",
-      "value": "Not announced"
+      "label": "Steam concurrent peak",
+      "value": "833,921 on November 1, 2026"
     },
     {
-      "label": "Previous date",
-      "value": "September 9, 2026 (delayed 50 days)"
+      "label": "First patch",
+      "value": "1.0302256, November 4, 2026"
     },
     {
-      "label": "Delay reason",
-      "value": "Polishing the areas that matter most"
+      "label": "Physical disc",
+      "value": "2027, no date"
+    }
+  ],
+  "sections": [
+    {
+      "id": "status",
+      "title": "The Short Answer: It Is Out Now",
+      "content": "<p>Phantom Blade Zero released on <strong>October 29, 2026</strong> for PlayStation 5 and Windows PC through Steam and the Epic Games Store. There is no countdown left to wait for: the digital game is on sale, it has been patched once, and the disc version is the only thing still in the future.</p><p>Unlock time was 02:00 UTC on 29 October. That lands on the evening of 28 October in the United States, which is why some pages still say the 28th. Both dates are correct for their region and the game has been live on both since.</p><p>If you are here to decide whether to buy, the practical questions are price, platform and length. The <a href=\"/pre-order-guide\">buying guide</a> covers editions and what is actually on sale now, the <a href=\"/platforms\">platform page</a> covers Xbox and Switch 2, and <a href=\"/how-long-to-beat\">how long to beat</a> covers playtime.</p>"
     },
     {
-      "label": "Console exclusivity",
-      "value": "PS5 timed exclusive, 12 months"
+      "id": "first-two-weeks",
+      "title": "What Happened After Launch",
+      "content": "<p>These are the numbers S-GAME and the storefronts published in the first fortnight, rather than pre-release estimates:</p>\n<table>\n<thead><tr><th>Date</th><th>What was published</th><th>Source</th></tr></thead>\n<tbody>\n<tr><td>October 28-29, 2026</td><td>Digital launch, PS5 and PC. Unlock at 02:00 UTC, which is the evening of 28 October in the US.</td><td>S-GAME / store listings</td></tr>\n<tr><td>November 1, 2026</td><td>Steam concurrent peak of 833,921 players, the highest point of launch weekend.</td><td>SteamPeaks</td></tr>\n<tr><td>November 2, 2026</td><td>Four million copies sold across all platforms in the first 72 hours.</td><td>S-GAME (@pbzero_official)</td></tr>\n<tr><td>November 4, 2026</td><td>First post-launch patch, version 1.0302256.</td><td>Steam news / S-GAME</td></tr>\n</tbody>\n</table>\n<p>Two cautions on those figures. Four million is a combined digital total; S-GAME has not split it by platform. Third-party estimates put the split at roughly 3.1 million on Steam and 1.2 million on PlayStation by 3 November, but that is a model built from store signals rather than studio data, and it excludes Epic. Concurrent players are PC only, so 833,921 is not a sales number either.</p>"
     },
     {
-      "label": "Global unlock",
-      "value": "02:00 UTC on October 29 - 7 PM Pacific / 10 PM Eastern on October 28"
+      "id": "patch",
+      "title": "The First Patch Arrived on November 4",
+      "content": "<p>Version 1.0302256 is the first post-launch update. It is mostly quality-of-life work rather than a balance overhaul: one boss made less punishing on the two lower difficulties, faster PC start-up, new audio sliders, and fixes for progression blockers. The full breakdown, including the shader change that will make your first PC launch after updating look slow, is on the <a href=\"/patch-notes\">patch notes page</a>.</p>"
     },
     {
-      "label": "Physical edition",
-      "value": "None at launch - retailer listing withdrawn"
+      "id": "september-9",
+      "title": "Why You Still See September 9, 2026",
+      "content": "<p>September 9 was the original date, announced on stage at The Game Awards in December 2025. The 9/9 symbolism was deliberate: it mirrors the 66-day premise of the story. In June 2026 S-GAME moved the release to October 29 to allow more development time.</p><p>Any page still presenting September 9 as the date has not been updated since that June announcement. There was only ever one delay, and there has been no second delay and no further movement since.</p>"
     },
     {
-      "label": "Preload",
-      "value": "Opens October 27 on PS5 (store listing data, 16 October 2026)"
+      "id": "physical",
+      "title": "The Disc Version Is 2027, Not Now",
+      "content": "<p>On 22 October, alongside the launch trailer, S-GAME said the physical PlayStation 5 edition arrives in 2027. There is still no month, no price and no note on disc layout or whether the build is on the disc or downloaded. Everything on sale today is digital.</p><p>Details on what the boxed version is expected to contain, and what to do if you specifically want a disc, are on the <a href=\"/physical-edition\">physical edition page</a>.</p>"
     },
     {
-      "label": "Install size",
-      "value": "134.857 GB on PS5 - pre-patch figure, a day-one update may change it"
+      "id": "timeline",
+      "title": "Full Release Timeline",
+      "content": "<table><thead><tr><th>Date</th><th>Event</th></tr></thead><tbody><tr><td>24 May 2023</td><td>Revealed at the PlayStation Showcase with a debut trailer</td></tr><tr><td>January 2025</td><td>A trailer confirms a release date will be announced during 2025</td></tr><tr><td>December 2025</td><td>Release date announced at The Game Awards: September 9, 2026</td></tr><tr><td>June 2026</td><td>Release moved to October 29, 2026 for additional polish</td></tr><tr><td>11 August 2026</td><td>Pre-orders open</td></tr><tr><td>October 2026</td><td>PS5 download size of 134.857 GB surfaces from store backend data; preload window announced</td></tr><tr><td>22 October 2026</td><td>S-GAME confirms a physical PS5 edition for 2027</td></tr><tr><td>29 October 2026</td><td>Digital launch on PS5 and PC</td></tr><tr><td>1 November 2026</td><td>Steam concurrent peak of 833,921</td></tr><tr><td>2 November 2026</td><td>S-GAME announces 4 million copies sold in 72 hours</td></tr><tr><td>4 November 2026</td><td>Patch 1.0302256 released</td></tr></tbody></table>"
     },
     {
-      "label": "Unlock time",
-      "value": "02:00 GMT October 29 = 7 PM Pacific / 10 PM Eastern on October 28"
+      "id": "faq",
+      "title": "Release Date Questions",
+      "content": "<h3>When does Phantom Blade Zero come out?</h3><p>It came out on October 29, 2026 and is available now on PS5 and PC.</p><h3>Is Phantom Blade Zero out yet?</h3><p>Yes. The digital release went live at 02:00 UTC on 29 October 2026, with the first patch following on 4 November.</p><h3>Was Phantom Blade Zero delayed?</h3><p>Once. It moved from September 9, 2026 to October 29, 2026 in June 2026, and has not moved since.</p><h3>Is there a physical version at launch?</h3><p>No. Launch was digital only; the boxed PS5 edition is a 2027 release with no date yet.</p>"
+    },
+    {
+      "id": "where-next",
+      "title": "Where to Go Next",
+      "content": "<ul><li><a href=\"/reviews\">Reviews and scores</a> - what the critics said and what players report about performance</li><li><a href=\"/pc-requirements\">PC requirements and performance</a> - including the Steam Deck situation</li><li><a href=\"/boss-list\">The boss list</a> - every encounter in order</li><li><a href=\"/trophy-guide\">Trophy guide</a> - the platinum path and what is missable</li><li><a href=\"/difficulty-modes\">Difficulty modes</a> - what each setting actually changes</li></ul>"
     }
   ]
 }

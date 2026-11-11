@@ -1,0 +1,51 @@
+{
+  "slug": "patch-notes",
+  "title": "Phantom Blade Zero Patch Notes - Version 1.0302256",
+  "description": "The first post-launch Phantom Blade Zero patch, version 1.0302256, arrived on November 4, 2026. Full change list, the Hua nerf, the shader change that slows your first launch, and what is still unpatched.",
+  "keyword": "phantom blade zero patch notes, phantom blade zero update, phantom blade zero 1.0302256, phantom blade zero new patch, phantom blade zero hua nerf",
+  "lastUpdated": "2026-11-11",
+  "facts": [
+    {
+      "label": "Latest patch",
+      "value": "1.0302256, November 4, 2026"
+    },
+    {
+      "label": "PS5 build",
+      "value": "1.302.289 (as reported)"
+    },
+    {
+      "label": "PC download",
+      "value": "~3.7 GB"
+    },
+    {
+      "label": "Balance changes",
+      "value": "Hua grab frequency, Wayfarer and Pathbreaker only"
+    },
+    {
+      "label": "Biggest technical change",
+      "value": "Ray tracing shaders no longer compile at start-up"
+    }
+  ],
+  "sections": [
+    {
+      "id": "what",
+      "title": "What Version 1.0302256 Changes",
+      "content": "<p>S-GAME published the notes on its official site on 3 November and on Steam on 4 November. It is a stability and comfort patch rather than a content patch: no new areas, no new weapons, one boss adjustment, and a meaningful change to how the PC build starts up.</p>\n<table>\n<thead><tr><th>Change</th><th>Platform</th><th>Detail</th></tr></thead>\n<tbody>\n<tr><td>Hua, Deadly Betrothed</td><td>All</td><td>Uses grab attacks less often on Wayfarer and Pathbreaker only. Other difficulties unchanged.</td></tr>\n<tr><td>Ray tracing shaders</td><td>PC</td><td>No longer compiled at start-up, which cuts launch time. If ray tracing was off, expect one short recompile on first launch after the patch.</td></tr>\n<tr><td>Hit Sound Intensity / Hit Impact Sound Intensity</td><td>All</td><td>Two new sliders in the audio menu; weapon hit feedback was also strengthened.</td></tr>\n<tr><td>Interact / Talk remapping</td><td>PC</td><td>Now remappable on keyboard and controller.</td></tr>\n<tr><td>Bluetooth controller stutter</td><td>PC</td><td>Reduced.</td></tr>\n<tr><td>NVIDIA Reflex</td><td>PC</td><td>Now works when set to Auto with V-Sync enabled.</td></tr>\n<tr><td>Hair rendering</td><td>All</td><td>Fixed on certain AMD cards with specific driver versions.</td></tr>\n<tr><td>Progression blockers</td><td>All</td><td>Fixed cases where the story could not advance, plus spots where the character could get stuck.</td></tr>\n<tr><td>Third-party mods</td><td>PC</td><td>S-GAME warns some mods are not compatible with this build; remove them if you hit problems.</td></tr>\n</tbody>\n</table>\n"
+    },
+    {
+      "id": "hua",
+      "title": "The Hua Change, Explained",
+      "content": "<p>Hua, Deadly Betrothed now uses grab attacks less often - but only on Wayfarer and Pathbreaker. The two higher difficulties are untouched, which tells you what the complaint was: not that the fight is unfair, but that it punishes players who are still learning the deflect window.</p><p>Hua is the first optional boss and gates a quest tied to the true ending, so players who bounced off her early were also locking themselves out of a major branch. If you gave up on her before the patch, retry on Wayfarer. The <a href=\"/boss-list\">boss list</a> has her position in the order, and the <a href=\"/true-ending\">true ending page</a> covers the quest she unlocks.</p>"
+    },
+    {
+      "id": "shaders",
+      "title": "Why Your First Launch After Updating Is Slow",
+      "content": "<p>Ray tracing shaders are no longer compiled at start-up. That is the single biggest start-up improvement in the patch, and it has one side effect worth knowing:</p><ul><li><strong>Ray tracing was off</strong> - you will recompile shaders once on the first launch after updating. S-GAME says it is short. Do not force-quit during it.</li><li><strong>Ray tracing was on</strong> - no recompile, you can launch straight in.</li><li><strong>You turn ray tracing on later</strong> - the ray tracing shaders compile separately at the next restart.</li></ul><p>Mods are the other thing to watch. S-GAME warns that some third-party mods are not compatible with this build and advises removing them if the game misbehaves after updating. If you run an Ultra-style graphics mod, expect to reinstall it after the patch.</p>"
+    },
+    {
+      "id": "unpatched",
+      "title": "What the Patch Does Not Fix",
+      "content": "<p>The notes do not mention performance on Steam Deck, and a post-patch retest still could not hold 30 frames per second. If Deck performance is your deciding factor, that has not changed. The <a href=\"/pc-requirements\">PC requirements page</a> tracks it.</p><p>Nothing in the patch addresses the PS5 build number reported as 1.302.289, and S-GAME has not said whether the console version received every item on this list. Several entries are tagged PC-only, and the rest carry no platform note at all.</p>"
+    }
+  ]
+}

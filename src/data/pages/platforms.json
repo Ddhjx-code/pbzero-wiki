@@ -1,17 +1,17 @@
 {
   "slug": "platforms",
-  "title": "Phantom Blade Zero Platforms - PS5, PC, and What About Xbox and Switch?",
-  "description": "Phantom Blade Zero releases on PlayStation 5 and PC via Steam and the Epic Games Store on 29 October 2026. No Xbox version and no Nintendo Switch or Switch 2 version has been announced.",
-  "keyword": "phantom blade zero xbox, phantom blade zero switch 2, is phantom blade zero ps5 exclusive, phantom blade zero platforms, phantom blade zero steam epic",
-  "lastUpdated": "2026-10-20",
+  "title": "Phantom Blade Zero Platforms - PS5 and PC Now, Xbox Not Announced",
+  "description": "Phantom Blade Zero is out on PS5 and PC via Steam and Epic. Xbox and Switch 2 have never been announced, the PS5 disc version is 2027, and this page tracks the status of every platform.",
+  "keyword": "phantom blade zero xbox, phantom blade zero platforms, is phantom blade zero coming to xbox, phantom blade zero switch 2, phantom blade zero pc, phantom blade zero steam",
+  "lastUpdated": "2026-11-11",
   "facts": [
     {
       "label": "PlayStation 5",
-      "value": "Confirmed - digital, PS5 Pro Enhanced"
+      "value": "Available now - digital, PS5 Pro Enhanced"
     },
     {
       "label": "PC",
-      "value": "Confirmed - Steam and Epic Games Store"
+      "value": "Available now - Steam and Epic Games Store"
     },
     {
       "label": "Xbox Series X|S",
@@ -23,37 +23,43 @@
     },
     {
       "label": "Physical disc",
-      "value": "None - see the physical edition page"
+      "value": "PS5, 2027, no date"
     },
     {
-      "label": "Cross-save between stores",
-      "value": "Not announced"
-    },
-    {
-      "label": "Chinese release",
-      "value": "Simultaneous - the game holds a mainland publishing licence"
+      "label": "Price",
+      "value": "$59.99 / GBP 49.99 / EUR 59.99"
     }
   ],
   "sections": [
     {
-      "id": "confirmed",
-      "title": "What is confirmed",
-      "content": "<p>Two platforms at launch: <a href=\"/release-date\"><strong>PlayStation 5</strong></a> and <a href=\"/pc-requirements\"><strong>PC</strong></a>, with the PC version on both Steam and the Epic Games Store. The PS5 version is listed as PS5 Pro Enhanced, with DualSense adaptive triggers, haptic feedback and Tempest 3D audio called out in Sony's own product page.</p><p>There is no Xbox and no Nintendo Switch or Switch 2 entry in any official material. Searches for both appear in the rising query lists, which means people are hoping rather than reacting to news.</p>"
+      "id": "status",
+      "title": "Platform Status Right Now",
+      "content": "<p>Phantom Blade Zero shipped on 29 October 2026 on exactly two platforms, and both are live. The table is the whole answer; everything below it is the detail behind the \"not announced\" rows.</p>\n<table>\n<thead><tr><th>Platform</th><th>Status on 11 November 2026</th><th>Notes</th></tr></thead>\n<tbody>\n<tr><td>PlayStation 5</td><td><strong>Available now</strong></td><td>Digital on the PlayStation Store; PS5 Pro Enhanced</td></tr>\n<tr><td>Windows PC</td><td><strong>Available now</strong></td><td>Steam and Epic Games Store; Denuvo is listed on Steam</td></tr>\n<tr><td>Xbox Series X|S</td><td>Not announced</td><td>No date, no window, no statement of intent</td></tr>\n<tr><td>Nintendo Switch 2</td><td>Not announced</td><td>Nothing from S-GAME either way</td></tr>\n<tr><td>Physical PS5 disc</td><td>2027, no date</td><td>Confirmed direction only; no month, price or disc layout</td></tr>\n</tbody>\n</table>\n"
     },
     {
-      "id": "exclusive",
-      "title": "Is it a PlayStation exclusive?",
-      "content": "<p>Not in the sense that only PlayStation can play it - PC is a launch platform. What is true is that Sony is promoting it unusually hard for a third-party title: a dedicated standalone State of Play, which PlayStation Blog Japan covered in Japanese under the director's own byline, plus first-party-level hardware treatment on the Japanese store page.</p><p>Whether there is a timed-exclusivity period on console has not been stated in the official material behind this page, so treat any specific month count as unconfirmed. What can be said with confidence: it is not a PlayStation-only game, because PC ships the <a href=\"/release-date\">same day</a>.</p>"
+      "id": "xbox",
+      "title": "Is Phantom Blade Zero Coming to Xbox?",
+      "content": "<p>No Xbox version has been announced. Not a date, not a window, not a stated intention. That has been true since the game was revealed at the PlayStation Showcase in 2023, and launching on two platforms has not changed it.</p><p>Two things are worth keeping separate. First, \"not announced\" is not \"exclusive forever\": S-GAME has never described the game as a permanent PlayStation exclusive, and the PC version ships on Epic as well as Steam, which shows the studio is not tying itself to one storefront. Second, there is no timed-exclusivity window in any public document, so anyone quoting \"Xbox in six months\" or \"Xbox in a year\" is inventing it.</p><p>If an Xbox version is announced it will be posted here and on the <a href=\"/news\">news page</a> the same day. Until then, treat any date you see elsewhere as unsourced.</p>"
+    },
+    {
+      "id": "switch",
+      "title": "Switch 2",
+      "content": "<p>Nothing announced. The game is an Unreal Engine 5 title that does not hold 30 frames per second on Steam Deck in a post-patch retest, so a Switch 2 port would be a substantial technical project rather than a straight conversion. There is no evidence one is in progress.</p>"
     },
     {
       "id": "pc-stores",
-      "title": "Steam versus Epic",
-      "content": "<p>Both stores sell the same game at the same price, currently listed at $59.99 standard and $69.99 for the Digital Deluxe Edition in the US. The practical differences are launcher habit and friend lists, not features. Note that the PC build ships with <strong>Denuvo anti-tamper</strong>, which is the detail most likely to matter to the people deciding between storefronts.</p>"
+      "title": "Steam or Epic?",
+      "content": "<p>Both sell the same game at the same price. Steam is the version with the larger public player count, workshop-adjacent modding, and the store page that carries the Denuvo label. Epic is the alternative storefront with the same build.</p><p>Practically: if you care about mods, controller remapping tools or refunds through playtime, Steam is the safer default. Nothing about the game's content differs between them.</p>"
     },
     {
-      "id": "languages",
-      "title": "Language support, including Japanese and Chinese",
-      "content": "<p>The game ships with Simplified Chinese, Traditional Chinese, English, Japanese and other languages, and S-GAME's own site is published in all of them plus Korean, Spanish (two variants), Portuguese (two), French, German, Italian, Russian, Vietnamese and Thai.</p><p>For Japanese buyers specifically: the support listed is <strong>interface and subtitles</strong>. Japanese voice acting does not appear in the Steam support table, so if dubbing matters to you, assume it is not there until a store page says otherwise.</p><p>China releases simultaneously with the rest of the world because the game holds a mainland publishing licence, which is why the Chinese marketing push is unusually heavy for this kind of launch.</p>"
+      "id": "performance",
+      "title": "Platform Performance Notes",
+      "content": "<p><strong>PS5.</strong> The console version is the one S-GAME tuned first; the launch patch notes mark several fixes as PC-only, which implies the console build did not need them. PS5 Pro Enhanced is listed on the store page.</p><p><strong>PC.</strong> The 4 November patch changed shader compilation, so start-up is faster but the first launch after updating can pause for a recompile if you play with ray tracing off. Bluetooth controller stutter was reduced in the same build, and NVIDIA Reflex now works on Auto with V-Sync on. The <a href=\"/pc-requirements\">PC requirements page</a> covers hardware and the Deck situation.</p>"
+    },
+    {
+      "id": "faq",
+      "title": "Platform Questions",
+      "content": "<h3>Is Phantom Blade Zero coming to PC?</h3><p>It is already on PC. Steam and Epic Games Store both sell it at the same price as the PS5 version.</p><h3>Is Phantom Blade Zero a PlayStation exclusive?</h3><p>It launched on PS5 and PC on the same day, so no. It is a console launch exclusive at most, and S-GAME has never described the arrangement as permanent.</p><h3>Will Phantom Blade Zero be on Xbox?</h3><p>Not announced. There is no date, no window and no stated plan.</p><h3>Does it run on Steam Deck?</h3><p>It is playable but does not hold 30 frames per second in a post-patch retest, so it is not a comfortable Deck game.</p>"
     }
   ]
 }

@@ -22,6 +22,7 @@ const SECTIONS: SectionDef[] = [
     slugs: new Set(["guide", "faq", "release-date", "is-phantom-blade-zero-a-soulslike",
       "about", "is-phantom-blade-zero-single-player", "pre-order-guide", "pc-requirements",
       "how-long-to-beat", "physical-edition", "demo", "platforms", "collectors-edition", "trophy-guide",
+      "patch-notes",
       "trophy-list"]),
     category: "Beginner guides",
   },

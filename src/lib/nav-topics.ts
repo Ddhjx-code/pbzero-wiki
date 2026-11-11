@@ -50,6 +50,7 @@ export const TOPICS: NavTopic[] = [
       { slug: "platforms", title: "Platforms & Exclusivity" },
       { slug: "guide", title: "Beginner Guide" },
       { slug: "release-date", title: "Release Date" },
+      { slug: "patch-notes", title: "Patch Notes" },
       { slug: "faq", title: "FAQ" },
       { slug: "is-phantom-blade-zero-a-soulslike", title: "Is It a Soulslike?" },
       { slug: "is-phantom-blade-zero-single-player", title: "Is It Single-Player?" },
