@@ -156,18 +156,21 @@ def find_property(token):
     return None, "no property matched the measurement id"
 
 
-def ga4(token, prop, start, end, dims, mets, limit=15):
+def ga4(token, prop, start, end, dims, mets, limit=15, host=None):
+    host = host or SITE_HOST
     payload = {
         "dateRanges": [{"startDate": start, "endDate": end}],
         "metrics": [{"name": m} for m in mets],
         "limit": limit,
         # The property also carries other sites (expedition33.wiki shares it),
-        # so every report has to be pinned to our own host or the totals are
-        # a blend of two unrelated wikis.
+        # so every report has to be pinned to one host or the totals are a
+        # blend of two unrelated wikis. Pass host= to switch sites; passing
+        # None would silently report pbzero.wiki only, which is how the e33
+        # and morse queries came back empty before this was a parameter.
         "dimensionFilter": {
             "filter": {
                 "fieldName": "hostName",
-                "stringFilter": {"matchType": "EXACT", "value": SITE_HOST},
+                "stringFilter": {"matchType": "EXACT", "value": host},
             }
         },
     }

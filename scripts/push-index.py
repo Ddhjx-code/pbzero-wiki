@@ -44,6 +44,12 @@ HOSTS = {
 }
 KEY_FILE = "2f630f456deb4989a6cda8422a24aace"
 
+# GSC property string per host. Default is the domain property; anything listed
+# here overrides it.
+PROPERTY = {
+    "expedition33.wiki": "https://expedition33.wiki/",
+}
+
 
 def live_urls(host, timeout=30):
     """Pull <loc> entries out of the live sitemap. Empty list on any failure."""
@@ -61,7 +67,10 @@ def live_urls(host, timeout=30):
 
 
 def resubmit_sitemap(host, token):
-    site = urllib.parse.quote(f"sc-domain:{host}", safe="")
+    # Not every site is a domain property. expedition33.wiki only exists in GSC as
+    # a URL-prefix property, and PUT against sc-domain:expedition33.wiki returns 403
+    # because the service account was never granted that property.
+    site = urllib.parse.quote(PROPERTY.get(host, f"sc-domain:{host}"), safe="")
     feed = urllib.parse.quote(f"https://{host}/sitemap.xml", safe="")
     req = urllib.request.Request(
         f"https://www.googleapis.com/webmasters/v3/sites/{site}/sitemaps/{feed}",
