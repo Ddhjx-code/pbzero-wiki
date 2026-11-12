@@ -68,7 +68,7 @@ function FactValue({
           {elements.map((element, i) => (
             <Link
               key={i}
-              href="/enemy-weaknesses"
+              href="/combat"
               className="transition-opacity hover:opacity-80"
             >
               <Chip text={element} />
