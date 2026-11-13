@@ -29,7 +29,7 @@ const SECTIONS: SectionDef[] = [
   {
     label: "Combat & Bosses",
     href: "/combat",
-    slugs: new Set(["combat", "weapons", "blades", "best-build", "boss-guide", "boss-list",
+    slugs: new Set(["combat", "weapons", "blades", "best-build", "boss-guide", "boss-list", "boss-order",
       "boss-video-guides", "bosses-by-class", "boss-drops", "difficulty-modes", "seven-stars"]),
     category: "Combat & Bosses",
   },
@@ -75,6 +75,7 @@ const SECTION_LINKS: Record<string, { label: string; href: string }[]> = {
     { label: "Weapons", href: "/weapons" },
     { label: "Boss Guide", href: "/boss-guide" },
     { label: "Boss List", href: "/boss-list" },
+    { label: "Boss Order", href: "/boss-order" },
     { label: "Boss Video Guides", href: "/boss-video-guides" },
     { label: "Difficulty Modes", href: "/difficulty-modes" },
   ],

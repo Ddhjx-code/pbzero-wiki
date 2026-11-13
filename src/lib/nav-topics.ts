@@ -31,6 +31,7 @@ export const TOPICS: NavTopic[] = [
     label: "Bosses",
     pages: [
       { slug: "boss-list", title: "Boss List by Region" },
+      { slug: "boss-order", title: "Boss Order & Progression" },
       { slug: "bosses-by-class", title: "Bosses by Class" },
       { slug: "boss-drops", title: "Boss Drops" },
       { slug: "boss-guide", title: "Boss Guide" },

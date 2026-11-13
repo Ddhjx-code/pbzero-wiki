@@ -13,7 +13,8 @@ const QUICK_LINKS = [
 // below them were never discovered. Linking them from the home page puts them
 // one hop from the only reliably indexed URL on the site.
 const DATABASES = [
-  { href: "/boss-list", emoji: "📋", title: "All 60 Bosses", desc: "Every region, in fight order" },
+  { href: "/boss-order", emoji: "🧭", title: "Boss Order", desc: "All 60, in the order you meet them" },
+  { href: "/boss-list", emoji: "📋", title: "All 60 Bosses", desc: "Grouped by region" },
   { href: "/blades", emoji: "🗡️", title: "Blades", desc: "26 with a recorded location" },
   { href: "/phantom-edges", emoji: "🌀", title: "Phantom Edges", desc: "16 secondary arms" },
   { href: "/boss-drops", emoji: "🎁", title: "Boss Drops", desc: "Who drops what" },

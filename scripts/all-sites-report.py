@@ -28,18 +28,22 @@ SITES = [
         "key": "expedition33",
         "host": "expedition33.wiki",
         "measurement_id": "G-MZ867GJT24",
+        # verified via Admin API on 2026-11-13
+        "tz": "Asia/Shanghai",
         "gsc": ["https://expedition33.wiki/", "sc-domain:expedition33.wiki"],
     },
     {
         "key": "pbzero",
         "host": "pbzero.wiki",
         "measurement_id": "G-W9Y62B3DBM",
+        "tz": "Asia/Shanghai",
         "gsc": ["sc-domain:pbzero.wiki", "https://pbzero.wiki/"],
     },
     {
         "key": "morsecodenow",
         "host": "morsecodenow.com",
         "measurement_id": "G-1SWWLW57DQ",
+        "tz": "Asia/Shanghai",
         "gsc": ["sc-domain:morsecodenow.com", "https://morsecodenow.com/"],
     },
 ]
@@ -183,9 +187,63 @@ def gsc_block(token, site, start, end, available, lines):
     return tot
 
 
+def _probe(proxy, timeout):
+    import subprocess
+
+    try:
+        out = subprocess.run(
+            ["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}",
+             "--max-time", str(timeout), "-x", proxy,
+             "-X", "POST", "https://oauth2.googleapis.com/token"],
+            capture_output=True, text=True, timeout=timeout + 6,
+        )
+        return out.stdout.strip() or "000"
+    except Exception:
+        return "000"
+
+
+def pick_working_proxy():
+    """The exported HTTPS_PROXY points at whichever local proxy client is
+    running, and its Google group drops out for hours at a time - the tunnel
+    then answers 502, or hangs. Probe the local ports we know about and keep the
+    first that actually gets an HTTP answer out of Google.
+
+    The tunnel also blips for a few seconds, which used to make a single pass
+    declare every port dead; the likely candidates get a second, slower round
+    before we give up.
+    """
+    candidates = []
+    for key in ("HTTPS_PROXY", "https_proxy"):
+        if os.environ.get(key):
+            candidates.append(os.environ[key])
+    for port in ("7897", "49992", "7890", "7891", "1080", "6152", "8888", "9090"):
+        candidates.append(f"http://127.0.0.1:{port}")
+
+    ordered = []
+    for candidate in candidates:
+        if candidate not in ordered:
+            ordered.append(candidate)
+
+    for round_no, (pool, timeout) in enumerate(
+        [(ordered, 6), (ordered[:3], 12)], start=1
+    ):
+        for candidate in pool:
+            code = _probe(candidate, timeout)
+            if code and code not in ("000", "502", "503"):
+                for key in ("HTTPS_PROXY", "https_proxy", "HTTP_PROXY", "http_proxy"):
+                    os.environ[key] = candidate
+                print(f"proxy: {candidate} (oauth2 -> {code})")
+                return candidate
+            print(f"proxy: {candidate} unusable ({code or 'no answer'}, round {round_no})")
+    print("proxy: no local port could reach Google")
+    return None
+
+
 def main():
     if not os.path.exists(rep.SA_PATH):
         raise SystemExit(f"missing service-account key: {rep.SA_PATH}")
+
+    pick_working_proxy()
 
     today = dt.date.today()
     if len(sys.argv) >= 3:
@@ -266,7 +324,10 @@ def main():
     out += body
 
     os.makedirs(rep.OUT_DIR, exist_ok=True)
-    path = os.path.join(rep.OUT_DIR, f"{today:%Y-%m-%d}-all-sites.md")
+    # Keep the 28-day file name stable so the daily job can diff against the
+    # previous run; ad-hoc shorter windows get a suffix so they never clobber it.
+    suffix = "" if span == 28 else f"-{span}d"
+    path = os.path.join(rep.OUT_DIR, f"{today:%Y-%m-%d}-all-sites{suffix}.md")
     report = "\n".join(out)
     with open(path, "w", encoding="utf-8") as fh:
         fh.write(report)
