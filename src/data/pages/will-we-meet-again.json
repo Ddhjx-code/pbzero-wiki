@@ -28,12 +28,12 @@
     {
       "id": "details",
       "title": "Trophy Details",
-      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Rarity</td><td>Silver</td></tr><tr><td>Missable</td><td>No</td></tr><tr><td>Hidden</td><td>No</td></tr><tr><td>Glitchable</td><td>Not confirmed post-launch</td></tr></tbody></table>"
+      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Rarity</td><td>Silver</td></tr><tr><td>Missable</td><td>No</td></tr><tr><td>Hidden</td><td>No</td></tr></tbody></table>"
     },
     {
       "id": "status",
       "title": "Source Status",
-      "content": "<p>This entry is filled from the shipped game on either platform; PS5 trophy and PC achievement lists are recorded separately where they differ. See <a href=\"/trophy-guide\">the trophy guide</a> for the full list and <a href=\"/how-long-to-beat\">how long to beat</a> for run-length context.</p>"
+      "content": "<p>Trophy 8 of 36 on the list - before it <a href=\"/the-shattered-mirror\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Shattered Mirror</a> · after it <a href=\"/the-lions-spirit-lives-on\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">The Lion's Spirit Lives On</a>. It is not missable, so a missed run can be finished later without a restart. The full list with rarity is on the <a href=\"/trophy-list\">trophy list</a>; the Platinum route and the order to do things in are on the <a href=\"/trophy-guide\">trophy guide</a>.</p>"
     }
   ]
 }

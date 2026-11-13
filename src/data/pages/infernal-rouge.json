@@ -3,7 +3,7 @@
   "title": "Infernal Rouge (炼狱红妆) - Stats, Combo & How to Get",
   "description": "Infernal Rouge (炼狱红妆) in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
   "keyword": "Infernal Rouge (炼狱红妆) phantom blade zero",
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Slot",
@@ -12,18 +12,6 @@
     {
       "label": "Class",
       "value": "One-handed"
-    },
-    {
-      "label": "Damage",
-      "value": "Not confirmed post-launch"
-    },
-    {
-      "label": "Scaling",
-      "value": "Not confirmed post-launch"
-    },
-    {
-      "label": "Special property",
-      "value": "Not confirmed post-launch"
     },
     {
       "label": "How to obtain",
@@ -44,12 +32,12 @@
     {
       "id": "stats",
       "title": "Stats and Effects",
-      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+      "content": "<p>Infernal Rouge (炼狱红妆) has no published damage, scaling or speed figure, because the game does not print a numeric stat sheet for individual weapons. Nothing has been measured for this one either, so those three numbers are absent rather than estimated - the slot and the property are what the choice actually turns on.</p>"
     },
     {
       "id": "combo",
       "title": "How It Plays",
-      "content": "<p>Not confirmed post-launch. No verified note on how this weapon behaves inside a combo has been published, so nothing is written here.</p>"
+      "content": "<p>Nothing verified has been published on how Infernal Rouge (炼狱红妆) behaves inside a combo, so no chain is described here. The general rule still applies: swapping to a secondary refills stamina instead of spending it, so the second slot is what extends a chain past the point the blade you were using runs dry - see <a href=\"/combat\">the combat system</a>.</p>"
     },
     {
       "id": "acquisition",
@@ -59,7 +47,7 @@
     {
       "id": "status",
       "title": "Source Status",
-      "content": "<p>This page tracks Infernal Rouge (炼狱红妆) in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+      "content": "<p>This page records Infernal Rouge (炼狱红妆) by slot, class and acquisition point, and by its property where one is published. Figures the game itself does not expose are left out. The system as a whole, with the full slot and class breakdown, is on <a href=\"/weapons\">the weapons list</a>.</p>"
     }
   ]
 }

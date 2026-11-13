@@ -34,25 +34,8 @@ const STATS = [
 export default function HomePage() {
   return (
     <>
-      {/* JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            name: "PBZero Wiki",
-            url: "https://pbzero.wiki",
-            description:
-              "Complete Phantom Blade Zero wiki — guides, boss strategies, weapons, characters, and endings.",
-            potentialAction: {
-              "@type": "SearchAction",
-              target: "https://pbzero.wiki/?q={search_term_string}",
-              "query-input": "required name=search_term_string",
-            },
-          }),
-        }}
-      />
+      {/* WebSite / VideoGame JSON-LD is emitted once in layout.tsx; a second
+          WebSite node here duplicated it on the homepage. */}
 
       {/* Hero */}
       <section className="relative overflow-hidden py-20 sm:py-28">

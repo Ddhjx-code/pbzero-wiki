@@ -3,7 +3,7 @@
   "title": "Is Phantom Blade Zero Single-Player? (No Co-op, No MMO)",
   "description": "Phantom Blade Zero is a single-player action RPG. There is no co-op, no PvP, and no MMO component. Here is what S-GAME has confirmed, and why the confusion exists.",
   "keyword": "is phantom blade zero single player",
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Player mode",
@@ -23,7 +23,7 @@
     },
     {
       "label": "Online requirement",
-      "value": "Not confirmed; no online features announced"
+      "value": "None - single-player only, no online features of any kind"
     },
     {
       "label": "Genre",
@@ -31,7 +31,7 @@
     },
     {
       "label": "Status",
-      "value": "Pre-launch, releases October 29, 2026"
+      "value": "Released October 29, 2026"
     }
   ],
   "sections": [
@@ -63,7 +63,7 @@
     {
       "id": "caveat",
       "title": "Caveat",
-      "content": "<p>This page describes what S-GAME has announced as of the pre-launch period. Because no multiplayer has ever been mentioned, the honest statement is that there is <strong>no co-op or online mode announced</strong> rather than a guarantee one will never be added post-launch. If anything changes before or after the October 29, 2026 release, this page is updated.</p><p>Check the <a href=\"/release-date\">release date page</a> for the current schedule.</p>"
+      "content": "<p>This is stated against the shipped game rather than against a pre-release announcement: there is <strong>no co-op, no PvP and no online component</strong>, and nothing in patch 1.0302256 added one. The caveat that remains is only about the future - a studio can always add a mode later - so the statement here is that none exists today, not that none ever will.</p><p><a href=\"/release-date\">The release date page</a> has the current build, and <a href=\"/patch-notes\">the patch notes</a> track what each update actually changed.</p>"
     }
   ]
 }

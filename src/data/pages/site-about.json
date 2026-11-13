@@ -2,7 +2,7 @@
   "title": "About This Site",
   "description": "About PBZero Wiki - an independent, fan-run guide covering bosses, weapons, characters, and story for Phantom Blade Zero.",
   "keyword": "about pbzero wiki",
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-11-13",
   "sections": [
     {
       "id": "what-we-are",
@@ -17,7 +17,7 @@
     {
       "id": "our-approach",
       "title": "Our Editorial Approach",
-      "content": "<p>Because Phantom Blade Zero has not yet launched, our guides are built from <strong>official demos, trailers, developer interviews, and press coverage</strong>. We clearly mark which information is demo-verified and which is still unconfirmed.</p><p>Once the game releases, we update our guides with hands-on testing. We do not copy content from other sites.</p>"
+      "content": "<p>Our guides are written against the <strong>shipped game</strong>, and against primary documents where one exists: S-GAME's own patch notes, store listings and posts, plus the trophy and achievement lists as published on each platform. Press coverage is used for reaction and for numbers the studio has not published, and is labelled as press-reported when it is.</p><p>Where a figure does not exist - a per-weapon damage number, a boss's exact move timings - it is left out rather than estimated. Every page carries a last-updated date, and pages are revised after each patch rather than left standing: patch 1.0302256 changed one boss fight and five pages were rewritten because of it. Nothing is copied from another site.</p>"
     },
     {
       "id": "disclaimer",

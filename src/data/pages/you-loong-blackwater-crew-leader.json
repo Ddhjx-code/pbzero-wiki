@@ -3,7 +3,7 @@
   "title": "You Loong, Blackwater Crew Leader (游龙) - Location, Tactics & Rewards",
   "description": "You Loong, Blackwater Crew Leader (游龙) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
   "keyword": "You Loong, Blackwater Crew Leader (游龙) phantom blade zero boss",
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Location",
@@ -36,7 +36,7 @@
     {
       "id": "weakness",
       "title": "Weaknesses and Counters",
-      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+      "content": "<p>There is no weakness table for this fight because there is no damage-type system to fill one in: nothing here resists, absorbs or is immune to anything, and a chart that says otherwise has been inferred from how the boss looks. Read the fight by attack colour instead - <strong>red</strong> must be dodged, <strong>blue</strong> must be deflected, <strong>purple</strong> means it has just parried you and a counter is already coming. The full explanation is on <a href=\"/combat\">the combat system</a>.</p><p>It is optional, which is why it can be left until the Sha-Chi pool and the Phantom Edge roster are deeper.</p>"
     },
     {
       "id": "rewards",
@@ -51,7 +51,7 @@
     {
       "id": "status",
       "title": "Status",
-      "content": "<p>This page tracks the You Loong, Blackwater Crew Leader (游龙) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+      "content": "<p>No. <strong>29</strong> of 60 in the <a href=\"/boss-order\">progression order</a>, in Pangzhen. Before it: <a href=\"/changhong-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Chang Hong, the Thunder Spear (长鸿)</a>. After it: <a href=\"/lion-dance-boss\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Flame, the Lion Dance Grandmaster (舞狮尊主 烈焰)</a>. The roster by region is on the <a href=\"/boss-list\">boss list</a>, and the fights that can be lost by leaving a region early are on the <a href=\"/boss-order\">order page</a>. Location and drops come from the shipped game; patch 1.0302256 is the most recent change to any boss behaviour and it touched only <a href=\"/hua-deadly-betrothed\">Hua</a>.</p>"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "title": "The Fanatic's Broken Blade - Stats, Combo & How to Get",
   "description": "The Fanatic's Broken Blade in Phantom Blade Zero - weapon class, slot, stats, combo contribution and how to obtain it, with unconfirmed numbers left marked as unconfirmed.",
   "keyword": "The Fanatic's Broken Blade phantom blade zero",
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Slot",
@@ -12,14 +12,6 @@
     {
       "label": "Class",
       "value": "One-handed"
-    },
-    {
-      "label": "Damage",
-      "value": "Not confirmed post-launch"
-    },
-    {
-      "label": "Scaling",
-      "value": "Not confirmed post-launch"
     },
     {
       "label": "Special property",
@@ -44,7 +36,7 @@
     {
       "id": "stats",
       "title": "Stats and Effects",
-      "content": "<p>Not confirmed post-launch. Phantom Blade Zero does not publish a numeric stat sheet for individual weapons, and no measurement of this one has been recorded, so no damage, scaling or speed figure is given here. A number invented from how the weapon looks is exactly the kind of filler this page exists to avoid.</p>"
+      "content": "<p>The Fanatic's Broken Blade has no published damage, scaling or speed figure, because the game does not print a numeric stat sheet for individual weapons. Nothing has been measured for this one either, so those three numbers are absent rather than estimated - the slot and the property are what the choice actually turns on.</p>"
     },
     {
       "id": "combo",
@@ -59,7 +51,7 @@
     {
       "id": "status",
       "title": "Source Status",
-      "content": "<p>This page tracks The Fanatic's Broken Blade in Phantom Blade Zero. Anything marked &ldquo;not confirmed post-launch&rdquo; has not been published or measured yet; see the <a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+      "content": "<p>This page records The Fanatic's Broken Blade by slot, class and acquisition point, and by its property where one is published. Figures the game itself does not expose are left out. The system as a whole, with the full slot and class breakdown, is on <a href=\"/weapons\">the weapons list</a>.</p>"
     }
   ]
 }

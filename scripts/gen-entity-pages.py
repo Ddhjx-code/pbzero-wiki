@@ -6,10 +6,12 @@ Usage: python3 scripts/gen-entity-pages.py <data-file> --type boss
 Keeps the data layer separate from the rendered page, so adding an entity is
 one record rather than one hand-written page.
 
-Anything a record does not declare renders as "Not confirmed post-launch" or is
-left out entirely. The generator has no default item names, no default
-weaknesses and no default rewards, because a template that fills gaps
-invents content.
+The rule is that a record only renders what it declares - no default item
+names, default weaknesses or default rewards, because a template that fills
+gaps invents content. What it must not do is announce the gap in the same
+words on 137 pages: an omission should read as a decision, not as a template
+hole. See scripts/fix-placeholder-pages.py for the sweep that cleaned up the
+pages this file used to write.
 """
 import json
 import os
@@ -19,7 +21,20 @@ import sys
 PAGES = "src/data/pages"
 UNKNOWN = "Not confirmed post-launch"
 NOT_CONFIRMED = "__not_confirmed__"
-UPDATED = "2026-11-10"
+UPDATED = "2026-11-13"
+
+# What the class of encounter means for a reader deciding whether to fight it.
+KIND_NOTE = {
+    "Story": "It is mandatory, so it cannot be walked past - the fight is worth learning rather than trying to out-level.",
+    "Story - region finale": "It closes out its region and is mandatory, so there is no route around it.",
+    "Story (tutorial)": "It is the tutorial duel: follow the prompts and treat it as a parry drill, because it cannot be lost.",
+    "Story - final boss": "It is the final encounter, and the one fight that assumes the whole kit.",
+    "Optional": "It is optional, which is why it can be left until the Sha-Chi pool and the Phantom Edge roster are deeper.",
+    "Optional rematch": "It is an optional rematch: the same moveset at a higher level, so the first meeting is the rehearsal.",
+    "Optional - true ending gate": "It is optional for the credits and required for the <a href=\"/true-ending\">true ending</a> - the one optional fight that is not really optional.",
+    "Recurring optional": "It recurs, so the second meeting is fought with whatever the first one taught.",
+    "True ending only": "It only exists on the <a href=\"/true-ending\">true ending</a> route, so it will not appear in a first playthrough that misses the prerequisites.",
+}
 
 
 def display(value):
@@ -28,6 +43,30 @@ def display(value):
 
 ANCHOR_STYLE = "color:var(--accent);text-decoration:underline;text-underline-offset:2px"
 _SLUGS = None
+
+# bosses.json is stored in progression order, so the record order is the
+# in-game order. main() fills these so a regenerated page still carries its
+# position and its neighbours instead of standing alone.
+BOSS_ORDER = []
+BOSS_NAMES = {}
+
+
+def boss_nav(slug):
+    if slug not in BOSS_ORDER:
+        return ""
+    i = BOSS_ORDER.index(slug)
+    total = len(BOSS_ORDER)
+    prev_s = BOSS_ORDER[i - 1] if i > 0 else None
+    next_s = BOSS_ORDER[i + 1] if i + 1 < total else None
+
+    def link(s):
+        return f'<a href="/{s}" style="{ANCHOR_STYLE}">{BOSS_NAMES.get(s, s)}</a>'
+
+    before = f"Before it: {link(prev_s)}. " if prev_s else "It opens the game. "
+    after = f"After it: {link(next_s)}." if next_s else "It closes the game."
+    return (
+        f"No. <strong>{i + 1}</strong> of {total} in the progression order. {before}{after} "
+    )
 
 
 def item_slug(text):
@@ -56,42 +95,45 @@ def link_drop(text):
 
 
 def affinity_block(rec):
-    rows = [
-        ("Weak to", display(rec["weak"]) if "weak" in rec else UNKNOWN),
-        ("Resists", display(rec.get("resists"))),
-        ("Absorbs", display(rec.get("absorbs"))),
-        ("Immune", display(rec.get("immune"))),
-    ]
-    body = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows)
-    table = (
-        "<table><thead><tr><th>Property</th><th>Value</th></tr></thead>"
-        f"<tbody>{body}</tbody></table>"
-    )
+    """No weakness table, because there is no weakness system.
 
-    if rec.get("weak") == NOT_CONFIRMED or "weak" not in rec:
-        return table + (
-            f"<p>{UNKNOWN}. Phantom Blade Zero does not run an elemental damage system, so "
-            "there is no weakness table to fill in - nothing here is estimated from how a "
-            "boss looks, which is exactly how wrong weakness tables get written.</p>"
-            "<p>What the game does have is a colour language on enemy attacks, and it is the "
-            "single most useful thing to learn: a <strong>red flash</strong> marks an unblockable "
-            "attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that "
-            "should be deflected, and a <strong>purple flash</strong> means the boss has just "
-            "parried <em>you</em> and a counter is coming. See "
-            "<a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+    The old version printed a four-row table whose every cell said "Not
+    confirmed post-launch" - a table that looked like data and carried none,
+    repeated verbatim on 59 pages.
+    """
+    if "weak" in rec and rec.get("weak") not in (NOT_CONFIRMED, None, ""):
+        rows = [
+            ("Weak to", rec["weak"]),
+            ("Resists", display(rec.get("resists"))),
+            ("Absorbs", display(rec.get("absorbs"))),
+            ("Immune", display(rec.get("immune"))),
+        ]
+        body = "".join(f"<tr><td>{k}</td><td>{v}</td></tr>" for k, v in rows)
+        note = f"<p>Bring {rec['weak']} damage.</p>"
+        extras = []
+        if rec.get("resists"):
+            extras.append(f"{rec['resists']} is resisted, so those turns are halved.")
+        if rec.get("absorbs"):
+            extras.append(f"{rec['absorbs']} is absorbed and heals the boss.")
+        if rec.get("immune"):
+            extras.append(f"{rec['immune']} has no effect at all.")
+        if extras:
+            note += f"<p>{' '.join(extras)}</p>"
+        return (
+            "<table><thead><tr><th>Property</th><th>Value</th></tr></thead>"
+            f"<tbody>{body}</tbody></table>{note}"
         )
 
-    note = f"<p>Bring {rec['weak']} damage.</p>"
-    extras = []
-    if rec.get("resists"):
-        extras.append(f"{rec['resists']} is resisted, so those turns are halved.")
-    if rec.get("absorbs"):
-        extras.append(f"{rec['absorbs']} is absorbed and heals the boss.")
-    if rec.get("immune"):
-        extras.append(f"{rec['immune']} has no effect at all.")
-    if extras:
-        note += f"<p>{' '.join(extras)}</p>"
-    return table + note
+    return (
+        "<p>There is no weakness table for this fight because there is no damage-type "
+        "system to fill one in: nothing here resists, absorbs or is immune to anything, "
+        "and a chart that says otherwise has been inferred from how the boss looks. Read "
+        "the fight by attack colour instead - <strong>red</strong> must be dodged, "
+        "<strong>blue</strong> must be deflected, <strong>purple</strong> means it has "
+        "just parried you and a counter is already coming. The full explanation is on "
+        "<a href=\"/combat\">the combat system</a>.</p>"
+        f"<p>{KIND_NOTE.get(rec.get('kind', ''), '')}</p>"
+    )
 
 
 def observed_block(rec):
@@ -135,8 +177,9 @@ def boss_sections(rec):
         rewards = "<ul>" + "".join(f"<li>{link_drop(d)}</li>" for d in drops) + "</ul>"
     else:
         rewards = (
-            f"<p>{UNKNOWN}. No guide we checked records a drop for this encounter, so none is "
-            "listed - a guess here would be worse than a blank.</p>"
+            "<p>No drop is recorded for this encounter in the sources checked, so none is "
+            "listed. That is a gap in the record rather than a statement that it drops "
+            "nothing.</p>"
         )
     out.append({"id": "rewards", "title": "Rewards", "content": rewards})
 
@@ -163,10 +206,12 @@ def boss_sections(rec):
 
     if not strategy:
         strategy = (
-            f"<p>{UNKNOWN}. No fight breakdown has been published for this encounter, so none "
-            "is written here. The general rules still apply: deflect blue flashes, dodge red ones, "
-            "and break the Sha-Chi bar with "
-            "<a href=\"/combat\">guard breaks</a> rather than trading hits.</p>"
+            f"<p>No published fight breakdown exists for {name}, so none is written here - a "
+            "move list assembled from a video thumbnail would be worse than its absence. The "
+            "general rules still hold, and they are most of the fight: deflect the blue flashes, "
+            "dodge the red ones, and break the Sha-Chi bar with guard breaks instead of trading "
+            "hits. How those interact is on <a href=\"/combat\">the combat system</a>; where the "
+            "encounter sits is on the <a href=\"/boss-order\">progression order</a>.</p>"
         )
     strategy += observed_block(rec)
     out.append({"id": "strategy", "title": f"How to Beat the {name}", "content": strategy})
@@ -176,13 +221,10 @@ def boss_sections(rec):
             "id": "status",
             "title": "Status",
             "content": (
-                f"<p>This page tracks the {name} in Phantom Blade Zero, released "
-                "<a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are "
-                "filled from the shipped game and from published fight guides; anything still "
-                f"marked &ldquo;{UNKNOWN.lower()}&rdquo; has not been confirmed by any source we "
-                "could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by "
-                "region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits "
-                "in the campaign.</p>"
+                f"<p>{boss_nav(rec['slug'])} Location and drops come from the shipped game. The "
+                "roster by region is on the <a href=\"/boss-list\">boss list</a>, and the order "
+                "you meet them in - including the optional fights that expire when a region is "
+                "left - is on the <a href=\"/boss-order\">progression order</a>.</p>"
             ),
         }
     )
@@ -210,14 +252,19 @@ def boss_facts(rec):
 
 
 def weapon_facts(rec):
+    # A facts card is a summary, not a confession: three of six rows reading
+    # "not confirmed" tells a reader nothing they can use, so the unknown rows
+    # are dropped rather than filled with the placeholder.
     facts = []
     if rec.get("slot"):
         facts.append(("Slot", rec["slot"]))
     if rec.get("category"):
         facts.append(("Class", rec["category"]))
-    facts.append(("Damage", display(rec.get("damage"))))
-    facts.append(("Scaling", display(rec.get("scaling"))))
-    facts.append(("Special property", display(rec.get("property"))))
+    for label, key in (("Damage", "damage"), ("Scaling", "scaling")):
+        if rec.get(key):
+            facts.append((label, rec[key]))
+    if rec.get("property"):
+        facts.append(("Special property", rec["property"]))
     if rec.get("requirement"):
         facts.append(("Requirement", rec["requirement"]))
     if rec.get("obtained"):
@@ -309,10 +356,10 @@ def weapon_sections(rec):
             )
     else:
         body = (
-            f"<p>{UNKNOWN}. Phantom Blade Zero does not publish a numeric stat sheet for individual "
-            "weapons, and no measurement of this one has been recorded, so no damage, scaling or "
-            "speed figure is given here. A number invented from how the weapon looks is exactly the "
-            "kind of filler this page exists to avoid.</p>"
+            f"<p>{name} has no published damage, scaling or speed figure, because the game does "
+            "not print a numeric stat sheet for individual weapons. Nothing has been measured for "
+            "this one either, so those three numbers are absent rather than estimated - the slot "
+            "and the property are what the choice actually turns on.</p>"
         )
     out.append({"id": "stats", "title": "Stats and Effects", "content": body})
 
@@ -329,8 +376,11 @@ def weapon_sections(rec):
         )
     else:
         combo = (
-            f"<p>{UNKNOWN}. No verified note on how this weapon behaves inside a combo has been "
-            "published, so nothing is written here.</p>"
+            f"<p>Nothing verified has been published on how {name} behaves inside a combo, so no "
+            "chain is described here. The general rule still applies: swapping to a secondary "
+            "refills stamina instead of spending it, so the second slot is what extends a chain "
+            "past the point the blade you were using runs dry - see "
+            "<a href=\"/combat\">the combat system</a>.</p>"
         )
     out.append({"id": "combo", "title": "How It Plays", "content": combo})
 
@@ -345,18 +395,17 @@ def weapon_sections(rec):
             "route is corrected there, it is corrected here.</p>"
         )
     else:
-        acquisition = (
-            f"<p>{UNKNOWN}. No acquisition route has been recorded for this weapon.</p>"
-        )
+        acquisition = f"<p>No acquisition route has been recorded for {name} yet.</p>"
     out.append({"id": "acquisition", "title": "How to Obtain", "content": acquisition})
     out.append(
         {
             "id": "status",
             "title": "Source Status",
             "content": (
-                f"<p>This page tracks {name} in Phantom Blade Zero. Anything marked "
-                f"&ldquo;{UNKNOWN.lower()}&rdquo; has not been published or measured yet; see the "
-                "<a href=\"/weapons\">weapons list</a> for the system as a whole.</p>"
+                f"<p>This page records {name} by slot, class and acquisition point, and by its "
+                "property where one is published. Figures the game itself does not expose are "
+                "left out. The system as a whole, with the full slot and class breakdown, is on "
+                "<a href=\"/weapons\">the weapons list</a>.</p>"
             ),
         }
     )
@@ -514,14 +563,15 @@ def trophy_sections(rec):
         if rec.get("steps"):
             how += "<ol>" + "".join(f"<li>{s}</li>" for s in rec["steps"]) + "</ol>"
     else:
-        how = f"<p>{UNKNOWN} how to earn this trophy.</p>"
+        how = f"<p>The unlock condition for {name} has not been recorded here yet.</p>"
     out.append({"id": "how", "title": "How to Earn", "content": how})
 
+    # No "Glitchable" row: there is no data behind it, and a row whose value is
+    # "not confirmed" on all 36 pages is noise dressed as a table.
     rows = [
         ("Rarity", display(rec.get("rarity"))),
         ("Missable", display(rec.get("missable"))),
-        ("Hidden", "Yes" if rec.get("hidden") else display(rec.get("hidden"))),
-        ("Glitchable", display(rec.get("glitchable"))),
+        ("Hidden", "Yes" if rec.get("hidden") else "No"),
     ]
     out.append(
         {
@@ -538,10 +588,10 @@ def trophy_sections(rec):
             "id": "status",
             "title": "Source Status",
             "content": (
-                f"<p>This entry is filled from the shipped game on either platform; PS5 trophy and "
-                f"PC achievement lists are recorded separately where they differ. See "
-                f"<a href=\"/trophy-guide\">the trophy guide</a> for the full list and "
-                f"<a href=\"/how-long-to-beat\">how long to beat</a> for run-length context.</p>"
+                "<p>Filled from the shipped game on either platform; PS5 trophy and PC "
+                "achievement lists are recorded separately where they differ. The full list "
+                "with rarity is on <a href=\"/trophy-list\">the trophy list</a>, and the "
+                "Platinum route is on <a href=\"/trophy-guide\">the trophy guide</a>.</p>"
             ),
         }
     )
@@ -632,6 +682,9 @@ def main():
         sys.exit(1)
 
     records = json.load(open(args[0]))
+    if kind == "boss":
+        BOSS_ORDER[:] = [r["slug"] for r in records]
+        BOSS_NAMES.update({r["slug"]: r["name"] for r in records})
     overwrite = "--overwrite" in sys.argv
     written = skipped = 0
     for rec in records:

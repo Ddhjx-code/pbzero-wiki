@@ -3,14 +3,10 @@
   "title": "One-Eyed Archer (独眼弓客) - Location, Tactics & Rewards",
   "description": "One-Eyed Archer (独眼弓客) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
   "keyword": "One-Eyed Archer (独眼弓客) phantom blade zero boss",
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Location",
-      "value": "Meigu Lake"
-    },
-    {
-      "label": "Appears in",
       "value": "Meigu Lake"
     },
     {
@@ -22,22 +18,22 @@
     {
       "id": "overview",
       "title": "Overview",
-      "content": "<p>One-Eyed Archer (独眼弓客) is an optional encounter in Meigu Lake, found at Meigu Lake.</p>"
+      "content": "<p>One-Eyed Archer (独眼弓客) is an optional encounter in Meigu Lake.</p>"
     },
     {
       "id": "how-to-find",
       "title": "Where to Find the One-Eyed Archer (独眼弓客)",
-      "content": "<p><strong>Location:</strong> Meigu Lake.</p><p><strong>Appears in:</strong> Meigu Lake.</p>"
+      "content": "<p><strong>Location:</strong> Meigu Lake - the region itself rather than a point inside it.</p>"
     },
     {
       "id": "weakness",
       "title": "Weaknesses and Counters",
-      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+      "content": "<p>There is no weakness table for this fight because there is no damage-type system to fill one in: nothing here resists, absorbs or is immune to anything, and a chart that says otherwise has been inferred from how the boss looks. Read the fight by attack colour instead - <strong>red</strong> must be dodged, <strong>blue</strong> must be deflected, <strong>purple</strong> means it has just parried you and a counter is already coming. The full explanation is on <a href=\"/combat\">the combat system</a>.</p><p>It is optional, which is why it can be left until the Sha-Chi pool and the Phantom Edge roster are deeper.</p>"
     },
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<p>Not confirmed post-launch. No guide we checked records a drop for this encounter, so none is listed - a guess here would be worse than a blank.</p>"
+      "content": "<p>No drop is recorded for this encounter in the sources checked, so none is listed. That is a gap in the record rather than a statement that it drops nothing.</p>"
     },
     {
       "id": "strategy",
@@ -47,7 +43,7 @@
     {
       "id": "status",
       "title": "Status",
-      "content": "<p>This page tracks the One-Eyed Archer (独眼弓客) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+      "content": "<p>No. <strong>41</strong> of 60 in the <a href=\"/boss-order\">progression order</a>, in Meigu Lake. Before it: <a href=\"/grief-stricken-jin\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Grief-Stricken Jin</a>. After it: <a href=\"/yan-qiansui-the-zither-maiden\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Yan Qiansui, the Zither Maiden (烟千岁)</a>. The roster by region is on the <a href=\"/boss-list\">boss list</a>, and the fights that can be lost by leaving a region early are on the <a href=\"/boss-order\">order page</a>. Location and drops come from the shipped game; patch 1.0302256 is the most recent change to any boss behaviour and it touched only <a href=\"/hua-deadly-betrothed\">Hua</a>.</p>"
     }
   ]
 }
