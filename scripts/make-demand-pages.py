@@ -32,7 +32,7 @@ write(
         ("PC", "Steam and Epic Games Store, digital"),
         ("Steelbook", "Not announced"),
         ("Retailer listing", "Play-Asia removed its boxed listing after being told none was coming"),
-        ("Later physical release", "Unconfirmed - no statement from S-GAME or Kepler"),
+        ("Later physical release", "Unconfirmed - no statement from S-GAME"),
         ("Deluxe Edition contents", "Cosmetic and bonus media only: two outfits, artbook, soundtrack"),
         ("Early access", "None in any edition"),
     ],

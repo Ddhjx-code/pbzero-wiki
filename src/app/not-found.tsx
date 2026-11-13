@@ -16,8 +16,8 @@ export default function NotFound() {
         <p className="text-sm font-semibold text-accent mb-3">Error 404</p>
         <h1 className="text-3xl font-bold text-foreground mb-3">Page Not Found</h1>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          This page does not exist yet. Phantom Blade Zero launches on October 29, 2026, so more of
-          the wiki is still being written — start from one of these instead.
+          There is no page at this address. Phantom Blade Zero released on October 29, 2026, and the
+          wiki is written against the shipped game — start from one of these instead.
         </p>
       </div>
 

@@ -20,6 +20,8 @@ const DATABASES = [
   { href: "/boss-drops", emoji: "🎁", title: "Boss Drops", desc: "Who drops what" },
   { href: "/bosses-by-class", emoji: "🏷️", title: "Bosses by Class", desc: "Story, optional, rematch" },
   { href: "/trophy-list", emoji: "🏆", title: "Trophy List", desc: "All 36 PS5 trophies" },
+  { href: "/trophy-guide", emoji: "🏅", title: "Trophy Guide", desc: "Platinum roadmap and missables" },
+  { href: "/patch-notes", emoji: "🔧", title: "Patch Notes", desc: "1.0302256 and what it changed" },
 ];
 
 const STATS = [
@@ -71,7 +73,7 @@ export default function HomePage() {
         </div>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="inline-block rounded-full border border-accent/30 bg-accent/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-accent">
-            Released October 29, 2026
+            Released October 29, 2026 · Patch 1.0302256 live
           </p>
           <h1 className="mt-6 text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl text-balance">
             Phantom Blade Zero Wiki

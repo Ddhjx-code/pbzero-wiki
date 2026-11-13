@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { getAllSlugs, getPageContent } from "@/lib/content";
 import { autoLink } from "@/lib/autolink";
 import { videosFor } from "@/lib/videos";
+import { getBreadcrumbs } from "@/lib/taxonomy";
 import RelatedPages from "@/components/RelatedPages";
 import AdBanner from "@/components/AdBanner";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -14,6 +15,24 @@ import CategoryTags from "@/components/CategoryTags";
 import VideoGuideLinks from "@/components/VideoGuideLinks";
 
 const BASE_URL = "https://pbzero.wiki";
+
+function toPlainText(html: string): string {
+  return html
+    // Block-level closes become a space so sentences do not run together;
+    // inline tags are dropped outright so "S-GAME , a studio" never happens.
+    .replace(/<\/(p|li|h[1-6]|tr|td|th|div|table|ul|ol)>/gi, " ")
+    .replace(/<br\s*\/?>/gi, " ")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;|&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/\s+([,.;:!?])/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
 
 interface PageProps {
   params: { slug: string };
@@ -54,13 +73,16 @@ export default function SlugPage({ params }: PageProps) {
         <h1 className="text-3xl font-bold text-foreground mb-4">{title}</h1>
         <div className="rounded-lg border border-border bg-card p-6">
           <p className="text-muted-foreground">
-            This guide is being prepared. Full content will be available at launch (October 29, 2026).
+            No page exists at this address. Phantom Blade Zero has been out since October 29, 2026 -
+            start from the boss list, the trophy guide or the home page instead.
           </p>
         </div>
         <RelatedPages currentSlug={params.slug} />
       </div>
     );
   }
+
+  const breadcrumbTrail = getBreadcrumbs(params.slug, content.title);
 
   return (
     <>
@@ -78,6 +100,44 @@ export default function SlugPage({ params }: PageProps) {
           }),
         }}
       />
+      {breadcrumbTrail.length > 1 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              itemListElement: breadcrumbTrail.map((crumb, i) => ({
+                "@type": "ListItem",
+                position: i + 1,
+                name: crumb.label,
+                ...(crumb.href ? { item: `${BASE_URL}${crumb.href}` } : {}),
+              })),
+            }),
+          }}
+        />
+      )}
+      {params.slug === "faq" && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: content.sections
+                .filter((section) => section.title.trim().endsWith("?"))
+                .map((section) => ({
+                  "@type": "Question",
+                  name: section.title.trim(),
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: toPlainText(section.content),
+                  },
+                })),
+            }),
+          }}
+        />
+      )}
       <div className="mx-auto max-w-4xl px-4 py-12 sm:px-6 lg:px-8">
         <article className="min-w-0">
         <Breadcrumb slug={params.slug} title={content.title} />

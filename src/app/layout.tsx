@@ -75,37 +75,13 @@ const structuredData = {
       publisher: { "@type": "Organization", name: "S-Game" },
       description: "A martial arts action RPG set in a dark fantasy world inspired by Chinese wuxia.",
     },
-    {
-      "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is Phantom Blade Zero?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Phantom Blade Zero is a martial arts action RPG developed by S-Game. It combines fast-paced combat with a dark fantasy world inspired by Chinese wuxia culture.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What are the best weapons in Phantom Blade Zero?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The Sha-chi system allows you to equip multiple weapons. Best picks depend on your playstyle - check our Weapons Guide for detailed rankings and upgrade paths.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How many endings does Phantom Blade Zero have?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Phantom Blade Zero has multiple endings based on your choices throughout the story. Our Endings page explains how to reach each one.",
-          },
-        },
-      ],
-    },
   ],
 };
+
+// The FAQPage block used to live here, which meant all 185 pages claimed to be
+// an FAQ about the same three questions - structured data that does not match
+// the visible page is what gets rich results dropped. It is now emitted on /faq
+// only, from that page's own question headings.
 
 export default function RootLayout({
   children,
