@@ -9,7 +9,7 @@
     },
     {
       "label": "Steam achievements",
-      "value": "66 - the PC list adds chapter and combat-move entries"
+      "value": "66 - 35 visible and 31 hidden; the PC list adds chapter and combat-move entries on top of the PS5 36"
     },
     {
       "label": "Runs needed",
@@ -34,6 +34,14 @@
     {
       "label": "Hidden trophies",
       "value": "13, including all three Gold trophies"
+    },
+    {
+      "label": "Epic Games Store",
+      "value": "65 achievements - one fewer than Steam in the Chinese-language comparison"
+    },
+    {
+      "label": "Trophies not popping",
+      "value": "Fixed in patch 1.0302256 (4 November) per press reports - see below"
     }
   ],
   "sections": [
@@ -63,10 +71,15 @@
       "content": "<ol><li><strong>Prologue and Weeping Creek Valley</strong> - play normally. The Heart's Journey and the first boss trophies come free. Kill Hua, Deadly Betrothed before leaving the region; she is optional and missable.</li><li><strong>Village of Lu</strong> - start 玉儿's Tale chain and Quick Hand Zhang's first request here. Do An Unwavering Heart / chapter content as it comes.</li><li><strong>Before entering Pangzhen</strong> - accept The Journey Home and Young Master Lan, then finish both. This is the window 177xz warns about.</li><li><strong>Crimson Forest and Crimson Manor</strong> - all four Acolyte scarecrows except Hansui, Hansui last. Deliver Apprentice Healer and pick up Secrets of the Baishan Sect before Bai Chilian.</li><li><strong>Pangzhen</strong> - the widest optional window in the game. Clean the Tales here, not later.</li><li><strong>Meigu Lake</strong> - mirror realm, the Lóng Pillar inside it, Blizzard Blademaster and Whiteshadow.</li><li><strong>Mountain of Imprisonment</strong> - the Yin eye, plus Bi Feng and Jade-Face.</li><li><strong>Manual save before the Mirage Estate.</strong></li><li><strong>Mirage Estate</strong> - the last Lóng Pillar, then commit to Mount Soulrend.</li><li><strong>Endgame</strong> - Meng Hua, Zuo Shang, then The Last Battle for With Heart and Blood.</li><li><strong>Cleanup</strong> - free roam after the credits covers accessories, Tempering and the journal. New Game Plus is there if something expired anyway.</li></ol>"
     },
     {
+      "id": "not-popping",
+      "title": "Trophies That Did Not Pop, And The Patch That Fixed Them",
+      "content": "<p>The first week produced a failure mode that no roadmap anticipates: achievements that satisfied their condition and never unlocked. Chinese coverage of patch 1.0302256 (今日头条, 7 November) lists it among the fixes and says the update <strong>grants retroactively</strong> any achievement that was earned but never awarded - so a player who killed the boss, finished the tale or hit level 30 and got nothing does not need a second run.</p><p>S-GAME's own notes describe the bug-fix block only in general terms (\"several combat-related problems\", \"issues that could block progression\") without naming achievements. The retroactive behaviour is therefore <strong>press-reported, not confirmed by the studio</strong>, and it is worth checking your own list rather than assuming: open the trophy or achievement list after updating and compare it against the six missable tales and the group boss trophies, which are the entries most likely to have been affected.</p><p>If something is still missing after 1.0302256, the practical order is: confirm the condition actually completed in-game (journal entry closed, boss rematch recorded), then reload a manual save from before the trigger, then report it. Do not start New Game+ to chase a single trophy before trying the reload - NG+ does not restore a failed tale, only a save from before the failure does.</p>"
+    },
+    {
       "id": "sources",
       "title": "Sources and the Count Disagreement",
       "content": "<p>Tier counts and the PS5-versus-Steam split: Game8's platinum guide, Gfinity's full list and 177xz's platform comparison all give 36 for PS5 with the same 1/3/14/18 split. Fextralife lists 66 for the combined PS5-and-PC set with a different split (1/3/22/40), which is the Steam-style count.</p><p>Not resolved: exactly which tier each grouped boss trophy occupies. Sources agree on the three golds - With Heart and Blood, All Dreams Must End, The Four Freed - and disagree on several silvers. The category tables above avoid asserting tiers for the disputed entries.</p><p>IGN's page gives 36 in one table and '50 trophies' in a summary line; 50 appears to be a typo carried from an early build, since 1+3+14+18 is 36 and every other outlet agrees.</p>"
     }
   ],
-  "lastUpdated": "2026-11-10"
+  "lastUpdated": "2026-11-13"
 }

@@ -1,57 +1,70 @@
 {
   "slug": "hua-deadly-betrothed",
-  "title": "Hua, Deadly Betrothed (新娘阿花) - Location, Tactics & Rewards (Phantom Blade Zero)",
-  "description": "Hua, Deadly Betrothed (新娘阿花) in Phantom Blade Zero - where the fight happens, what it drops, and how its attack patterns are countered, including the red and blue flash tells.",
+  "title": "Hua, Deadly Betrothed (新娘阿花) - Location, Tactics & Rewards",
+  "description": "Hua, Deadly Betrothed (新娘阿花) in Phantom Blade Zero - where she waits beneath the Valley Sha-Chi Tower, how to read her grab and lily tells, what patch 1.0302256 changed, and the Scarlet Wraithblade she drops.",
   "keyword": "Hua, Deadly Betrothed (新娘阿花) phantom blade zero boss",
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Location",
-      "value": "Flesh Lily Fields"
+      "value": "Flesh Lily Fields, below the Valley Sha-Chi Tower in Weeping Creek Valley"
     },
     {
-      "label": "Appears in",
-      "value": "Prologue & Weeping Creek Valley"
-    },
-    {
-      "label": "Weak to",
-      "value": "No elemental system - see counters"
+      "label": "Optional",
+      "value": "Yes - but required for Yu'er's Flesh Lily request and the Scarlet Wraithblade"
     },
     {
       "label": "Drops",
-      "value": "Scarlet Wraithblade"
+      "value": "Scarlet Wraithblade, plus the Twin Flesh Lilies for the quest"
+    },
+    {
+      "label": "Unblockable move",
+      "value": "A grab - dodge only, and the window is late"
+    },
+    {
+      "label": "Patch 1.0302256",
+      "value": "Grab frequency reduced on Wayfarer and Pathbreaker only"
+    },
+    {
+      "label": "Weak to",
+      "value": "No elemental system - counter by colour, not by damage type"
     }
   ],
   "sections": [
     {
       "id": "overview",
       "title": "Overview",
-      "content": "<p>Hua, Deadly Betrothed (新娘阿花) is an optional encounter in Prologue & Weeping Creek Valley, found at Flesh Lily Fields. Beating it yields Scarlet Wraithblade.</p>"
+      "content": "<p>Hua, Deadly Betrothed (新娘阿花) is an <strong>optional</strong> boss in Weeping Creek Valley, fought in a field of red spider lilies under the first Sha-Chi Tower. Nothing in the main story requires her - but two things make her hard to skip: she drops the <a href=\"/boss-drops\">Scarlet Wraithblade</a>, and she is the fight that closes Yu'er's Flesh Lily request, which feeds into the <a href=\"/true-ending\">true ending</a> route.</p><p>She is also the fight S-GAME chose to tune first. Patch 1.0302256 on 4 November reduced how often she uses her grab on the two lower difficulties, which tells you exactly where players were getting stuck: not on her damage, but on a single unblockable move with a late dodge window, in an arena that is trying to kill you at the same time.</p>"
     },
     {
       "id": "how-to-find",
-      "title": "Where to Find the Hua, Deadly Betrothed (新娘阿花)",
-      "content": "<p><strong>Location:</strong> Flesh Lily Fields.</p><p><strong>Appears in:</strong> Prologue & Weeping Creek Valley.</p>"
+      "title": "Where to Find Hua",
+      "content": "<p>From the <strong>Valley Sha-Chi Tower</strong> bell in Weeping Creek Valley, take the path <em>under</em> the tower rather than climbing it. That route drops into the lily field; walking in triggers her cutscene immediately, with no confirmation prompt and no way back out until the fight resolves. Set your weapons, Phantom Edge and consumables before you approach - not while standing in the flowers.</p><p>If you are already working Yu'er's questline, you will arrive here by following the Flesh Lily request rather than by looking for a boss. That is the normal route; there is no quest marker pointing at the arena itself.</p>"
+    },
+    {
+      "id": "patch",
+      "title": "What Patch 1.0302256 Changed",
+      "content": "<p>The 4 November patch is specific and narrow: Hua uses her <strong>grab attacks less often on Wayfarer (入阵者) and Pathbreaker (破局者)</strong>, and S-GAME states plainly that other difficulty settings are unaffected. Hellwalker and 66 Days keep the original frequency, so advice written in the first week of November still applies there in full.</p><p>What the patch did <em>not</em> do: it did not reduce the grab's damage, its range, or change how late you have to dodge. It reduced how often the situation arises. If you were dying to the grab itself rather than to its frequency, the fix is still on your side - see the move list below.</p><p>Two consequences worth knowing. Players who beat her before 4 November on Wayfarer or Pathbreaker beat the harder version, so \"it took me nine tries\" and \"it took me three\" can both be true of the same fight. And because the patch also cut PC start-up shader compilation, retrying her repeatedly no longer costs a recompile each relaunch.</p>"
     },
     {
       "id": "weakness",
-      "title": "Weaknesses and Counters",
-      "content": "<table><thead><tr><th>Property</th><th>Value</th></tr></thead><tbody><tr><td>Weak to</td><td>Not confirmed post-launch</td></tr><tr><td>Resists</td><td>Not confirmed post-launch</td></tr><tr><td>Absorbs</td><td>Not confirmed post-launch</td></tr><tr><td>Immune</td><td>Not confirmed post-launch</td></tr></tbody></table><p>Not confirmed post-launch. Phantom Blade Zero does not run an elemental damage system, so there is no weakness table to fill in - nothing here is estimated from how a boss looks, which is exactly how wrong weakness tables get written.</p><p>What the game does have is a colour language on enemy attacks, and it is the single most useful thing to learn: a <strong>red flash</strong> marks an unblockable attack that must be dodged, a <strong>blue flash</strong> marks a parryable one that should be deflected, and a <strong>purple flash</strong> means the boss has just parried <em>you</em> and a counter is coming. See <a href=\"/combat\">the combat system</a> for how Sha-Chi feeds into this.</p>"
+      "title": "Tells, Not Weaknesses",
+      "content": "<p>Phantom Blade Zero has no elemental damage system, so there is no weakness table to fill in - any site offering one for Hua is estimating from how she looks. What the game does have is a <strong>colour language</strong>, and it is the whole fight:</p><ul><li><strong>Red flash</strong> - unblockable, dodge it. Her grab is the one that matters.</li><li><strong>Blue flash</strong> - parryable, deflect it. Her sword strings are mostly this.</li><li><strong>Purple flash</strong> - she has just parried you; a counter is already coming.</li></ul><p>On top of that, the lilies are environmental, not attacks: they bloom, then detonate on a delay. They are not a damage-type problem either, but they punish standing still while you read her.</p>"
+    },
+    {
+      "id": "strategy",
+      "title": "How to Beat Hua, Deadly Betrothed",
+      "content": "<h3>The shape of the fight</h3><p>Treat her as one continuous phase rather than a scripted sequence. She pressures with long sword strings, mixes in the grab, and uses the lilies to deny floor space. The fight is won by converting her strings into posture damage instead of trading hits.</p><h3>1. Parry the strings, do not trade with them</h3><p>Her sweeping combinations hit hard but are largely deflectable, and consecutive deflects are the fastest route to breaking her Sha-Chi. Two or three clean deflections in a row open the first real damage window; blocking the same string instead costs you the posture race and leaves you in range for the grab.</p><h3>2. Dodge the grab on commitment, not on reaction to the red</h3><p>The grab is unblockable and the dodge window is late. Reacting to the red flash alone tends to dodge too early. Watch for the moment she commits - the step-in before the reach - and dodge then. If you cannot read it yet, stay out of grab range entirely between damage windows rather than trying to parry your way out.</p><h3>3. Move out of the lilies before they detonate</h3><p>The bloom is the tell, the detonation is delayed. Do not fight her on top of a bloomed flower to finish a combo; the exchange you win is smaller than the health bar you lose. Walk the arena in a shallow arc so you are never standing in the field you just fought through.</p><h3>4. Bank your burst for the posture break</h3><p>Heavy attacks and weapon skills cost Sha-Chi, so spend them when her meter breaks, not to open the fight. A weapon that closes distance helps here - the arena is small and she retreats into the lilies between strings.</p><h3>5. If you only want the quest, lower the difficulty</h3><p>There is no difficulty trophy in this game, and difficulty can be changed freely. Wayfarer exists; her grab is now less frequent there. Beating her on Wayfarer still counts for the Flesh Lily request and still drops the Scarlet Wraithblade.</p>"
     },
     {
       "id": "rewards",
       "title": "Rewards",
-      "content": "<ul><li><a href=\"/scarlet-wraithblade\" style=\"color:var(--accent);text-decoration:underline;text-underline-offset:2px\">Scarlet Wraithblade</a></li></ul>"
-    },
-    {
-      "id": "strategy",
-      "title": "How to Beat the Hua, Deadly Betrothed (新娘阿花)",
-      "content": "<h3>What works</h3><ul><li>Do not stand in the Flesh Lily fields - they explode on a delay and the tell is easy to miss while dodging her.</li><li>Her grab is unblockable; the dodge window is late, after she commits.</li></ul>"
+      "content": "<ul><li><a href=\"/boss-drops\">Scarlet Wraithblade</a> - her weapon, and the reason many players fight her at all</li><li><strong>Twin Flesh Lilies</strong> - the quest item Yu'er's Flesh Lily request needs; the fight and the fetch are the same trip</li><li>Trophy: <a href=\"/boss-drops\">Scarlet Wraithblade</a> (Bronze), awarded on the kill regardless of difficulty</li></ul>"
     },
     {
       "id": "status",
       "title": "Status",
-      "content": "<p>This page tracks the Hua, Deadly Betrothed (新娘阿花) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>. Location, drops and tactics are filled from the shipped game and from published fight guides; anything still marked &ldquo;not confirmed post-launch&rdquo; has not been confirmed by any source we could check. See the <a href=\"/boss-list\">full boss list</a> for the roster by region and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
+      "content": "<p>This page tracks Hua, Deadly Betrothed (新娘阿花) in Phantom Blade Zero, released <a href=\"/release-date\">October 29, 2026</a>, and was last revised after <a href=\"/patch-notes\">patch 1.0302256</a> on 4 November 2026. Location, drops and difficulty scope come from S-GAME's patch notes and the shipped game; move descriptions come from published fight breakdowns and are written without invented damage figures. See the <a href=\"/boss-list\">full boss list</a> for her position in the roster, <a href=\"/difficulty-modes\">difficulty modes</a> for what the four settings change, and the <a href=\"/walkthrough\">walkthrough</a> for where the fight sits in the campaign.</p>"
     }
   ]
 }

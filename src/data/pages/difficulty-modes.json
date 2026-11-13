@@ -3,7 +3,7 @@
   "title": "Phantom Blade Zero Difficulty Modes Explained",
   "description": "All four Phantom Blade Zero difficulty modes with their sources and dates: Wayfarer, Pathbreaker, Hellwalker and 66 Days, what each does, how 66 Days unlocks, and why some guides still say three.",
   "keyword": "phantom blade zero difficulty",
-  "lastUpdated": "2026-10-20",
+  "lastUpdated": "2026-11-13",
   "facts": [
     {
       "label": "Difficulty modes",
@@ -81,6 +81,11 @@
       "id": "gamechanger",
       "title": "Gamechanger - The Old Name For Pathbreaker",
       "content": "<p>If you read a 2025 preview describing <em>Gamechanger</em> as the default balanced difficulty and recommended for beginners, that was accurate at the time. It is the tier now called Pathbreaker.</p><p>Two independent write-ups of the current material say this outright, so the sensible reading is a rename during development rather than a fifth mode that quietly vanished. This entry stays on the page because older coverage is still indexed and still circulating, and a reader who lands on a mode list without the old name has no way to reconcile the two.</p>"
+    },
+    {
+      "id": "post-launch",
+      "title": "What The First Patch Changed, And What It Did Not",
+      "content": "<p>Four modes shipped, and the first post-launch patch did not touch that structure - no mode was added, removed, renamed or re-difficulty-rated. What it did change is narrower and worth knowing, because it means two players comparing notes about the same boss on the same mode may be describing different fights:</p><ul><li><strong>Hua, Deadly Betrothed</strong> uses grab attacks less often on <strong>Wayfarer and Pathbreaker only</strong>. Hellwalker and 66 Days keep the launch frequency - S-GAME says so explicitly in the patch notes.</li><li>The change is frequency, not damage, range or dodge timing. It reduces how often the problem appears, not how punishing it is when it does.</li><li>Nothing in the patch adds a difficulty trophy or locks progression behind a mode. The <a href=\"/trophy-guide\">trophy guide</a> still holds: any mode earns the Platinum, and difficulty can be changed when you like.</li></ul><p>So the practical reading is that Wayfarer and Pathbreaker are now the forgiving route through the game's most notorious optional fight, and Hellwalker is the version the first wave of players actually fought. If you are choosing a mode purely to get past <a href=\"/hua-deadly-betrothed\">Hua</a>, pick either of the lower two and read the fight the same way - the <a href=\"/patch-notes\">patch notes</a> have the full list of what else 1.0302256 changed.</p>"
     },
     {
       "id": "what-is-unknown",

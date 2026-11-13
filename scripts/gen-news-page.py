@@ -65,6 +65,8 @@ def main() -> int:
                 f"&quot;Press-reported&quot; means one or more outlets stated it but the publisher has not "
                 f"confirmed it; &quot;Unconfirmed&quot; means we found no source at all.</p>"
                 + para(
+                    "After release the page tracks the shipped game instead: patches and what they changed, "
+                    "sales milestones, award results and the Steam reception curve, each one dated. "
                     "Where the guide pages on this site disagreed with newer information, the newer "
                     "information won and the entry says so. The affected pages are linked at the end "
                     "of each item."
@@ -116,15 +118,16 @@ def main() -> int:
     page = {
         "title": "Phantom Blade Zero News & Official Updates",
         "description": (
-            "Dated, sourced Phantom Blade Zero news before the 29 October 2026 release: difficulty modes, "
-            "weapon totals, demo status, pre-order editions and PC details, with the guide pages each item changed."
+            "Dated, sourced Phantom Blade Zero news from before and after the 29 October 2026 launch: "
+            "difficulty modes, pre-order details, launch day, the 4 million sales milestone, patch 1.0302256, "
+            "the Golden Joystick result and the Steam reception curve, with the guide pages each item changed."
         ),
         "keyword": "phantom blade zero news, phantom blade zero updates, pbz announcement, phantom blade zero release news",
         "lastUpdated": news["updated"],
         "facts": [
             {"label": "Game", "value": "Phantom Blade Zero"},
             {"label": "Developer", "value": "S-Game"},
-            {"label": "Publisher", "value": "Kepler Interactive"},
+            {"label": "Publisher", "value": "S-GAME Publishing (self-published)"},
             {"label": "Release date", "value": "October 29, 2026 (Oct 28 in US and select regions)"},
             {"label": "Platforms", "value": "PlayStation 5, PC (Steam, Epic Games Store)"},
             {"label": "Entries tracked", "value": str(len(entries))},

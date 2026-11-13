@@ -1,7 +1,116 @@
 {
-  "updated": "2026-10-26",
+  "updated": "2026-11-13",
   "note": "Every entry is dated and attributed. Where official material and press coverage disagree, both are recorded with their dates rather than silently resolved. The affects array lists the wiki pages this item changed, so a reader can see the news feed and the guide agree.",
   "entries": [
+    {
+      "date": "2026-11-12",
+      "title": "Golden Joystick: runner-up for Ultimate Game of the Year, 16% to Resident Evil 9's 17%",
+      "status": "confirmed",
+      "summary": "The 44th Golden Joystick Awards were announced in London on 11 November. In Ultimate Game of the Year, Resident Evil: Requiem took 17%, Phantom Blade Zero 16% and Crimson Desert 15% - three consecutive points, the tightest top three in recent memory. Phantom Blade Zero took no other category, and was the only Chinese-developed game in the field. The voting window is the number that matters: nominations opened 26 October and closed 30 October, while the game released on 29 October, so the vote measured anticipation plus one day of play rather than the shipped game.",
+      "facts": [
+        "Ultimate Game of the Year: Resident Evil: Requiem 17%, Phantom Blade Zero 16%, Crimson Desert 15%; Control Resonant and The Blood of Dawnwalker took fourth and fifth",
+        "S-GAME's own response, posted to Bilibili, was that there were about 40 hours between release and the close of voting, and that second place was already well beyond the team's expectation",
+        "Resident Evil: Requiem won four categories in total; Capcom took Studio of the Year with 57% of the vote",
+        "Black Myth: Zhong Kui, still unreleased, was nominated for Most Wanted and lost to The Witcher 4",
+        "Separate from the award: by 12 November the Steam page showed over 100,000 user reviews at 94% positive, 7th on the global top-sellers list and 2nd in China",
+        "The Game Awards 2026 full nominations were still unpublished on 12 November; the ceremony is scheduled for 10 December"
+      ],
+      "source": "Golden Joystick organisers via Beijing News, NF News and 17173, 11-12 November 2026; S-GAME on Bilibili; Steam store page, read 12 November 2026",
+      "url": "https://news.17173.com/content/11122026/093643456.shtml",
+      "affects": [
+        "reviews",
+        "release-date",
+        "how-long-to-beat"
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "title": "First patch 1.0302256: Hua's grabs reduced on two difficulties, PC start-up reworked",
+      "status": "confirmed",
+      "summary": "S-GAME published the notes on its own site on 3 November and on Steam on 4 November. The build is 1.0302256 on PC and reported as 1.302.289 on PS5; the download is about 3.7 GB and was pushed in stages rather than to everyone at once, so two players comparing notes on the same day may not have been on the same build. It is a stability and comfort patch - no new content, one named boss change.",
+      "facts": [
+        "Hua, Deadly Betrothed uses grab attacks less often on Wayfarer (入阵者) and Pathbreaker (破局者) only; Hellwalker and 66 Days are unaffected",
+        "The change is frequency, not damage, range or dodge timing - the notes give no percentage",
+        "Ray tracing shaders are no longer compiled at start-up on PC; if ray tracing was off, expect one short recompile on first launch, and if it was on you launch straight in",
+        "New Hit Sound Intensity and Hit Impact Sound Intensity sliders, strengthened weapon hit feedback, and adjusted volume on some effects and dialogue",
+        "Interact / Talk is now bindable on keyboard and controller, and controller button icons were updated",
+        "PC fixes: reduced Bluetooth controller stutter, NVIDIA Reflex now works on Auto with V-Sync, hair rendering fixed on certain AMD cards and drivers",
+        "Progression blockers, characters stuck in geometry, cutscene and visual faults and several combat issues were fixed; S-GAME warns that some third-party mods are incompatible and should be removed",
+        "Press-reported, not in the notes: achievements that were earned but never popped are granted retroactively after updating"
+      ],
+      "source": "S-GAME patch notes on the official site (3 November 2026) and Steam (4 November 2026); MP1st, Push Square and iGameMag, 4-7 November 2026",
+      "url": "https://howtovideogame.com/phantom-blade-zero-patch-1-0302256/",
+      "affects": [
+        "patch-notes",
+        "hua-deadly-betrothed",
+        "difficulty-modes",
+        "pc-requirements",
+        "trophy-guide"
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "title": "Four million copies in 72 hours, and the first week's reception curve",
+      "status": "confirmed",
+      "summary": "S-GAME announced on 2 November that Phantom Blade Zero had sold more than 4 million copies across PS5 and PC in its first 72 hours. The studio gave no platform split, so the figure cannot be read as a Steam-only number or a console-only number. Chinese outlets multiplied it by the 268 RMB standard edition to claim roughly 1 billion RMB gross against a 300-400 million RMB budget and called it a three-day break-even; that is arithmetic on a list price, not a figure the studio published. The same announcement addressed bugs only - no DLC, no roadmap, no photo mode, no boss rush.",
+      "facts": [
+        "Four million copies in 72 hours, all platforms combined, per S-GAME on 2 November",
+        "No platform split was published; third-party models put it near 3.1 million Steam and 1.2 million PlayStation by 3 November and exclude Epic, but that is a model rather than studio data",
+        "Steam concurrent peak: 833,921, reached on 1 November (SteamPeaks); roughly 322,000 by the morning of 4 November",
+        "Steam user score moved from about 77% at launch to roughly 90% by 2 November, crossing into Very Positive",
+        "Pre-orders were reported at about 850,000 before launch",
+        "Feng Ji, producer of Black Myth: Wukong, reposted the milestone and singled out the day-by-day movement of the user score rather than the sales number",
+        "The 400,000 figure sometimes quoted is a misreading of the 4 million announcement",
+        "Photo mode and a boss-rush mode were the two most-requested additions in replies; S-GAME has not confirmed either"
+      ],
+      "source": "S-GAME (@pbzero_official) on X, 2 November 2026; RPG Site; SteamPeaks; 什么值得买 and 今日头条 commentary, 2-7 November 2026",
+      "url": "https://likiweeks.com/?p=19311",
+      "affects": [
+        "release-date",
+        "reviews",
+        "is-phantom-blade-zero-a-soulslike"
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "title": "Steam concurrent peak of 833,921 on launch weekend",
+      "status": "confirmed",
+      "summary": "The launch-weekend peak on Steam was 833,921 concurrent players, recorded on 1 November. It is the number to use when comparing the game to other single-player action releases; it is not a sales figure and does not include PS5. A concurrent count falling by more than half a week after launch is normal for a story-driven single-player game and is not evidence of a reception problem.",
+      "facts": [
+        "833,921 concurrent players on 1 November, the launch-weekend high",
+        "Roughly 322,000 concurrent on the morning of 4 November, after the weekend",
+        "PC only - the figure says nothing about PS5 player numbers",
+        "Not a sales number: 4 million is the sales figure and it is a 72-hour total, not a concurrent count"
+      ],
+      "source": "SteamPeaks, read 4 and 12 November 2026; iGameMag, 4 November 2026",
+      "url": "https://steampeaks.com/",
+      "affects": [
+        "release-date",
+        "how-long-to-beat"
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "title": "Launch day: digital release, a day-one patch, and a rough first 24 hours on PC",
+      "status": "confirmed",
+      "summary": "Phantom Blade Zero released digitally on 29 October 2026 for PS5 and PC (Steam and Epic Games Store). Steam lists 28 October because the global unlock was keyed to US West Coast time. There is no disc version at launch; a physical PS5 release is confirmed for 2027. The first day was not clean: shader loading stalls and start-up crashes clustered on PC and the user score sat around 77% in the first hours. It climbed to about 90% by 2 November and 94% by 12 November - partly the patches, partly the ordinary arithmetic of a 30-40 hour game whose finishers review later.",
+      "facts": [
+        "Digital launch 29 October 2026 on PS5, Steam and Epic Games Store; 28 October on the Steam page in US West Coast time",
+        "No disc at launch - physical PS5 standard and deluxe editions confirmed for 2027",
+        "Day-one PC complaints clustered on shader loading stalls and start-up crashes; user score around 77% (Mostly Positive) in the first hours",
+        "A ~5 GB day-one patch aimed at ray tracing and path tracing performance had been prepared before launch, per Liang Qiwei's pre-release letter",
+        "By 2 November the score was about 90%; by 12 November, 94% across more than 100,000 reviews",
+        "Attributing the whole climb to patching is not supported - early reviews come from players who bounce in the first hour, later ones from players who finish"
+      ],
+      "source": "S-GAME store listings and launch posts, 28-29 October 2026; Steam user reviews, read 29 October and 12 November 2026; 今日头条 and 腾讯新闻 recaps, 7 November 2026",
+      "url": "https://store.steampowered.com/app/4115450/",
+      "affects": [
+        "release-date",
+        "reviews",
+        "pc-requirements",
+        "physical-edition"
+      ]
+    },
     {
       "date": "2026-10-26",
       "title": "Reviews are in: Metacritic 88 on PC, 87 on PS5, OpenCritic 91 with 100% recommending",

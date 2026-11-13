@@ -1,26 +1,77 @@
 {
   "slug": "reviews",
-  "title": "Phantom Blade Zero Reviews - Metacritic 88, OpenCritic 91",
-  "description": "Phantom Blade Zero reviews lifted 25-26 October 2026: Metacritic 88 on PC and 87 on PS5, OpenCritic 91 with 100% of critics recommending it. Every published score, the platform each critic tested, and the one outlet that hated it.",
+  "title": "Phantom Blade Zero Reviews - Metacritic 88, OpenCritic 91, Steam 94%",
+  "description": "Phantom Blade Zero reviews: Metacritic 88 on PC and 87 on PS5, OpenCritic 91 with 100% of critics recommending, plus the Steam player score that climbed from 77% at launch to 94% across 100,000+ reviews.",
   "keyword": "phantom blade zero reviews, phantom blade zero metacritic score, phantom blade zero opencritic, phantom blade zero review scores, phantom blade zero ign reviews, is phantom blade zero good",
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-11-13",
   "facts": [
-    { "label": "Metascore (PC)", "value": "88 - Generally Favorable, day one, 26 October 2026" },
-    { "label": "Metascore (PS5)", "value": "87 - smaller sample than PC on day one" },
-    { "label": "OpenCritic", "value": "91 - Mighty, 100% of critics recommend, 100th percentile" },
-    { "label": "Recommendation split", "value": "97% positive, 3% mixed, 0% negative - not one outright negative review" },
-    { "label": "Highest scores", "value": "100 from PCGamesN, But Why Tho, The Outerhaven, SteamDeckHQ, Wccftech, Saudi Gamer" },
-    { "label": "Lowest score", "value": "60 - Eurogamer, 3/5, the only mixed review" },
-    { "label": "IGN / GameSpot / VGC", "value": "90 (9/10), 80 (8/10), 4/5" },
-    { "label": "Embargo", "value": "Lifted 25-26 October, three days before release; S-GAME never announced a time" },
-    { "label": "Best-rated action game of 2026", "value": "Per Polygon, ahead of Control Resonant, 007 First Light and Saros" },
-    { "label": "Consensus criticism", "value": "Story and characters, not combat - and repetitive common enemies" }
+    {
+      "label": "Metascore (PC)",
+      "value": "88 - Generally Favorable, day one, 26 October 2026"
+    },
+    {
+      "label": "Metascore (PS5)",
+      "value": "87 - smaller sample than PC on day one"
+    },
+    {
+      "label": "OpenCritic",
+      "value": "91 - Mighty, 100% of critics recommend, 100th percentile"
+    },
+    {
+      "label": "Recommendation split",
+      "value": "97% positive, 3% mixed, 0% negative - not one outright negative review"
+    },
+    {
+      "label": "Highest scores",
+      "value": "100 from PCGamesN, But Why Tho, The Outerhaven, SteamDeckHQ, Wccftech, Saudi Gamer"
+    },
+    {
+      "label": "Lowest score",
+      "value": "60 - Eurogamer, 3/5, the only mixed review"
+    },
+    {
+      "label": "IGN / GameSpot / VGC",
+      "value": "90 (9/10), 80 (8/10), 4/5"
+    },
+    {
+      "label": "Embargo",
+      "value": "Lifted 25-26 October, three days before release; S-GAME never announced a time"
+    },
+    {
+      "label": "Best-rated action game of 2026",
+      "value": "Per Polygon, ahead of Control Resonant, 007 First Light and Saros"
+    },
+    {
+      "label": "Consensus criticism",
+      "value": "Story and characters, not combat - and repetitive common enemies"
+    },
+    {
+      "label": "Steam user score",
+      "value": "94% positive across 100,000+ reviews - \"Very Positive\", 12 November 2026"
+    },
+    {
+      "label": "Launch-day Steam score",
+      "value": "about 77% - shader loading stalls and start-up crashes on PC"
+    },
+    {
+      "label": "Steam top sellers",
+      "value": "7th globally, 2nd in China, 12 November 2026"
+    },
+    {
+      "label": "Best award finish",
+      "value": "Golden Joystick 2026 Ultimate Game of the Year runner-up, 16% to Resident Evil 9's 17%"
+    }
   ],
   "sections": [
     {
       "id": "state",
       "title": "The Numbers, And The Date They Were True",
       "content": "<p>Reviews lifted over the night of 25-26 October 2026, three days before the 29 October release. As of <strong>26 October 2026</strong>:</p><ul><li><strong>Metacritic: 88 on PC</strong> (31-33 critic reviews as the page fills in) and <strong>87 on PS5</strong> (a smaller day-one sample)</li><li><strong>OpenCritic: 91</strong> across 22-24 reviews, rated <em>Mighty</em>, with <strong>100% of critics recommending it</strong> and a place in the site&apos;s 100th percentile</li><li><strong>30 positive, 1 mixed, 0 negative</strong> on Metacritic - 97% positive</li></ul><p><strong>Quote these with this date.</strong> Day-one averages are rolling: outlets that review later, and outlets Metacritic adds index, will move the number over the next week. The PC and PS5 Metascores are <em>separate samples</em>, and OpenCritic aggregates the game rather than splitting platforms, so 88 and 91 are not competing claims - they answer different questions with different sets of writers. Do not let anyone tell you one number is the real one.</p><p>Polygon&apos;s framing is the useful headline: an 88 makes this the <strong>best-reviewed action game of 2026 so far</strong>, ahead of Control Resonant, 007 First Light and Saros, while trailing the year&apos;s racing releases (Star Wars Galactic Racer on 88, Forza Horizon 6 on 90).</p>"
+    },
+    {
+      "id": "players",
+      "title": "What Players Say, Two Weeks After Launch",
+      "content": "<p>Critic scores were fixed before release. The player number was not, and it has moved more than any critic aggregate will: Steam's user score sat at about <strong>77% (\"Mostly Positive\")</strong> in the first hours of 29 October, reached roughly <strong>90%</strong> by 2 November, and stood at <strong>94% across more than 100,000 reviews (\"Very Positive\")</strong> on 12 November. The same day the game was 7th on Steam's global top-sellers list and 2nd in China.</p><p>Read the shape of that curve carefully. The early reviews were dominated by shader compilation stalls and start-up crashes on PC, which patch 1.0302256 addressed on 4 November. But a rising score is also the ordinary arithmetic of a 30-40 hour game: players who quit in the first hour review on day one, and players who finish arrive a week later. Both effects point the same way, and no source separates them - so the honest statement is that the score improved, not that patching caused all of it.</p><p>What players consistently praise matches what critics praised: the combat, the weapon switching, the boss encounters and the art direction. What players consistently complain about now that the game is out:</p><ul><li><strong>Difficulty spikes on optional bosses.</strong> Hua, Deadly Betrothed was the flashpoint and the reason S-GAME nerfed her grabs - but only on Wayfarer and Pathbreaker. Players who beat her before 4 November on those settings did so against the harder version.</li><li><strong>Repetitive ordinary enemies.</strong> The same criticism Eurogamer raised in its 6/10, and the one that survived launch intact.</li><li><strong>Missing quality-of-life features.</strong> Photo mode and a boss-rush mode were the two most-requested additions in replies to the sales announcement. S-GAME has not confirmed either.</li><li><strong>No DLC or roadmap.</strong> The 2 November announcement addressed bug fixes only. The director has said the team has ideas for sequels, expansions, animation and film, but also that the first game's result would decide what gets made - a result now in hand, and still no announcement.</li></ul><p>The award result belongs here rather than in the critic section: at the Golden Joystick Awards on 11 November the game finished second in Ultimate Game of the Year with 16%, one point behind Resident Evil: Requiem. Voting closed on 30 October, one day after release, so that vote measured anticipation more than the shipped game.</p>"
     },
     {
       "id": "scores",

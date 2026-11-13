@@ -3,7 +3,7 @@
   "title": "Phantom Blade Zero FAQ - Developer, Country, Weapons & Bosses",
   "description": "Straight answers to the questions people actually ask about Phantom Blade Zero: who makes it, which country it comes from, how many weapons and bosses there are, and whether it is a Soulslike.",
   "keyword": "phantom blade zero faq",
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-11-13",
   "sections": [
     {
       "id": "who-makes-it",
@@ -28,7 +28,7 @@
     {
       "id": "release-platforms",
       "title": "When does it release, and on what?",
-      "content": "<p><strong>October 29, 2026</strong> on <strong>PlayStation 5</strong> and <strong>PC</strong>. Note that the official PlayStation Blog lists <strong>October 28</strong> for the US and select regions.</p><p>The date was originally set for September 9, 2026 before moving to the October slot.</p>"
+      "content": "<p>It released on <strong>October 29, 2026</strong> on <strong>PlayStation 5</strong> and <strong>PC</strong> (Steam and Epic Games Store). The PlayStation Blog and the Steam store both list <strong>October 28</strong> for the US and select regions, because the global unlock was keyed to US West Coast time - it is the same launch, not an earlier one.</p><p>The date was originally set for September 9, 2026 and moved in June. There is no disc version yet; a physical PS5 release is confirmed for 2027. See <a href=\"/release-date\">release date</a> for the full timeline and <a href=\"/physical-edition\">physical edition</a> for what is in the box.</p>"
     },
     {
       "id": "how-many-weapons",
@@ -53,7 +53,7 @@
     {
       "id": "difficulty",
       "title": "Does it have difficulty settings?",
-      "content": "<p>Yes - three of them, which is unusual for a game with this reputation for difficulty:</p><table><thead><tr><th>Mode</th><th>Who it is for</th></tr></thead><tbody><tr><td><strong>Wayfarer</strong></td><td>Players who mainly want the story</td></tr><tr><td><strong>Hellwalker</strong></td><td>Higher challenge, with adaptive enemy intelligence</td></tr><tr><td><strong>Sixty-Six Days</strong></td><td>The hardest option - explicitly \"not for the faint of heart\"</td></tr></tbody></table>"
+      "content": "<p>Yes - <strong>four</strong> modes, which is unusual for a game with this reputation. Several guides still say three because the standard tier was renamed: <em>Gamechanger</em> became <em>Pathbreaker</em>, and the old name survives in pre-release coverage.</p><table><thead><tr><th>Mode</th><th>Chinese name</th><th>Who it is for</th></tr></thead><tbody><tr><td><strong>Wayfarer</strong></td><td>入阵者</td><td>Players who mainly want the story</td></tr><tr><td><strong>Pathbreaker</strong></td><td>破局者</td><td>The standard difficulty, and the intended default</td></tr><tr><td><strong>Hellwalker</strong></td><td>逆天者</td><td>Higher challenge; selectable on a first run, with bosses that adapt</td></tr><tr><td><strong>66 Days</strong></td><td>六十六天</td><td>Hellwalker-level challenge plus a 66-death limit; unlocks after clearing Pathbreaker or Hellwalker</td></tr></tbody></table><p>You can change difficulty at any time, and no trophy requires a specific mode. Patch 1.0302256 lowered the frequency of Hua's grab on the two lower modes only. See <a href=\"/difficulty-modes\">difficulty modes</a> for the full comparison.</p>"
     },
     {
       "id": "character-creation",
@@ -68,7 +68,7 @@
     {
       "id": "game-length",
       "title": "How long is the game?",
-      "content": "<p><strong>Not officially announced.</strong> S-Game has not published a completion time, and any figure you see quoted before launch is an estimate rather than a confirmed number.</p><p>We will add a verified figure here after release.</p>"
+      "content": "<p>Roughly <strong>20-25 hours</strong> for the main story, <strong>30-40 hours</strong> with side content, and <strong>40-45 hours</strong> for a full run - with a Platinum landing around <strong>50-70 hours</strong>. The director's own pre-launch estimate was 20-30 hours for the story, and reviewers reported 50-55 hour playthroughs, so the spread is real rather than noise.</p><p>The <a href=\"/how-long-to-beat\">how long to beat</a> page breaks that down by playstyle and explains why the numbers disagree.</p>"
     },
     {
       "id": "engine",
