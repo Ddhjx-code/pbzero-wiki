@@ -306,7 +306,7 @@ def main():
         "sections": sections,
     }
 
-    OUT.write_text(json.dumps(page, ensure_ascii=False, indent=1) + "\n")
+    OUT.write_text(json.dumps(page, ensure_ascii=False, indent=2) + "\n")
     words = sum(len(re.sub(r"<[^>]+>", " ", s["content"]).split()) for s in sections)
     print(f"wrote {OUT.relative_to(ROOT)}  sections={len(sections)}  words≈{words}")
     print(f"  bosses={total_bosses} story={story} optional={optional} weapons placed={placed_weapons}/{weapon_count}")
