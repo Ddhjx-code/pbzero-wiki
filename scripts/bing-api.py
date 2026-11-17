@@ -12,6 +12,11 @@
     python3 scripts/bing-api.py submit-feed --site pbzero
     python3 scripts/bing-api.py submit-url  --site pbzero --urls /map,/boss-order
 
+    # 快照：把当期数字存成 JSON，供日后机械比对
+    python3 scripts/bing-api.py snapshot --site pbzero --out reports/bing-snapshots/2026-11-17.json
+    python3 scripts/bing-api.py snapshot --site pbzero \
+        --compare reports/bing-snapshots/2026-11-17.json
+
 --site 用短名（pbzero / e33 / morse）或完整域名。
 API Key 读 .secrets/bing-api.txt（已在 .gitignore）。
 """
@@ -20,6 +25,7 @@ import json
 import sys
 import urllib.parse
 import urllib.request
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -36,6 +42,22 @@ FEED_URLS = {
     "e33": "https://expedition33.wiki/sitemap.xml",
     "morse": "https://morsecodenow.com/sitemap.xml",
 }
+
+# 快照要盯的目标词。改这些页面之后，它们的曝光/点击/位置是最直接的读数。
+TARGET_QUERIES = [
+    "phantom blade zero wiki",
+    "phantom blade zero walkthrough",
+    "phantom blade zero all bosses",
+    "phantom blade zero bosses",
+    "phantom blade zero boss order",
+    "phantom blade zero map",
+    "phantom blade zero all weapons",
+    "phantom blade zero weapons",
+    "phantom blade zero 66 days",
+    "phantom blade zero best build",
+    "phantom blade zero trophy guide",
+    "phantom blade zero difficulty",
+]
 
 
 def api_key():
@@ -151,6 +173,177 @@ def cmd_urlinfo(args):
     print(json.dumps(rows, ensure_ascii=False, indent=2))
 
 
+def _agg(rows):
+    return {
+        "days": len(rows),
+        "clicks": sum(r["clicks"] for r in rows),
+        "impressions": sum(r["impressions"] for r in rows),
+    }
+
+
+def take_snapshot(site):
+    """把当期 Bing 数字折成一个 dict，既能存盘也能直接比对。"""
+    snap = {"site": site, "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M")}
+
+    # sitemap 登记状态：这是 11-17 之前最大的坑，必须每次都看
+    feeds = call("GetFeeds", siteUrl=site) or []
+    snap["feeds"] = [
+        {"url": f.get("Url"), "status": f.get("Status"),
+         "last_crawled": dotnet_date(f.get("LastCrawled"))}
+        for f in feeds
+    ]
+
+    traffic = [r for r in (call("GetRankAndTrafficStats", siteUrl=site) or []) if r.get("Date")]
+    traffic.sort(key=lambda r: r["Date"])
+    daily = [
+        {"date": dotnet_date(r["Date"]), "clicks": r.get("Clicks", 0),
+         "impressions": r.get("Impressions", 0)}
+        for r in traffic
+    ]
+    snap["traffic_daily"] = daily
+    snap["traffic_total"] = _agg(daily)
+    snap["traffic_last7"] = _agg(daily[-7:])
+    snap["traffic_prev7"] = _agg(daily[-14:-7])
+
+    # 关键词：全量 + 目标词逐条
+    rows = call("GetQueryStats", siteUrl=site) or []
+    snap["query_count"] = len(rows)
+    snap["query_impressions"] = sum(r.get("Impressions") or 0 for r in rows)
+    snap["query_clicks"] = sum(r.get("Clicks") or 0 for r in rows)
+    low = {(r.get("Query") or "").lower(): r for r in rows}
+
+    targets = {}
+    for kw in TARGET_QUERIES:
+        r = low.get(kw)
+        if r:
+            targets[kw] = {
+                "match": "exact",
+                "query": r.get("Query"),
+                "impressions": r.get("Impressions") or 0,
+                "clicks": r.get("Clicks") or 0,
+                "position": round(r.get("AvgImpressionPosition") or 0, 1),
+            }
+            continue
+        # 精确命中不了时，记下包含该短语的最近候选，避免"没曝光"和"词形不同"混为一谈
+        near = [q for q in low if kw in q]
+        if near:
+            near.sort(key=lambda q: -(low[q].get("Impressions") or 0))
+            r = low[near[0]]
+            targets[kw] = {
+                "match": "substring",
+                "query": r.get("Query"),
+                "impressions": r.get("Impressions") or 0,
+                "clicks": r.get("Clicks") or 0,
+                "position": round(r.get("AvgImpressionPosition") or 0, 1),
+            }
+        else:
+            targets[kw] = None
+    snap["targets"] = targets
+
+    crawl = [r for r in (call("GetCrawlStats", siteUrl=site) or []) if r.get("Date")]
+    crawl.sort(key=lambda r: r["Date"])
+    snap["crawl_last7"] = {
+        "pages": sum(r.get("CrawledPages") or 0 for r in crawl[-7:]),
+        "errors": sum(r.get("CrawlErrors") or 0 for r in crawl[-7:]),
+    }
+    snap["crawl_last_day"] = (
+        {"date": dotnet_date(crawl[-1]["Date"]),
+         "pages": crawl[-1].get("CrawledPages") or 0} if crawl else None
+    )
+
+    issues = call("GetCrawlIssues", siteUrl=site) or []
+    snap["issue_count"] = len(issues)
+    return snap
+
+
+def _fmt(v, unit=""):
+    return "—" if v is None else f"{v}{unit}"
+
+
+def _delta(now, before):
+    if now is None or before is None:
+        return ""
+    d = now - before
+    if d == 0:
+        return "  (=)"
+    return f"  ({d:+g})"
+
+
+def compare_snapshots(now, before):
+    """把两次快照的差异打成人能看的一段。"""
+    b = before.get("traffic_total", {})
+    n = now.get("traffic_total", {})
+    print(f"\n{'='*66}")
+    print(f"对比基线 {before.get('generated_at')}  →  现在 {now.get('generated_at')}")
+    print(f"{'='*66}")
+
+    print("\n[窗口累计]")
+    for k, label in (("impressions", "曝光"), ("clicks", "点击")):
+        print(f"  {label}\t{b.get(k, 0)} → {n.get(k, 0)}"
+              f"{_delta(n.get(k), b.get(k))}")
+    b7, n7 = before.get("traffic_last7", {}), now.get("traffic_last7", {})
+    print(f"  近 7 天曝光\t{b7.get('impressions', 0)} → {n7.get('impressions', 0)}"
+          f"{_delta(n7.get('impressions'), b7.get('impressions'))}")
+    print(f"  近 7 天点击\t{b7.get('clicks', 0)} → {n7.get('clicks', 0)}"
+          f"{_delta(n7.get('clicks'), b7.get('clicks'))}")
+
+    print("\n[词覆盖]  ← 判断「每页 1.1 个词」有没有松动的主指标")
+    print(f"  query 总数\t{before.get('query_count', 0)} → {now.get('query_count', 0)}"
+          f"{_delta(now.get('query_count'), before.get('query_count'))}")
+
+    print("\n[目标词]")
+    bt, nt = before.get("targets", {}), now.get("targets", {})
+    print(f"  {'词':<46}{'曝光':>10}{'位置':>10}")
+    for kw in TARGET_QUERIES:
+        o, c = bt.get(kw), nt.get(kw)
+        oi = o["impressions"] if o else 0
+        ci = c["impressions"] if c else 0
+        if not o and not c:
+            print(f"  {kw[:44]:<46}{'—':>10}{'仍无曝光':>10}")
+            continue
+        pos = f"位 {c['position']}" if c else "—"
+        flag = "  ← 新出现" if (c and not o) else ""
+        print(f"  {kw[:44]:<46}{f'{oi} → {ci}':>10}{pos:>10}"
+              f"{_delta(ci, oi) if o else ''}{flag}")
+
+    print("\n[sitemap]")
+    bm = {f["url"]: f for f in before.get("feeds", [])}
+    for f in now.get("feeds", []):
+        old = bm.get(f["url"], {})
+        print(f"  {f['url']}\n    {old.get('status', '—')} → {f['status']}"
+              f"  上次抓取 {old.get('last_crawled', '—')} → {f['last_crawled']}")
+
+    bc, nc = before.get("crawl_last7", {}), now.get("crawl_last7", {})
+    print("\n[抓取]")
+    print(f"  近 7 天抓取页数\t{bc.get('pages', 0)} → {nc.get('pages', 0)}")
+    print(f"  抓取错误数\t{before.get('issue_count', 0)} → {now.get('issue_count', 0)}")
+
+
+def cmd_snapshot(args):
+    site = site_url(args.site)
+    snap = take_snapshot(site)
+    if args.out:
+        out = Path(args.out)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(json.dumps(snap, ensure_ascii=False, indent=2) + "\n")
+        print(f"快照已写入 {out}")
+    else:
+        print(json.dumps(snap, ensure_ascii=False, indent=2))
+
+    t = snap["traffic_total"]
+    print(f"{site}：{t['days']} 天 {t['impressions']} 曝光 / {t['clicks']} 点击，"
+          f"{snap['query_count']} 个 query")
+
+    if args.compare:
+        p = Path(args.compare)
+        if not p.exists():
+            print(f"\n⚠️  基线 {p} 不存在，无法比对。reports/ 在 .gitignore 里，"
+                  f"换机器或清理过的目录会丢基线文件。", file=sys.stderr)
+            return
+        before = json.loads(p.read_text())
+        compare_snapshots(snap, before)
+
+
 def cmd_submit_feed(args):
     feed = FEED_URLS[args.site] if args.site in FEED_URLS else args.site
     post_json("SubmitFeed", {"siteUrl": site_url(args.site), "feedUrl": feed})
@@ -202,6 +395,11 @@ def main():
     p = sub.add_parser("urlinfo")
     p.add_argument("--site", required=True)
     p.add_argument("--url", required=True)
+
+    p = sub.add_parser("snapshot")
+    p.add_argument("--site", required=True)
+    p.add_argument("--out")
+    p.add_argument("--compare")
 
     p = sub.add_parser("submit-feed")
     p.add_argument("--site", required=True)
