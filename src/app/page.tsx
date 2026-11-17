@@ -1,11 +1,14 @@
 import Link from "next/link";
 import AdBanner from "@/components/AdBanner";
 
+// Cards follow the measured query order (US, October 2026): trophy guide 4,400,
+// walkthrough 1,600, boss 1,300, map 1,000. Characters and the beginner guide led
+// this block before, which front-loaded two of the smaller terms.
 const QUICK_LINKS = [
-  { href: "/guide", emoji: "📖", title: "Beginner Guide", desc: "Combat mechanics & 66-day system" },
-  { href: "/characters", emoji: "⚔️", title: "Characters", desc: "Soul, Zuoshang, Mu Xiaokui, Mo Yuan" },
-  { href: "/boss-guide", emoji: "💀", title: "Boss Guide", desc: "All known boss strategies" },
-  { href: "/weapons", emoji: "🗡️", title: "Weapons", desc: "Weapons & Sha-chi upgrade paths" },
+  { href: "/walkthrough", emoji: "📜", title: "Walkthrough", desc: "All 8 regions in order, and what locks when" },
+  { href: "/map", emoji: "🗺️", title: "Map & Regions", desc: "Region maps, bells, completion per map" },
+  { href: "/trophy-guide", emoji: "🏆", title: "Trophy Guide", desc: "Platinum roadmap & the missables" },
+  { href: "/guide", emoji: "📖", title: "Beginner Guide", desc: "Combat mechanics & the 66-day system" },
 ];
 
 // The databases are the tier-2 indexes. They were only reachable through
@@ -74,22 +77,22 @@ export default function HomePage() {
           </div>
           <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
             <Link
-              href="/guide"
+              href="/walkthrough"
               className="rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-white shadow-sm transition-colors hover:bg-accent-hover"
             >
-              Beginner Guide
+              Full Walkthrough
             </Link>
             <Link
-              href="/characters"
+              href="/boss-order"
               className="rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-card-foreground transition-colors hover:border-accent"
             >
-              Characters
+              All 60 Bosses in Order
             </Link>
             <Link
-              href="/boss-guide"
+              href="/map"
               className="rounded-lg border border-border bg-card px-6 py-3 text-sm font-semibold text-card-foreground transition-colors hover:border-accent"
             >
-              Boss Guide
+              Map &amp; Regions
             </Link>
           </div>
         </div>

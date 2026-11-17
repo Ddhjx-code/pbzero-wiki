@@ -3,17 +3,23 @@ import { useState } from "react";
 import Link from "next/link";
 import SearchDialog from "./SearchDialog";
 
-// Bosses and Weapons point at the tier-2 databases rather than the strategy
-// hubs: the database pages are what link out to all 60 boss pages and the
-// blade/edge pages, so putting them in the sitewide nav gives every entity
-// page at least one inbound link from every other page on the site.
+// Order follows measured demand, not the site's original structure: the October
+// 2026 US volumes were trophy guide 4,400, walkthrough 1,600, wiki 1,300, bosses
+// 1,300, map 1,000. Trophy pages and the walkthrough were both missing from this
+// bar entirely, which left the two biggest non-brand queries pointing at pages
+// with no sitewide inbound link.
+//
+// Bosses and Weapons still point at the tier-2 databases rather than the strategy
+// hubs: the database pages are what link out to all 60 boss pages and all 42
+// blade/edge pages, so keeping them here gives every entity page at least one
+// inbound link from every other page on the site.
 const NAV_LINKS = [
-  { href: "/news", label: "News" },
-  { href: "/guide", label: "Guide" },
-  { href: "/characters", label: "Characters" },
+  { href: "/walkthrough", label: "Walkthrough" },
   { href: "/boss-list", label: "Bosses" },
+  { href: "/map", label: "Map" },
+  { href: "/trophy-guide", label: "Trophies" },
   { href: "/blades", label: "Weapons" },
-  { href: "/endings", label: "Story" },
+  { href: "/news", label: "News" },
 ];
 
 export default function Navbar() {
