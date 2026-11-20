@@ -18,7 +18,7 @@
 | 主题 | 第1级 Hub | 第2级分类索引 | 第3级实体 |
 |---|---|---|---|
 | Boss | `/boss-guide` | `/bosses-by-class`、`/boss-drops` | `/{name}-boss` ✅ 7 页 |
-| 武器 | `/weapons` | `/blades`、`/phantom-edges` | `/{weapon}` |
+| 武器 | `/weapons` | `/blades`、`/phantom-edges`、`/one-handed-blades` | `/{weapon}` |
 | 角色 | `/characters` | `/playable-characters`、`/npcs` | `/{name}` |
 | 任务 | `/quests` | `/side-quests`、`/story-paths` | `/{quest}` |
 | 奖杯 | `/trophies` | `/trophy-roadmap`、`/missable-trophies` | `/{trophy}` |
@@ -29,6 +29,22 @@
 第2级为什么不能省：长尾词绝大多数是「实体名 + 属性」（`thunder eveque location` 那种），
 一个实体页靠信息卡就能吃下多个；但 `all bosses` / `boss list` / `weapon types` 这类
 **列表型长尾**只有独立索引页能接。
+
+### 2.5 级：家族细分（2026-11-20 新增）
+
+`/blades` 是「26 把全表」，实体页是「这一把」。中间还缺一层：**这一类比那一类强在哪**。
+
+`/one-handed-blades` 是第一篇，结构可复制到另外两个家族：
+
+- 按**获取路径**排序的全表（不是按字母），因为路径是唯一稳定有据的字段；
+- **属性 → 问题** 的映射表（要破盾找谁、要持续伤害找谁），这是单页结构里天然写不出来的横向视图；
+- 一条从全站 facts 里捞出来的**跨页规律**（如 bell 在地图上的锚点作用）。
+
+**不要把这层做成第二个 `/blades`。** 全表已经有了，这一层的价值只在"比较"和"跨页规律"。
+如果只把 26 行表格复制一遍换标题，就是重复内容，不如不做。
+
+> 这一层同时承担一个索引实验，判定标准见 `reports/2026-11-20-class-page-experiment.md`。
+> 实验结论出来前，不要批量复制到另外两个家族。
 
 ---
 
